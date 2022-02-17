@@ -30,7 +30,7 @@
 #QUALITY_0	ULTRA BAIXO
 
 #TITLE_QUALITY	DESEMPENHO
-#TITLE_FLASHES	LAMPEJOS
+#TITLE_FLASHES	FLASHES
 
 
 #ALERT_HINT1	ALARME ATIVADO
@@ -178,8 +178,8 @@
 
 #TERMINAL_ENDWAR_OBJECTIVE_TITLE	DEFESA DE KHIVA: 
 #TERMINAL_ENDWAR_OBJECTIVE1	INTEGRIDADE DO REATOR:  
-#TERMINAL_ENDWAR_OBJECTIVE2	DESTRUIR TRANSPORTADORES DE MIS.: 
-#TERMINAL_ENDWAR_OBJECTIVE3	DESTRUIR GRUPOS DE COMBATE: 
+#TERMINAL_ENDWAR_OBJECTIVE2	DESTRUIR TRANSP. DE MÍSSEIS: 
+#TERMINAL_ENDWAR_OBJECTIVE3	DESTRUIR GRUPOS DE ATAQUE: 
 
 #TERMINAL_CRASH_SITE	LOCAL DO ACIDENTE
 #TERMINAL_CRASH_SITE_FIRE	FOGO:     
@@ -248,7 +248,7 @@
 #SPEED_MAP_LABLE	VELOCIDADE
 #DMG_MAP_LABLE	DANO
 #RESCUE_IN_MAP_LABLE	RESGATE EM
-#JAMMING_MAP_LABLE	OBISTRUÍDO
+#JAMMING_MAP_LABLE	OBSTRUÍDO
 #ELINT_DANGER_MAP_LABLE	PERIGO ELINT
 #ELINT_MAP_LABLE	ELINT
 #MORAL_MID_MAP_LABLE	MORAL BAIXA
@@ -359,7 +359,7 @@
 #SHORT_MSL	ASM
 #SHORT_AAM	AAM
 #SHORT_BMB	BMB
-#SHORT_SPD	SPD
+#SHORT_SPD	VEL
 #SHORT_RNG	RNG
 #SHORT_DMG	DANO
 #SHORT_RAD	RAD
@@ -422,7 +422,7 @@
 #GROUND_VEHICLE_ABR_CLASS	VEÍ TERRA
 
 
-#HP_MSG	HP
+#HP_MSG	PV
 #LOW_THRUST_MSG	BAIXA PROPULSÃO
 #CRITICAL_MSG	CRÍTICO
 #NO_FUEL_MSG	SEM COMBUSTÍVEL
@@ -676,88 +676,88 @@
 
 
 
-#TUTORIAL_SHIMRI_1	<NPC=PETR><SIDE=1><SHADOW=1>Tarkhan, sir, I’ve just reported our progress to the {glossary=admiral,GLOSS_DAUD}. He is satisfied.
-<ANS=The {glossary=admiral,GLOSS_DAUD} treats me like a clueless child. He seems to have forgotten that I’m the son of his liege the Emperor!|TUTORIAL_SHIMRI_2>
-#TUTORIAL_SHIMRI_2	<NPC=PETR><SIDE=1><SHADOW=1>The capital is far away. Until we return, Admiral {glossary=Daud,GLOSS_DAUD} is the one in command. He leads the squadron, and you, Duke, are a {glossary=Tarkhan,GLOSS_TARKHAN} in his squadron.
-<ANS=We’ll depart as soon as we’re ready.|EXIT>
-#TUTORIAL_SHIMRI_3	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>The squadron is done refueling. We’re ready to go.
-<ANS=Good. I’ll set the destination.|EXIT>
+#TUTORIAL_SHIMRI_1	<NPC=PETR><SIDE=1><SHADOW=1>Tarkhan, senhor, acabo de reportar nosso progresso ao {glossary=almirante,GLOSS_DAUD}. Ele está satisfeito.
+<ANS=O {glossary=almirante,GLOSS_DAUD} me trata como uma criança ignorante. Ele parece ter esquecido que eu sou o filho de seu senhor, o Imperador!|TUTORIAL_SHIMRI_2>
+#TUTORIAL_SHIMRI_2	<NPC=PETR><SIDE=1><SHADOW=1>A capital está muito longe. Até o nosso retorno, o almirante {glossary=Daud,GLOSS_DAUD} é que está no comando. Ele lidera o esquadrão, e você, Duque, é um {glossary=Tarkhan,GLOSS_TARKHAN} em seu esquadrão.
+<ANS=Partiremos assim que estivermos prontos.|EXIT>
+#TUTORIAL_SHIMRI_3	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>O esquadrão terminou o reabastecimento. Estamos prontos para ir.
+<ANS=Bom. Eu vou definir o destino.|EXIT>
 
 
 
-#TUTORIAL_KALHU_1	<NPC=FASIL><SIDE=1>What a stunning dogfight, Duke!<ANS=Were you aware of the hostile anti-air defenses in Kalhu, Prince?|TUTORIAL_KALHU_2>
-#TUTORIAL_KALHU_2	<NPC=FASIL><SCR=CONTINUE>No, I was not.
-#TUTORIAL_KALHU_3	<NPC=FASIL><SCR=CONTINUE|HELLO_HARISHID_1>The Tarkhan is expecting you, Duke.
+#TUTORIAL_KALHU_1	<NPC=FASIL><SIDE=1>Que belo combate aéreo, Duque!<ANS=Você estava ciente das defesas antiaéreas hostis em Kalhu, Príncipe?|TUTORIAL_KALHU_2>
+#TUTORIAL_KALHU_2	<NPC=FASIL><SCR=CONTINUE>Não, eu não estava.
+#TUTORIAL_KALHU_3	<NPC=FASIL><SCR=CONTINUE|HELLO_HARISHID_1>O Tarkhan está esperando por você, Duque.
 
 
 
-#TUTORIAL_TO_MELKA_1	<NPC=PETR><SHADOW=1><SIDE=1><SALUTE>Receiving a transmission from {glossary=Daud,GLOSS_DAUD}.<ANS=At last!|EXIT>
-#TUTORIAL_TO_MELKA_2	<NPC=PETR><SIDE=1>It seems {glossary=Daud,GLOSS_DAUD} is reluctant to assault Melka with the bulk of his forces. He’s sending us ahead in case they have anti-air defenses ready.
-<ANS=That means this is our chance to get into the thick of things!|TUTORIAL_TO_MELKA_3>
-#TUTORIAL_TO_MELKA_3	<NPC=PETR><SIDE=1>So, we’re refueling and departing for Melka?
-<ANS=Affirmative.|EXIT>
+#TUTORIAL_TO_MELKA_1	<NPC=PETR><SHADOW=1><SIDE=1><SALUTE>Recebendo uma transmissão de {glossary=Daud,GLOSS_DAUD}.<ANS=Finalmente!|EXIT>
+#TUTORIAL_TO_MELKA_2	<NPC=PETR><SIDE=1>Parece que {glossary=Daud,GLOSS_DAUD} está relutante em atacar Melka com o grosso de suas forças. Ele está nos enviando à frente caso eles tenham defesas antiaéreas prontas.
+<ANS=Isso significa que esta é nossa chance de entrar no jogo!|TUTORIAL_TO_MELKA_3>
+#TUTORIAL_TO_MELKA_3	<NPC=PETR><SIDE=1>Então, vamos reabastecer e partir para Melka?
+<ANS=Exatamente.|EXIT>
 
 
 
-#TUTORIAL_DAUD_1	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>The watch reports a squadron approaching.
-<ANS=Understood. I’m on my way.|TUTORIAL_DAUD_2>
-#TUTORIAL_DAUD_2	<NPC=DAUD><SIDE=1><RAM=1>Pyotr.@Grand Duke.
-<ANS=Admiral.|TUTORIAL_DAUD_3>
-#TUTORIAL_DAUD_3	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>Well, you have my congratulations, gentlemen! The campaign has proven to be a great success so far.
-#TUTORIAL_DAUD_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>And I am confident, Admiral, that we owe this success to the duke’s talents.
-#TUTORIAL_DAUD_5	<NPC=DAUD><SIDE=1><NOSPEAK><SCR=CONTINUE>The admiral looks at you without saying a word.
-#TUTORIAL_DAUD_6	<NPC=DAUD>How did your talks with Prince Fazil go? I hope you followed your orders to the letter.
-<ANS=Affirmative, admiral.|TUTORIAL_DAUD_11|DAUD_ANYTIME=1>
-<ANS=I think you underestimate the Prince.|TUTORIAL_DAUD_7>
+#TUTORIAL_DAUD_1	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>Os vigias informam que um esquadrão está se aproximando.
+<ANS=Recebido. Estou a caminho.|TUTORIAL_DAUD_2>
+#TUTORIAL_DAUD_2	<NPC=DAUD><SIDE=1><RAM=1>Pyotr.@Grão-Duque.
+<ANS=Almirante.|TUTORIAL_DAUD_3>
+#TUTORIAL_DAUD_3	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>Bem, estão de parabéns, senhores! A campanha provou ser um grande sucesso até agora.
+#TUTORIAL_DAUD_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>E estou confiante, Almirante, de que devemos este sucesso ao talento do Duque.
+#TUTORIAL_DAUD_5	<NPC=DAUD><SIDE=1><NOSPEAK><SCR=CONTINUE>O almirante olha para você sem dizer uma palavra.
+#TUTORIAL_DAUD_6	<NPC=DAUD>Como foram suas conversas com o Príncipe Fazil? Espero que você tenha seguido à risca as ordens dele.
+<ANS=Afirmativo, almirante.|TUTORIAL_DAUD_11|DAUD_ANYTIME=1>
+<ANS=Eu acho que você subestima o Príncipe.|TUTORIAL_DAUD_7>
 
-#TUTORIAL_DAUD_7	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>Your words took the admiral by surprise.
-#TUTORIAL_DAUD_8	<NPC=DAUD>Why do you say that, Duke?
-<ANS={glossary=The Elaims,GLOSS_ELAIM} are a stalwart and intrepid people. Many will follow their Prince eagerly, no matter what he does.|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
-<ANS=The Prince still enjoys great authority among the local dukes. He could be useful to the {glossary=Crown,GLOSS_SAYADI}.|TUTORIAL_DAUD_10|DAUD_ANYTIME=1>
+#TUTORIAL_DAUD_7	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>Suas palavras pegaram o almirante de surpresa.
+#TUTORIAL_DAUD_8	<NPC=DAUD>Por que você diz isso, Duque?
+<ANS={glossary=Os Elaims,GLOSS_ELAIM} são um povo leal e intrépido. Muitos seguirão seu príncipe com avidez, não importa o que ele faça.|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
+<ANS=O príncipe ainda desfruta de grande autoridade entre os duques locais. Ele poderia ser útil para a {glossary=Coroa,GLOSS_SAYADI}.|TUTORIAL_DAUD_10|DAUD_ANYTIME=1>
 
-#TUTORIAL_DAUD_9	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>The {glossary=Elaou,GLOSS_ELAOU} dynasty hasn’t been able to win their old throne back after seven years. I’m afraid the {glossary=Elaims,GLOSS_ELAIM} have lost their chance.
-#TUTORIAL_DAUD_10	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>An insight worthy of the Grand Duke!
+#TUTORIAL_DAUD_9	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>A dinastia {glossary=Elaou,GLOSS_ELAOU} não foi capaz de recuperar seu antigo trono após sete anos. Temo que os {glossary=Elaims,GLOSS_ELAIM} tenham perdido sua oportunidade.
+#TUTORIAL_DAUD_10	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>Uma visão digna do Grão-Duque!
 
-#TUTORIAL_DAUD_11	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>Good! Our next target is the city of Ur. We will join {glossary=Skobelev’s,GLOSS_SCOBELEV} squadron there and begin our advance towards Northern Gerat.
-#TUTORIAL_DAUD_12	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>Either way, our next target is Ur. We will join {glossary=Skobelev’s,GLOSS_SCOBELEV} squadron there and begin our advance towards Northern Gerat.
-#TUTORIAL_DAUD_13	<NPC=DAUD>You’ve proven your mettle, Grand Duke. I will entrust you with the mission to seize Ur by force. The cruiser Diana and several Intrepid-class frigates will be transferred to your command.
-<ANS=Thank you for your confidence, Admiral.|TUTORIAL_DAUD_15|JOIN=Nomad|JOIN=Intrepid|JOIN=Intrepid>
-<ANS=Just the cruiser will be enough.|TUTORIAL_DAUD_14>
-#TUTORIAL_DAUD_14	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>The admiral looks at you in amazement, then smiles approvingly.
-#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP>Good. I shall not detain you any longer, then. Pyotr Ignatyevich, Grand Duke.
+#TUTORIAL_DAUD_11	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>Bom! Nosso próximo objetivo é a cidade de Ur. Ali nos juntaremos ao esquadrão de {glossary=Skobelev,GLOSS_SCOBELEV} e começaremos nosso avanço ao norte de Gerat.
+#TUTORIAL_DAUD_12	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>De qualquer forma, nosso próximo objetivo é Ur. Ali nos juntaremos ao esquadrão de {glossary=Skobelev’s,GLOSS_SCOBELEV} e começaremos nosso avanço em direção ao norte de Gerat.
+#TUTORIAL_DAUD_13	<NPC=DAUD>Você provou seu valor, Grão-Duque. Confiarei a você a missão de tomar Ur pela força. O cruzador Diana e várias fragatas da classe Intrépida serão transferidas para o seu comando.
+<ANS=Obrigado por sua confiança, Almirante.|TUTORIAL_DAUD_15|JOIN=Nomad|JOIN=Intrepid|JOIN=Intrepid>
+<ANS=Apenas o cruzador será suficiente.|TUTORIAL_DAUD_14>
+#TUTORIAL_DAUD_14	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>O almirante olha para você com espanto e depois sorri com aprovação.
+#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP>Bom. Então não vou mantê-lo por mais tempo. Pyotr Ignatyevich, Grão-Duque.
 
 
 
-#TUTORIAL_RADIO_IN_1	<NPC=PETR><SHADOW=1><SIDE=-1><MUSIC=Dronish_descent><NOBOTTOM><HANDSHOW_GUI=MAPMODE_RADIO_HANDSET|1><BLUR_POS=0.2|0.3><GLOW_GUI=MAPMODE_RADIO_HANDSET><ACTIVE=MAPMODE_RADIO_HANDSET><FEAR><ALARM_MUTE=0>Tarkhan, sir! We’ve intercepted a radio transmission! Pick up the phone, quickly! {animation=LMB}
-#TUTORIAL_RADIO_IN_2	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Choose the band. {animation=LMB}
-#TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>Now turn the knob using ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ) until you have the signal.
-#TUTORIAL_RADIO_IN_4	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>Please hurry, Tarkhan! If we take too long, they’ll cut off the transmission before we find them!
-#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>Great, we have the signal! Now we need to determine their {glossary=bearing,GLOSS_PELENG}. Turn the antenna knob using ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ).@10Find the direction with the strongest signal.
-#TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>If you’re sure this is the right direction, press the button to save your calculations.
-#TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>It’s a transmission from the enemy strike group — and it’s uncoded!<SCR=CONTINUE>
-#TUTORIAL_RADIO_IN_8	<NPC=PETR>Now we know their {glossary=bearing,GLOSS_PELENG} and destination!<SCR=CONTINUE>
-#TUTORIAL_RADIO_IN_9	{font=dinpro_48_black}{align=2}STRIKE GROUPS@10{font=fixed_20}{align=0}Strike groups are powerful enemy ship formations that hunt you. The best course of action is to avoid them at all times.<SCR=CONTINUE>
-#TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>Where are they going?
-<ANS=They’re going to HAMAT.|TUTORIAL_RADIO_IN_11>
-<ANS=They’re going to KUSHAN.|TUTORIAL_RADIO_IN_12>
-#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>Excellent. We’ll outmaneuver them. Now, Duke, take the ships and go to UR by way of KUSHAN.<ANS=We’ll take off as soon as we’re ready, Admiral.|EXIT>
-#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>Excellent. We’ll outmaneuver them. Now, Duke, take the ships and go to UR by way of HAMAT.<ANS=We’ll take off as soon as we’re ready, Admiral.|EXIT>
+#TUTORIAL_RADIO_IN_1	<NPC=PETR><SHADOW=1><SIDE=-1><MUSIC=Dronish_descent><NOBOTTOM><HANDSHOW_GUI=MAPMODE_RADIO_HANDSET|1><BLUR_POS=0.2|0.3><GLOW_GUI=MAPMODE_RADIO_HANDSET><ACTIVE=MAPMODE_RADIO_HANDSET><FEAR><ALARM_MUTE=0>Tarkhan, senhor! Interceptamos uma transmissão de rádio! Pegue o telefone, rápido! {animation=LMB}
+#TUTORIAL_RADIO_IN_2	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Escolha a banda. {animation=LMB}
+#TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>Agora gire o botão usando ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ) até conseguir o sinal.
+#TUTORIAL_RADIO_IN_4	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>Por favor, apresse-se, Tarkhan! Se demorarmos muito tempo, eles cortarão a transmissão antes que os encontremos!
+#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>Ótimo, nós temos o sinal! Agora temos que determinar seu {glossary=rumo,GLOSS_PELENG}. Gire o botão da antena com ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ).@Encontre a direção seguindo o sinal mais forte.
+#TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>Se você tiver certeza de que é a direção correta, clique no botão para salvar seus cálculos.
+#TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>É uma transmissão do grupo de ataque inimigo - e não é criptografada!<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_8	<NPC=PETR>Agora sabemos o {glossary=rumo,GLOSS_PELENG} e o destino!<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_9	{font=dinpro_48_black}{align=2}GRUPOS DE ATAQUE@10{font=fixed_20}{align=0}Os grupos de ataque são formações poderosas de naves inimigas que o perseguem. A melhor maneira de agir é evitá-los em todos os momentos.<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>Para onde eles estão indo?
+<ANS=Estão indo para HAMAT.|TUTORIAL_RADIO_IN_11>
+<ANS=Estão indo para KUSHAN.|TUTORIAL_RADIO_IN_12>
+#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>Excelente. Vamos enganá-los então. Agora, duque, pegue as naves e vá para UR através de KUSHAN.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
+#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>Excelente. Vamos enganá-los então. Agora, duque, pegue as naves e vá para UR através de HAMAT.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
 
 
 
 
 #TUTORIAL_SILENT_STRIKE_1	<NPC=PETR><SHADOW=1><SIDE=1><SCR=TUTORIAL_SILENT_STRIKE|1><SCR=CONTINUE>
-#TUTORIAL_SILENT_STRIKE_1A	We need to make sure the enemy strike group never learns of our movements. To keep our location safe, we must destroy the garrison in HAMAT before they can sound the alarm.
-#TUTORIAL_SILENT_STRIKE_1B	We need to make sure the enemy strike group never learns of our movements. To keep our location safe, we must destroy the garrison in KUSHAN before they can sound the alarm.
-#TUTORIAL_SILENT_STRIKE_2	<NPC=PETR><SCR=CONTINUE>Our cruiser is too slow — it is unsuitable for a surprise attack. We need to form a group of our fast ships and use them to attack the enemy.
-#TUTORIAL_SILENT_STRIKE_3	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><SCR=CONTINUE>Here you can see the chance that an sudden strike will succeed with the current group.
-#TUTORIAL_SILENT_STRIKE_4	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Choose the fastest ships in your squadron (based on their SPD stat).
-#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Add more ships to the strike group.
-#TUTORIAL_SILENT_STRIKE_6	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>This ship is too slow. It’s unlikely to be able to ambush the enemy. Select a different ship instead.
+#TUTORIAL_SILENT_STRIKE_1A	Temos que nos certificar de que o grupo de ataque inimigo nunca saiba de nossos movimentos. Para manter nossa localização segura, devemos destruir a guarnição de HAMAT antes que eles possam soar o alarme.
+#TUTORIAL_SILENT_STRIKE_1B	Temos que nos certificar de que o grupo de ataque inimigo nunca saiba de nossos movimentos. Para manter nossa localização segura, devemos destruir a guarnição de KUSHAN antes que eles possam soar o alarme.
+#TUTORIAL_SILENT_STRIKE_2	<NPC=PETR><SCR=CONTINUE>Nosso cruzador é muito lento, não é adequado para um ataque surpresa. Precisamos formar um grupo com nossas naves mais rápidas e usá-las para atacar o inimigo.
+#TUTORIAL_SILENT_STRIKE_3	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><SCR=CONTINUE>Aqui você pode ver a probabilidade de um ataque surpresa ter sucesso com o grupo atual.
+#TUTORIAL_SILENT_STRIKE_4	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Escolha as nave mais rápidas do seu esquadrão (com base na sua estatística VEL).
+#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Adicione mais naves ao grupo de ataque.
+#TUTORIAL_SILENT_STRIKE_6	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>Esta nave é muito lenta. É pouco provável que consiga emboscar o inimigo. Em vez disso, selecione uma nave diferente.
 #TUTORIAL_SILENT_STRIKE_7	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|3><NOBOTTOM><ACTIVE=MAP_LOCATION><SCR=TUTORIAL_SILENT_STRIKE|7>
-#TUTORIAL_SILENT_STRIKE_7A	Excellent! The group is ready. Now send it to HAMAT. (Move the cursor to HAMAT and press {animation=LMB}.)
-#TUTORIAL_SILENT_STRIKE_7B	Excellent! The group is ready. Now send it to KUSHAN. (Move the cursor to KUSHAN and press {animation=LMB}.)
-#TUTORIAL_SILENT_STRIKE_8	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|0><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><SCR=STOP>Once the group has completed its mission, order it to rejoin the squadron.
+#TUTORIAL_SILENT_STRIKE_7A	Excelente! O grupo de ataque está pronto. Agora envie-o para HAMAT. (Mova o cursor para HAMAT e pressione {animation=LMB}.)
+#TUTORIAL_SILENT_STRIKE_7B	Excelente! O grupo de ataque está pronto. Agora envie-o para KUSHAN. (Mova o cursor para KUSHAN e pressione {animation=LMB}.)
+#TUTORIAL_SILENT_STRIKE_8	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|0><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><SCR=STOP>Uma vez que o grupo tenha completado sua missão, ordene que ele se reintegre ao esquadrão.
 
 
 
@@ -793,12 +793,12 @@
 
 
 
-#AUTOSTRIKE_01	<NPC=PETR><SHADOW=1><SIDE=-1><RAM=0>Tarkhan, sir? Shall we prepare a strike group?
-<ANS=Yes, General.|AUTOSTRIKE_02|SELECT_STRIKE>
-<ANS=No, we’ll hit them with everything we’ve got.|EXIT>
-#AUTOSTRIKE_02	<NPC=PETR><SHADOW=1><SIDE=1><HANDSHOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_HALFTANK><ACTIVE=MAPMODE_MISSION_FULLTANK><ACTIVE=MAPMODE_FUEL_HANDLE><ACTIVE=MAPMODE_MISSION_SLIDER><BLUR_FOCUS=0.4><BLUR_ZOOM=0.7><NOBOTTOM>Do you want to send these ships ahead?
-<ANS=Yes, send them forward.|EXIT|SEND_STRIKE>
-<ANS=No, I changed my mind. We’ll hit them with everything we’ve got.|EXIT|DESELECT_STRIKE>
+#AUTOSTRIKE_01	<NPC=PETR><SHADOW=1><SIDE=-1><RAM=0>Tarkhan, senhor? Preparamos um grupo de ataque?
+<ANS=Sim, General.|AUTOSTRIKE_02|SELECT_STRIKE>
+<ANS=Não, vamos atingi-los com tudo o que temos.|EXIT>
+#AUTOSTRIKE_02	<NPC=PETR><SHADOW=1><SIDE=1><HANDSHOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_HALFTANK><ACTIVE=MAPMODE_MISSION_FULLTANK><ACTIVE=MAPMODE_FUEL_HANDLE><ACTIVE=MAPMODE_MISSION_SLIDER><BLUR_FOCUS=0.4><BLUR_ZOOM=0.7><NOBOTTOM>Você quer enviar estas naves à frente?
+<ANS=Sim, envie-as a frente.|EXIT|SEND_STRIKE>
+<ANS=Não, eu mudei de ideia. Vamos atingi-los com tudo o que temos.|EXIT|DESELECT_STRIKE>
 
 
 
@@ -834,12 +834,12 @@
 
 
 
-#TUTORIAL_REPAIR_1	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>Tarkhan, sir! Some of our ships are in need of repair, and this city has a shipyard. We would do well to repair them here.
-<ANS=I’ll handle it at once.|EXIT>
-#TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>This ship is in need of repair.
-#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>All you need to do is give the order to repair the ship. The engineering crew will do all they can.
-#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>However, it will not be possible to complete the repairs if we don’t have necessary spare parts.
-<ANS=Understood, Pyotr.|EXIT>
+#TUTORIAL_REPAIR_1	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>Tarkhan, senhor! Algumas das nossas naves precisam ser reparadas, e esta cidade tem um estaleiro. Seria bom repará-las aqui.
+<ANS=Cuidarei disso imediatamente.|EXIT>
+#TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>Esta nave precisa ser reparada.
+#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>Tudo o que você precisa fazer é dar a ordem para reparar a nave. A tripulação de engenheiros fará tudo o que estiver ao seu alcance para reparar nave.
+#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>Entretanto, não será possível concluir os reparos se as peças de reposição necessárias não estiverem disponíveis..
+<ANS=Entendido, Pyotr.|EXIT>
 
 
 
@@ -1565,8 +1565,8 @@
 
 
 
-#HELLO_HARISHID_1	<MUSIC=Duduk_4_ever><SCR=SET_HIRE|HARISHID><SCR=CONTINUE>And indeed, there is a delegation awaiting you by the ship.
-#HELLO_HARISHID_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>A tall man steps forward. He is wearing the armor of a {glossary=Harishid,GLOSS_HARISHIDS}.
+#HELLO_HARISHID_1	<MUSIC=Duduk_4_ever><SCR=SET_HIRE|HARISHID><SCR=CONTINUE>E de fato, há uma delegação esperando por você junto à nave.
+#HELLO_HARISHID_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>Um homem alto se aproxima. Ele usa a armadura de um {glossary=Harishid,GLOSS_HARISHIDS}.
 
 
 
@@ -1602,11 +1602,11 @@
 #RECIEVER_HARBOUR_02	PORT OFFICE
 #RECIEVER_HARBOUR_03	CAPTAIN OF THE PORT
 
-#RADIO_POS_01	IN PSN <POSITION>
-#RADIO_POS_02	POSITION <POSITION>
-#RADIO_POS_03	IN POSITION <POSITION>
-#RADIO_POS_04	IN <POSITION>
-#RADIO_POS_05	PSN <POSITION>
+#RADIO_POS_01	EM POS <POSITION>
+#RADIO_POS_02	POSIÇÃO <POSITION>
+#RADIO_POS_03	EM POSIÇÃO <POSITION>
+#RADIO_POS_04	EM <POSITION>
+#RADIO_POS_05	POS <POSITION>
 
 #RADIO_COURSE_01	HEADING <COURSE>
 #RADIO_COURSE_02	NOW HEADING <COURSE>
@@ -2370,8 +2370,8 @@
 #ENDWAR_BRIEFING_OBJ2	OBJECTIVE 2:@Eliminate the strike groups threatening Khiva. (3 remaining.)
 #ENDWAR_BRIEFING_OBJ3	INTEL:@Ballistic missiles could be vulnerable to A-100N missiles with an nuclear payload.
 
-#ENDWAR_SHOOTING	POTENTIAL LAUNCH SITE
-#ENDWAR_ARRIVAL	POTENTIAL DESTINATION
+#ENDWAR_SHOOTING	LOCA DE LANÇAMENTO POTENCIAL
+#ENDWAR_ARRIVAL	DESTINO POTENCIAL
 
 
 
@@ -2560,9 +2560,9 @@
 #EVENT_SLAVERY_01_GET	One of your captives strikes you with her beauty and refined manners — she has all the telltale signs of a rich noyon’s former concubine. Any doyen would be delighted to receive such a lovely creature as a gift.<SCR=STOP|GIFT=PRESENT_SLAVE>
 #EVENT_SLAVERY_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PEOPLE FREE FOR THE TAKING@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The Elaims respond with deafening silence. You brace yourself for mutiny... but the tense moment soon passes, and the Elaims walk away and do as they are told, glancing around ominously.<SCR=STOP>
 
-#DIALOG_GIFT_HINT	YOU CAN GIVE A GIFT@TO GET AN EXTRA TURN
-#DIALOG_TURN	TURN
-#DIALOG_LAST_TURN	LAST@TURN
+#DIALOG_GIFT_HINT	VOCÊ PODE OFERECER UM PRESENTE@PARA CONSEGUIR UM TURNO EXTRA
+#DIALOG_TURN	TURNO
+#DIALOG_LAST_TURN	ÚLTIMO@TURNO
 
 
 
@@ -2570,37 +2570,37 @@
 
 
 
-#ASK_MORAL	ASK FOR@SUPPORT
-#ASK_REPAIR	ASK FOR@FASTER REPAIRS
-#ASK_MONEY	ASK FOR@FUNDS
-#ASK_REINFORCE	ASK FOR@REINFORCEMENTS
-#ASK_REINFORCE_TUTORIAL	ASK FOR@REINFORCEMENTS
-#ASK_HIDDEN	ASK FOR@SHELTER
-#ASK_ASSAULT	ASK FOR@TROOPS
-#ASK_INTEL	ASK FOR@INTEL
+#ASK_MORAL	PERGUNTAR POR@SUPORTE
+#ASK_REPAIR	PERGUNTAR POR@REPAROS RÁPIDOS
+#ASK_MONEY	PERGUNTAR POR@DINHEIRO
+#ASK_REINFORCE	PERGUNTAR POR@REFORÇOS
+#ASK_REINFORCE_TUTORIAL	PERGUNTAR POR@REFORÇOS
+#ASK_HIDDEN	PERGUNTAR POR@REFÚGIO
+#ASK_ASSAULT	PERGUNTAR POR@TROPAS
+#ASK_INTEL	PERGUNTAR POR@INFORMAÇÃO
 
-#BONUS_DESC_SHIPYARD	SHIPYARD: FASTER@SHIP REPAIRS
-#BONUS_DESC_INTEL	SIGNAL CENTER:@ENEMY INTEL
-#BONUS_DESC_FUEL	FUEL DEPOT:@CHEAPER FUEL
-#BONUS_DESC_FUEL_ENDWAR	FUEL DEPOT:@FASTER REFUELING
-#BONUS_DESC_TECH	MERCHANTS:@RARE MODULES
-#BONUS_DESC_HQ	FLEET HQ
-#BONUS_DESC_HIRE	MERCENARIES: PURCHASE@REINFORCEMENTS
+#BONUS_DESC_SHIPYARD	ESTALEIRO: REPAROS@MAIS RÁPIDOS DE NAVES
+#BONUS_DESC_INTEL	CENTRO DE COMUNICAÇÕES:@INFORMAÇÃO SOBRE O INIMIGO
+#BONUS_DESC_FUEL	DEPÓSITO DE COMBUSTÍVEL:@COMBUSTÍVEL BARATO
+#BONUS_DESC_FUEL_ENDWAR	DEPÓSITO DE COMBUSTÍVEL:@REABASTECIMENTO MAIS RÁPIDO
+#BONUS_DESC_TECH	MERCADORES:@MÓDULOS RAROS
+#BONUS_DESC_HQ	QG DA FROTA
+#BONUS_DESC_HIRE	MERCENÁRIOS: COMPRAR@REFORÇOS
 
-#ESCADRA_DESC_STRIKEFORCE	STRIKE GROUP
-#ESCADRA_DESC_MISSILE	MISSILE CARRIERS
-#ESCADRA_DESC_CARRIER	AIRCRAFT CARRIER GROUP
-#ESCADRA_DESC_CONVOY	TRANSPORT
-
-
-
-#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE ACCIDENT@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>Due to the highly irradiated components aboard the ship, several crewmembers died from radiation poisoning.<SCR=STOP|CREW=-10|MORAL=-1>
+#ESCADRA_DESC_STRIKEFORCE	GRUPO DE ATAQUE
+#ESCADRA_DESC_MISSILE	TRANSPORTADORES DE MÍSSEIS
+#ESCADRA_DESC_CARRIER	GRUPO DE PORTA-AVIÕES
+#ESCADRA_DESC_CONVOY	TRANSPORTE
 
 
 
-#KHIVA_QUEST	CAPTURE THE REACTOR
-#DETECTION_RANGE	RANGE OF DETECTION
-#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}THE FLAGSHIP@10{font=fixed_20}{align=0}Your squadron needs a flagship. You need at least one ship capable of housing the Fleet HQ.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
+#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O ACIDENTE@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>Devido aos componentes altamente irradiados a bordo da nave, vários membros da tripulação morreram de envenenamento por radiação..<SCR=STOP|CREW=-10|MORAL=-1>
+
+
+
+#KHIVA_QUEST	CAPTURAR O REATOR
+#DETECTION_RANGE	ALCANCE DA DETECÇÃO
+#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}NAVE INSIGNIA@10{font=fixed_20}{align=0}Seu esquadrão precisa de uma nave insignia. Ela precisa de pelo menos uma nave capaz de abrigar o Quartel General da Frota.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
 
 
 #TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Would you like me to brief you on the operation, Grand Duke?<SCR=SKIP_TUTORIAL>
@@ -2715,7 +2715,7 @@
 #SCAVENGE_TARKHAN_MID_E	LESTE DA CIDADE 
 #SCAVENGE_TARKHAN_MID_SE	AO SUDESTE DA CIDADE 
 #SCAVENGE_TARKHAN_MID_S	SUL DA CIDADE
-#SCAVENGE_TARKHAN_MID_SW	SUROESTE DA CIDADE 
+#SCAVENGE_TARKHAN_MID_SW	SUDOESTE DA CIDADE 
 #SCAVENGE_TARKHAN_MID_W	OESTE DE LA CIUDAD  
 #SCAVENGE_TARKHAN_MID_NW	AO NOROESTE DA CIDADE  
 #SCAVENGE_TARKHAN_FAR	LONJE 
@@ -2954,15 +2954,15 @@
 #EVENT_SILO_SIMPLE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SWORD OF DAMOCLES@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Near the city are several {glossary=Gathering,GLOSS_GATHERING} missile silos.<ANS=Order your men to extract the nuclear missiles and bring them to the ships.|EXIT|MISSILE_SILO>
 
 
-#INTEL_DIR_N	to the {color=4294960128}north{color=4294305450} of here. 
-#INTEL_DIR_NE	to the {color=4294960128}northeast{color=4294305450} of here. 
-#INTEL_DIR_E	to the {color=4294960128}east{color=4294305450} of here. 
-#INTEL_DIR_SE	to the {color=4294960128}southeast{color=4294305450} of here. 
-#INTEL_DIR_S	to the {color=4294960128}south{color=4294305450} of here. 
-#INTEL_DIR_SW	to the {color=4294960128}southwest{color=4294305450} of here. 
-#INTEL_DIR_W	to the {color=4294960128}west{color=4294305450} of here. 
-#INTEL_DIR_NW	to the {color=4294960128}northwest{color=4294305450} of here. 
-#INTEL_DIR_FAR	It’s quite far away. 
+#INTEL_DIR_N	ao {color=4294960128}norte{color=4294305450} daqui. 
+#INTEL_DIR_NE	ao {color=4294960128}nordeste{color=4294305450} daqui. 
+#INTEL_DIR_E	ao {color=4294960128}leste{color=4294305450} daqui. 
+#INTEL_DIR_SE	ao {color=4294960128}sudeste{color=4294305450} daqui. 
+#INTEL_DIR_S	ao {color=4294960128}sul{color=4294305450} daqui. 
+#INTEL_DIR_SW	ao {color=4294960128}sudoeste{color=4294305450} daqui. 
+#INTEL_DIR_W	ao {color=4294960128}oeste{color=4294305450} daqui. 
+#INTEL_DIR_NW	ao {color=4294960128}noroeste{color=4294305450} daqui. 
+#INTEL_DIR_FAR	Está bastante longe. 
 
 #CARAVAN_TARKHANS_PRE	The caravan drivers told you a tarkhan lives 
 #CARAVAN_TARKHANS_NO	As far as the caravan drivers know, there aren’t any tarkhans around here.
@@ -3014,14 +3014,14 @@
 #EVENT_CHASE_PRE	The doyen tells you that the villains were headed 
 #EVENT_CHASE_POST	. He also tells you the escort’s callsign: CROW.
 
-#DIR2_N	north
-#DIR2_NE	northeast
-#DIR2_E	east
-#DIR2_SE	southeast
-#DIR2_S	south
-#DIR2_SW	southwest
-#DIR2_W	west
-#DIR2_NW	northwest
+#DIR2_N	norte
+#DIR2_NE	nordeste
+#DIR2_E	leste
+#DIR2_SE	sudeste
+#DIR2_S	sul
+#DIR2_SW	sudoeste
+#DIR2_W	oeste
+#DIR2_NW	noroeste
 
 
 
