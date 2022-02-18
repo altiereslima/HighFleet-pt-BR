@@ -565,7 +565,7 @@
 
 
 #TELEGRAM_FASIL	PARA TARKHAN DA 3ª FORÇA TAREFA@G.D. SAYADI@10SOB MINHA ORDEM, PROSSIGA IMEDIATAMENTE PARA KALHU E REÚNA-SE COM O PRÍNCIPE ELAOU-FAZIL.@POR DECRETO IMPERIAL, VOCÊ DEVE REPRESENTAR A COROA NAS CONVERSAS COM O PRÍNCIPE.@10COMANDANTE DO 1° ESQUADRÃO@ALMIRANTE DAUD
-#TELEGRAM_MELKA	PARA TARKHAN DA 3ª FORÇA TAREFA@G.D. SAYADI@10SOB MINHA ORDEM, TOMEM A CIDADE DE MELKA E AGUARDEM NOSSAS FORÇAS PRINCIPAIS.@10COMANDANTE DO 1O ESQUADRÃO@ALMIRANTE DAUD
+#TELEGRAM_MELKA	PARA TARKHAN DA 3ª FORÇA TAREFA@G.D. SAYADI@10SOB MINHA ORDEM, TOMEM A CIDADE DE MELKA E AGUARDEM NOSSAS FORÇAS PRINCIPAIS.@10COMANDANTE DO 1° ESQUADRÃO@ALMIRANTE DAUD
 #TELEGRAM_SCOBELEV	PARA O COMANDANTE DO 1° ESQUADRÃO@ALMIRANTE DAUD@10POR ORDEM DO ALTO COMANDO, PERMANEÇAM EM UR E AGUARDEM NOVAS INSTRUÇÕES. RECEBI ORDENS PARA VOLTAR AO NOSSO PONTO DE ORIGEM. NENHUMA EXPLICAÇÃO FOI DADA.@10COMANDANTE DO 2° ESQUADRÃO@ALMIRANTE SKOBELEV
 
 
@@ -591,15 +591,15 @@
 #TUTORIAL_FASIL_2	<EVENT>Você se prepara para descer a rampa, acompanhado por um pequeno grupo de oficiais e sua guarda pessoal. A incerteza do que espera do lado de fora o enche de inquietação.<SCR=CONTINUE>
 #TUTORIAL_FASIL_3	<EVENT>Um pequeno grupo de pessoas espera pacientemente por você no final da rampa. Seu líder é um nobre cercado por guarda-costas.<SCR=CONTINUE>
 #TUTORIAL_FASIL_4	<NPC=FASIL><SIDE=1><BLUR_MIN=0.05><RAM=1>Então... os almirantes o enviaram para falar comigo, {glossary=Tarkhan,GLOSS_TARKHAN}?
-<ANS=Isso é correto. Estou aqui para discutir sua participação na liberação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
+<ANS=Isso é correto. Estou aqui para discutir sua participação na libertação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
 <ANS=Meu nome é Mark Sayadi - Grão-Duque {glossary=Sayadi,GLOSS_SAYADI}.|TUTORIAL_FASIL_DUKE_1|FASIL_ANYTIME=1>
 #TUTORIAL_FASIL_DUKE_1	<NPC=FASIL><SCR=CONTINUE>Estou vendo. Por favor, perdoe minha indiscrição, Grão-Duque. Eu nunca tive o prazer de conhecê-lo antes.
 #TUTORIAL_FASIL_DUKE_2	<NPC=FASIL>Não pense sobre isso. Certamente os dois herdeiros das monarquias mais antigas de Elaat podem encontrar algo sobre o que conversar. (O príncipe acena com a cabeça gentilmente.)
-<ANS=Estou aqui para discutir sua participação na liberação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
-#TUTORIAL_FASIL_6	<NPC=FASIL>"Liberações?" Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mas de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
+<ANS=Estou aqui para discutir sua participação na libertação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
+#TUTORIAL_FASIL_6	<NPC=FASIL>"Libertação?" Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mas de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
 <ANS=Na verdade, estão trabalhando nisso. E eu acho que eles serão bem sucedidos.|TUTORIAL_FASIL_7|FASIL_ANYTIME=-1>
 <ANS=Talvez eles consigam.|TUTORIAL_FASIL_7>
-#TUTORIAL_FASIL_7	<NPC=FASIL>Meu povo não pode igualar a força da frota {glossary=Confederada,GLOSS_GATHERING}. Temos somente uma corveta para cada um de seus cruzadores pesados.
+#TUTORIAL_FASIL_7	<NPC=FASIL>Meu povo não pode igualar a força da frota da {glossary=Confederação,GLOSS_GATHERING}. Temos somente uma corveta para cada um de seus cruzadores pesados.
 <ANS=Seu povo lutou com bravura durante todos estes anos.|TUTORIAL_FASIL_8|FASIL_ANYTIME=1>
 <ANS=O Primeiro e o Segundo Esquadrões Imperiais provavelmente inclinarão a balança.|TUTORIAL_FASIL_8>
 #TUTORIAL_FASIL_8	<NPC=FASIL>Sim, mas mesmo que, por misericórdia do Todo-Poderoso, os almirantes aterrissem suas naves em {glossary=Khiva,GLOSS_KHIVA}, O que você acha que vai acontecer depois?
