@@ -761,21 +761,21 @@
 
 
 
-#TUTORIAL_NEWS_1	<NPC=PETR><SIDE=1><TRG=TUTORIAL_NEWS|0>We just got off the line with the squadron.
-<ANS=Any news from the capital?|TUTORIAL_NEWS_2>
-#TUTORIAL_NEWS_2	<NPC=PETR>Not much. The situation’s still grim. The {glossary=rebels,GLOSS_GATHERING} are firmly entrenched in Kadim Ridge. It’ll be a long while before we can drive them out.
-<ANS=And what of that reactor everyone’s talking about? Does it really exist?|TUTORIAL_NEWS_3>
-#TUTORIAL_NEWS_3	<NPC=PETR><SCR=CONTINUE>Everyone’s talking...?
-#TUTORIAL_NEWS_4	<NPC=PETR><SCR=CONTINUE><NOSPEAK>Pyotr’s voice trails off. He looks at you for several seconds in silence.
-#TUTORIAL_NEWS_5	<NPC=PETR><SCR=STOP>You should probably ask the admiral about that, Grand Duke.
+#TUTORIAL_NEWS_1	<NPC=PETR><SIDE=1><TRG=TUTORIAL_NEWS|0>Acabamos de sair da linha com o esquadrão.
+<ANS=Alguma notícia da capital?|TUTORIAL_NEWS_2>
+#TUTORIAL_NEWS_2	<NPC=PETR>Não muito. A situação continua sombria. Os {glossary=rebeldes,GLOSS_GATHERING} estão firmemente entrincheirados em Kadim Ridge. Ainda vai levar muito tempo até que possamos expulsá-los.
+<ANS=E quanto a este reator de que todos falam? Será que realmente existe?TUTORIAL_NEWS_3>
+#TUTORIAL_NEWS_3	<NPC=PETR><SCR=CONTINUE>De que todos falam...?
+#TUTORIAL_NEWS_4	<NPC=PETR><SCR=CONTINUE><NOSPEAK>A voz de Pyotr é interrompida. Ele olha para você por vários segundos em silêncio.
+#TUTORIAL_NEWS_5	<NPC=PETR><SCR=STOP>Você provavelmente deveria perguntar ao almirante sobre isso, Grão-Duque.
 
 
 
 
-#TUTORIAL_UR_2	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Congratulations, Duke! What a glorious victory!
-#TUTORIAL_UR_3	<NPC=PETR><SIDE=-1>Well done, Mark! Now all the naysayers will have no choice but to shut their mouths. I swear, even Daud will rejoice in today’s success!<ANS=Thank you, Pyotr Ignatyevich.>
-#TUTORIAL_UR_4	<NPC=PETR><SIDE=-1>Shall I report to the admiral?<ANS=Certainly! Why wait?>
-#TUTORIAL_UR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ARRIVAL IN UR@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>That was the moment when we realized that the hearts of the people of Gerat were on our side. What a beautiful day it was! We celebrated our victory in the present, without a care in the world for what lay ahead of us.
+#TUTORIAL_UR_2	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Parabéns, Duque! Que vitória gloriosa!
+#TUTORIAL_UR_3	<NPC=PETR><SIDE=-1>Muito bem, Mark! Agora todos os opositores não terão outra escolha senão calar a boca. Juro que até mesmo Daud ficará contente com o sucesso de hoje!<ANS=Obrigado, Pyotr Ignatyevich.>
+#TUTORIAL_UR_4	<NPC=PETR><SIDE=-1>Devo informar o almirante?<ANS=Certamente! Por que esperar?>
+#TUTORIAL_UR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}CHEGADA EM UR@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>Foi nesse momento que percebemos que os corações do povo de Gerat estava do nosso lado. Que lindo dia foi este! Celebramos nossa vitória no presente, sem nos preocuparmos com o que nos espera à frente.
 
 
 
