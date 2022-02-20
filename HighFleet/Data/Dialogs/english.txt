@@ -310,7 +310,7 @@
 #MISS	miss.
 #PCS	pcs
 #MAN	ppl.
-#PER	per
+#PER	por
 #TWR_STAT	EMPUXO/PESO
 #LOW_THRUST_STAT	PROPULSÃO BAIXA!
 #SPEED_STAT	VELOCIDADE
@@ -1038,8 +1038,8 @@
 #ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar gives you a small box.
 #ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Please tell me what it says.
 #ISAIAH_3_10	<SCR=ISAIAH|3><MUSIC=Yeshoua>
-<ANS=“He is like unto a lamb...”|ISAIAH_3_LAMB_1>
-<ANS=“He is like unto a lion...”|ISAIAH_3_LION_1>
+<ANS="Ele é como um cordeiro..."|ISAIAH_3_LAMB_1>
+<ANS="Ele é como um leão..."|ISAIAH_3_LION_1>
 
 #ISAIAH_3_LAMB_1	<ANS=“Humiliated, he is left without a voice.”|ISAIAH_3_LAMB_2>
 #ISAIAH_3_LAMB_2	<ANS=“Like a lamb led to the slaughter.”|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
@@ -2662,8 +2662,8 @@
 
 #RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}JOGO SALVO@10{font=fixed_20}{align=0}Seu jogo foi salvo. Agora você pode recarregar a campainha a partir deste ponto a qualquer momento.<SCR=STOP>
 
-#REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>Grand Duke! If we take off now, we won’t be able to repair the ships in full.
-<ANS=Understood. Belay that order.|EXIT|STOP_LIFTOFF>
+#REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>Grão-Duque! Se decolarmos agora, não poderemos reparar as naves em sua totalidade.
+<ANS=Entendido. Cancele essa ordem.|EXIT|STOP_LIFTOFF>
 <SCR=STOP>
 
 
