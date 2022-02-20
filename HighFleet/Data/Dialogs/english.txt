@@ -843,28 +843,28 @@
 
 
 
-#AFTERSHOCK_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Gentlemen, I have assembled you here to discuss our future activities in light of the most recent events.
-#AFTERSHOCK_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>My opinion is this: we must press on and continue our advance towards {glossary=Khiva,GLOSS_KHIVA}.
-#AFTERSHOCK_3	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Pyotr Ignatyevich, the news from the capital has rendered this entire operation moot. We must return to the motherland at once — the sooner, the better.
-#AFTERSHOCK_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>On the contrary! Taking {glossary=Khiva,GLOSS_KHIVA} is more important than ever. If you would allow me to elucidate...
-#AFTERSHOCK_5	<NPC=PETR><SIDE=-1><SCR=CONTINUE>I’ve had several lengthy conversations with the crew of the Sevastopol. It pains me to say this, but I’m convinced that the war in the south is lost. Returning to the motherland will spell certain doom for us.
-#AFTERSHOCK_6	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>We all had similar suspicions. Now that those fears had been put into words, many of the officers averted their gaze.
-#AFTERSHOCK_7	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Then what do you propose, Pyotr? (There was exhaustion in Daud’s voice.)
-#AFTERSHOCK_8	<NPC=PETR><SIDE=-1><SCR=CONTINUE>The rebel fleet is currently engaged in heavy combat in the south. Now is the time to mount an offensive in the north and take {glossary=Khiva,GLOSS_KHIVA} by force.
-#AFTERSHOCK_9	<NPC=DAUD><SIDE=1><SCR=CONTINUE>And what comes next? We'll just delay the inevitable. Sooner or later they will come to {glossary=Khiva,GLOSS_KHIVA}.
-#AFTERSHOCK_10	<NPC=PETR><SIDE=-1><SCR=CONTINUE>I have reason to believe that our intel on the reactor is accurate. If we can seize it, they won’t fight back. They will come to the bargaining table to ensure that the reactor is intact.
-#AFTERSHOCK_11	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Perhaps we might be able to strike a deal.
-#AFTERSHOCK_12	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>Pyotr looked around as the officers considered his words.
-#AFTERSHOCK_13	<NPC=DAUD><SIDE=1><SCR=CONTINUE>We have to send a vessel to reestablish communications with the capital. Once we have a reliable line to the south…
-#AFTERSHOCK_14	<NPC=PETR><SIDE=-1><SCR=CONTINUE>There’s no time for that, {glossary=Sharif Rahmatovich,GLOSS_DAUD}. If we do not mount an assault on {glossary=Khiva,GLOSS_KHIVA} here and now, it will be too late.
-#AFTERSHOCK_15	<SCR=CONTINUE>We spent the rest of the night and the entire following day discussing Pyotr’s plan.
-#AFTERSHOCK_16	<SCR=CONTINUE>Eventually we agreed to send the cruiser Diana to the south in a bid to reestablish communications with the Empire. The rest of our forces hastily began preparations to reach {glossary=Khiva,GLOSS_KHIVA} and assault it.
-#AFTERSHOCK_17	<SCR=CONTINUE>The Sevastopol became the flagship of the new squadron.
-#AFTERSHOCK_18	<SCR=CONTINUE>At some point an officer asked who would command the offensive. Pyotr readily replied with a plan of his own.
-#AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>He stood up and spoke with confidence. “No one yet knows what has befallen the Emperor,” he said. “So the Grand Duke, the sole legitimate heir of the dynasty, must lead what remains of the {glossary=Romani,GLOSS_ROMANI} Fleet in this offensive.”
-#AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>Admiral {glossary=Daud,GLOSS_DAUD} balked at the idea, but his furious cries of protest were ignored. The officers eagerly supported the general’s suggestion. The thought of the heir to the throne leading the charge himself did wonders for their morale.
-#AFTERSHOCK_21	<SCR=CONTINUE>The unanimous support they showed me was certainly uplifting, but at the same time, I was terrified.
-#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>A moment ago I had been a {glossary=tarkhan,GLOSS_TARKHAN}, but now I was the embodiment the entire {glossary=Romani Empire,GLOSS_IMPIRE} in their eyes.
+#AFTERSHOCK_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Cavalheiros, eu os reuni aqui para discutir nossas atividades futuras em função dos acontecimentos recentes.
+#AFTERSHOCK_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>A minha opinião é a seguinte: devemos seguir em frente e continuar nosso avanço em direção a {glossary=Khiva,GLOSS_KHIVA}.
+#AFTERSHOCK_3	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Pyotr Ignatyevich, as notícias da capital tornaram toda esta operação discutível. Devemos retornar à pátria imediatamente, o quanto antes, melhor.
+#AFTERSHOCK_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Pelo contrário. Tomar {glossary=Khiva,GLOSS_KHIVA} é mais importante do que nunca. Se me permite elucidar...
+#AFTERSHOCK_5	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Tive várias longas conversas com a tripulação do Sevastopol. Lamento dizer isto, mas estou convencido de que a guerra no sul está perdida. Retornar à pátria significará nossa desgraça.
+#AFTERSHOCK_6	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>Todos tínhamos suspeitas semelhantes. Agora que esses temores haviam sido colocados em palavras, muitos dos oficiais desviavam o olhar.
+#AFTERSHOCK_7	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Então o que você propõe, Pyotr? (Havia exaustão na voz de Daud.)
+#AFTERSHOCK_8	<NPC=PETR><SIDE=-1><SCR=CONTINUE>A frota rebelde se encontra atualmente em um intenso combate no sul. Agora é o momento de montar uma ofensiva no norte e tomar {glossary=Khiva,GLOSS_KHIVA} pela força.
+#AFTERSHOCK_9	<NPC=DAUD><SIDE=1><SCR=CONTINUE>E o que vem a seguir? Só adiaremos o inevitável. Cedo ou tarde eles virão para {glossary=Khiva,GLOSS_KHIVA}.
+#AFTERSHOCK_10	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Tenho razões para acreditar que nossas informações sobre o reator são precisas. Se pudermos apoderar-se dele, eles não vão revidar. Eles virão até a mesa de negociações para garantir que o reator permaneça intacto.
+#AFTERSHOCK_11	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Talvez possamos chegar a um acordo.
+#AFTERSHOCK_12	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>Pyotr olha em volta enquanto os oficiais consideram suas palavras.
+#AFTERSHOCK_13	<NPC=DAUD><SIDE=1><SCR=CONTINUE>Temos que enviar uma nave para restabelecer as comunicações com a capital. Assim que tivermos uma rota confiável para o sul...
+#AFTERSHOCK_14	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Não há tempo para isso, {glossary=Sharif Rahmatovich,GLOSS_DAUD}. Se não prepararmos um ataque a {glossary=Khiva,GLOSS_KHIVA} aqui e agora, será tarde demais.
+#AFTERSHOCK_15	<SCR=CONTINUE>Nós passamos o resto da noite e todo o dia seguinte discutindo o plano de Pyotr.
+#AFTERSHOCK_16	<SCR=CONTINUE>Finalmente concordamos em enviar o cruzador Diana para o sul, em uma tentativa de restabelecer as comunicações com o Império. O resto de nossas forças começaram rapidamente os preparativos para chegar a {glossary=Khiva,GLOSS_KHIVA} e atacá-la.
+#AFTERSHOCK_17 <SCR=CONTINUE>O Sevastopol converteu-se na nave insignia da nova esquadra.
+#AFTERSHOCK_18	<SCR=CONTINUE>Em um determinado momento, um oficial perguntou quem deveria comandar a ofensiva. Pyotr foi rápido em responder com um plano próprio.
+#AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>Ele se levantou e falou com confiança. “Ninguém sabe ainda o que aconteceu com o Imperador”, disse ele. “Portanto, o Grão-Duque, o único herdeiro legítimo da dinastia, deve liderar o que resta da Frota {glossary=Romani,GLOSS_ROMANI} nesta ofensiva.”
+#AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>O almirante {glossary=Daud,GLOSS_DAUD} se opôs à ideia, mas seus gritos furiosos de protesto foram ignorados. Os oficiais apoiaram entusiasticamente a sugestão do general. A ideia do próprio herdeiro ao trono liderando a investida fez maravilhas para o moral deles.
+#AFTERSHOCK_21	<SCR=CONTINUE>O apoio unânime que me deram foi certamente edificante, mas ao mesmo tempo me aterrorizou.
+#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>Um momento atrás eu tinha sido um {glossary=tarkhan,GLOSS_TARKHAN}, mas agora eu era a encarnação de todo o {glossary=Império Romani,GLOSS_IMPIRE} aos olhos deles.
 
 
 
