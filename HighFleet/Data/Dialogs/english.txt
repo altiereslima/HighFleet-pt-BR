@@ -13,7 +13,7 @@
 #LABLE_role_interceptor	INTERCEPTOR
 #LABLE_role_aa	NAVE DE DEFESA AA
 #LABLE_role_sensor	NAVE DE ALERTA PRÉVIO
-#LABLE_role_tanker	CISTERNA
+#LABLE_role_tanker	TANQUE
 #LABLE_role_carrier	PORTA-AVIÕES
 #LABLE_role_tactical	PORTA-MÍSSEIS
 #LABLE_role_strategic	PORTA-MÍSSEIS NUCLEARES
@@ -2751,14 +2751,14 @@
 #TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}ANTI-AIR MISSILE SYSTEM@10{font=fixed_20}{align=0}The ship has been equipped with an anti-air missile system that can destroy incoming missiles and planes (<AAM_COUNT> AA missiles).@10Press {animation=key_c} to fire an AA missile.<SCR=STOP>
 #TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}ANTI-AIR MISSILE SYSTEM@10{font=fixed_20}{align=0}The ship has been equipped with an anti-air missile system that can destroy incoming missiles and planes (You have <AAM_COUNT> AA missiles).@10Press {animation=key_c} to fire an AA missile.<SCR=STOP>
 
-#DIALOG_END_HINT	Success! You can end this conversation now.
+#DIALOG_END_HINT	Sucesso! Você pode terminar esta conversa agora.
 
-#SHIP_DESC_INTREPID	The Intrepid is a tried-and-true artillery corvette, a cornerstone of the Romani Fleet. Her excellent balance between armor and mobility combined with excellent artillery capabilities and an affordable price make the Intrepid one of the best choices for establishing airborne dominance.
-#SHIP_DESC_LIGHTNING	A unique light interceptor armed with rapid-fire 100mm artillery guns. Many green Academy graduates have been assigned to a craft such as this and perished along with dozens of their peers. In the hands of a skilled pilot, however, the Lightning can work wonders.
-#SHIP_DESC_SKYLARK	A light tanker retrofitted to carry EIS equipment, she’s a simple, but quite useful ship. Her incredible range and excellent speed make her equally useful as a long-range reconnaissance unit and a tanker for a small task group.
-#SHIP_DESC_YARS	A tactical missile carrier, her reliable, sturdy armor can protect her priceless payload from a close-range nuclear explosion. Just standing next to this vessel can make one rather uneasy.
-#SHIP_DESC_ROOK	A diminutive corvette envisioned as a dedicated bomber by a particularly bright mind at Command, this one-trick pony is only good for releasing explosive payloads over targets at low altitudes. For what it’s worth, however, she’s well suited to the job and has secured a place in the Fleet.
-#SHIP_DESC_NAVARIN	A mainstay of the Fleet, as old as time, the Navarin is beloved by officers for her versatility and adored by pilots for her reliability. She can handle anything - new artillery guns, new engines, even more equipment - without breaking a sweat. It’s no wonder this ship remains in service after decades of use.
+#SHIP_DESC_INTREPID	A Intrépida é uma corveta de artilharia de eficácia comprovada, uma pedra angular da Frota Romani. Seu excelente equilíbrio entre blindagem e mobilidade, combinado com excelentes capacidades de artilharia e um preço acessível, torna a Intrépida uma das melhores opções para estabelecer o domínio aéreo.
+#SHIP_DESC_LIGHTNING	Um interceptador leve único, armado com canhões de artilharia rápida de 100mm. Muitos graduados da Academia Verde foram designados para uma nave como esta e morreram junto com dezenas de seus companheiros. Entretanto, nas mãos de um piloto experiente, o Relâmpago pode fazer maravilhas.
+#SHIP_DESC_SKYLARK	Uma nave-tanque leve adaptada para transportar equipamentos EIS, ela é uma nave simples, mas bastante útil. Seu incrível alcance e excelente velocidade a tornam igualmente útil como uma unidade de reconhecimento de longo alcance e nave-tanque para um pequeno grupo operacional.
+#SHIP_DESC_YARS	Um porta-míssil tático, sua blindagem confiável e robusta pode proteger sua valiosa carga útil contra uma explosão nuclear a curta distância. O simples fato de estar ao lado desta nave pode fazer com que a pessoa se sinta desconfortável.
+#SHIP_DESC_ROOK	Uma pequena corveta concebida como um bombardeiro por uma mente particularmente brilhante no Comando, este mágico de apenas um truque é bom para liberar cargas explosivas sobre alvos em baixas altitudes. No entanto, ela é bem adequada para o trabalho que faz e garantiu um lugar na Frota.
+#SHIP_DESC_NAVARIN	Um pilar da Frota, tão antigo quanto o tempo, o Navarin é amado pelos oficiais por sua versatilidade e adorado pelos pilotos por sua confiabilidade. Pode levar qualquer coisa - novos canhões de artilharia, novos motores, até mais equipamentos - sem suar. Não é de admirar que nave ainda esteja em serviço após décadas de uso.
 #SHIP_DESC_FENEK	The doyens of Gerat may detest these small Romani anti-air defense ships for being too expensive and difficult to maintain, but they were built for a great war.
 #SHIP_DESC_TRIUMPHANT	A long range anti-air ship that is utterly impossible to find in Gerat. Use her wisely - she was designed for important work.
 #SHIP_DESC_GLADIATOR	Hailing from the newest frigate line of the Romani Fleet, this vessel is a true powerhouse in combat. Extreme caution is advised when engaging these vessels in a dogfight.
@@ -3860,9 +3860,9 @@
 #SHIP_NAME_Grumble	Grunhir
 #SHIP_NAME_Gryphon	Grifo
 #SHIP_NAME_Hound	Cão de caça
-#SHIP_NAME_IntrepidMk2	Intrépido Mk2
-#SHIP_NAME_IntrepidMk3	Intrépido Mk3
-#SHIP_NAME_Intrepid	Intrépido
+#SHIP_NAME_IntrepidMk2	Intrépida Mk2
+#SHIP_NAME_IntrepidMk3	Intrépida Mk3
+#SHIP_NAME_Intrepid	Intrépida
 #SHIP_NAME_JaguarMk2	Jaguar Mk2
 #SHIP_NAME_JaguarPVO	Jaguar PVO
 #SHIP_NAME_JaguarRSZO	Jaguar RSZO
@@ -3870,8 +3870,8 @@
 #SHIP_NAME_KadeshMk1	Kadesh Mk1
 #SHIP_NAME_Kastor	Kastor
 #SHIP_NAME_Kormoran	Kormoran
-#SHIP_NAME_Lancer2	Lancer 2
-#SHIP_NAME_Lancer	Lancer
+#SHIP_NAME_Lancer2	Lanceiro 2
+#SHIP_NAME_Lancer	Lanceiro
 #SHIP_NAME_LightningMk2	Relâmpago Mk2
 #SHIP_NAME_LightningMk3	Relâmpago Mk3
 #SHIP_NAME_Lightning	Relâmpago
@@ -3880,7 +3880,7 @@
 #SHIP_NAME_Longbow	Arco longo
 #SHIP_NAME_MeteorMk2	Meteoro Mk2
 #SHIP_NAME_MeteorMk3	Meteoro Mk3
-#SHIP_NAME_Mockingbird	Sabiá
+#SHIP_NAME_Mockingbird	Tordo
 #SHIP_NAME_NavarinMk2	Navarin Mk2
 #SHIP_NAME_NavarinMk3	Navarin Mk3
 #SHIP_NAME_Navarin	Navarin
@@ -3893,16 +3893,16 @@
 #SHIP_NAME_Paladin	Paladino
 #SHIP_NAME_Pegasus	Pegasus
 #SHIP_NAME_Pollux	Pollux
-#SHIP_NAME_Rook	Rook
+#SHIP_NAME_Rook	Gralha
 #SHIP_NAME_Runner	Runner
 #SHIP_NAME_Sarma	Sarma
 #SHIP_NAME_Scarab	Escaravelho
 #SHIP_NAME_Sevastopol	Sevastopol
-#SHIP_NAME_Skylark	Skylark
+#SHIP_NAME_Skylark	Cotovia
 #SHIP_NAME_Slingshot	Estilingue
 #SHIP_NAME_Slogger	Vagabundo
 #SHIP_NAME_Talos	Talos
-#SHIP_NAME_Tanker	Cisterna
+#SHIP_NAME_Tanker	Tanque
 #SHIP_NAME_TarantulARM	Tarântula ARM
 #SHIP_NAME_TarantulMRLMk2	Tarântula MRL Mk2
 #SHIP_NAME_TarantulMRL	Tarântula MRL
