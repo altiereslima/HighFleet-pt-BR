@@ -259,7 +259,7 @@
 #REST_MAP_LABLE	REST
 #CROWDED	SOBRECARREGADO
 #NO_MOVE_IN_MAP_LABLE	NO MOVE IN
-#REPAIR_TIMER	REPARADO EM
+#REPAIR_TIMER	REPARO EM
 #NO_REST_MAP_LABLE	NÃO DESCANSAR
 #NO_REPAIR_MAP_LABLE	NÃO REPARAR
 #SPARE_PARTS	PARTES
@@ -346,13 +346,13 @@
 #IRST_STAT	IRST
 #ELINT_STAT	ELINF
 #JAMMER_STAT	BLOQUEIO
-#POWER_NEED_STAT	ENERGIA NECESSÁRIA
+#POWER_NEED_STAT	ENERG. NECESS.
 #FUEL_STAT	COMBUSTÍVEL
-#FUEL_NEED_STAT	COMBUSTÍVEL NECESSÁRIO
-#CREW_NEED_STAT	TRIPULAÇÃO NECESSÁRIA
-#AMMO_NEED_STAT	MUNIÇÃO NECESSÁRIA
+#FUEL_NEED_STAT	COMBUS. NECES.
+#CREW_NEED_STAT	TRIPUL. NECES.
+#AMMO_NEED_STAT	MUNIÇ. NECESS.
 #FIRE_RATE_STAT	TAXA DE DISPARO
-#CLIP_AMOUNT_STAT	ESPAÇO NECESSÁRIO
+#CLIP_AMOUNT_STAT	ESPAÇO NECESS.
 #DAMAGE_STAT	DANO
 #HP_STAT	DURABILIDADE
 
@@ -596,7 +596,7 @@
 #TUTORIAL_FASIL_DUKE_1	<NPC=FASIL><SCR=CONTINUE>Estou vendo. Por favor, perdoe minha indiscrição, Grão-Duque. Eu nunca tive o prazer de conhecê-lo antes.
 #TUTORIAL_FASIL_DUKE_2	<NPC=FASIL>Não pense sobre isso. Certamente os dois herdeiros das monarquias mais antigas de Elaat podem encontrar algo sobre o que conversar. (O príncipe acena com a cabeça gentilmente.)
 <ANS=Estou aqui para discutir sua participação na libertação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
-#TUTORIAL_FASIL_6	<NPC=FASIL>"Libertação?" Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mas de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
+#TUTORIAL_FASIL_6	<NPC=FASIL>"Libertação?" Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mais de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
 <ANS=Na verdade, estão trabalhando nisso. E eu acho que eles serão bem sucedidos.|TUTORIAL_FASIL_7|FASIL_ANYTIME=-1>
 <ANS=Talvez eles consigam.|TUTORIAL_FASIL_7>
 #TUTORIAL_FASIL_7	<NPC=FASIL>Meu povo não pode igualar a força da frota da {glossary=Confederação,GLOSS_GATHERING}. Temos somente uma corveta para cada um de seus cruzadores pesados.
@@ -642,7 +642,7 @@
 
 
 
-#TUTORIAL_FUEL_1	<NPC=PETR><SIDE=1><SHADOW=1>Nós temos o combustível, mas levará algum tempo até que nossas naves terminem de reabastecer..<ANS=Muito bem. Vou esperar.|EXIT>
+#TUTORIAL_FUEL_1	<NPC=PETR><SIDE=1><SHADOW=1>Nós temos o combustível, mas levará algum tempo até que nossas naves terminem de reabastecer.<ANS=Muito bem. Vou esperar.|EXIT>
 #TUTORIAL_NEED_FUEL	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAP_LAND><SHADOW=1>Tarkhan, senhor, parece que não temos combustível suficiente para a próxima etapa de nossa viagem. Teremos que voltar para a cidade e comprar combustível lá.|EXIT>
 
 #TUTORIAL_NEED_FUEL_WAIT	Você deve esperar que naves reabasteçam. Mantenha pressionado {animation=key_shift} para acelerar o tempo.<SCR=STOP>
@@ -802,7 +802,7 @@
 
 
 
-#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}CONTROL DEL AGULO DE BALANCEO@10{font=fixed_20}{align=0}A nave está oscilando perigosamente para um lado. Use {animation=key_q} e {animation=key_e} para estabilizá-la.<SCR=STOP>
+#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}CONTROLE DO ÂNGULO DE INCLINAÇÃO@10{font=fixed_20}{align=0}A nave está inclinando perigosamente para um lado. Use {animation=key_q} e {animation=key_e} para estabilizá-la.<SCR=STOP>
 
 #TUTORIAL_FIRE_1	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}SISTEMA DE COMBUSTÍVEIS EM CHAMAS!@10{font=fixed_20}{align=0}Pressione {animation=key_b} para ativar o Sistema de Supressão de Incêndio da nave (SSI). Cada uso gasta um módulo do SSI, então certifique-se de que não se esgote!!<SCR=STOP>
 
@@ -818,7 +818,7 @@
 
 
 
-#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>Maldição! Defesa anti-aérea inimiga avistada!
+#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>Maldição! Defesa antiaérea inimiga avistada!
 #TUTORIAL_AAD_2	<NPC=PETR><SCR=CONTINUE>Concentre-se nas naves inimigas. Capturaremos os veículos terrestres assim que a batalha tiver terminada.
 #TUTORIAL_AAD_3	<NPC=PETR><SCR=STOP>E cuidado com os mísseis!
 
@@ -837,7 +837,7 @@
 #TUTORIAL_REPAIR_1	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>Tarkhan, senhor! Algumas das nossas naves precisam ser reparadas, e esta cidade tem um estaleiro. Seria bom repará-las aqui.
 <ANS=Cuidarei disso imediatamente.|EXIT>
 #TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>Esta nave precisa ser reparada.
-#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>Tudo o que você precisa fazer é dar a ordem para reparar a nave. A tripulação de engenheiros fará tudo o que estiver ao seu alcance para reparar nave.
+#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>Tudo o que você precisa fazer é dar a ordem para reparar a nave. A tripulação de engenheiros fará tudo o que estiver ao seu alcance para repará-la.
 #TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>Entretanto, não será possível concluir os reparos se as peças de reposição necessárias não estiverem disponíveis.
 <ANS=Entendido, Pyotr.|EXIT>
 
@@ -1557,11 +1557,11 @@
 
 
 
-#HELLO_GREETING_01	Greetings, my lord!|HELLO_2|GREETING|FEAR=-1
-#HELLO_GREETING_02	In the name of {glossary=Ishu,GLOSS_ISHU}, peace be with you!|HELLO_2|GREETING|FAITH=1
-#HELLO_GREETING_03	In the name of the {glossary=Empire,GLOSS_IMPIRE}, I welcome you!|HELLO_2|GREETING|ROMANI=1
-#HELLO_GREETING_04	Glory to {glossary=Gerat,GLOSS_GERAT}, and welcome!|HELLO_2|GREETING|GERAT=1
-#HELLO_GREETING_05	Who’s in charge here?|HELLO_2|GREETING|FEAR=1
+#HELLO_GREETING_01	Saudações, meu senhor!|HELLO_2|GREETING|FEAR=-1
+#HELLO_GREETING_02	Em nome de {glossary=Ishu,GLOSS_ISHU}, que a paz esteja contigo!.|HELLO_2|GREETING|FAITH=1
+#HELLO_GREETING_03	Em nome do {glossary=Império,GLOSS_IMPIRE}, te dou as boas-vindas!|HELLO_2|GREETING|ROMANI=1
+#HELLO_GREETING_04	Glória a {glossary=Gerat,GLOSS_GERAT}, e seja bem-vindo!|HELLO_2|GREETING|GERAT=1
+#HELLO_GREETING_05	Quem está no comando aqui?|HELLO_2|GREETING|FEAR=1
 
 
 
@@ -3009,7 +3009,7 @@
 #EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A crowd of people rushes from the city to your ships as soon as you arrive, an elderly doyen in the lead. Amid the screams and wails, he tells you about a military convoy that left the city just the other day.
 #EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The leader of the escort (may the Almighty curse him for all time!) took many people hostage and stole much of the city’s riches. The doyen begs you to chase down the armed ship and punish the villains, and he promises you all of the city’s stolen riches as a reward for saving the hostages.<ANS=Where did they go?|EVENT_CHASE_3>
 #EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
-#EVENT_CHASE_END	The hostages shower you in gratitude and praise. The doyen was telling the truth — the ship’s hold is full of precious cargo. This convoy must have robbed many cities along the way.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
+#EVENT_CHASE_END	Os reféns o enchem de gratidão e elogios. O decano estava dizendo a verdade: o porão da nave está cheio de carga preciosa. Esta escolta deve ter saqueado muitas cidades em seu caminho.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
 
 #EVENT_CHASE_PRE	The doyen tells you that the villains were headed 
 #EVENT_CHASE_POST	. He also tells you the escort’s callsign: CROW.
