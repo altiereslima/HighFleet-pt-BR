@@ -356,11 +356,11 @@
 #DAMAGE_STAT	DANO
 #HP_STAT	DURABILIDADE
 
-#SHORT_MSL	ASM
-#SHORT_AAM	AAM
+#SHORT_MSL	MAS
+#SHORT_AAM	MAA
 #SHORT_BMB	BMB
 #SHORT_SPD	VEL
-#SHORT_RNG	RNG
+#SHORT_RNG	ALC
 #SHORT_DMG	DANO
 #SHORT_RAD	RAD
 #SHORT_CREW	TRIP
@@ -864,12 +864,12 @@
 #AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>Ele se levantou e falou com confiança. “Ninguém sabe ainda o que aconteceu com o Imperador”, disse ele. “Portanto, o Grão-Duque, o único herdeiro legítimo da dinastia, deve liderar o que resta da Frota {glossary=Romani,GLOSS_ROMANI} nesta ofensiva.”
 #AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>O almirante {glossary=Daud,GLOSS_DAUD} se opôs à ideia, mas seus gritos furiosos de protesto foram ignorados. Os oficiais apoiaram entusiasticamente a sugestão do general. A ideia do próprio herdeiro ao trono liderando a investida fez maravilhas para o moral deles.
 #AFTERSHOCK_21	<SCR=CONTINUE>O apoio unânime que me deram foi certamente edificante, mas ao mesmo tempo me aterrorizou.
-#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>Um momento atrás eu tinha sido um {glossary=tarkhan,GLOSS_TARKHAN}, mas agora eu era a encarnação de todo o {glossary=Império Romani,GLOSS_IMPIRE} aos olhos deles.
+#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>Há um momento atrás eu era um {glossary=tarkhan,GLOSS_TARKHAN}, mas agora eu era a encarnação de todo o {glossary=Império Romani,GLOSS_IMPIRE} aos olhos deles.
 
 
 
-#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><BLUR=0><SCR=STOP>Grand Duke, you must choose the ships that will join us for the {glossary=Khiva,GLOSS_KHIVA} offensive.
-<ANS=Can you give me a hint?>
+#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><BLUR=0><SCR=STOP>Grão-Duque, você deve escolher as naves que se juntarão a nós em nossa ofensiva a {glossary=Khiva,GLOSS_KHIVA}.
+<ANS=Você pode me dar uma dica?>
 #PRESELECT_2	<NPC=PETR><SCR=STOP>Take the red ones. These are workhorses. And maybe one or two tankers for them.
 
 
