@@ -204,7 +204,7 @@
 #STATS_RIGHT	ORDEM
 #STATS_FORCE	FORÇA
 #STATS_WEALTH	RIQUEZA
-#STATS_KINDNESS	BONDADE
+#STATS_KINDNESS	AMABILIDADE
 #STATS_LIKE	GOSTOU
 #STATS_SPEECH	BOM DISCURSO
 #STATS_PRESENT	PRESENTE
@@ -224,8 +224,8 @@
 #CHECK_NOFORCE	VERIFICAR CONTRA A VIOLÊNCIA
 #CHECK_WEALTH	VERIFICAR RIQUEZA
 #CHECK_NOWEALTH	VERIFICAR CONTRA A GANÂNCIA
-#CHECK_KINDNESS	VERIFICAR A BONDADE
-#CHECK_NOKINDNESS	VERIFICAR CONTRA A BONDADE
+#CHECK_KINDNESS	VERIFICAR A AMABILIDADE
+#CHECK_NOKINDNESS	VERIFICAR CONTRA A AMABILIDADE
 
 #CHECK_SUCCESS	 SUCESSO!
 #CHECK_FAILED	 FALHA
@@ -779,17 +779,17 @@
 
 
 
-#TUTORIAL_CONVOY_1	<NPC=PETR><SHADOW=1><SCR=STOP>Armed escort incoming! If you seize the transport they’re guarding, you can sell it for a small fortune!
-#TUTORIAL_CONVOY_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Transmission intercepted. There’s a ship with an armed escort not far from here. We could earn a small fortune if we intercept them.
+#TUTORIAL_CONVOY_1	<NPC=PETR><SHADOW=1><SCR=STOP>Escolta armada chegando! Se você pegar o transporte que eles estão guardando, poderá vendê-lo por uma pequena fortuna!
+#TUTORIAL_CONVOY_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Transmissão interceptada. Há uma nave de escolta armada não muito longe daqui. Poderíamos fazer uma pequena fortuna se a interceptarmos.
 
 
 
-#TUTORIAL_STRIKEFORCE_1	<NPC=PETR><SHADOW=1><SCR=STOP>Curses! An enemy strike group is approaching!
-#TUTORIAL_STRIKEFORCE_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Coded transmission intercepted. An enemy strike group is on the move not far from here. We should steer clear of them.
+#TUTORIAL_STRIKEFORCE_1	<NPC=PETR><SHADOW=1><SCR=STOP>Maldição! Um grupo de ataque inimigo está se aproximando!
+#TUTORIAL_STRIKEFORCE_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>Transmissão codificada interceptada. Um grupo de ataque inimigo está em movimento não muito longe daqui. Devemos nos manter afastados deles.
 
 
 
-#NOT_ENOUGH_FUEL	<NPC=PETR><SHADOW=1><SIDE=-1>Tarkhan, sir, we don’t have enough fuel for this flight. We’ll have to return to the city and refuel.<ANS=Understood, General.|EXIT>
+#NOT_ENOUGH_FUEL	<NPC=PETR><SHADOW=1><SIDE=-1>Tarkhan, senhor, não temos combustível suficiente para este voo. Teremos que voltar para a cidade e reabastecer.<ANS=Entendido, General.|EXIT>
 
 
 
@@ -802,35 +802,35 @@
 
 
 
-#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}ROLL ANGLE CONTROL@10{font=fixed_20}{align=0}The ship is lurching dangerously to one side. Use the {animation=key_q} and {animation=key_e} keys to stabilize it.<SCR=STOP>
+#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}CONTROL DEL AGULO DE BALANCEO@10{font=fixed_20}{align=0}A nave está oscilando perigosamente para um lado. Use {animation=key_q} e {animation=key_e} para estabilizá-la.<SCR=STOP>
 
-#TUTORIAL_FIRE_1	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}FUEL SYSTEM ON FIRE!@10{font=fixed_20}{align=0}Press {animation=key_b} to activate the ship’s fire suppression system (FSS). Each use expends an FSS module, so make sure you don’t run out!<SCR=STOP>
+#TUTORIAL_FIRE_1	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}SISTEMA DE COMBUSTÍVEIS EM CHAMAS!@10{font=fixed_20}{align=0}Pressione {animation=key_b} para ativar o Sistema de Supressão de Incêndio da nave (SSI). Cada uso gasta um módulo do SSI, então certifique-se de que não se esgote!!<SCR=STOP>
 
-#TUTORIAL_RETREAT_1	<TRG=TUTORIAL_RETREAT|0>{font=dinpro_48_black}{align=2}RETREAT AVAILABLE@10{font=fixed_20}{align=0}Your squadron is comprised of several ships. You can move the ship you are currently controlling to the retreat marker to make it retreat from the battle. The next ship in your roster will enter the battle automatically.<SCR=STOP>
+#TUTORIAL_RETREAT_1	<TRG=TUTORIAL_RETREAT|0>{font=dinpro_48_black}{align=2}A RETIRADA É POSSÍVEL@10{font=fixed_20}{align=0}Seu esquadrão é formado por várias naves. Você pode mover a nave que você está controlando atualmente para o marcador de retirada para se retirar da batalha. A próxima nave em sua lista entrará automaticamente na batalha.<SCR=STOP>
 
-#TUTORIAL_MISSILES_1	<TRG=TUTORIAL_MISSILES|0>{font=dinpro_48_black}{align=2}MISSILES@10{font=fixed_20}{align=0}This ship is armed with missiles. Press {animation=key_space} to launch a missile. A salvo of two or three missiles from afar tends to be particularly effective.<SCR=STOP>
+#TUTORIAL_MISSILES_1	<TRG=TUTORIAL_MISSILES|0>{font=dinpro_48_black}{align=2}MÍSSEIS@10{font=fixed_20}{align=0}Esta nave está armada com mísseis. Pressione {animation=key_space} para lançar un míssil. Uma salva de dois ou três mísseis de longe tende a ser particularmente eficaz.<SCR=STOP>
 
-#TUTORIAL_COUNTERMEASURES_1	<TRG=TUTORIAL_COUNTERMEASURES|2><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}MISSILE APPROACHING!@10{font=fixed_20}{align=0}You can attempt to shoot it down, evade it, or use a decoy. When the missile is close to your ship, press {animation=key_f} to launch a decoy flare.<SCR=STOP>
+#TUTORIAL_COUNTERMEASURES_1	<TRG=TUTORIAL_COUNTERMEASURES|2><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}MÍSSIL SE APROXIMANDO!@10{font=fixed_20}{align=0}Você pode tentar abatê-lo, evitá-lo ou usar um chamariz. Quando o míssil estiver perto de sua nave, pressione {animation=key_f} para lançar um chamariz.<SCR=STOP>
 
-#TUTORIAL_COUNTERMEASURES_2	<TRG=TUTORIAL_COUNTERMEASURES|0><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}AIR-TO-AIR MISSILES (AAM)@10{font=fixed_20}{align=0}These missiles are expensive and can only be used once, but they work wonders against agile air targets. To launch an AA missile, press {animation=key_c}.<SCR=STOP>
+#TUTORIAL_COUNTERMEASURES_2	<TRG=TUTORIAL_COUNTERMEASURES|0><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}MÍSSEIS AR-AR (AAM)@10{font=fixed_20}{align=0}Estes mísseis são caros e só podem ser usados uma vez, mas funcionam muito bem contra alvos aéreos ágeis. Para lançar um míssil AA, pressione {animation=key_c}.<SCR=STOP>
 
-#TUTORIAL_SECONDARY_1	<TRG=TUTORIAL_SECONDARY|0>{font=dinpro_48_black}{align=2}AUXILLIARY ARTILLERY@10{font=fixed_20}{align=0}In addition to its primary cannon, this ship has an auxiliary cannon system. Use auxiliary weapons to eliminate fast, agile targets in close range and destroy enemy missiles in the air. To fire your auxiliary weapon, press {animation=RMB}.<SCR=STOP>
-
-
-
-#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>Curses! Enemy air defense spotted!
-#TUTORIAL_AAD_2	<NPC=PETR><SCR=CONTINUE>Focus on the enemy ships. We will capture the ground vehicles once the battle is over.
-#TUTORIAL_AAD_3	<NPC=PETR><SCR=STOP>And watch out for missiles!
+#TUTORIAL_SECONDARY_1	<TRG=TUTORIAL_SECONDARY|0>{font=dinpro_48_black}{align=2}ARTILHARIA AUXILIAR@10{font=fixed_20}{align=0}Além de seu canhão principal, esta nave tem um sistema de canhões auxiliares. Use as armas auxiliares para derrubar alvos rápidos e ágeis a curta distância e para destruir os mísseis inimigos em pleno ar. Para disparar sua arma auxiliar, pressione {animation=RMB}.<SCR=STOP>
 
 
 
-#TUTORIAL_EDITOR_MISSILES_1	<NPC=PETR><SIDE=1><SHADOW=0><RAM=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS>Tarkhan, sir, we have an opportunity to replenish missiles on our ships. I highly recommend we do so.
-<ANS=Very well. I’ll handle it.|EXIT>
-#TUTORIAL_EDITOR_MISSILES_2	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=970|160|1><SCR=CONTINUE>This is the roster of all the ships in your squadron, sir.
-#TUTORIAL_EDITOR_MISSILES_3	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1>Move down the screen to the ship’s maintenance panel.
-#TUTORIAL_EDITOR_MISSILES_4	<NPC=PETR><SIDE=-1><NOBOTTOM><HANDSHOW_POS=60|870|1><ACTIVE=INV_SLOT><MOUSE_TRACK=0>Purchase a missile.
-#TUTORIAL_EDITOR_MISSILES_5	<NPC=PETR><NOBOTTOM><HANDSHOW_POS=798|556|1><BODY_FOCUSABLE=1>Now install it on any free hardpoint on the ship.
-#TUTORIAL_EDITOR_MISSILES_6	<NPC=PETR><SCR=STOP>You can install more missiles on other ships in a similar fashion.
+#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>Maldição! Defesa anti-aérea inimiga avistada!
+#TUTORIAL_AAD_2	<NPC=PETR><SCR=CONTINUE>Concentre-se nas naves inimigas. Capturaremos os veículos terrestres assim que a batalha tiver terminada.
+#TUTORIAL_AAD_3	<NPC=PETR><SCR=STOP>E cuidado com os mísseis!
+
+
+
+#TUTORIAL_EDITOR_MISSILES_1	<NPC=PETR><SIDE=1><SHADOW=0><RAM=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS>Tarkhan, senhor, temos a oportunidade de reabastecer os mísseis em nossas naves. Recomendo enfaticamente que o façamos.
+<ANS=Muito bem. Cuidarei disso.|EXIT>
+#TUTORIAL_EDITOR_MISSILES_2	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=970|160|1><SCR=CONTINUE>Esta é a lista de todas as naves de seu esquadrão, senhor.
+#TUTORIAL_EDITOR_MISSILES_3	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1>Desça a tela até o painel de manutenção da nave.
+#TUTORIAL_EDITOR_MISSILES_4	<NPC=PETR><SIDE=-1><NOBOTTOM><HANDSHOW_POS=60|870|1><ACTIVE=INV_SLOT><MOUSE_TRACK=0>Compre um míssil.
+#TUTORIAL_EDITOR_MISSILES_5	<NPC=PETR><NOBOTTOM><HANDSHOW_POS=798|556|1><BODY_FOCUSABLE=1>Agora instale-o em qualquer estação de arma livre na nave
+#TUTORIAL_EDITOR_MISSILES_6	<NPC=PETR><SCR=STOP>Você pode instalar mais mísseis em outras naves de forma similar.
 
 
 
@@ -838,7 +838,7 @@
 <ANS=Cuidarei disso imediatamente.|EXIT>
 #TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>Esta nave precisa ser reparada.
 #TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>Tudo o que você precisa fazer é dar a ordem para reparar a nave. A tripulação de engenheiros fará tudo o que estiver ao seu alcance para reparar nave.
-#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>Entretanto, não será possível concluir os reparos se as peças de reposição necessárias não estiverem disponíveis..
+#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>Entretanto, não será possível concluir os reparos se as peças de reposição necessárias não estiverem disponíveis.
 <ANS=Entendido, Pyotr.|EXIT>
 
 
@@ -1076,15 +1076,15 @@
 
 
 
-#DIR_N	north
-#DIR_NE	northeast
-#DIR_E	east
-#DIR_SE	southeast
-#DIR_S	south
-#DIR_SW	southwest
-#DIR_W	west
-#DIR_NW	northwest
-#DIR_FAR	far
+#DIR_N	norte
+#DIR_NE	nordeste
+#DIR_E	leste
+#DIR_SE	sudeste
+#DIR_S	sul
+#DIR_SW	sudoeste
+#DIR_W	oeste
+#DIR_NW	noroeste
+#DIR_FAR	longe
 
 
 
@@ -1520,18 +1520,18 @@
 
 
 #HELLO_PRAISE	<NPC=LOCAL><APPROVE><SCR=HELLO_PRAISE>
-#HELLO_PRAISE_ROMANI	Praise them for their loyalty to the Romani.|HELLO_ROUND|ROMANI=1
-#HELLO_PRAISE_NOROMANI	Praise them for their hatred of the Romani.|HELLO_ROUND|ROMANI=-1
-#HELLO_PRAISE_GERAT	Praise them for their loyalty to Gerat.|HELLO_ROUND|GERAT=1
-#HELLO_PRAISE_NOGERAT	Praise them for their hatred of the Elaims.|HELLO_ROUND|GERAT=-1
-#HELLO_PRAISE_FAITH	Praise them for their faith.|HELLO_ROUND|FAITH=1
-#HELLO_PRAISE_NOFAITH	Praise them for their skepticism in matters of faith.|HELLO_ROUND|FAITH=-1
-#HELLO_PRAISE_RIGHT	Praise them for their strong sense of justice.|HELLO_ROUND|RIGHT=1
-#HELLO_PRAISE_FORCE	Praise them for their valorous deeds.|HELLO_ROUND|FORCE=1
-#HELLO_PRAISE_NOFORCE	Praise them for their peaceful disposition.|HELLO_ROUND|FORCE=-1
-#HELLO_PRAISE_WEALTH	Praise them for their vast wealth.|HELLO_ROUND|WEALTH=1
-#HELLO_PRAISE_NOWEALTH	Praise them for their generosity.|HELLO_ROUND|WEALTH=-1
-#HELLO_PRAISE_KINDNESS	Praise them for their kindness.|HELLO_ROUND|KINDNESS=1
+#HELLO_PRAISE_ROMANI	Conhecidos por sua lealdade aos Romani.|HELLO_ROUND|ROMANI=1
+#HELLO_PRAISE_NOROMANI	Conhecidos por seu ódio aos Romani.|HELLO_ROUND|ROMANI=-1
+#HELLO_PRAISE_GERAT	Conhecidos por sua lealdade a Gerat.|HELLO_ROUND|GERAT=1
+#HELLO_PRAISE_NOGERAT	Conhecidos por seu ódio aos Elaims.|HELLO_ROUND|GERAT=-1
+#HELLO_PRAISE_FAITH	Conhecidos por sua fé.|HELLO_ROUND|FAITH=1
+#HELLO_PRAISE_NOFAITH	Conhecidos por seu ceticismo em matéria de fé.|HELLO_ROUND|FAITH=-1
+#HELLO_PRAISE_RIGHT	Conhecidos por seu forte sentido da justiça.|HELLO_ROUND|RIGHT=1
+#HELLO_PRAISE_FORCE	Conhecidos por seu valor.|HELLO_ROUND|FORCE=1
+#HELLO_PRAISE_NOFORCE	Conhecidos por seu pacifismo.|HELLO_ROUND|FORCE=-1
+#HELLO_PRAISE_WEALTH	Conhecidos por sua grande riqueza.|HELLO_ROUND|WEALTH=1
+#HELLO_PRAISE_NOWEALTH	Conhecidos por sua grande generosidade.|HELLO_ROUND|WEALTH=-1
+#HELLO_PRAISE_KINDNESS	Conhecidos por sua amabilidade.|HELLO_ROUND|KINDNESS=1
 #HELLO_PRAISE_SKIP	SKIP|HELLO_ROUND
 
 
@@ -1984,9 +1984,9 @@
 #MDL_ANTENNA_01_DESC	A high-frequency radio antenna.
 
 #MDL_FLARES	ASO-75
-#MDL_FLARES_SDESC	FLARES
-#MDL_FLARES_DESC	A 75mm decoy flare dispenser for use against heat-seeking missiles.
-#MDL_FLARES_KEY	PRESS {animation=key_f} TO FIRE DECOY FLARES.
+#MDL_FLARES_SDESC	CHAMARIZ
+#MDL_FLARES_DESC	Lançador de chamariz de 75mm para uso contra mísseis rastreadores de calor.
+#MDL_FLARES_KEY	PRESSIONE {animation=key_f} PARA DISPARAR CHAMARIZES.
 
 #MDL_KAZ	Palash-1
 #MDL_KAZ_SDESC	APS
@@ -2105,9 +2105,9 @@
 #MDL_ENGINE_05_SDESC	ENGINE
 #MDL_ENGINE_05_DESC	A fixed propulsion engine that generates more static thrust compared to maneuvering thrusters.
 
-#MDL_ENGINE_06	06 ENGINE
+#MDL_ENGINE_06	06 MOTOR
 
-#MDL_ENGINE_LARGE_01	L-01 ENGINE
+#MDL_ENGINE_LARGE_01	L-01 MOTOR
 
 
 
@@ -2160,13 +2160,13 @@
 
 
 
-#ARGCAP_QUESTION	QUESTION
-#ARGCAP_FINISH	END THE@TALKS
-#ARGCAP_PRESENT	GIFT
-#ARGCAP_PRAISE	PRIASE
-#ARGCAP_DOSSIER	DOSSIER
-#ARGCAP_SPEECH	SPEECH
-#ARGCAP_VERSE	POEM
+#ARGCAP_QUESTION	PERGUNTAR
+#ARGCAP_FINISH	TERMINAR DE@FALAR
+#ARGCAP_PRESENT	PRESENTE
+#ARGCAP_PRAISE	PRÊMIO
+#ARGCAP_DOSSIER	DOSSIÊ
+#ARGCAP_SPEECH	FALAR
+#ARGCAP_VERSE	POEMA
 
 
 
@@ -2660,7 +2660,7 @@
 #TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>If the signal isn’t strong enough, aim the system with this control knob to focus it in a specific direction.<SCR=CONTINUE>
 #TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>The IR readings in this sector will be displayed on this screen in higher detail.<SCR=STOP>
 
-#RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}GAME SAVED@10{font=fixed_20}{align=0}Your game has been saved. You can now reload the campaign from this point at any time.<SCR=STOP>
+#RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}JOGO SALVO@10{font=fixed_20}{align=0}Seu jogo foi salvo. Agora você pode recarregar a campainha a partir deste ponto a qualquer momento.<SCR=STOP>
 
 #REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>Grand Duke! If we take off now, we won’t be able to repair the ships in full.
 <ANS=Understood. Belay that order.|EXIT|STOP_LIFTOFF>
@@ -2716,9 +2716,9 @@
 #SCAVENGE_TARKHAN_MID_SE	AO SUDESTE DA CIDADE 
 #SCAVENGE_TARKHAN_MID_S	SUL DA CIDADE
 #SCAVENGE_TARKHAN_MID_SW	SUDOESTE DA CIDADE 
-#SCAVENGE_TARKHAN_MID_W	OESTE DE LA CIUDAD  
+#SCAVENGE_TARKHAN_MID_W	OESTE DA CIDADE  
 #SCAVENGE_TARKHAN_MID_NW	AO NOROESTE DA CIDADE  
-#SCAVENGE_TARKHAN_FAR	LONJE 
+#SCAVENGE_TARKHAN_FAR	LONGE 
 
 #NPC_STATUS_00	(HOSTIL)
 #NPC_STATUS_01	(NÃO CONFIÁVEL)
@@ -4047,7 +4047,7 @@
 #TITLE_CTRL_AS_MISSILE	MÍSSIL AS
 #TITLE_CTRL_AA_MISSILE	MÍSSIL AA
 #TITLE_CTRL_CRAFT	LANÇAR AVIÕES
-#TITLE_CTRL_FLARES	FLARES
+#TITLE_CTRL_FLARES	CHAMARIZ
 #TITLE_CTRL_AMMO	TROCAR A MUNIÇÃO
 #TITLE_CTRL_FSS	BOMBEIROS
 
