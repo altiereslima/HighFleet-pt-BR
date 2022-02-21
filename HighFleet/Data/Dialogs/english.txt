@@ -870,7 +870,7 @@
 
 #PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><BLUR=0><SCR=STOP>Grão-Duque, você deve escolher as naves que se juntarão a nós em nossa ofensiva a {glossary=Khiva,GLOSS_KHIVA}.
 <ANS=Você pode me dar uma dica?>
-#PRESELECT_2	<NPC=PETR><SCR=STOP>Take the red ones. These are workhorses. And maybe one or two tankers for them.
+#PRESELECT_2	<NPC=PETR><SCR=STOP>Pegue as vermelhas. Elas são uma aposta segura. E talvez uma ou duas naves-tanque para abastecê-las.
 
 
 
