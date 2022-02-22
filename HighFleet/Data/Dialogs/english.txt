@@ -875,33 +875,33 @@
 
 
 
-#ISAIAH_0_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>Once the ships have landed, the city’s entire population comes to greet you. The people are shouting with joy, bearing flowers and gifts. They clearly resent the lord governor’s rule.
-#ISAIAH_0_2	<SCR=CONTINUE>A messenger from the {glossary=doyen,GLOSS_DOYEN} has arrived. He says that the doyen wishes to see us as soon as possible, but he is too old to visit us himself.
-#ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Leaving our ships could be risky, Grand Duke.
-#ISAIAH_0_4	<NPC=FASIL><SIDE=-1>The people will take offense if you refuse.
-<ANS=Decline the invitation.|EXIT>
-<ANS=Pay the {glossary=doyen,GLOSS_DOYEN} a visit.|ISAIAH_0_5>
-#ISAIAH_0_5	What they told you was true: the <SCR=CONTINUE>{glossary=doyen,GLOSS_DOYEN} is indeed a feeble old man. When you arrive, you find him in bed in a dark room lit only by the fireplace.
-#ISAIAH_0_6	He does not waste any time on words of welcome. The doyen says that he is about to die, but the Almighty has not graced him with any children. He therefore wishes to leave his greatest treasure to you.
-<ANS=What manner of treasure?|ISAIAH_0_7>
-#ISAIAH_0_7	<SCR=CONTINUE>A man by the {glossary=doyen,GLOSS_DOYEN}’s bedside presents you with a small box.
-#ISAIAH_0_8	<SCR=ISAIAH|0><MUSIC=Yeshoua><ANS=What is this, Pyotr Ignatyevich?|ISAIAH_0_9>
-#ISAIAH_0_9	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Oh, you’ve never seen one before? This is a {glossary=qoda,GLOSS_QODA}, Duke.<ANS=Are you sure it’s not a fake?|ISAIAH_0_10>
-#ISAIAH_0_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>I’m no expert, but I have heard that the Gerati {glossary=qodas,GLOSS_QODA} are genuine.
-#ISAIAH_0_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>They say that the Gerati {glossary=qodas,GLOSS_QODA} contain a prophecy.
-#ISAIAH_0_12	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>A prophecy of the Savior of the World.
-#ISAIAH_0_13	<CORNER_SPEAK=-1>But, unfortunately, all attempts to translate them have failed.<ANS=“My servant shall triumph; he shall arise; he shall ascend; he shall take his place on high!”|ISAIAH_0_14>
-#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Grand Duke, sir? Did you read it? But how?!<ANS=Look for yourself — the writing is as clear as day.|ISAIAH_0_15>
-#ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr throws a confused glance at the scrap of paper in your hands.
-#ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>I don’t understand! How can you read this?! What does it say, Duke?!<ANS=It’s about some servant or other. There’s more: “My servant shall triumph. He hath been...|ISAIAH_0_17>
-#ISAIAH_0_17	<ANS=...disfigured?|ISAIAH_0_18>
-#ISAIAH_0_18	<ANS=...he shall astound many a nation.”|ISAIAH_0_19>
-#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>The {glossary=doyen,GLOSS_DOYEN} suddenly cries out, “that’s right! It’s all true!” The old man’s shout fades into a wheeze: “My servant shall triumph! My servant shall triumph!”
-#ISAIAH_0_20	<SCR=CONTINUE>The {glossary=doyen,GLOSS_DOYEN} begins to gasp and cough from excitement, his eyes open wide. The old man’s family runs to his bedside. We are asked to leave.
-#ISAIAH_0_21	<SCR=CONTINUE>Everyone is stunned by this event, as are we.
-#ISAIAH_0_22	<NPC=PETR><SIDE=1>How did you read the {glossary=qoda,GLOSS_QODA}, Duke?
-<ANS=My {glossary=family,GLOSS_SAYADI} has preserved the knowledge of this language.|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1>
-<ANS=I don’t know, Pyotr. Call it a miracle, if you wish.|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
+#ISAIAH_0_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>Uma vez que as naves desembarcaram, toda a população da cidade aparece para recebê-los. As pessoas gritam de alegria e trazem flores e presentes. É evidente que eles estão ressentidos com o governo do Lord Governador.
+#ISAIAH_0_2	<SCR=CONTINUE>Chegou uma mensagem do {glossary=decano,GLOSS_DOYEN}. Diz que o decano deseja nos ver o mais rápido possível, mas que ele mesmo é velho demais para nos visitar.
+#ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Abandonar nossas naves pode ser arriscado, Grão-Duque.
+#ISAIAH_0_4	<NPC=FASIL><SIDE=-1>O povo se ofenderá se você recusar.
+<ANS=Recusar o convite.|EXIT>
+<ANS=Ir visitar o {glossary=decano,GLOSS_DOYEN}.|ISAIAH_0_5>
+#ISAIAH_0_5	O que eles lhe disseram é verdade: o <SCR=CONTINUE>{glossary=decano,GLOSS_DOYEN} é, de fato, um homem velho e debilitado. Ao chegar, você o encontra na cama em um quarto escuro, iluminado apenas pela lareira.
+#ISAIAH_0_6	Ele não perde tempo em palavras de boas-vindas. O decano diz que ele está prestes a morrer, mas que o Todo-Poderoso não o agraciou com nenhum filho. Portanto, ele deseja deixar seu maior tesouro para você.
+<ANS=Que tipo de tesouro?|ISAIAH_0_7>
+#ISAIAH_0_7	<SCR=CONTINUE>Um homem ao lado do {glossary=decano,GLOSS_DOYEN} na cabeceira da cama mostra-lhe uma pequena caixa.
+#ISAIAH_0_8	<SCR=ISAIAH|0><MUSIC=Yeshoua><ANS=O que é isto, Pyotr Ignatyevich?|ISAIAH_0_9>
+#ISAIAH_0_9	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Nunca viu um antes? Isto é um {glossary=qoda,GLOSS_QODA}, Duque.<ANS=Você tem certeza de que não é falso?|ISAIAH_0_10>
+#ISAIAH_0_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não sou um especialista, mas ouvi dizer que os {glossary=qodas,GLOSS_QODA} de Gerati são genuínos.
+#ISAIAH_0_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>Dizem que os {glossary=qodas,GLOSS_QODA} de Gerati contêm uma profecia.
+#ISAIAH_0_12	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>Uma profecia sobre o Salvador do Mundo.
+#ISAIAH_0_13	<CORNER_SPEAK=-1>Mas, infelizmente, todas as tentativas de traduzi-los fracassaram.<ANS=“Eis que o meu Servo há de prosperar em sabedoria; será engrandecido, elevado às alturas, e muitíssimo exaltado.”|ISAIAH_0_14>
+#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Grão-Duque, senhor? Você leu? Mas como?!<ANS=Dê uma olhada por si mesmo: a escritura é clara como o dia..|ISAIAH_0_15>
+#ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr lança um olhar confuso sobre o pedaço de papel em suas mãos.
+#ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>Eu não entendo! Como você pode ler isto?! O que diz, Duque?!<ANS=Ele fala de um servo ou algo parecido. Tem mais: “Assim como muitas pessoas ficaram pasmadas à vista dele, tão...|ISAIAH_0_17>
+#ISAIAH_0_17	<ANS=...desfigurado?|ISAIAH_0_18>
+#ISAIAH_0_18	<ANS=...ele aspergirá muitas nações."|ISAIAH_0_19>
+#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} grita de repente, "É isso mesmo! É tudo verdade." O grito do velho se desvanece em um suspiro: "O meu há de prosperar! O meu há de prosperar!"
+#ISAIAH_0_20	<SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} começa a ofegar e tossir de excitação, seus olhos se abrem. A família do velho corre para o seu lado. Eles nos pedem para sair.
+#ISAIAH_0_21	<SCR=CONTINUE>Todos estão chocados com este evento, assim como nós.
+#ISAIAH_0_22	<NPC=PETR><SIDE=1>Como você leu o {glossary=qoda,GLOSS_QODA}, Duque?
+<ANS=Minha {glossary=família,GLOSS_SAYADI} tem preservado o conhecimento deste antigo idioma.|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1>
+<ANS=Eu não sei, Pyotr. Chamem de milagre, se quiserem.|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
 
 #ISAIAH_0_RES_1_1	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>I am impressed, Duke! Your father’s {glossary=dynasty,GLOSS_SAYADI} is truly the greatest bloodline in all of Elaat!
 #ISAIAH_0_RES_1_2	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>Bravo, Duke! You’ve made quite the impression on the locals!
