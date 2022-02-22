@@ -891,7 +891,7 @@
 #ISAIAH_0_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>Dizem que os {glossary=qodas,GLOSS_QODA} de Gerati contêm uma profecia.
 #ISAIAH_0_12	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>Uma profecia sobre o Salvador do Mundo.
 #ISAIAH_0_13	<CORNER_SPEAK=-1>Mas, infelizmente, todas as tentativas de traduzi-los fracassaram.<ANS=“Eis que o meu Servo há de prosperar em sabedoria; será engrandecido, elevado às alturas, e muitíssimo exaltado.”|ISAIAH_0_14>
-#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Grão-Duque, senhor? Você leu? Mas como?!<ANS=Dê uma olhada por si mesmo: a escritura é clara como o dia..|ISAIAH_0_15>
+#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>Grão-Duque, senhor? Você leu? Mas como?!<ANS=Dê uma olhada por si mesmo: a escritura é clara como o dia.|ISAIAH_0_15>
 #ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr lança um olhar confuso sobre o pedaço de papel em suas mãos.
 #ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>Eu não entendo! Como você pode ler isto?! O que diz, Duque?!<ANS=Ele fala de um servo ou algo parecido. Tem mais: “Assim como muitas pessoas ficaram pasmadas à vista dele, tão...|ISAIAH_0_17>
 #ISAIAH_0_17	<ANS=...desfigurado?|ISAIAH_0_18>
@@ -903,19 +903,19 @@
 <ANS=Minha {glossary=família,GLOSS_SAYADI} tem preservado o conhecimento deste antigo idioma.|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1>
 <ANS=Eu não sei, Pyotr. Chamem de milagre, se quiserem.|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
 
-#ISAIAH_0_RES_1_1	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>I am impressed, Duke! Your father’s {glossary=dynasty,GLOSS_SAYADI} is truly the greatest bloodline in all of Elaat!
-#ISAIAH_0_RES_1_2	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>Bravo, Duke! You’ve made quite the impression on the locals!
+#ISAIAH_0_RES_1_1	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>Estou impressionado, Duque! Sua {glossary=dinastia,GLOSS_SAYADI} tem realmente a melhor linhagem de sangue de toda Elaat!
+#ISAIAH_0_RES_1_2	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>Bravo, Duque! Você causou uma grande impressão na população local.
 
-#ISAIAH_0_RES_2_1	<SCR=CHECK_JOINED|PETR|ISAIAH_0_RES_2_2><SCR=CONTINUE|ISAIAH_0_RES_2_2|PETR=1><NPC=PETR><SIDE=1>You never cease to amaze me, Duke!
-#ISAIAH_0_RES_2_2	<SCR=CHECK_JOINED|HARISHID|EXIT><SCR=STOP|HARISHID=1><NPC=HARISHID><SIDE=0>Prince {glossary=Sayadi,GLOSS_SAYADI} read the {glossary=qoda,GLOSS_QODA} of Gerat? What a strange and wondrous day it has been!
+#ISAIAH_0_RES_2_1	<SCR=CHECK_JOINED|PETR|ISAIAH_0_RES_2_2><SCR=CONTINUE|ISAIAH_0_RES_2_2|PETR=1><NPC=PETR><SIDE=1>Você nunca deixa de me surpreender, Duque!
+#ISAIAH_0_RES_2_2	<SCR=CHECK_JOINED|HARISHID|EXIT><SCR=STOP|HARISHID=1><NPC=HARISHID><SIDE=0>O príncipe {glossary=Sayadi,GLOSS_SAYADI} leu o {glossary=qoda,GLOSS_QODA} de Gerat? Foi um dia estranho e maravilhoso!
 
 
 
-#ISAIAH_1_1	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>I would like a word with you, Grand Duke.
-#ISAIAH_1_2	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>As you know, the incident with the elderly {glossary=doyen,GLOSS_DOYEN} made quite an impression on my subjects. There are rumors about you, Duke. They say you are a prophet.
-#ISAIAH_1_3	<NPC=FASIL><SIDE=-1>The {glossary=qodas,GLOSS_QODA} were a gift to the {glossary=king of Gerat,GLOSS_ELAOU} from {glossary=Saint Lyn,GLOSS_LEEN} himself. They bear witness to the dynasty’s royal legacy. The old man did you a great honor.
-<ANS=Are you implying that he is descended from the king of Gerat?|ISAIAH_1_4>
-#ISAIAH_1_4	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Aye. Unbelievable as it may be... (Fazil suddenly looks lost in thought). But his bloodline has ended.
+#ISAIAH_1_1	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>Gostaria de falar com você, Grão-Duque.
+#ISAIAH_1_2	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Como você sabe, o incidente com os idosos {glossary=decanos,GLOSS_DOYEN} causou uma grande impressão em meus assuntos. Há rumores a seu respeito, Duque. Eles dizem que você é um profeta.
+#ISAIAH_1_3	<NPC=FASIL><SIDE=-1>Os {glossary=qodas,GLOSS_QODA} foram um presente do próprio {glossary=Saint Lyn,GLOSS_LEEN} para o {glossary=Rei de Gerat,GLOSS_ELAOU}. Eles são testemunhas do legado real da dinastia. O ancião lhe fez uma grande honra.
+<ANS=Você está insinuando que ele é descendente do Rei de Gerat?|ISAIAH_1_4>
+#ISAIAH_1_4	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Sim. Por incrível que pareça... (Fazil de repente parece perdido em seus pensamentos). Mas sua linhagem de sangue acabou.
 #ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Naturally, my bloodline has our own fragment of the sacred book as well. And I wish to aid you, Duke.
 #ISAIAH_1_6	<NPC=FASIL><SIDE=-1>I will show you my {glossary=qoda,GLOSS_QODA}. If you are able to read what it says, we shall spread the word. Your influence among the {glossary=Elaims,GLOSS_ELAIM} will grow twice as strong!
 <ANS=And, no doubt, you are curious to learn what your own qoda says, yes?|ISAIAH_1_7_1|FASIL=1>
