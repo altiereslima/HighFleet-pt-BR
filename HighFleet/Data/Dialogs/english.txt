@@ -346,11 +346,11 @@
 #IRST_STAT	IRST
 #ELINT_STAT	ELINF
 #JAMMER_STAT	BLOQUEIO
-#POWER_NEED_STAT	ENERG. NECESS.
+#POWER_NEED_STAT	ENER. NECESS.
 #FUEL_STAT	COMBUSTÍVEL
-#FUEL_NEED_STAT	COMBUS. NECES.
-#CREW_NEED_STAT	TRIPUL. NECES.
-#AMMO_NEED_STAT	MUNIÇ. NECESS.
+#FUEL_NEED_STAT	COMB. NECES.
+#CREW_NEED_STAT	TRIP. NECES.
+#AMMO_NEED_STAT	MUNIÇ. NECES.
 #FIRE_RATE_STAT	TAXA DE DISPARO
 #CLIP_AMOUNT_STAT	ESPAÇO NECESS.
 #DAMAGE_STAT	DANO
@@ -916,27 +916,27 @@
 #ISAIAH_1_3	<NPC=FASIL><SIDE=-1>Os {glossary=qodas,GLOSS_QODA} foram um presente do próprio {glossary=Saint Lyn,GLOSS_LEEN} para o {glossary=Rei de Gerat,GLOSS_ELAOU}. Eles são testemunhas do legado real da dinastia. O ancião lhe fez uma grande honra.
 <ANS=Você está insinuando que ele é descendente do Rei de Gerat?|ISAIAH_1_4>
 #ISAIAH_1_4	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Sim. Por incrível que pareça... (Fazil de repente parece perdido em seus pensamentos). Mas sua linhagem de sangue acabou.
-#ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Naturally, my bloodline has our own fragment of the sacred book as well. And I wish to aid you, Duke.
-#ISAIAH_1_6	<NPC=FASIL><SIDE=-1>I will show you my {glossary=qoda,GLOSS_QODA}. If you are able to read what it says, we shall spread the word. Your influence among the {glossary=Elaims,GLOSS_ELAIM} will grow twice as strong!
-<ANS=And, no doubt, you are curious to learn what your own qoda says, yes?|ISAIAH_1_7_1|FASIL=1>
-<ANS=“If” I am able? Do you doubt that I am a prophet?|ISAIAH_1_7_2|FAITH=1>
-#ISAIAH_1_7_1	<NPC=FASIL><SIDE=-1>(Fazil smiles.) It is no accident that heaven has brought us together.<SCR=CONTINUE|ISAIAH_1_8>
-#ISAIAH_1_7_2	<NPC=FASIL><SIDE=-1><NOSPEAK>Fazil bows respectfully in return, but says nothing.<SCR=CONTINUE|ISAIAH_1_8>
-#ISAIAH_1_8	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>He offers you a small box similar to the one given to you by the old doyen.
-#ISAIAH_1_9	<SCR=ISAIAH|1><MUSIC=Yeshoua><ANS=He who believeth the tidings we have brought...|ISAIAH_1_10>
-#ISAIAH_1_10	<ANS=The servant of God, he is a sapling that groweth in a dry land, and there is naught comely about him..|ISAIAH_1_11>
-#ISAIAH_1_11	<ANS=Rejected by all, he knoweth suffering and pain...|ISAIAH_1_12>
-#ISAIAH_1_12	<ANS=Despised by us all.|ISAIAH_1_13>
-#ISAIAH_1_13	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>Did you truly read what it says? This is no jest?
-<ANS=I read everything correctly.|ISAIAH_1_14>
-#ISAIAH_1_14	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Fazil turns away, visibly displeased.
-#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>I must confess, Duke, I myself know the meaning of only the first three words of the qoda. “He who believeth...” You read them right away. I believe you.
-#ISAIAH_1_16	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>But the rest of it… how could such a man be a Savior?
-#ISAIAH_1_17	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>We need a prophecy of a leader who is wise and strong. The one who can truly bring us salvation.
-#ISAIAH_1_18	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>The qoda describes a man who cannot even save himself, let alone anyone else...
-#ISAIAH_1_19	<NPC=FASIL><SIDE=-1>Despised by all, knowing suffering and pain... these words might describe a good man, but how could he be a leader of the people?
-<ANS=How indeed? I don’t understand it either.|ISAIAH_1_20_1|FASIL=1>
-<ANS=Things are seldom what they seem.|ISAIAH_1_20_2>
+#ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Naturalmente, minha linhagem de sangue  também tem nosso próprio fragmento do livro sagrado. E eu desejo ajudá-lo, Duque.
+#ISAIAH_1_6	<NPC=FASIL><SIDE=-1>Vou te mostrar o meu {glossary=qoda,GLOSS_QODA}. Se você for capaz de ler o que ele diz, nós espalharemos a palavra. Sua influência entre os {glossary=Elaims,GLOSS_ELAIM} crescerá duas vezes mais forte!
+<ANS=E, sem dúvida, você está curioso para saber o que seu próprio qoda diz, não está?|ISAIAH_1_7_1|FASIL=1>
+<ANS="Se eu for capaz?" Você duvida que eu seja um profeta?=?|ISAIAH_1_7_2|FAITH=1>
+#ISAIAH_1_7_1	<NPC=FASIL><SIDE=-1>(Fazil sorri.) Não é por acaso que o céu nos uniu.<SCR=CONTINUE|ISAIAH_1_8>
+#ISAIAH_1_7_2	<NPC=FASIL><SIDE=-1><NOSPEAK>Fazil se inclina respeitosamente, mas não diz nada.<SCR=CONTINUE|ISAIAH_1_8>
+#ISAIAH_1_8	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ele lhe oferece uma pequena caixa semelhante àquela que o velho decano lhe presenteou.
+#ISAIAH_1_9	<SCR=ISAIAH|1><MUSIC=Yeshoua><ANS=Quem poderia crer naquilo que acabamos de ouvir...|ISAIAH_1_10>
+#ISAIAH_1_10	<ANS=Pois o Senhor quis que o seu servo aparecesse como uma plantinha que brota e vai crescendo em terra seca...|ISAIAH_1_11>
+#ISAIAH_1_11	<ANS=Ele foi rejeitado e...|ISAIAH_1_12>
+#ISAIAH_1_12	<ANS=...desprezado por todos; ele suportou dores e sofrimentos...|ISAIAH_1_13>
+#ISAIAH_1_13	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>Você leu realmente o que diz? Isto não é brincadeira?
+<ANS=Eu li tudo corretamente.ISAIAH_1_14>
+#ISAIAH_1_14	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Fazil se afasta, visivelmente chateado.
+#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Devo confessar, Duque, que eu mesmo só sei o significado das três primeiras palavras do qoda. "Quem poderia crer..." Você as leu imediatamente. Eu acredito em você.
+#ISAIAH_1_16	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Mas o resto... como um homem assim poderia ser um Salvador?
+#ISAIAH_1_17	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Precisamos da profecia de um líder que seja sábio e forte. Que possa realmente nos trazer a salvação.
+#ISAIAH_1_18	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>O qoda descreve um homem que não consegue nem se salvar, quanto mais qualquer outra pessoa...
+#ISAIAH_1_19	<NPC=FASIL><SIDE=-1>Ele foi rejeitado e desprezado por todos; ele suportou dores e sofrimentos sem fim... estas palavras poderiam descrever um bom homem, mas como ele poderia ser um líder do povo?
+<ANS=Na verdade, como? Eu também não entendo.|ISAIAH_1_20_1|FASIL=1>
+<ANS=As coisas raramente são o que parecem.|ISAIAH_1_20_2>
 #ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>Well, it hardly matters.<SCR=CONTINUE|ISAIAH_1_21>
 #ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>Never mind, Duke! Let’s leave it for now.<SCR=CONTINUE|ISAIAH_1_21>
 #ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>I don’t like what you read to me. My subjects will probably like it even less.
