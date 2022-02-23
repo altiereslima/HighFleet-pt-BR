@@ -937,9 +937,9 @@
 #ISAIAH_1_19	<NPC=FASIL><SIDE=-1>Ele foi rejeitado e desprezado por todos; ele suportou dores e sofrimentos sem fim... estas palavras poderiam descrever um bom homem, mas como ele poderia ser um líder do povo?
 <ANS=Na verdade, como? Eu também não entendo.|ISAIAH_1_20_1|FASIL=1>
 <ANS=As coisas raramente são o que parecem.|ISAIAH_1_20_2>
-#ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>Well, it hardly matters.<SCR=CONTINUE|ISAIAH_1_21>
-#ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>Never mind, Duke! Let’s leave it for now.<SCR=CONTINUE|ISAIAH_1_21>
-#ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>I don’t like what you read to me. My subjects will probably like it even less.
+#ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>Bem, isso não importa.<SCR=CONTINUE|ISAIAH_1_21>
+#ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>Não importa, Duque! Vamos deixar isso por enquanto.<SCR=CONTINUE|ISAIAH_1_21>
+#ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Eu não gostei do que você leu. Meus súditos provavelmente gostarão ainda menos.
 #ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>The {glossary=Elaims,GLOSS_ELAIM} are impressed by your victories, and the fact that you know the language of the sacred book has made them adore you.
 #ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>They may come to see you as the very Savior described in this prophecy.
 #ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>I have a favor to ask of you. When you tell the people what the qoda says, tell them this: “He haileth from goodly stock; success followeth him where’er he goeth...” If you do this, they will follow you to a man.
@@ -1026,25 +1026,25 @@
 
 
 
-#ISAIAH_3_1	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_3_10><MUSIC=Duduk_4_ever>Allow me to speak with you, sahib.
-#ISAIAH_3_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>My family has a treasured qoda as well. We have kept it a secret.
-#ISAIAH_3_3	<NPC=OMAR><SIDE=-1>It is proof of our royal legacy as kings. It is forbidden to reveal it... until the time is right.
-<ANS=So if any member of your family has a chance to become king of Gerat, this qoda is supposed to be proof of their right to the throne?|ISAIAH_3_4>
-#ISAIAH_3_4	<NPC=OMAR><SIDE=-1>Aye.
-<ANS=And you told me about it because you hope I’ll read it for you?|ISAIAH_3_5>
-#ISAIAH_3_5	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Aye, sahib.
-#ISAIAH_3_6	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>My family guards it like apple of our eye, but we do not know what it says. But when you read the old man’s qoda, and Fazil’s qoda as well...
-#ISAIAH_3_7	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>...I realized that it must contain a prophecy.
-#ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar gives you a small box.
-#ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Please tell me what it says.
+#ISAIAH_3_1	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_3_10><MUSIC=Duduk_4_ever>Permita-me falar com você, sahib.
+#ISAIAH_3_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Minha família também tem um tesouro qoda. Mantemos em segredo.
+#ISAIAH_3_3	<NPC=OMAR><SIDE=-1>É a prova de nosso legado real como reis. É proibido revelá-lo... até a hora certa.
+<ANS=Então, se algum membro de sua família tem a chance de se tornar rei de Gerat, supõe-se que esta qoda seja a prova de seu direito ao trono?|ISAIAH_3_4>
+#ISAIAH_3_4	<NPC=OMAR><SIDE=-1>Sim.
+<ANS=E você me falou sobre isso porque espera que eu leia para você?|ISAIAH_3_5>
+#ISAIAH_3_5	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Sim, sahib.
+#ISAIAH_3_6	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Minha família o guarda como ouro, mas não sabemos o que diz. Mas quando você leu o qoda do velho, e também de Fazil...
+#ISAIAH_3_7	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>....Eu percebi que ela deve conter uma profecia.
+#ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar lhe dá uma pequena caixa.
+#ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Por favor, diga-me o que diz.
 #ISAIAH_3_10	<SCR=ISAIAH|3><MUSIC=Yeshoua>
-<ANS="Ele é como um cordeiro..."|ISAIAH_3_LAMB_1>
-<ANS="Ele é como um leão..."|ISAIAH_3_LION_1>
+<ANS="Como um cordeiro..."|ISAIAH_3_LAMB_1>
+<ANS="Como um leão..."|ISAIAH_3_LION_1>
 
-#ISAIAH_3_LAMB_1	<ANS=“Humiliated, he is left without a voice.”|ISAIAH_3_LAMB_2>
-#ISAIAH_3_LAMB_2	<ANS=“Like a lamb led to the slaughter.”|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
-#ISAIAH_3_LION_1	<ANS=“Fearsome is his wrath! Who shall resist him?”|ISAIAH_3_LION_2>
-#ISAIAH_3_LION_2	<ANS=“His strength is his God! Who shall stand against him?”|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
+#ISAIAH_3_LAMB_1	<ANS="Ele foi oprimido, e ele foi afligido, porém não abriu a sua boca."|ISAIAH_3_LAMB_2>
+#ISAIAH_3_LAMB_2	<ANS="Como um cordeiro foi levado ao matadouro."|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
+#ISAIAH_3_LION_1	<ANS="Terrível é sua fúria! Quem resistirá a ele?"|ISAIAH_3_LION_2>
+#ISAIAH_3_LION_2	<ANS="Sua força é seu Deus! Quem ficará contra ele?"|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
 
 #ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar thinks for a long time before responding.
 #ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>“Turn the other cheek” — isn’t that what your people teach?
