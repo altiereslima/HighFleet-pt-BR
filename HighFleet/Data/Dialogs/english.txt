@@ -2223,15 +2223,15 @@
 #SPEECH_NOKINDNESS_01	Of the fact that this is no time for philanthropy.
 
 
-#GLOSS_CONTINUE	Press the SPACE key to continue.
-#GLOSS_SKIP	Press the ESC key to skip the introduction and proceed to choices that affect the gameplay.
-#GLOSS_SKIP_TUTORIAL	Press the ESC key to skip the tutorial and continue playing.
-#GLOSS_TARKHAN	A tarkhan is an officer of the Imperial Fleet. Tarkhans command the operational groups in a squadron.
-#GLOSS_GERAT	Gerat is a vast desert located to the north of the Romani Empire.
-#GLOSS_ELAIM	The Elaims are a desert folk, the indigenous people of Gerat. The kingdom of Elam used to be independent, before Gerat became part of the Romani Empire.
-#GLOSS_ROMANI	The Romani are the most numerous people in Elaat. Many cities in Gerat were founded by the Romani after Helam joined the Empire.
-#GLOSS_ISHU	Ishu is the central figure of the Romani religion and a point of contention in Gerat. Some Elaims accept the existence of Ishu, while others reject him outright.
-#GLOSS_FLEET	The Fleet is essentially a military-political caste of people genetically predisposed to endure and survive the rapid changes in motion required for aerial flight and combat. You are either born into the Fleet, or you are not, and so it has evolved into the hereditary aristocracy it is today.
+#GLOSS_CONTINUE	Pressione a tecla ESPAÇO para continuar.
+#GLOSS_SKIP	Pressione a tecla ESC para pular a introdução e ir para as opções que afetam a jogabilidade.
+#GLOSS_SKIP_TUTORIAL	Pressione a tecla ESC para pular o tutorial e continuar jogando.
+#GLOSS_TARKHAN	Um tarkhan é um oficial da Frota Imperial. Os tarkhans comandam os grupos operacionais de um esquadrão.
+#GLOSS_GERAT	Gerat é um vasto deserto no norte do Império Romani.
+#GLOSS_ELAIM	Os Elaims são um povo do deserto, o povo nativo de Gerat. O reino de Elam costumava ser independente, antes de Gerat se tornar parte do Império Romani.
+#GLOSS_ROMANI	Os Romani são o povo mais numeroso de Elaat. Muitas cidades em Gerat foram fundadas pelos Romani depois que Helam se juntou ao Império.
+#GLOSS_ISHU	Ishu é a figura central da religião Romani e um ponto de controvérsia em Gerat. Alguns Elaims aceitam a existência de Ishu, enquanto outros o rejeitam totalmente.
+#GLOSS_FLEET	A Frota é essencialmente uma casta político-militar de pessoas geneticamente predispostas a suportar e sobreviver às rápidas mudanças de movimento necessárias para o voo aéreo e o combate. Ou você nasce na Frota ou não, e assim evoluiu para a aristocracia hereditária que é hoje.
 #GLOSS_ELAM	Elam was once an independent kingdom in Gerat before being annexed by the Romani in the early 2nd century. The lord governor of Gerat joined the rebellion during the First Commune, and now the Romani Empire holds no sway over the province.
 #GLOSS_IMPIRE	The Romani Empire is the largest state in the known world. It was founded in the 1st century by the highest-ranking members of the Fleet. Duke Sayadi, chosen to rule the Empire, became the first hereditary monarch.
 #GLOSS_SAYADI	The Sayadi are the dynasty of the rulers of the Romani Empire, the oldest house in the known world.
@@ -2248,7 +2248,7 @@
 #GLOSS_HARISHIDS	Former guardsmen of the king of Gerat. Some Harishids now serve the lord governor; others have taken refuge in the vast desert of Gerat.
 
 
-#HELP_RETRY_REQUEST	Requesting reinforcements will make you lose the respect of the high command.
+#HELP_RETRY_REQUEST	Solicitar reforços fará com que você perca o respeito do alto comando.
 
 
 #OPTIONS_VOLUME	VOLUME
