@@ -940,37 +940,37 @@
 #ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>Bem, isso não importa.<SCR=CONTINUE|ISAIAH_1_21>
 #ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>Não importa, Duque! Vamos deixar isso por enquanto.<SCR=CONTINUE|ISAIAH_1_21>
 #ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Eu não gostei do que você leu. Meus súditos provavelmente gostarão ainda menos.
-#ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>The {glossary=Elaims,GLOSS_ELAIM} are impressed by your victories, and the fact that you know the language of the sacred book has made them adore you.
-#ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>They may come to see you as the very Savior described in this prophecy.
-#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>I have a favor to ask of you. When you tell the people what the qoda says, tell them this: “He haileth from goodly stock; success followeth him where’er he goeth...” If you do this, they will follow you to a man.
-#ISAIAH_1_25	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>You will have power over {glossary=Gerat,GLOSS_GERAT} beyond that of any other ruler!
-#ISAIAH_1_26	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>And then you will be able to save us all.
-#ISAIAH_1_27	<SCR=CONTINUE>The next day Prince Fazil announced that the Great Duke had deciphered the {glossary=qoda,GLOSS_QODA} of {glossary=Elaou,GLOSS_ELAOU} and wished to recite the prophecy it contains.
-#ISAIAH_1_28	<BACKGROUND=background_crowd_01>A sea of people has gathered to hear the {glossary=qoda,GLOSS_QODA}. There are more faces than you can count, and they are all looking at you.
-<ANS=“In the sight of God he is risen from dry land like a sapling, like a root, his countenance devoid of grandeur...”|ISAIAH_1_POOR|LEVEL_WEALTH=-1>
-<ANS=“My servant is born in the house of a king; whate’er he seeketh to do, he succeedeth therein...”|ISAIAH_1_WEALTH|LEVEL_WEALTH=1>
-#ISAIAH_1_POOR	As soon as you utter these words, the {glossary=prince,GLOSS_FASIL} turns away and leaves, resentful.<SCR=CONTINUE|ISAIAH_1_RES_1_KN|FASIL=-1>
-#ISAIAH_1_WEALTH	The {glossary=prince,GLOSS_FASIL} nods along to your words, smiling.<SCR=CONTINUE|ISAIAH_1_RES_2_KN|FASIL=1>
+#ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Os {glossary=Elaims,GLOSS_ELAIM} estão impressionados com suas vitórias, e o fato de você conhecer o idioma do livro sagrado fez com que eles o adorassem.
+#ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Eles podem vir a vê-lo como o próprio Salvador descrito nesta profecia.
+#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Tenho que lhe pedir um favor. Quando você disser às pessoas o que diz o qoda, diga-lhes o seguinte: "Ele é de boa índole; o sucesso o segue para onde quer que ele vá...". Se você disser isso, eles o seguirão completamente.
+#ISAIAH_1_25	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Você terá poder sobre {glossary=Gerat,GLOSS_GERAT} além do de qualquer outro governante!
+#ISAIAH_1_26	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>E então salvará nós todos.
+#ISAIAH_1_27	<SCR=CONTINUE>No dia seguinte, o príncipe Fazil anunciou que o Grão-Duque havia decifrado o {glossary=qoda,GLOSS_QODA} de {glossary=Elaou,GLOSS_ELAOU} e desejava recitar a profecia que ele contém.
+#ISAIAH_1_28	<BACKGROUND=background_crowd_01>Um mar de pessoas se reuniu para ouvir o {glossary=qoda,GLOSS_QODA}. Há mais rostos do que você pode contar, e todos eles estão olhando para você.
+<ANS=“Aos olhos de Deus ele brotou da terra seca como um ramo, como uma raiz, seu semblante carece de grandeza...”|ISAIAH_1_POOR|LEVEL_WEALTH=-1>
+<ANS=“Meu servo nasceu na casa de um rei; tudo o que ele procura fazer, ele consegue...”|ISAIAH_1_WEALTH|LEVEL_WEALTH=1>
+#ISAIAH_1_POOR	Assim que você pronuncia estas palavras, o {glossary=príncipe,GLOSS_FASIL} se vira e se afasta, ressentido.<SCR=CONTINUE|ISAIAH_1_RES_1_KN|FASIL=-1>
+#ISAIAH_1_WEALTH	O {glossary=príncipe,GLOSS_FASIL} acena para as suas palavras, sorrindo.<SCR=CONTINUE|ISAIAH_1_RES_2_KN|FASIL=1>
 
 
 
-#ISAIAH_1_RES_1_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_1_HA><SCR=CONTINUE|ISAIAH_1_RES_1_GL|KNIGHT=-1><NPC=KNIGHT><SIDE=0>How can this be?!
-#ISAIAH_1_RES_1_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_1_HI><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HARISHID=-1><NPC=HARISHID><SIDE=0>How can this be?!
-#ISAIAH_1_RES_1_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_1_GL><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HISSID=-1><NPC=HISSID><SIDE=0>How can this be?!
+#ISAIAH_1_RES_1_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_1_HA><SCR=CONTINUE|ISAIAH_1_RES_1_GL|KNIGHT=-1><NPC=KNIGHT><SIDE=0>Como isso é possível?!
+#ISAIAH_1_RES_1_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_1_HI><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HARISHID=-1><NPC=HARISHID><SIDE=0>Como isso é possível?!
+#ISAIAH_1_RES_1_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_1_GL><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HISSID=-1><NPC=HISSID><SIDE=0>Como isso é possível?!
 
 
-#ISAIAH_1_RES_1_GL	<SCR=CHECK_JOINED|GIRL|ISAIAH_1_RES_1_BO><SCR=STOP|GIRL=1><NPC=GIRL><SIDE=0>I have to think about all this.
-#ISAIAH_1_RES_1_BO	<SCR=CHECK_JOINED|BOY|ISAIAH_1_RES_1_PT><SCR=STOP|BOY=1><NPC=BOY><SIDE=0>I have to think about all this.
-#ISAIAH_1_RES_1_PT	<SCR=CHECK_JOINED|PETR|EXIT><SCR=STOP|PETR=1><NPC=PETR><SIDE=0>I have to think about all this.
+#ISAIAH_1_RES_1_GL	<SCR=CHECK_JOINED|GIRL|ISAIAH_1_RES_1_BO><SCR=STOP|GIRL=1><NPC=GIRL><SIDE=0>Tenho que pensar em tudo isso.
+#ISAIAH_1_RES_1_BO	<SCR=CHECK_JOINED|BOY|ISAIAH_1_RES_1_PT><SCR=STOP|BOY=1><NPC=BOY><SIDE=0>Tenho que pensar em tudo isso.
+#ISAIAH_1_RES_1_PT	<SCR=CHECK_JOINED|PETR|EXIT><SCR=STOP|PETR=1><NPC=PETR><SIDE=0>Tenho que pensar em tudo isso.
 
 
-#ISAIAH_1_RES_2_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_2_HA><SCR=CONTINUE|ISAIAH_1_RES_2_AR|KNIGHT=1><NPC=KNIGHT><SIDE=0>That’s the kind of leader we need.
-#ISAIAH_1_RES_2_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_2_HI><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HARISHID=1><NPC=HARISHID><SIDE=0>That’s the kind of leader we need.
-#ISAIAH_1_RES_2_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_2_AR><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HISSID=1><NPC=HISSID><SIDE=0>That’s the kind of leader we need.
+#ISAIAH_1_RES_2_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_2_HA><SCR=CONTINUE|ISAIAH_1_RES_2_AR|KNIGHT=1><NPC=KNIGHT><SIDE=0>Esse é o tipo de líder de que precisamos.
+#ISAIAH_1_RES_2_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_2_HI><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HARISHID=1><NPC=HARISHID><SIDE=0>Esse é o tipo de líder de que precisamos.
+#ISAIAH_1_RES_2_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_2_AR><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HISSID=1><NPC=HISSID><SIDE=0>Esse é o tipo de líder de que precisamos.
 
-#ISAIAH_1_RES_2_AR	<SCR=CHECK_JOINED|AIRBORNE|ISAIAH_1_RES_2_SC><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>What nonsense!
-#ISAIAH_1_RES_2_SC	<SCR=CHECK_JOINED|SCOUT|ISAIAH_1_RES_2_VE><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>What nonsense!
-#ISAIAH_1_RES_2_VE	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>What nonsense!
+#ISAIAH_1_RES_2_AR	<SCR=CHECK_JOINED|AIRBORNE|ISAIAH_1_RES_2_SC><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>Que bobagem!
+#ISAIAH_1_RES_2_SC	<SCR=CHECK_JOINED|SCOUT|ISAIAH_1_RES_2_VE><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>Que bobagem!
+#ISAIAH_1_RES_2_VE	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>Que bobagem!
 
 
 
