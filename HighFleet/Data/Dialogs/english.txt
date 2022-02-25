@@ -10,7 +10,7 @@
 
 #LABLE_role_fighter	NAVE DE SUPERIORIDADE AÉREA
 #LABLE_role_bomber	NAVE DE CHOQUE
-#LABLE_role_interceptor	INTERCEPTOR
+#LABLE_role_interceptor	INTERCEPTADORA
 #LABLE_role_aa	NAVE DE DEFESA AA
 #LABLE_role_sensor	NAVE DE ALERTA PRÉVIO
 #LABLE_role_tanker	TANQUE
@@ -400,7 +400,7 @@
 #CORVET_CLASS	CORVETA
 #LIGHT_CORVET_CLASS	CORVETA LEVE
 #ATTACK_CLASS	ATAQUE
-#INTERCEPTOR_CLASS	INTERCEPTOR
+#INTERCEPTOR_CLASS	INTERCEPTADORA
 #CARRIER_CLASS	PORTA-AVIÕES
 #STRATEGIC_CLASS	ESTRATÉGICO
 #AUXILIARY_CLASS	AUXILIAR
@@ -974,55 +974,55 @@
 
 
 
-#ISAIAH_2_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>I never saw him enter...
-#ISAIAH_2_2	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>I looked away a moment ago, but when I turned back, he was standing right before me.
-#ISAIAH_2_3	<NPC=BOY><SIDE=0><SCR=CONTINUE>Omar told me you read a doyen’s qoda at his deathbed.
-#ISAIAH_2_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>No one has even been able to read the qodas before... (He says, deep in thought.)
-#ISAIAH_2_5	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>He reaches out to you, holding a familiar-looking box.
-#ISAIAH_2_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>Read mine too, please!
-#ISAIAH_2_7	<SCR=ISAIAH|2><MUSIC=Yeshoua><ANS=“All our suffering hath he taken upon himself...”|ISAIAH_2_8>
-#ISAIAH_2_8	<ANS=“...For our sins is he covered in wounds...”|ISAIAH_2_9>
-#ISAIAH_2_9	<ANS=“...And his wounds did heal us.”|ISAIAH_2_10>
-#ISAIAH_2_10	<NPC=BOY><SIDE=0><SCR=ISAIAH_OFF>What does that mean?
-<ANS=He will accept our punishment for us.|ISAIAH_2_11>
-#ISAIAH_2_11	<NPC=BOY><SIDE=0>Our punishment? For what?
-<ANS=For all our sins.|ISAIAH_2_12>
-#ISAIAH_2_12	<NPC=BOY><SIDE=0>What sins? I haven’t committed any sins!
-<ANS=Of course not, Alsahir. Forgive me.|ISAIAH_2_16|BOY=1>
-<ANS=I find it hard to believe that a mere man could do this.|ISAIAH_2_PARA_1>
-<ANS=“At the midway of this our mortal life...”|ISAIAH_2_13>
+#ISAIAH_2_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>Eu nunca o vi entrar...
+#ISAIAH_2_2	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Eu olhei para o lado um instante, mas quando me virei, ele estava de pé à minha frente.
+#ISAIAH_2_3	<NPC=BOY><SIDE=0><SCR=CONTINUE>Omar me disse que você leu o qoda de um decano em seu leito de morte.
+#ISAIAH_2_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>Nunca ninguém foi capaz de ler os qodas antes... (Disse ele, perdido em seus pensamentos.)
+#ISAIAH_2_5	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Ele estende sua mão, segurando uma caixa de aparência familiar.
+#ISAIAH_2_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>Leia o meu também, por favor!
+#ISAIAH_2_7	<SCR=ISAIAH|2><MUSIC=Yeshoua><ANS=“Apesar disso, ele tomou sobre si as nossas enfermidades...”|ISAIAH_2_8>
+#ISAIAH_2_8	<ANS=“...Ele foi ferido por causa de nossos pecados...”|ISAIAH_2_9>
+#ISAIAH_2_9	<ANS=“...e pelos seus ferimentos nós fomos sarados!”|ISAIAH_2_10>
+#ISAIAH_2_10	<NPC=BOY><SIDE=0><SCR=ISAIAH_OFF>O que isso significa?
+<ANS=Ele aceitará nossa castigo por nós.|ISAIAH_2_11>
+#ISAIAH_2_11	<NPC=BOY><SIDE=0>Nosso castigo? Por quê?
+<ANS=Por todos os nossos pecados.|ISAIAH_2_12>
+#ISAIAH_2_12	<NPC=BOY><SIDE=0>Que pecados? Eu não cometi nenhum pecado!
+<ANS=Claro que não, Alsahir. Perdoe-me.|ISAIAH_2_16|BOY=1>
+<ANS=Acho difícil acreditar que um simples homem possa fazer isso..|ISAIAH_2_PARA_1>
+<ANS="Da nossa vida, em meio da jornada...|ISAIAH_2_13>
 
 #ISAIAH_2_PARA_1	<NPC=BOY><SIDE=0>
-<ANS=An old man once told a young man to carry a bag of rocks to the riverbank...|ISAIAH_2_PARA_2>
+<ANS=Um velho disse uma vez a um jovem para levar um saco de pedras para as margens do rio.|ISAIAH_2_PARA_2>
 #ISAIAH_2_PARA_2	<NPC=BOY><SIDE=0>
-<ANS=And he told him to pour them out of the bag, then pick them up and put them back in. Which he did easily.|ISAIAH_2_PARA_3>
+<ANS=E disse-lhe que os tirasse do saco, depois os pegasse e os colocasse de volta no saco. O que ele fez com facilidade.|ISAIAH_2_PARA_3>
 #ISAIAH_2_PARA_3	<NPC=BOY><SIDE=0>
-<ANS=Then the old man told him to do the same with a bag of sand.|ISAIAH_2_PARA_4>
+<ANS=Então o velho lhe disse para fazer o mesmo com um saco de areia.|ISAIAH_2_PARA_4>
 #ISAIAH_2_PARA_4	<NPC=BOY><SIDE=0>
-<ANS=But the man could not pick up all the sand he has poured out.|ISAIAH_2_PARA_5>
+<ANS=Mas o homem não foi capaz de pegar toda a areia que havia derramado..|ISAIAH_2_PARA_5>
 #ISAIAH_2_PARA_5	<NPC=BOY><SIDE=0>
-<ANS=Our sins are often so small, we stop seeing them, yet they are as numerous as grains of sand.|ISAIAH_2_16>
+<ANS=Nossos pecados são frequentemente tão pequenos que não conseguimos vê-los, mas são tão numerosos quanto os grãos de areia.|ISAIAH_2_16>
 
-#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>“...I found me in a gloomy wood, astray...”
-#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>“...Gone from the path direct.”
-#ISAIAH_2_15	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>The boy looks at you with a clueless expression.
+#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>"...Achei-me numa selva tenebrosa..."
+#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>...Tendo perdido a verdadeira estrada".
+#ISAIAH_2_15	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>O garoto olha para você sem a menor ideia.
 
-#ISAIAH_2_16	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>After a moment of silence, he asks...
-#ISAIAH_2_17	<NPC=BOY><SIDE=0>Is he going to accept the punishment of the men who killed my father too?
-<ANS=All shall find forgiveness.|ISAIAH_2_MERCI_1|LEVEL_KINDNESS=1>
-<ANS=All who deserve forgiveness shall find it.|ISAIAH_2_JUST_1|LEVEL_RIGHT=1>
+#ISAIAH_2_16	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Após um momento de silêncio, ele pergunta.
+#ISAIAH_2_17	<NPC=BOY><SIDE=0>Você aceitará o castigo dos homens que mataram meu pai também?
+<ANS=Todos encontrarão o perdão.|ISAIAH_2_MERCI_1|LEVEL_KINDNESS=1>
+<ANS=Todos os que merecem perdão o encontrarão.|ISAIAH_2_JUST_1|LEVEL_RIGHT=1>
 
-#ISAIAH_2_MERCI_1	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>The look in the boy’s eyes suddenly changes.
-#ISAIAH_2_MERCI_2	<NPC=BOY><SIDE=0><SCR=CONTINUE>Never! Those bastards will get what they deserve! (He screams these words in your face.)
-#ISAIAH_2_MERCI_3	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_1_1|BOY=-1>Everything you just read is useless. It doesn’t mean anything at all!
+#ISAIAH_2_MERCI_1	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>O olhar do garoto muda de repente.
+#ISAIAH_2_MERCI_2	<NPC=BOY><SIDE=0><SCR=CONTINUE>Nunca! Esses bastardos vão ter o que merecem! (Ele grita estas palavras na sua cara).
+#ISAIAH_2_MERCI_3	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_1_1|BOY=-1>Tudo o que você acabou de ler é inútil. Isso não significa absolutamente nada.
 
-#ISAIAH_2_JUST_1	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_2_1|BOY=1>May it be so.
+#ISAIAH_2_JUST_1	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_2_1|BOY=1>Que assim seja.
 
-#ISAIAH_2_RES_1_1	<SCR=CHECK_JOINED|HISSID|ISAIAH_2_RES_1_2><SCR=CONTINUE|ISAIAH_2_RES_1_2|HISSID=1><NPC=HISSID><SIDE=0>If that’s the truth...
-#ISAIAH_2_RES_1_2	<SCR=CHECK_JOINED|SCOUT|EXIT><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>That’s a dangerous notion, Duke.
+#ISAIAH_2_RES_1_1	<SCR=CHECK_JOINED|HISSID|ISAIAH_2_RES_1_2><SCR=CONTINUE|ISAIAH_2_RES_1_2|HISSID=1><NPC=HISSID><SIDE=0>Se essa é a verdade...
+#ISAIAH_2_RES_1_2	<SCR=CHECK_JOINED|SCOUT|EXIT><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>Essa é uma noção perigosa, Duque.
 
-#ISAIAH_2_RES_2_1	<SCR=CHECK_JOINED|OMAR|ISAIAH_2_RES_2_2><SCR=CONTINUE|ISAIAH_2_RES_2_2|OMAR=1><NPC=OMAR><SIDE=0>May it be so.
-#ISAIAH_2_RES_2_2	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>(Waving you away) Your hopes are fruitless, Duke.
+#ISAIAH_2_RES_2_1	<SCR=CHECK_JOINED|OMAR|ISAIAH_2_RES_2_2><SCR=CONTINUE|ISAIAH_2_RES_2_2|OMAR=1><NPC=OMAR><SIDE=0>Que assim seja.
+#ISAIAH_2_RES_2_2	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>(Acenando para você) Suas esperanças são inúteis, Duque.
 
 
 
@@ -1046,8 +1046,8 @@
 #ISAIAH_3_LION_1	<ANS="Terrível é sua fúria! Quem resistirá a ele?"|ISAIAH_3_LION_2>
 #ISAIAH_3_LION_2	<ANS="Sua força é seu Deus! Quem ficará contra ele?"|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
 
-#ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar thinks for a long time before responding.
-#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>“Turn the other cheek” — isn’t that what your people teach?
+#ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar pensa por muito tempo antes de responder.
+#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>"Dar a outra face", não é isso que ensina o seu povo?
 #ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>He does not return your gaze. A bitter smile appears on his face.
 #ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>I am sorry, sahib. That is not the way the world works.
 #ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>He takes his qoda and leaves, saying nothing else.
@@ -2465,7 +2465,7 @@
 #EVENT_PARTISANS_01_RES1_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your troops seize the enemy camp without any casualties and return with a captive Gathering officer. His interrogation will no doubt prove fruitful.<SCR=STOP|FORCE=2|INTEL=3>
 #EVENT_PARTISANS_01_RES1_2_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Unfortunately, they find the camp abandoned. They turn up nothing else, no matter how hard they search.<SCR=STOP>
 
-#EVENT_PARTISANS_01_RES1_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}In the mountains, your troops are ambushed and have to retreat, taking heavy losses. The ships you send to rescue them are unable to determine the enemy’s location. Worse yet, your squadron has lost several experienced officers.<SCR=STOP|MORAL=-1|FORCE=-2>
+#EVENT_PARTISANS_01_RES1_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Nas montanhas, suas tropas são emboscadas e têm que recuar, sofrendo grandes perdas. As naves que você envia para resgatá-los não conseguem determinar a localização do inimigo. Pior ainda, seu esquadrão perdeu vários oficiais experientes.<SCR=STOP|MORAL=-1|FORCE=-2>
 
 #EVENT_PARTISANS_01_RES2_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your crew is unable to rest for the entire stay due to the high alert. They eye the nearby mountains with scorn even as they realize why you did what you did. Everyone is eager to leave this place as soon as humanly possible.<SCR=STOP|NO_REST>
 #EVENT_PARTISANS_01_RES3_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}It is a restless night — a grim foreboding looms over your thoughts. You expect to hear alarms and explosions at any moment... but time passes, and you wake up the next morning to learn that there were no incidents whatsoever during the night.<SCR=STOP>
@@ -2674,7 +2674,7 @@
 #FLAGSHIP_LOST_4	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>There are several cities marked on the map - there must be a city hidden near them. If we can find that city and bring our remaining ships there, we are saved.<SCR=CONTINUE>
 #FLAGSHIP_LOST_5	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>Take heart, gentlemen. May God be with us!<SCR=STOP>
 
-#FLAGSHIP_LOST_QUEST	FIND THE HIDDEN CITY
+#FLAGSHIP_LOST_QUEST	ENCONTRAR A CIDADE OCULTA
 
 
 #EVENT_LEGEND_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE ANECDOTE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>As you survey the ship before the next sortie, you overhear one of Fazil’s men eagerly describing his adventures.
@@ -3840,7 +3840,7 @@
 
 
 #SHIP_NAME_Archangel	Arcanjo
-#SHIP_NAME_Ballistic	Balístico
+#SHIP_NAME_Ballistic	Balística
 #SHIP_NAME_Borey	Borey
 #SHIP_NAME_Courageous	Valente
 #SHIP_NAME_Eagle	Águia
@@ -3851,12 +3851,12 @@
 #SHIP_NAME_FenekMk2	Fenek Mk2
 #SHIP_NAME_Fenek	Fenek
 #SHIP_NAME_Flower	Flor
-#SHIP_NAME_Fury	Furioso
+#SHIP_NAME_Fury	Furiosa
 #SHIP_NAME_GepardMk2	Guepardo Mk2
 #SHIP_NAME_Gepard	Guepardo
 #SHIP_NAME_GladiatorLANCE	Gladiador LANCE
-#SHIP_NAME_GladiatorMRL	Gladiador MRL
-#SHIP_NAME_Gladiator	Gladiador
+#SHIP_NAME_GladiatorMRL	Gladiadora MRL
+#SHIP_NAME_Gladiator	Gladiadora
 #SHIP_NAME_Grumble	Grunhir
 #SHIP_NAME_Gryphon	Grifo
 #SHIP_NAME_Hound	Cão de caça
@@ -3889,8 +3889,8 @@
 #SHIP_NAME_Nomad	Nômade
 #SHIP_NAME_Novorossiysk	Novorossiysk
 #SHIP_NAME_Odissey	Odisseia
-#SHIP_NAME_PaladinMk2	Paladino Mk2
-#SHIP_NAME_Paladin	Paladino
+#SHIP_NAME_PaladinMk2	Paladina Mk2
+#SHIP_NAME_Paladin	Paladina
 #SHIP_NAME_Pegasus	Pegasus
 #SHIP_NAME_Pollux	Pollux
 #SHIP_NAME_Rook	Gralha
@@ -4017,12 +4017,12 @@
 
 
 
-#LABLE_role_fighter_DESC	Projetado para combate aéreo a curta distância.
-#LABLE_role_bomber_DESC	Projetado para bombardeios ar-terra.
-#LABLE_role_interceptor_DESC	Projetado para interceptar alvos aéreos.
-#LABLE_role_aa_DESC	Projetado para a proteção de grupos aéreos contra ataques de aeronaves e mísseis inimigos.
-#LABLE_role_sensor_DESC	Projetado para detecção rápida de forças inimigas.
-#LABLE_role_tanker_DESC	Projetado para ampliar o alcance dos grupos de ataque.
+#LABLE_role_fighter_DESC	Projetada para combate aéreo a curta distância.
+#LABLE_role_bomber_DESC	Projetada para bombardeios ar-terra.
+#LABLE_role_interceptor_DESC	Projetada para interceptar alvos aéreos.
+#LABLE_role_aa_DESC	Projetada para a proteção de grupos aéreos contra ataques de aeronaves e mísseis inimigos.
+#LABLE_role_sensor_DESC	Projetada para detecção rápida de forças inimigas.
+#LABLE_role_tanker_DESC	Projetada para ampliar o alcance dos grupos de ataque.
 #LABLE_role_carrier_DESC	Esta nave é um porta-aviões, com caças prontos para a decolagem.
 #LABLE_role_tactical_DESC	Esta nave transporta mísseis convencionais de longo alcance.
 #LABLE_role_strategic_DESC	Esta nave transporta mísseis nucleares de longo alcance.
