@@ -1048,31 +1048,31 @@
 
 #ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar pensa por muito tempo antes de responder.
 #ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>"Dar a outra face", não é isso que ensina o seu povo?
-#ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>He does not return your gaze. A bitter smile appears on his face.
-#ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>I am sorry, sahib. That is not the way the world works.
-#ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>He takes his qoda and leaves, saying nothing else.
+#ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ele não lhe devolve o olhar. Um sorriso amargo aparece em seu rosto.
+#ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>Sinto muito, sahib. Não é assim que o mundo funciona.
+#ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>Ele pega seu qoda e vai embora, sem dizer mais nada.
 
-#ISAIAH_3_FORCE_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE>I see...
-#ISAIAH_3_FORCE_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_FORCE_3|OMAR=1><NOSPEAK>As usual, Omar will not meet your gaze. But deep inside you feel him watching you intently out of the corner of his eye.
-#ISAIAH_3_FORCE_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>May the Almighty send him to us swiftly.
-#ISAIAH_3_FORCE_4	<NPC=OMAR><SIDE=-1><SCR=STOP>I will pass your words on to the people.
+#ISAIAH_3_FORCE_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE>Eu vejo...
+#ISAIAH_3_FORCE_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_FORCE_3|OMAR=1><NOSPEAK>Como de costume, Omar não olha para você. Mas, no fundo, você sente que ele o está observando atentamente pelo canto do olho.
+#ISAIAH_3_FORCE_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Que o Todo-Poderoso o envie rapidamente até nós.
+#ISAIAH_3_FORCE_4	<NPC=OMAR><SIDE=-1><SCR=STOP>Transmitirei suas palavras ao povo.
 
 
-#PROPHET_OMAR_1	<SCR=CONTINUE><SCR=SKIP|PROPHET_OMAR_END><MUSIC=Duduk_4_ever><RAM=1>We were days away from departing for {glossary=Khiva,GLOSS_KHIVA} to begin our offensive when that strange {glossary=Elaim,GLOSS_ELAIM} in a golden mask approached me.
-#PROPHET_OMAR_2	No <SCR=CONTINUE>{glossary=Elaim,GLOSS_ELAIM} can endure the open air for long, so many of them hide their faces. I’d grown used to that.
-#PROPHET_OMAR_3	<SCR=CONTINUE>But this one was unlike the others. People began to whisper when he walked by. Other {glossary=Elaims,GLOSS_ELAIM} called him “Alsahir” and treated him with particular reverence.
-#PROPHET_OMAR_4	<SCR=CONTINUE>I know that {glossary=Daud,GLOSS_DAUD} questioned him. He tried to get him to talk about the people who came with him on the Sevastopol. But he apparently didn’t get very far.
-#PROPHET_OMAR_5	<SCR=CONTINUE>This Elaim convinced the crew of the Sevastopol take the ship to Ur, and that is all we know about him. I cannot imagine what he did to convince them, but in doing this, he earned our eternal gratitude. Without the cruiser on our side, the {glossary=Khiva,GLOSS_KHIVA} offensive would be impossible.
-#PROPHET_OMAR_6	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>Grand Duke? Allow me to speak with you.
-#PROPHET_OMAR_7	<NPC=PROPHET><SIDE=-1><NOSPEAK>This was the first time I had ever heard his voice. The mask muffled it so much, I couldn’t discern his age.<SCR=CONTINUE>
-#PROPHET_OMAR_8	<NPC=PROPHET><SIDE=-1>I know you hope the {glossary=tarkhans,GLOSS_TARKHAN} of Gerat will support you against {glossary=Khiva,GLOSS_KHIVA}. The infamous Omar Khan has found refuge to the <DIRECTION_TARKHAN=OMAR> of Ur. I believe he can be a loyal ally to you.<SCR=CONTINUE>
-#PROPHET_OMAR_9	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>If you meet him, I kindly ask you to give him this...
-#PROPHET_OMAR_10	<NPC=PROPHET><SIDE=-1><NOSPEAK>The masked Elaim presents you with a small, delicate pot.<SCR=CONTINUE>
-#PROPHET_OMAR_11	The Elaim bows to you and leaves.
-<ANS=Look inside the small pot.|PROPHET_OMAR_12>
-<ANS=Entrust the small pot to the head of security for the time being.|PROPHET_OMAR_END>
-#PROPHET_OMAR_12	<SCR=CONTINUE|PROPHET_OMAR_END>The very bottom of the pot is covered in a strange ointment. Its smell is strong and heavy, but quite pleasant.
-#PROPHET_OMAR_END	<SCR=STOP><SCR=OMAR_OBJECTIVE>So a tarkhan has found refuge in a city to the <DIRECTION_TARKHAN=OMAR> of here. It would make sense to seek him out.
+#PROPHET_OMAR_1	<SCR=CONTINUE><SCR=SKIP|PROPHET_OMAR_END><MUSIC=Duduk_4_ever><RAM=1>Estávamos a dias de partir para {glossary=Khiva,GLOSS_KHIVA} para começar nossa ofensiva quando esse estranho {glossary=Elaim,GLOSS_ELAIM} com uma máscara dourada se aproximou de mim.
+#PROPHET_OMAR_2	Nenhum <SCR=CONTINUE>{glossary=Elaim,GLOSS_ELAIM} pode resistir ao ar livre por muito tempo, por isso muitos deles escondem seus rostos. Eu já estava acostumado a isso.
+#PROPHET_OMAR_3	<SCR=CONTINUE>Mas este era diferente dos outros. As pessoas começaram a sussurrar enquanto ele passava. Outros {glossary=Elaims,GLOSS_ELAIM} o chamavam de “Alsahir” e o tratavam com especial reverência.
+#PROPHET_OMAR_4	<SCR=CONTINUE>Eu sei que {glossary=Daud,GLOSS_DAUD} o questionou. Ele tentou fazê-lo falar sobre as pessoas que vieram com ele no Sevastopol. Mas ele aparentemente não chegou muito longe.
+#PROPHET_OMAR_5	<SCR=CONTINUE>Esta Elaim convenceu a tripulação do Sebastopol a levar a nave para Ur, e isso é tudo o que sabemos dele. Não consigo imaginar o que ele fez para convencê-los, mas ao fazer isso, ele ganhou nossa eterna gratidão. Sem o cruzador do nosso lado, a ofensiva em {glossary=Khiva,GLOSS_KHIVA} seria impossível.
+#PROPHET_OMAR_6	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>Grão-Duque? Você me permitiria falar com você por um momento?
+#PROPHET_OMAR_7	<NPC=PROPHET><SIDE=-1><NOSPEAK>Era a primeira vez que eu ouvia sua voz. A máscara abafou tanto a voz que eu não consegui distinguir a idade dele.<SCR=CONTINUE>
+#PROPHET_OMAR_8	<NPC=PROPHET><SIDE=-1>Sei que você espera que os {glossary=tarkhans,GLOSS_TARKHAN} de Gerat o apoiem contra {glossary=Khiva,GLOSS_KHIVA}. O infame Omar Khan encontrou refúgio a <DIRECTION_TARKHAN=OMAR> de Ur. Eu acredito que ele pode ser um aliado leal a você.<SCR=CONTINUE>
+#PROPHET_OMAR_9	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>Se você o encontrar, peço-lhe gentilmente que lhe entregue isto...
+#PROPHET_OMAR_10	<NPC=PROPHET><SIDE=-1><NOSPEAK>O Elaim mascarado mostra-lhe um pequeno e delicado recipiente.<SCR=CONTINUE>
+#PROPHET_OMAR_11	O Elaim se curva para você e vai embora.
+<ANS=Olhar dentro do pequeno pote.|PROPHET_OMAR_12>
+<ANS=Entregar o pequeno pote ao chefe de segurança por enquanto.|PROPHET_OMAR_END>
+#PROPHET_OMAR_12	<SCR=CONTINUE|PROPHET_OMAR_END>O fundo do pote está coberto com uma pomada estranha. Seu cheiro é forte e pesado, mas bastante agradável.
+#PROPHET_OMAR_END	<SCR=STOP><SCR=OMAR_OBJECTIVE>Um tarkhan encontrou refúgio em uma cidade a <DIRECTION_TARKHAN=OMAR> daqui. Faria sentido procurá-lo.
 
 
 
@@ -1084,7 +1084,7 @@
 #DIR_SW	sudoeste
 #DIR_W	oeste
 #DIR_NW	noroeste
-#DIR_FAR	longe
+#DIR_FAR	uma grande distância
 
 
 
