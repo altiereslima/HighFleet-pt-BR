@@ -1088,17 +1088,17 @@
 
 
 
-#HELLO_OMAR_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>A group of people from the ship approach you. They are all dressed in military uniforms, but do not appear to be armed.
-#HELLO_OMAR_2	<NPC=HIRE><SIDE=0><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_OMAR>A tall {glossary=Elaim,GLOSS_ELAIM} walks ahead of the rest. His face is open to the elements, and a sword shows its hilt from behind his back — all signs of a man of noble birth.
-#HELLO_INTRODUCE_OMAR	<NPC=HIRE><APPROVE>Peace be upon you, son of Sayadi! I am Omar Khan.
-<ANS=I’m looking for allies to wage war on Khiva. Will you join us?|HELLO_ROUND|DIPLOMACY_STARTS>
-<ANS=There is something I must give you first. (Give the small pot to Omar)|HELLO_OMAR_3>
-#HELLO_OMAR_3	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>Omar’s hands move carefully as he opens the pot. His eyes suddenly freeze in their sockets.
-#HELLO_OMAR_4	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE|HELLO_OMAR_5|OMAR_ANYTIME=99>Finally, he looks up at you and responds. His voice is shaking imperceptibly now. You sense that he is incredibly excited.
-#HELLO_OMAR_5	<NPC=HIRE><SIDE=0><APPROVE>What do you want, Grand Duke?
-<ANS=I’m looking for allies to wage war on Khiva. Will you join us?|HELLO_OMAR_6>
-#HELLO_OMAR_6	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>You get the feeling Omar is expecting something else. When he realizes that this is it, he responds.
-#HELLO_OMAR_7	<NPC=HIRE><SIDE=0><APPROVE>It will be an honor, Grand Duke.<ANS=I want to meet other tarkhans. Do you know where to find them?|HELLO_INTEL_TARKHANS>
+#HELLO_OMAR_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>Um grupo de pessoas da nave se aproxima de você. Todos eles estão vestidos com uniformes militares, mas não parecem estar armados.
+#HELLO_OMAR_2	<NPC=HIRE><SIDE=0><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_OMAR>Um {glossary=Elaim,GLOSS_ELAIM} alto caminha à frente dos demais. Seu rosto está exposto aos elementos, e uma espada mostra sua empunhadura por trás de suas costas: todos os sinais de um homem de origem nobre.
+#HELLO_INTRODUCE_OMAR	<NPC=HIRE><APPROVE>Que a paz esteja com você, filho de Sayadi! Eu sou Omar Khan.
+<ANS=Estou procurando aliados para travar uma guerra contra Khiva. Você vai se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
+<ANS=Há algo que devo lhe dar primeiro. (Você dá o pequeno pote para Omar)|HELLO_OMAR_3>
+#HELLO_OMAR_3	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>As mãos de Omar se movem cuidadosamente enquanto abre o pote. Seus olhos congelam de repente em suas órbitas.
+#HELLO_OMAR_4	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE|HELLO_OMAR_5|OMAR_ANYTIME=99>Finalmente, ele levanta os olhos para você e responde. Sua voz treme imperceptivelmente. Pode-se dizer que ele está incrivelmente entusiasmado.
+#HELLO_OMAR_5	<NPC=HIRE><SIDE=0><APPROVE>O que você quer, Grão-Duque?
+<ANS=Estou procurando aliados para travar uma guerra contra Khiva. Você vai se juntar a nós?|HELLO_OMAR_6>
+#HELLO_OMAR_6	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>Você tem a sensação de que Omar espera algo mais. Quando ele se dá conta de que isso é tudo, ele responde.
+#HELLO_OMAR_7	<NPC=HIRE><SIDE=0><APPROVE>Será uma honra, Grão-Duque.<ANS=Eu quero conhecer outros tarkhans. Você sabe onde encontrá-los?|HELLO_INTEL_TARKHANS>
 
 
 
