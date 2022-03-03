@@ -462,7 +462,7 @@
 #DAUD	Almirante Daud
 #FASIL	Príncipe Fazil
 #PROPHET	Profeta
-#GOVERNOR	Senhor Governador
+#GOVERNOR	Lord Governador
 
 #DEATH	O PERSONAGEM MORREU
 
@@ -1102,22 +1102,22 @@
 
 
 
-#HELLO_BOY_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>A small, cloak-wrapped stranger emerges from the ship accompanied by an entourage. The gold-trimmed sword on the stranger’s belt seems disproportionately large, so large it interferes with his gait.
-#HELLO_BOY_2	<SCR=CONTINUE><SCR=CHECK_JOINED|OMAR|HELLO_BOY_11>To your surprise, you see Omar and his men bow reverently to the stranger the moment they see him.
+#HELLO_BOY_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>Um estranho pequeno, envolto em um manto, emerge da nave acompanhado por uma comitiva. A espada dourada que ele leva em seu cinto parece desproporcionalmente grande, tão grande que interfere em seu andar.
+#HELLO_BOY_2	<SCR=CONTINUE><SCR=CHECK_JOINED|OMAR|HELLO_BOY_11>Para sua surpresa, você vê Omar e seus homens se curvando reverentemente ao estranho no momento em que o veem.
 #HELLO_BOY_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Alsahir.
-#HELLO_BOY_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>Omar, son of Rasouf. Peace be upon you.
-#HELLO_BOY_5	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Why are you here, Alsahir? How is your good father?
-#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{glossary=Harishids,GLOSS_HARISHIDS} in service to the lord governor murdered my father. They threw him off a ship three days ago. His body was shattered against the ground.
-#HELLO_BOY_7	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>Omar and his men seem stunned by the news.
-#HELLO_BOY_8	<NPC=OMAR><SIDE=1><SCR=CONTINUE>The Almighty shall avenge his murder sevenfold!
-#HELLO_BOY_9	<NPC=BOY><SIDE=0><SCR=CONTINUE>May it be so.
-#HELLO_BOY_10	<NPC=BOY><SIDE=0><SCR=CONTINUE|HELLO_BOY_12><NOSPEAK>The boy turns to you next.
+#HELLO_BOY_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>Omar, filho de Rasouf. Que a paz esteja com você.
+#HELLO_BOY_5	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Por que você está aqui, Alsahir? Como está seu pai?
+#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do Lord Governador assassinaram meu pai. Eles o jogaram de uma nave três dias atrás. Seu corpo foi destroçado contra o chão.
+#HELLO_BOY_7	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>Omar e seus homens parecem atônitos com as notícias.
+#HELLO_BOY_8	<NPC=OMAR><SIDE=1><SCR=CONTINUE>O Todo-Poderoso vingará seu assassinato sete vezes!
+#HELLO_BOY_9	<NPC=BOY><SIDE=0><SCR=CONTINUE>Que assim seja.
+#HELLO_BOY_10	<NPC=BOY><SIDE=0><SCR=CONTINUE|HELLO_BOY_12><NOSPEAK>O garoto se dirige a você a seguir.
 
-#HELLO_BOY_11	<NPC=BOY><SIDE=0><SCR=CONTINUE>To your surprise, you see the {glossary=Elaims,GLOSS_ELAIM} bow reverently to the stranger the moment they see him.
-#HELLO_BOY_12	<NPC=BOY><SIDE=0>Peace be upon you, Son of Sayadi.
-<ANS=Peace be upon you as well, good...|HELLO_BOY_13>
-#HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>The boy smiles when he sees you hesitate.
-#HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Call me an Alsahir.
+#HELLO_BOY_11	<NPC=BOY><SIDE=0><SCR=CONTINUE>Para sua surpresa, você vê os Elaims se inclinando reverentemente para o estranho no momento em que o veem.
+#HELLO_BOY_12	<NPC=BOY><SIDE=0>Que a paz esteja com você, filho de Sayadi.
+<ANS=A paz esteja com você também, bom...|HELLO_BOY_13>
+#HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>O garoto sorri quando o vê hesitar.
+#HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Me chame de Alsahir.
 #HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} in service to the lord governor murdered my father three days ago.
 <ANS=You have my condolences, Alsahir.|HELLO_BOY_END>
 
