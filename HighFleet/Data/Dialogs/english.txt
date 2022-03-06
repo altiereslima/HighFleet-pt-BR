@@ -1151,16 +1151,16 @@
 
 
 
-#TELEGRAM_MEETING	YOUR IMPERIAL HIGHNESS @10IT IS MY WISH THAT WE MEET IN PERSON IN ORDER TO RECONCILE OUR DIFFERENCES. YOU ARE EXPECTED IN THE VALLEY OF BASRA, ON A SINGLE UNESCORTED SHIP.@10SECRETARY-GENERAL@THE REPUBLIC OF GERAT
-#MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Surely he jests! Who would ever walk into such an obvious trap?
-#MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>It’s too simple to be a trap.
-#MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>He’d provide guarantees if he truly intended to negotiate.
-#MEETING_RADIOGRAM_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>He’s up to something... but what?
-#MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>It could be a diversionary tactic intended to buy time.
-<ANS=It says, “the valley of Basra.” Where is that?|MEETING_RADIOGRAM_6>
-#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Here, Duke.
-#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>The Almighty has granted us a way to pay for my father’s death with the lord governor’s life!
-#MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>Remember, Son of Sayadi — you gave me your word.
+#TELEGRAM_MEETING	VOSSA ALTEZA IMPERIAL @10É MEU DESEJO QUE NOS ENCONTREMOS PESSOALMENTE PARA RECONCILIAR NOSSAS DIFERENÇAS. É ESPERADO NO VALE DE BASRA, EM UMA NEVE SEM ESCOLTA.@10SECRETÁRIO GERAL@REPÚBLICA DE GERAT
+#MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Tenho certeza de que ele está zombando! Quem cairia em uma armadilha tão óbvia?
+#MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>É muito simples para ser uma armadilha.
+#MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ele daria garantias se realmente tivesse a intenção de negociar.
+#MEETING_RADIOGRAM_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ele está tramando alguma coisa... mas o quê?
+#MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>Poderia ser uma tática de distração destinada a ganhar tempo.
+<ANS=Diz: "no vale de Basra". Onde fica isso?|MEETING_RADIOGRAM_6>
+#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Aqui, Duque.
+#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do Lord Governor!
+#MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>Lembre-se, Filho de Sayadi, você me deu sua palavra.
 
 
 
