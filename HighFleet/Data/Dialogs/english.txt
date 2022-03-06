@@ -1121,33 +1121,33 @@
 #HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do Lord Governador assassinaram meu pai três dias atrás.
 <ANS=Você tem minhas condolências, Alsahir..|HELLO_BOY_END>
 
-#HELLO_BOY_END	<NPC=BOY><SIDE=0>You are heading for Khiva, Son of Sayadi. Allow me to join you.
-<ANS=I will be happy to fight by your side, Alsahir.|HELLO_BOY_END_OK|BOY_ANYTIME=99>
-<ANS=Each of us should walk his own path.|HELLO_BOY_END_NO_1>
+#HELLO_BOY_END	<NPC=BOY><SIDE=0>Você está indo para Khiva, filho de Sayadi. Deixe-me acompanhá-lo.
+<ANS=Ficarei feliz em lutar ao seu lado, Alsahir.|HELLO_BOY_END_OK|BOY_ANYTIME=99>
+<ANS=Cada um de nós deve trilhar seu próprio caminho.|HELLO_BOY_END_NO_1>
 
-#HELLO_BOY_END_OK	<NPC=BOY><ANS=I want to meet other tarkhans. Do you know where to find them?|HELLO_INTEL_TARKHANS>
+#HELLO_BOY_END_OK	<NPC=BOY><ANS=Eu gostaria de conhecer outros tarkhans. Você sabe onde posso encontrá-los?|HELLO_INTEL_TARKHANS>
 
-#HELLO_BOY_END_NO_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>The boy barely manages to hold back tears when he hears your response. He does his best to ensure that no one sees his reaction.
-#HELLO_BOY_END_NO_2	<SCR=CONTINUE>He bows to you politely, then turns away and leaves. You are certain that you will never see him again.
-#HELLO_BOY_END_NO_3	<SCR=STOP|GERAT=-1>You notice other {glossary=Elaims,GLOSS_ELAIM} staring at you indignantly behind your back.
-
-
-
-#ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>Bad news, Grand Duke.
-#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>We’ve just intercepted a transmission from the lord governor. He has ordered every strike group to move to Khiva.
-#ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>If we take too long to reach it, he’ll amass his entire fleet at the city very soon.
-#ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>An assault on the city will be quite impossible then.
+#HELLO_BOY_END_NO_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>O garoto mal consegue conter as lágrimas quando ouve sua resposta. Ele se esforça ao máximo para não deixar ninguém ver sua reação.
+#HELLO_BOY_END_NO_2	<SCR=CONTINUE>Ele se curva para você educadamente, depois se afasta e vai embora. Você tem certeza de que não voltará a vê-lo.
+#HELLO_BOY_END_NO_3	<SCR=STOP|GERAT=-1>Você percebe outros {glossary=Elaims,GLOSS_ELAIM} olhando para você indignados pelas suas costas.
 
 
 
-#NUCLEAR_ESCALATION_1	<NPC=PETR><SIDE=1><MUSIC=Bois><SCR=CONTINUE>Nuclear armaments...
-#NUCLEAR_ESCALATION_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Are you certain you want to do this, Duke?
-#NUCLEAR_ESCALATION_3	<NPC=PETR><SIDE=1>Once the genie is out of the bottle, we will not be able to put it back inside.
-<ANS=This was going to happen sooner or later.|NUCLEAR_ESCALATION_YES>
-<ANS=I think you’re right, General. Abort! Cancel the launch!|EXIT>
+#ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>Más notícias, Grão-Duque.
+#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Acabamos de interceptar uma transmissão do Lord Governor. Ele ordenou a todos os grupos de ataque que se dirijam para Khiva.
+#ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se demorarmos a chegar, logo ele reunirá toda a sua frota na cidade.
+#ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>Então, um ataque contra a cidade será completamente impossível.
+
+
+
+#NUCLEAR_ESCALATION_1	<NPC=PETR><SIDE=1><MUSIC=Bois><SCR=CONTINUE>Armas nucleares...
+#NUCLEAR_ESCALATION_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Você tem certeza de que deseja fazer isso, Duque?
+#NUCLEAR_ESCALATION_3	<NPC=PETR><SIDE=1>Uma vez que o gênio estiver fora da garrafa, não poderemos colocá-lo dentro novamente.
+<ANS=Isto iria acontecer mais cedo ou mais tarde.|NUCLEAR_ESCALATION_YES>
+<ANS=Acho que você está certo, General. Abortem! Cancelem o lançamento!|EXIT>
 #NUCLEAR_ESCALATION_YES	<SCR=MISSILE_START><SCR=EXIT>
 
-#NUCLEAR_ESCALATION_EXPLOSION	<NPC=PETR><SIDE=1><SCR=STOP|NUCLEAR_WAR>May the Almighty have mercy on our souls...
+#NUCLEAR_ESCALATION_EXPLOSION	<NPC=PETR><SIDE=1><SCR=STOP|NUCLEAR_WAR>Que o Todo-Poderoso tenha piedade de nossas almas...
 
 
 
