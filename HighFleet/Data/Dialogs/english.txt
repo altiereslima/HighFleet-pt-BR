@@ -278,7 +278,7 @@
 #ASM_TADS	ASM
 #AAM_TADS	AAM
 #GPB_TADS	GPB
-#FUEL_TADS	FUEL
+#FUEL_TADS	COMB
 #EVAC_TADS	EVAC
 #FSS_TADS	SSI
 
@@ -286,7 +286,7 @@
 
 #HLP_MAPMODE_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=vcr_12}CLIQUE DIREITO@PARA NAVEGAR
 #HLP_MAPMODE_02	 @6 {animation=hlp_mapmode_02} @10{color=4294967295}{align=2}{font=vcr_12}PRESSIONE {animation=key_space}@4PAUSAR/CONTINUAR
-#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}MANTER {animation=key_shift}@4PARA ACELERAR O TEMPO
+#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}MANTENHA {animation=key_shift}@4PARA ACELERAR O TEMPO
 #HLP_MAPMODE_04	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=vcr_12}GIRE A@RODA PARA AMPLIAR
 #HLP_EDITOR_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=flash_large_shadow}CLIQUE DIREITO@PARA REPARAR UM MÓDULO
 #HLP_EDITOR_02	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=flash_large_shadow}GIRE A RODA@PARA GIRAR O MÓDULO
@@ -341,7 +341,7 @@
 #EVACS_STAT	CAPSULAS DE EVAC.
 #PRICE_STAT	PREÇO
 #RADAR_STAT	RADAR
-#TRACKING_STAT	SEGUIMENTO
+#TRACKING_STAT	RASTREAMENTO
 #GUIDING_STAT	ORIENTAÇÃO
 #IRST_STAT	IRST
 #ELINT_STAT	ELINF
@@ -1118,8 +1118,8 @@
 <ANS=A paz esteja com você também, bom...|HELLO_BOY_13>
 #HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>O garoto sorri quando o vê hesitar.
 #HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Me chame de Alsahir.
-#HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} in service to the lord governor murdered my father three days ago.
-<ANS=You have my condolences, Alsahir.|HELLO_BOY_END>
+#HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do Lord Governador assassinaram meu pai três dias atrás.
+<ANS=Você tem minhas condolências, Alsahir..|HELLO_BOY_END>
 
 #HELLO_BOY_END	<NPC=BOY><SIDE=0>You are heading for Khiva, Son of Sayadi. Allow me to join you.
 <ANS=I will be happy to fight by your side, Alsahir.|HELLO_BOY_END_OK|BOY_ANYTIME=99>
