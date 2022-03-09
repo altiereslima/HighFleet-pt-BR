@@ -1134,7 +1134,7 @@
 
 
 #ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>Más notícias, Grão-Duque.
-#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Acabamos de interceptar uma transmissão do Lord Governor. Ele ordenou a todos os grupos de ataque que se dirijam para Khiva.
+#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Acabamos de interceptar uma transmissão do Lord Governador. Ele ordenou a todos os grupos de ataque que se dirijam para Khiva.
 #ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se demorarmos a chegar, logo ele reunirá toda a sua frota na cidade.
 #ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>Então, um ataque contra a cidade será completamente impossível.
 
@@ -1159,25 +1159,25 @@
 #MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>Poderia ser uma tática de distração destinada a ganhar tempo.
 <ANS=Diz: "no vale de Basra". Onde fica isso?|MEETING_RADIOGRAM_6>
 #MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Aqui, Duque.
-#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do Lord Governor!
+#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do Lord Governador!
 #MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>Lembre-se, Filho de Sayadi, você me deu sua palavra.
 
 
 
-#MEETING_1_OLD	<NPC=GOVERNOR><SIDE=0>So, Grand Duke, you have come. What were you thinking?
-<ANS=I take it there will be no talks.|MEETING_2>
-#MEETING_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Of course not.
-#MEETING_3	<NPC=GOVERNOR><SIDE=0>I cannot begin to imagine why you decided to come here.
-<ANS=Admiral Daud did try to stop me.|MEETING_4>
-#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>There is a pause. The lord governor appears to come to a decision.
-#MEETING_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Listen, Duke... before we conclude this matter...
-#MEETING_6	<NPC=GOVERNOR><SIDE=0>I must admit, I have a question.
-<ANS=Very well. Ask your question, then.|MEETING_7>
-#MEETING_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Tell me, Duke... if you had the chance of a lifetime, like the one I had...
-#MEETING_8	<NPC=GOVERNOR><SIDE=0>Let’s say the plutonium in Khiva is no rumor. You have acquired a fearsome weapon. What would you do?
-<ANS=I’d use it for the good of the people.|MEETING_9>
-<ANS=I’d use it to end the war.|MEETING_9>
-<ANS=I’d use it to destroy my foes.|MEETING_10>
+#MEETING_1_OLD	<NPC=GOVERNOR><SIDE=0>Então, Grão-Duque, você veio. No que você estava pensando?
+<ANS=Suponho que não haverá negociação.|MEETING_2>
+#MEETING_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>É claro que não.
+#MEETING_3	<NPC=GOVERNOR><SIDE=0>Não consigo nem imaginar por que você decidiu vir aqui.
+<ANS=O almirante Daud tentou me deter.|MEETING_4>
+#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Há uma pausa. O Lord Governador parece tomar uma decisão.
+#MEETING_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Ouça, Duque... antes de concluirmos este assunto...
+#MEETING_6	<NPC=GOVERNOR><SIDE=0>Devo admitir que tenho uma pergunta a fazer.
+<ANS=Muito bem. Faça sua pergunta.|MEETING_7>
+#MEETING_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Diga-me, Duque... se você tivesse a chance da sua vida, como eu tive...
+#MEETING_8	<NPC=GOVERNOR><SIDE=0>Digamos que o plutônio em Khiva não seja um rumor. Você adquiriu uma arma temível. O que você faria?
+<ANS=Eu a usaria para o bem do povo.|MEETING_9>
+<ANS=Eu a usaria para acabar com a guerra.|MEETING_9>
+<ANS=Eu a usaria para destruir meus inimigos.|MEETING_10>
 #MEETING_9	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>No, Duke. You most certainly would not.
 #MEETING_10	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>You would have used it to eliminate {glossary=the Gathering,GLOSS_GATHERING}.
 #MEETING_11	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>And then you would have dethroned your father and taken his place.
