@@ -583,7 +583,7 @@
 
 #INTERMEDIA_03_01	Fui despertado em minha cabine por um mensageiro. "Almirante, senhor! O Grão-Duque lhe pediu para vir até a ponte". Tinha algo estava errado com a nave.
 #INTERMEDIA_03_02	Os tripulantes da casa do leme pareciam angustiados e confusos, seus olhos vazios e perdidos no pensamento. No entanto, ele estava completamente calmo, um contraste muito forte com o resto da sala que eu achei estranhamente fascinante.
-#INTERMEDIA_03_03	Mas quando olhei através da vigia, vi o motivo de seu alarme. De acordo com o relógio, o sol deveria ter nascido, mas o mundo por trás do vidro estava escuro como breu. Os holofotes dos navios estavam se movendo freneticamente, vasculhando o céu e a terra em uma tentativa vã de cortar a escuridão que consumia tudo com seus feixes estreitos de luz artificial.
+#INTERMEDIA_03_03	Mas quando olhei através da vigia, vi o motivo de seu alarme. De acordo com o relógio, o sol deveria ter nascido, mas o mundo por trás do vidro estava escuro como breu. Os holofotes das naves estavam se movendo freneticamente, vasculhando o céu e a terra em uma tentativa vã de cortar a escuridão que consumia tudo com seus feixes estreitos de luz artificial.
 
 
 
@@ -1151,7 +1151,7 @@
 
 
 
-#TELEGRAM_MEETING	VOSSA ALTEZA IMPERIAL @10É MEU DESEJO QUE NOS ENCONTREMOS PESSOALMENTE PARA RECONCILIAR NOSSAS DIFERENÇAS. É ESPERADO NO VALE DE BASRA, EM UMA NEVE SEM ESCOLTA.@10SECRETÁRIO GERAL@REPÚBLICA DE GERAT
+#TELEGRAM_MEETING	VOSSA ALTEZA IMPERIAL @10É MEU DESEJO QUE NOS ENCONTREMOS PESSOALMENTE PARA RECONCILIAR NOSSAS DIFERENÇAS. É ESPERADO NO VALE DE BASRA, EM UMA NAVE SEM ESCOLTA.@10SECRETÁRIO GERAL@REPÚBLICA DE GERAT
 #MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Tenho certeza de que ele está zombando! Quem cairia em uma armadilha tão óbvia?
 #MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>É muito simples para ser uma armadilha.
 #MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ele daria garantias se realmente tivesse a intenção de negociar.
