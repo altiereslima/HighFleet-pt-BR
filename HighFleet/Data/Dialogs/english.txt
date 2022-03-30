@@ -1195,15 +1195,15 @@
 #MEETING_ANS_KILL	(Saque sua espada rapidamente e derrube o senhor governador)|MEETING_KILL_1
 #MEETING_ANS_LEAVE	(Vire-se e dirija-se à sua nave)|MEETING_FIGHT
 
-#MEETING_NUKE_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>The lord governor stops to contemplate your ship.
-#MEETING_NUKE_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>Aye. I did notice that.
-#MEETING_NUKE_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>I never would have thought Your Imperial Highness would stoop to something so pedestrian as blackmail.
-#MEETING_NUKE_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|MEETING_FIGHT>Let’s finish this with a good old-fashioned artillery duel, shall we? Then you will be remembered as a man of honor, at the very least.
+#MEETING_NUKE_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>O senhor governador faz uma pausa para contemplar sua nave.
+#MEETING_NUKE_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>Sim. Eu notei isso.
+#MEETING_NUKE_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Nunca pensei que Sua Alteza Imperial se rebaixaria a algo tão vulgar como a chantagem.
+#MEETING_NUKE_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|MEETING_FIGHT>Vamos acabar com isto com um bom e velho duelo de artilharia, certo? Ao menos você será lembrado como um homem de honra.
 
-#MEETING_HIGHT_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>The Lord Governor stops and looks at the sky.
-#MEETING_HIGHT_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>Not a single star to be seen.
-<ANS=This is not a good time for war.|MEETING_HIGHT_3>
-#MEETING_HIGHT_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>It’s never a good time for war, Duke.
+#MEETING_HIGHT_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>O Senhor Governador faz uma pausa e olha para o céu.
+#MEETING_HIGHT_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>Não há uma única estrela visível.
+<ANS=Este não é um bom momento para a guerra.|MEETING_HIGHT_3>
+#MEETING_HIGHT_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Nunca há um bom momento para a guerra, Duque.
 #MEETING_HIGHT_4	<SCR=CONTINUE|MEETING_FIGHT>Everyone returns to their ships. The turbines hum as they come to life.
 
 #MEETING_KILL_1	<SCR=CONTINUE|MEETING_KILL_2|BOY=1><EVENT><SOUND=manhit>Your blade strikes the lord governor, and he falls to the floor, dead.
