@@ -1204,17 +1204,17 @@
 #MEETING_HIGHT_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>Não há uma única estrela visível.
 <ANS=Este não é um bom momento para a guerra.|MEETING_HIGHT_3>
 #MEETING_HIGHT_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Nunca há um bom momento para a guerra, Duque.
-#MEETING_HIGHT_4	<SCR=CONTINUE|MEETING_FIGHT>Everyone returns to their ships. The turbines hum as they come to life.
+#MEETING_HIGHT_4	<SCR=CONTINUE|MEETING_FIGHT>Todos retornam às suas naves. As turbinas zumbem quando ganham vida.
 
-#MEETING_KILL_1	<SCR=CONTINUE|MEETING_KILL_2|BOY=1><EVENT><SOUND=manhit>Your blade strikes the lord governor, and he falls to the floor, dead.
-#MEETING_KILL_2	<SCR=CONTINUE>The guards quickly shield you with their bodies. A firefight begins.
-#MEETING_KILL_3	<SCR=CONTINUE|MEETING_FIGHT>Everyone runs for their ships.
+#MEETING_KILL_1	<SCR=CONTINUE|MEETING_KILL_2|BOY=1><EVENT><SOUND=manhit>Sua espada atinge o senhor governador, e ele cai no chão, morto.
+#MEETING_KILL_2	<SCR=CONTINUE>Os guardas rapidamente o protegem com seus corpos. Começa um tiroteio.
+#MEETING_KILL_3	<SCR=CONTINUE|MEETING_FIGHT>Todos correm para as suas naves.
 
-#MEETING_PROPHET_1	<NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>The lord governor turns back to you, surprised.
-#MEETING_PROPHET_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>What...?
-<ANS=This is why you invited me here.|MEETING_PROPHET_3>
+#MEETING_PROPHET_1	<NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>O senhor governador se volta para você, surpreso.
+#MEETING_PROPHET_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>O quê...?
+<ANS=Por isso você me convidou para vir aqui.|MEETING_PROPHET_3>
 #MEETING_PROPHET_3	<NPC=GOVERNOR><SIDE=0>
-<ANS=You’ve heard a lot about me, and it got you thinking. You wanted to see for yourself.|MEETING_PROPHET_4>
+<ANS=Você ouviu falar muito de mim, e isso o fez pensar. Você queria ver com os seus próprios olhos.|MEETING_PROPHET_4>
 #MEETING_PROPHET_4	<NPC=GOVERNOR><SIDE=0>
 <ANS=You thought an ordinary man would never come. But if I am a man who can truly see the future, then…|MEETING_PROPHET_5>
 #MEETING_PROPHET_5	<NPC=GOVERNOR><SIDE=0>
