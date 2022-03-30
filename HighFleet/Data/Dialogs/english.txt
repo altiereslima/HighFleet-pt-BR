@@ -462,7 +462,7 @@
 #DAUD	Almirante Daud
 #FASIL	Príncipe Fazil
 #PROPHET	Profeta
-#GOVERNOR	Lord Governador
+#GOVERNOR	Senhor Governador
 
 #DEATH	O PERSONAGEM MORREU
 
@@ -571,7 +571,7 @@
 
 
 #INTERMEDIA_01_01	O grande deserto de Gerat. Um antigo reino governou esta terra há muito tempo... até que ela foi dilacerada por conflitos internos. O último rei de Gerat jurou fidelidade ao Império Romani.
-#INTERMEDIA_01_02	Esta terra parece condenada a suportar para sempre o fardo da guerra. Há sete anos, um funcionário imperial, o Governador de Khiva, depôs o rei e declarou uma rebelião contra a autoridade imperial.
+#INTERMEDIA_01_02	Esta terra parece condenada a suportar para sempre o fardo da guerra. Há sete anos, um funcionário imperial, o Senhor Governador de Khiva, depôs o rei e declarou uma rebelião contra a autoridade imperial.
 #INTERMEDIA_01_03	E agora é a nossa vez. Viemos à Gerat para pôr um fim a isto de uma vez por todas.
 
 #INTERMEDIA_02_01	Na manhã do sexto dia, a estação de observação relatou que uma grande embarcação estava se aproximando do sul. Todas as nossas forças foram colocadas em alerta máximo.
@@ -875,7 +875,7 @@
 
 
 
-#ISAIAH_0_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>Uma vez que as naves desembarcaram, toda a população da cidade aparece para recebê-los. As pessoas gritam de alegria e trazem flores e presentes. É evidente que eles estão ressentidos com o governo do Lord Governador.
+#ISAIAH_0_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>Uma vez que as naves desembarcaram, toda a população da cidade aparece para recebê-los. As pessoas gritam de alegria e trazem flores e presentes. É evidente que eles estão ressentidos com o governo do senhor governador.
 #ISAIAH_0_2	<SCR=CONTINUE>Chegou uma mensagem do {glossary=decano,GLOSS_DOYEN}. Diz que o decano deseja nos ver o mais rápido possível, mas que ele mesmo é velho demais para nos visitar.
 #ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Abandonar nossas naves pode ser arriscado, Grão-Duque.
 #ISAIAH_0_4	<NPC=FASIL><SIDE=-1>O povo se ofenderá se você recusar.
@@ -1107,7 +1107,7 @@
 #HELLO_BOY_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Alsahir.
 #HELLO_BOY_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>Omar, filho de Rasouf. Que a paz esteja com você.
 #HELLO_BOY_5	<NPC=OMAR><SIDE=1><SCR=CONTINUE>Por que você está aqui, Alsahir? Como está seu pai?
-#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do Lord Governador assassinaram meu pai. Eles o jogaram de uma nave três dias atrás. Seu corpo foi destroçado contra o chão.
+#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do senhor governador assassinaram meu pai. Eles o jogaram de uma nave três dias atrás. Seu corpo foi destroçado contra o chão.
 #HELLO_BOY_7	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>Omar e seus homens parecem atônitos com as notícias.
 #HELLO_BOY_8	<NPC=OMAR><SIDE=1><SCR=CONTINUE>O Todo-Poderoso vingará seu assassinato sete vezes!
 #HELLO_BOY_9	<NPC=BOY><SIDE=0><SCR=CONTINUE>Que assim seja.
@@ -1118,7 +1118,7 @@
 <ANS=A paz esteja com você também, bom...|HELLO_BOY_13>
 #HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>O garoto sorri quando o vê hesitar.
 #HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Me chame de Alsahir.
-#HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do Lord Governador assassinaram meu pai três dias atrás.
+#HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do senhor governador assassinaram meu pai três dias atrás.
 <ANS=Você tem minhas condolências, Alsahir..|HELLO_BOY_END>
 
 #HELLO_BOY_END	<NPC=BOY><SIDE=0>Você está indo para Khiva, filho de Sayadi. Deixe-me acompanhá-lo.
@@ -1134,7 +1134,7 @@
 
 
 #ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>Más notícias, Grão-Duque.
-#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Acabamos de interceptar uma transmissão do Lord Governador. Ele ordenou a todos os grupos de ataque que se dirijam para Khiva.
+#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Acabamos de interceptar uma transmissão do senhor governador. Ele ordenou a todos os grupos de ataque que se dirijam para Khiva.
 #ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se demorarmos a chegar, logo ele reunirá toda a sua frota na cidade.
 #ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>Então, um ataque contra a cidade será completamente impossível.
 
@@ -1159,7 +1159,7 @@
 #MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>Poderia ser uma tática de distração destinada a ganhar tempo.
 <ANS=Diz: "no vale de Basra". Onde fica isso?|MEETING_RADIOGRAM_6>
 #MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Aqui, Duque.
-#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do Lord Governador!
+#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do senhor governador!
 #MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>Lembre-se, Filho de Sayadi, você me deu sua palavra.
 
 
@@ -1169,7 +1169,7 @@
 #MEETING_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>É claro que não.
 #MEETING_3	<NPC=GOVERNOR><SIDE=0>Não consigo nem imaginar por que você decidiu vir aqui.
 <ANS=O almirante Daud tentou me deter.|MEETING_4>
-#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Há uma pausa. O Lord Governador parece tomar uma decisão.
+#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>Há uma pausa. O senhor governador parece tomar uma decisão.
 #MEETING_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Ouça, Duque... antes de concluirmos este assunto...
 #MEETING_6	<NPC=GOVERNOR><SIDE=0>Devo admitir que tenho uma pergunta a fazer.
 <ANS=Muito bem. Faça sua pergunta.|MEETING_7>
@@ -1178,22 +1178,22 @@
 <ANS=Eu a usaria para o bem do povo.|MEETING_9>
 <ANS=Eu a usaria para acabar com a guerra.|MEETING_9>
 <ANS=Eu a usaria para destruir meus inimigos.|MEETING_10>
-#MEETING_9	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>No, Duke. You most certainly would not.
-#MEETING_10	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>You would have used it to eliminate {glossary=the Gathering,GLOSS_GATHERING}.
-#MEETING_11	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>And then you would have dethroned your father and taken his place.
-#MEETING_12	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>And then you would have indulged in war after war, extending the borders of your empire as far as possible...
-#MEETING_13	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>The lord governor’s voice trails off. His pensive eyes are looking somewhere else.
-#MEETING_14	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>As for me, I have no thirst for power.
-#MEETING_15	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>I wish to give people something they have long deserved: freedom.
-#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>We have brought the Empire to ruin and founded a republic. And now the only thing standing between the people and their freedom is you.
-#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>And so I feel no remorse for your fate.
-#MEETING_18	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>The lord governor looks away. It seems this conversation is over.
+#MEETING_9	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Não, Duke. Você certamente não o faria.
+#MEETING_10	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Você o teria usado para eliminar {glossary=a Confederação,GLOSS_GATHERING}.
+#MEETING_11	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>E então você teria destronado o seu pai e tomado o seu lugar.
+#MEETING_12	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>E então você teria se entregado à uma guerra atrás da outra, estendendo as fronteiras de seu império o máximo possível...
+#MEETING_13	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>A voz do senhor governador é interrompida. Seus olhos pensativos desviam o olhar.
+#MEETING_14	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Quanto a mim, não tenho sede de poder.
+#MEETING_15	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Desejo dar às pessoas algo que elas merecem há muito tempo: a liberdade.
+#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>Levamos o Império à ruína e fundamos uma república. E agora a única coisa que está entre o povo e sua liberdade é você.
+#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>E por isso não sinto remorsos por seu destino.
+#MEETING_18	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>O senhor governador olha para o lado. Parece que esta conversa terminou.
 
-#MEETING_ANS_NUKE	My ship carries nuclear armaments. We will either reconcile our differences or die together.|MEETING_NUKE_1
-#MEETING_ANS_NIGHT	This night... does it not frighten you?|MEETING_HIGHT_1
-#MEETING_ANS_PROPHET	The people think I am a prophet.|MEETING_PROPHET_1
-#MEETING_ANS_KILL	(Draw your sword quickly and strike down the lord governor)|MEETING_KILL_1
-#MEETING_ANS_LEAVE	(Turn away and head to your ship)|MEETING_FIGHT
+#MEETING_ANS_NUKE	Minha nave transporta armamento nuclear. Ou resolvemos conciliar nossas divergências ou morremos juntos.|MEETING_NUKE_1
+#MEETING_ANS_NIGHT	Esta noite... isso não o assusta?|MEETING_HIGHT_1
+#MEETING_ANS_PROPHET	O povo acredita que eu sou um profeta.|MEETING_PROPHET_1
+#MEETING_ANS_KILL	(Saque sua espada rapidamente e derrube o senhor governador)|MEETING_KILL_1
+#MEETING_ANS_LEAVE	(Vire-se e dirija-se à sua nave)|MEETING_FIGHT
 
 #MEETING_NUKE_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>The lord governor stops to contemplate your ship.
 #MEETING_NUKE_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>Aye. I did notice that.
