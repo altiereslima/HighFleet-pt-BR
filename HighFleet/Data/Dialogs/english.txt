@@ -1216,22 +1216,22 @@
 #MEETING_PROPHET_3	<NPC=GOVERNOR><SIDE=0>
 <ANS=Você ouviu falar muito de mim, e isso o fez pensar. Você queria ver com os seus próprios olhos.|MEETING_PROPHET_4>
 #MEETING_PROPHET_4	<NPC=GOVERNOR><SIDE=0>
-<ANS=You thought an ordinary man would never come. But if I am a man who can truly see the future, then…|MEETING_PROPHET_5>
+<ANS=Você pensou que um homem comum nunca viria. Mas se eu sou um homem que realmente pode ver o futuro, então...|MEETING_PROPHET_5>
 #MEETING_PROPHET_5	<NPC=GOVERNOR><SIDE=0>
-<ANS=And when I came, you were simply afraid — afraid to believe it could be true.|MEETING_PROPHET_6>
+<ANS=E quando eu vim, você estava simplesmente com medo. Medo de acreditar que poderia ser verdade.|MEETING_PROPHET_6>
 #MEETING_PROPHET_6	<NPC=GOVERNOR><SIDE=0>
-<ANS=But it is true. I can see the future.|MEETING_PROPHET_7>
-#MEETING_PROPHET_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>The lord governor is frozen in place, stunned. At last, he manages to utter a few words...
-#MEETING_PROPHET_8	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|HELLO_ROUND|DIPLOMACY_STARTS>What do you want?
+<ANS=Mas é verdade. Eu posso ver o futuro.|MEETING_PROPHET_7>
+#MEETING_PROPHET_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>O senhor governador fica congelado no lugar, atordoado. Por fim, ele consegue dizer algumas palavras...
+#MEETING_PROPHET_8	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|HELLO_ROUND|DIPLOMACY_STARTS>O que você quer?
 
 #MEETING_FIGHT	<SCR=EXIT><SCR=GOVERNOR_FIGHT>
 
 
-#ALSAHIR_REVENGE_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE><MUSIC=Bois>You and the lord governor are discussing military strategy when Alsahir suddenly appears before you. Rage burns in his eyes.
-#ALSAHIR_REVENGE_2	<NPC=BOY><SIDE=0><NOSPEAK>He unsheathes his sword and advances quickly toward the lord governor.
-<ANS=Order the guards to stop the boy.|ALSAHIR_REVENGE_STOP_1>
-<ANS=Stand between him and the lord governor.|ALSAHIR_REVENGE_BLOCK_1>
-<ANS=Do not interfere.|ALSAHIR_REVENGE_LET_1>
+#ALSAHIR_REVENGE_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE><MUSIC=Bois>Você e o senhor governador estão discutindo a estratégia militar quando Alsahir aparece de repente diante de você. A raiva arde em seus olhos.
+#ALSAHIR_REVENGE_2	<NPC=BOY><SIDE=0><NOSPEAK>Ele desembainha sua espada e avança rapidamente em direção do senhor governador.
+<ANS=Ordene aos guardas que detenham o garoto.|ALSAHIR_REVENGE_STOP_1>
+<ANS=Fique entre ele e o senhor governador.|ALSAHIR_REVENGE_BLOCK_1>
+<ANS=Não interfira.|ALSAHIR_REVENGE_LET_1>
 
 #ALSAHIR_REVENGE_STOP_1	<SCR=CONTINUE>The officers lunge at the boy. Alsahir’s men waste no time drawing their swords. A cacophony of screams and the clang of steel on steel fills the cabin.
 #ALSAHIR_REVENGE_STOP_2	<SCR=CONTINUE>Then you hear gunfire. Finally, a few seconds later, it is done.
