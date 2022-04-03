@@ -1261,12 +1261,12 @@
 #ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2	Alsahir foi morto a tiros pelos guardas.<SCR=STOP|DEATH=BOY>
 
 
-#ALSAHIR_REVENGE_LET_1	<SCR=CONTINUE>The lord governor raises a hand to shield himself, but Alsahir strikes him down with a mighty blow. Without hesitating, he strikes again.
-#ALSAHIR_REVENGE_LET_2	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_3|DEATH=GOVERNOR><SOUND=manhit><EVENT>The lord governor collapses.
-#ALSAHIR_REVENGE_LET_3	<SCR=CONTINUE>Everyone is rooted to the spot. The lord governor is dead. Alsahir wipes his sword and slides it back into its sheath.
-#ALSAHIR_REVENGE_LET_4	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_5|BOY=1>He turns away and leaves without saying a word, followed by his men.
-#ALSAHIR_REVENGE_LET_5	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_LET_6><NPC=OMAR><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_LET_6|OMAR=1>This was bound to happen.
-#ALSAHIR_REVENGE_LET_6	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>The prince nods.
+#ALSAHIR_REVENGE_LET_1	<SCR=CONTINUE>O senhor governador levanta a mão para se proteger, mas Alsahir o derruba com um forte golpe. Sem hesitar, ele ataca novamente.
+#ALSAHIR_REVENGE_LET_2	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_3|DEATH=GOVERNOR><SOUND=manhit><EVENT>O senhor governador desaba.
+#ALSAHIR_REVENGE_LET_3	<SCR=CONTINUE>Todos ficam parados no local. O senhor governador está morto. Alsahir limpa sua espada e a desliza de volta para dentro de sua bainha.
+#ALSAHIR_REVENGE_LET_4	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_5|BOY=1>Ele se afasta e sai sem dizer uma palavra, seguido por seus homens.
+#ALSAHIR_REVENGE_LET_5	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_LET_6><NPC=OMAR><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_LET_6|OMAR=1>Isto tinha que acontecer.
+#ALSAHIR_REVENGE_LET_6	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>O príncipe concorda.
 
 
 #KHIVA_LANDING_1	<SCR=CONTINUE>Unbelievable news soon spreads throughout the city.
