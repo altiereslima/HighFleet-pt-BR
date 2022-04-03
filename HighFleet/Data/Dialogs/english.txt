@@ -1252,13 +1252,13 @@
 #ALSAHIR_REVENGE_FORCE_FAIL	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>Ele perde apenas um segundo pensando, e depois o golpeia.
 #ALSAHIR_REVENGE_FORCE_FAIL_1	<SCR=CONTINUE><SOUND=bladaway><BLACKOUT>Você volta a si várias horas depois.
 #ALSAHIR_REVENGE_FORCE_FAIL_2	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>Pyotr Ignatyevich insiste que você permaneça completamente imóvel. Mesmo agora, sua vida permanece em grande perigo. A espada de Alsahir fissurou sua mandíbula e deixou uma ferida aberta sob sua orelha direita. A dor é excruciante.
-#ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>The ship’s surgeon is doing his best, but the ship cannot take off until his work is done.<ANS=And the lord governor?|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
-#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>There was a fight with Alsahir’s men, but the lord governor is unharmed.<ANS=And the boy?|ALSAHIR_REVENGE_FORCE_FAIL_6>
-#ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr Ignatyevich hesitates for a moment.
-#ALSAHIR_REVENGE_FORCE_FAIL_6	<NPC=PETR><SIDE=1><SCR=STOP|DEATH=BOY>Shot dead by the guards.
+#ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>O cirurgião da nave está fazendo seu melhor, mas a nave não pode decolar até que seu trabalho esteja pronto.<ANS=E o senhor governador?|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
+#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>Houve uma luta com os homens de Alsahir, mas o senhor governador está ileso.<ANS=E o garoto?|ALSAHIR_REVENGE_FORCE_FAIL_6>
+#ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr Ignatyevich hesita por um momento.
+#ALSAHIR_REVENGE_FORCE_FAIL_6	<NPC=PETR><SIDE=1><SCR=STOP|DEATH=BOY>Morto a tiro pelos guardas.
 
-#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1	Alsahir’s sword cleft your jaw and left a gaping wound under your right ear. The pain is excruciating. The ship’s surgeon is doing his best, but the ship cannot take off until his work is done.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2|WOUND=24>
-#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2	Alsahir was shot dead by the guards.<SCR=STOP|DEATH=BOY>
+#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1	A espada de Alsahir fissurou sua mandíbula e deixou uma ferida aberta sob sua orelha direita. A dor é excruciante. O cirurgião da nave está fazendo seu melhor, mas a nave não pode decolar até que seu trabalho esteja concluído.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2|WOUND=24>
+#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2	Alsahir foi morto a tiros pelos guardas.<SCR=STOP|DEATH=BOY>
 
 
 #ALSAHIR_REVENGE_LET_1	<SCR=CONTINUE>The lord governor raises a hand to shield himself, but Alsahir strikes him down with a mighty blow. Without hesitating, he strikes again.
@@ -3999,7 +3999,7 @@
 #REACTOR_CAPTURED_1	<EVENT>The Khiva reactor was taken and obliterated by the forces of the Gathering.<SCR=CONTINUE>
 #REACTOR_CAPTURED_2	<EVENT>The people of Gerat have lost all hope of surviving this calamity.<SCR=STOP>
 
-#TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}TOTAL WAR@10{font=fixed_20}{align=0}Money means nothing now. Fuel, ammunition, and repairs are free of charge.@10In light of the calamity, many people in Gerat will seek to join your cause.<SCR=STOP>
+#TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}GUERRA TOTAL@10{font=fixed_20}{align=0}O dinheiro agora não significa nada. Combustível, munições e reparos são gratuitos.@10Em face da calamidade, muitas pessoas em Gerat procurarão juntar-se à sua causa.<SCR=STOP>
 
 #MILITARY_CRIME	CRIME DE GUERRA
 #RAM_1	ORDEM
