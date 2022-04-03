@@ -1233,25 +1233,25 @@
 <ANS=Fique entre ele e o senhor governador.|ALSAHIR_REVENGE_BLOCK_1>
 <ANS=Não interfira.|ALSAHIR_REVENGE_LET_1>
 
-#ALSAHIR_REVENGE_STOP_1	<SCR=CONTINUE>The officers lunge at the boy. Alsahir’s men waste no time drawing their swords. A cacophony of screams and the clang of steel on steel fills the cabin.
-#ALSAHIR_REVENGE_STOP_2	<SCR=CONTINUE>Then you hear gunfire. Finally, a few seconds later, it is done.
-#ALSAHIR_REVENGE_STOP_3	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_STOP_5><SCR=CONTINUE><NPC=PETR><SIDE=1><NOSPEAK>Pyotr Ignatyevich is struggling to rise from the floor, his hand clutching at his sword. He slips in someone else’s blood and falls again.
-#ALSAHIR_REVENGE_STOP_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Curses!
-#ALSAHIR_REVENGE_STOP_5	<SCR=CONTINUE>Guards have filled the cabin. Three officers and a technician perished in the fight.
-#ALSAHIR_REVENGE_STOP_6	<SCR=CONTINUE|LEVEL_GERAT=-1|DEATH=BOY>Alsahir and his men are dead.
-#ALSAHIR_REVENGE_STOP_7	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_STOP_8><NPC=OMAR><SIDE=1><SCR=CONTINUE|OMAR=-2>This is an unspeakable atrocity, Sayadi!
-#ALSAHIR_REVENGE_STOP_8	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_STOP_9><NPC=FASIL><SIDE=1><SCR=CONTINUE|FASIL=-2>You’ve made a terrible mistake, Duke!
-#ALSAHIR_REVENGE_STOP_9	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_STOP_10><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|AIRBORNE=1>You did the right thing. Shame about the soldiers who had to die.
-#ALSAHIR_REVENGE_STOP_10	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_STOP_11><NPC=VETERAN><SIDE=1><SCR=CONTINUE|VETERAN=1>You were lucky to kill him so easily, Duke. This Alsahir was far more dangerous than he seemed. Men like him enjoy unchallenged authority in Gerat.
-#ALSAHIR_REVENGE_STOP_11	<SCR=CHECK_JOINED|GOVERNOR|EXIT><NPC=GOVERNOR><SIDE=1><SCR=STOP|GOVERNOR=2>Thank you, Duke. I owe you a great debt.
+#ALSAHIR_REVENGE_STOP_1	<SCR=CONTINUE>Os oficiais se atiram sobre o garoto. Os homens de Alsahir não perdem tempo em desembainhar suas espadas. Uma cacofonia de gritos e o tilintar de aço contra o aço enche a cabine.
+#ALSAHIR_REVENGE_STOP_2	<SCR=CONTINUE>Então se ouve tiros. Finalmente, alguns segundos depois, tudo está terminado.
+#ALSAHIR_REVENGE_STOP_3	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_STOP_5><SCR=CONTINUE><NPC=PETR><SIDE=1><NOSPEAK>Pyotr Ignatyevich luta para se levantar do chão, com a mão agarrada a sua espada. Ele escorrega no sangue de outra pessoa e cai novamente.
+#ALSAHIR_REVENGE_STOP_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Maldição!
+#ALSAHIR_REVENGE_STOP_5	<SCR=CONTINUE>Os guardas encheram a cabine. Três oficiais e um técnico pereceram na luta.
+#ALSAHIR_REVENGE_STOP_6	<SCR=CONTINUE|LEVEL_GERAT=-1|DEATH=BOY>Alsahir e seus homens estão mortos.
+#ALSAHIR_REVENGE_STOP_7	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_STOP_8><NPC=OMAR><SIDE=1><SCR=CONTINUE|OMAR=-2>Esta é uma atrocidade indescritível, Sayadi!
+#ALSAHIR_REVENGE_STOP_8	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_STOP_9><NPC=FASIL><SIDE=1><SCR=CONTINUE|FASIL=-2>Você cometeu um erro terrível, Duque!
+#ALSAHIR_REVENGE_STOP_9	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_STOP_10><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|AIRBORNE=1>Você fez a coisa certa. Uma pena pelos soldados que tiveram que morrer.
+#ALSAHIR_REVENGE_STOP_10	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_STOP_11><NPC=VETERAN><SIDE=1><SCR=CONTINUE|VETERAN=1>Você teve a sorte de matá-lo facilmente, Duque. Este Alsahir era muito mais perigoso do que ele parecia. Homens como ele desfrutam de autoridade indiscutível em Gerat.
+#ALSAHIR_REVENGE_STOP_11	<SCR=CHECK_JOINED|GOVERNOR|EXIT><NPC=GOVERNOR><SIDE=1><SCR=STOP|GOVERNOR=2>Obrigado, Duque. Tenho uma grande dívida com você.
 
 
-#ALSAHIR_REVENGE_BLOCK_1	<NPC=BOY><SIDE=0>Sayadi, how could you?! You gave me your word!
-<ANS=I cannot allow you to murder him. (Draw your sword)|ALSAHIR_REVENGE_STOP_1>
-<ANS=You may take my life instead.|ALSAHIR_REVENGE_FORCE|PRECHECK_FORCE=-3|CHECK_FORCE=-3>
-#ALSAHIR_REVENGE_FORCE_FAIL	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>He spends only a second in thought, then strikes you down.
-#ALSAHIR_REVENGE_FORCE_FAIL_1	<SCR=CONTINUE><SOUND=bladaway><BLACKOUT>You come to your senses several hours later.
-#ALSAHIR_REVENGE_FORCE_FAIL_2	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>Pyotr Ignatyevich insists that you remain completely still. Even now, your life remains in great danger. Alsahir’s sword cleft your jaw and left a gaping wound under your right ear. The pain is excruciating.
+#ALSAHIR_REVENGE_BLOCK_1	<NPC=BOY><SIDE=0>Sayadi, como pôde?! Você me deu sua palavra!
+<ANS=Não posso permitir que você o mate. (Saque sua espada)|ALSAHIR_REVENGE_STOP_1>
+<ANS=Você pode tirar minha vida em seu lugar.|ALSAHIR_REVENGE_FORCE|PRECHECK_FORCE=-3|CHECK_FORCE=-3>
+#ALSAHIR_REVENGE_FORCE_FAIL	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>Ele perde apenas um segundo pensando, e depois o golpeia.
+#ALSAHIR_REVENGE_FORCE_FAIL_1	<SCR=CONTINUE><SOUND=bladaway><BLACKOUT>Você volta a si várias horas depois.
+#ALSAHIR_REVENGE_FORCE_FAIL_2	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>Pyotr Ignatyevich insiste que você permaneça completamente imóvel. Mesmo agora, sua vida permanece em grande perigo. A espada de Alsahir fissurou sua mandíbula e deixou uma ferida aberta sob sua orelha direita. A dor é excruciante.
 #ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>The ship’s surgeon is doing his best, but the ship cannot take off until his work is done.<ANS=And the lord governor?|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
 #ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>There was a fight with Alsahir’s men, but the lord governor is unharmed.<ANS=And the boy?|ALSAHIR_REVENGE_FORCE_FAIL_6>
 #ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr Ignatyevich hesitates for a moment.
@@ -3783,7 +3783,7 @@
 
 
 #SPEECH_FEAR_GOVERNOR_01	De como Sayadi é um bom amigo e um temível inimigo.
-#SPEECH_NOFEAR_GOVERNOR_01	De seu profundo sentimento de respeito pelo Governador.
+#SPEECH_NOFEAR_GOVERNOR_01	De seu profundo sentimento de respeito pelo governador.
 
 #SPEECH_ROMANI_GOVERNOR_01	Do grande destino da nação Romani.
 #SPEECH_NOROMANI_GOVERNOR_01	D próximo declínio da nação Romani.
@@ -4001,19 +4001,19 @@
 
 #TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}TOTAL WAR@10{font=fixed_20}{align=0}Money means nothing now. Fuel, ammunition, and repairs are free of charge.@10In light of the calamity, many people in Gerat will seek to join your cause.<SCR=STOP>
 
-#MILITARY_CRIME	WAR CRIME
-#RAM_1	ORDER
-#RAM_2	RAMMING
+#MILITARY_CRIME	CRIME DE GUERRA
+#RAM_1	ORDEM
+#RAM_2	COLIDIR CONTRA
 
 
 
-#TUTORIAL_RAM_1	<NPC=PETR><SIDE=-1>There are rumors, Grand Duke... they say you ordered one of our vessels to ram an enemy ship. The vessel’s entire crew perished as a result.
-<ANS=Those rumors are completely unfounded, General.|TUTORIAL_RAM_YES>
-<ANS=What of it? Those brave men and women will be posthumously promoted and celebrated as heroes of the Empire.|TUTORIAL_RAM_NO_1>
-#TUTORIAL_RAM_YES	<NPC=PETR><SCR=STOP>Be that as it may, these rumors are highly detrimental to morale.
-#TUTORIAL_RAM_NO_1	<NPC=PETR><SCR=CONTINUE>If you keep giving these kinds of orders, the men will lose all faith in victory.
-#TUTORIAL_RAM_NO_2	<NPC=PETR><SCR=CONTINUE>Our people do not have a death wish, Mark.
-#TUTORIAL_RAM_NO_3	<NPC=PETR><PETR=-1><SCR=STOP>Good day.
+#TUTORIAL_RAM_1	<NPC=PETR><SIDE=-1>Há rumores, Grão-Duque... que dizem que o senhor ordenou que uma de nossas naves colidisse contra uma nave inimiga. Como resultado, toda a tripulação da nossa nave pereceu.
+<ANS=Esses rumores são completamente infundados, General.|TUTORIAL_RAM_YES>
+<ANS=E daí? Esses corajosos homens e mulheres serão promovidos e homenageados postumamente como heróis do Império.|TUTORIAL_RAM_NO_1>
+#TUTORIAL_RAM_YES	<NPC=PETR><SCR=STOP>Seja como for, estes rumores são muito prejudiciais para a moral.
+#TUTORIAL_RAM_NO_1	<NPC=PETR><SCR=CONTINUE>Se você continuar dando este tipo de ordens, os homens perderão toda a fé na vitória.
+#TUTORIAL_RAM_NO_2	<NPC=PETR><SCR=CONTINUE>Nosso povo não tem um desejo de morrer, Mark.
+#TUTORIAL_RAM_NO_3	<NPC=PETR><PETR=-1><SCR=STOP>Tenha um bom dia.
 
 
 
