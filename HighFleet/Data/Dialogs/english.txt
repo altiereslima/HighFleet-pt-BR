@@ -1280,20 +1280,20 @@
 #KHIVA_LANDING_8	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR_8><SCR=CONTINUE>Assim que você chega, o senhor governador o leva para o complexo de armazenamento subterrâneo.
 #KHIVA_LANDING_NOGOVERNOR_8	<SCR=CONTINUE|KHIVA_LANDING_9>Os demais membros do governo não perdem tempo mostrando-lhe o complexo de armazenamento subterrâneo, ansiosos para agradar a seus novos mestres.
 
-#KHIVA_LANDING_9	<SCR=CONTINUE><MUSIC=Bois><BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Next to the majestic dome of the reactor is an underground passageway. You walk down a flight of stairs.
-#KHIVA_LANDING_10	<SCR=CONTINUE><ILLUSTRATION=-1>The storage area below is filled with uniform cylinders. They are stacked throughout the underground chamber as far as the eye can see.
-#KHIVA_LANDING_11	<SCR=CHECK_JOINED|DAUD|KHIVA_LANDING_13><NPC=DAUD><SIDE=-1><SCR=CONTINUE>And there is a plutonium assembly in each of these containers?
-#KHIVA_LANDING_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>There are so many!
-#KHIVA_LANDING_13	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr casts a brooding glance to the side, where missile parts glimmer in the dull light. The steel-knit arms of assembly cranes obscure the ceiling, which stretches far into the dark facility.
-#KHIVA_LANDING_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>They’ll never let us leave with this.
-#KHIVA_LANDING_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>I made a terrible mistake. There will be no talks.
-#KHIVA_LANDING_16	<SCR=STOP>Pyotr was right. An ultimatum arrives soon after.
+#KHIVA_LANDING_9	<SCR=CONTINUE><MUSIC=Bois><BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Ao lado da majestosa cúpula do reator há uma passagem subterrânea. Você desce um lance de escadas.
+#KHIVA_LANDING_10	<SCR=CONTINUE><ILLUSTRATION=-1>A área de armazenamento abaixo é preenchida com cilindros uniformes. Eles estão empilhados em toda a câmara subterrânea até onde a vista alcança.
+#KHIVA_LANDING_11	<SCR=CHECK_JOINED|DAUD|KHIVA_LANDING_13><NPC=DAUD><SIDE=-1><SCR=CONTINUE>E há plutônio em cada um desses recipientes?
+#KHIVA_LANDING_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Muito.
+#KHIVA_LANDING_13	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr lança um olhar de raiva para o lado, onde as peças de mísseis brilham com a luz apagada. Os braços de aço dos guindastes de montagem obscurecem o teto, que se estende até o interior da escura instalação.
+#KHIVA_LANDING_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>Eles nunca nos deixarão sair com isto.
+#KHIVA_LANDING_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>Eu cometi um erro terrível. Não haverá negociações.
+#KHIVA_LANDING_16	<SCR=STOP>Pyotr estava certo. Um ultimato chega logo em seguida.
 
-#TELEGRAM_ULTIMATUM	TO THE COMMANDER OF THE ROMANI EXPEDITIONARY FLEET@10THE ELAAT GATHERING OF GREAT HOUSES HEREBY DEMANDS THAT YOU WITHDRAW ALL ROMANI SHIPS FROM KHIVA IMMEDIATELY.@10YOU HAVE 8 HOURS TO COMPLY, OR THE JOINT FLEET OF GREAT HOUSES WILL DESTROY THE CITY VIA NUCLEAR STRIKE.
+#TELEGRAM_ULTIMATUM	PARA O COMANDANTE DA FROTA EXPEDICIONÁRIA ROMANI@10A REUNIÃO DAS GRANDES CASAS DE ELAAT, EXIGE QUE VOCÊ RETIRE IMEDIATAMENTE TODOS AS NAVES ROMANI DE KHIVA.@10VOCÊ TEM 8 HORAS PARA CUMPRIR, OU A FROTA CONJUNTA DAS GRANDES CASAS DESTRUIRÁ A CIDADE MEDIANTE UM ATAQUE NUCLEAR.
 
-#KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>They’ll spare nothing.
-#KHIVA_ULTIMATUM_2	<NPC=PETR><SIDE=1>Everything they have, they’ll send our way.
-<ANS=Pyotr Ignatyevich, call an emergency meeting!|KHIVA_ULTIMATUM_3>
+#KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>Eles não vão poupar nada.
+#KHIVA_ULTIMATUM_2	<NPC=PETR><SIDE=1>Eles enviarão tudo o que têm.
+<ANS=Pyotr Ignatyevich, convoque uma reunião de emergência!|KHIVA_ULTIMATUM_3>
 #KHIVA_ULTIMATUM_3	<SCR=TO_THE_MAP>.
 
 
