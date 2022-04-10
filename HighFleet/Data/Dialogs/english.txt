@@ -1269,16 +1269,16 @@
 #ALSAHIR_REVENGE_LET_6	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>O príncipe concorda.
 
 
-#KHIVA_LANDING_1	<SCR=CONTINUE>Unbelievable news soon spreads throughout the city.
-#KHIVA_LANDING_2	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR><SCR=CONTINUE|KHIVA_LANDING_3|MORAL=1>The lord governor has stepped down!
-#KHIVA_LANDING_NOGOVERNOR	<SCR=CONTINUE|KHIVA_LANDING_3>The lord governor has fallen in battle!
-#KHIVA_LANDING_3	<SCR=CHECK_JOINED|FASIL|KHIVA_LANDING_4><SCR=CONTINUE|KHIVA_LANDING_4|MORAL=1>Great Duke Sayadi has entered the city in the company of the Elaou Prince!
-#KHIVA_LANDING_4	<SCR=CHECK_JOINED|OMAR|KHIVA_LANDING_5><SCR=CONTINUE|KHIVA_LANDING_5|MORAL=1>And his ally is Omar Khan, a man everyone thought dead!
-#KHIVA_LANDING_5	<SCR=CHECK_JOINED|BOY|KHIVA_LANDING_6><SCR=CONTINUE|KHIVA_LANDING_6|MORAL=1>And his ally is none other than Alsahir of the Hidden People!
-#KHIVA_LANDING_6	<SCR=CHECK_JOINED|GIRL|KHIVA_LANDING_7><SCR=CONTINUE|KHIVA_LANDING_7|MORAL=1>And, in addition, they are joined by Duchess Isi.
-#KHIVA_LANDING_7	<SCR=CONTINUE>The entire city comes to greet you. What a spectacular sight!
-#KHIVA_LANDING_8	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR_8><SCR=CONTINUE>As soon as you arrive, the lord governor takes you to the underground storage complex.
-#KHIVA_LANDING_NOGOVERNOR_8	<SCR=CONTINUE|KHIVA_LANDING_9>The remaining members of the government waste no time showing you to the underground storage complex, eager to please their new masters.
+#KHIVA_LANDING_1	<SCR=CONTINUE>Notícias inacreditáveis logo se espalham por toda a cidade
+#KHIVA_LANDING_2	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR><SCR=CONTINUE|KHIVA_LANDING_3|MORAL=1>O senhor governador se retirou!
+#KHIVA_LANDING_NOGOVERNOR	<SCR=CONTINUE|KHIVA_LANDING_3>O senhor governador caiu em batalha!
+#KHIVA_LANDING_3	<SCR=CHECK_JOINED|FASIL|KHIVA_LANDING_4><SCR=CONTINUE|KHIVA_LANDING_4|MORAL=1>O Grande Duque Sayadi entrou na cidade na companhia do Príncipe Elaou!
+#KHIVA_LANDING_4	<SCR=CHECK_JOINED|OMAR|KHIVA_LANDING_5><SCR=CONTINUE|KHIVA_LANDING_5|MORAL=1>E seu aliado é Omar Khan, um homem que todos acreditavam estar morto!
+#KHIVA_LANDING_5	<SCR=CHECK_JOINED|BOY|KHIVA_LANDING_6><SCR=CONTINUE|KHIVA_LANDING_6|MORAL=1>E seu aliado não é outro senão Alsahir do Povo Oculto!
+#KHIVA_LANDING_6	<SCR=CHECK_JOINED|GIRL|KHIVA_LANDING_7><SCR=CONTINUE|KHIVA_LANDING_7|MORAL=1>E, além disso, eles se unem à Duquesa Isi.
+#KHIVA_LANDING_7	<SCR=CONTINUE>A cidade inteira vem recebê-lo. Que visão espetacular!
+#KHIVA_LANDING_8	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR_8><SCR=CONTINUE>Assim que você chega, o senhor governador o leva para o complexo de armazenamento subterrâneo.
+#KHIVA_LANDING_NOGOVERNOR_8	<SCR=CONTINUE|KHIVA_LANDING_9>Os demais membros do governo não perdem tempo mostrando-lhe o complexo de armazenamento subterrâneo, ansiosos para agradar a seus novos mestres.
 
 #KHIVA_LANDING_9	<SCR=CONTINUE><MUSIC=Bois><BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Next to the majestic dome of the reactor is an underground passageway. You walk down a flight of stairs.
 #KHIVA_LANDING_10	<SCR=CONTINUE><ILLUSTRATION=-1>The storage area below is filled with uniform cylinders. They are stacked throughout the underground chamber as far as the eye can see.
