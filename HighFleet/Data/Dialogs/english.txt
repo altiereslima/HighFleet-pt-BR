@@ -1297,10 +1297,10 @@
 #KHIVA_ULTIMATUM_3	<SCR=TO_THE_MAP>.
 
 
-#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,DAUD><SCR=SKIP|PETR_DAUD_21>Something impossible happened today: our cruiser "Diana", which was sent to reestablish communication with the Scobelev, has returned!
-#PETR_DAUD_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A gift from the heavens, and right in the nick of time! But her crew brought us something even more astonishing: news from the capital...
-#PETR_DAUD_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>My father is alive and well!
-#PETR_DAUD_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>We thought Romani Fleet High Command had been eliminated, but they are still alive. And the war in the capital never ended — it continues even now...
+#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,DAUD><SCR=SKIP|PETR_DAUD_21>Hoje aconteceu algo impossível: nosso cruzador "Diana", que foi enviado para restabelecer a comunicação com o Scobelev, voltou!
+#PETR_DAUD_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Um presente dos céus, e na hora certa! Mas sua tripulação nos trouxe algo ainda mais espantoso: notícias da capital...
+#PETR_DAUD_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Meu pai está vivo e bem!
+#PETR_DAUD_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Pensávamos que o Alto Comando da Frota Romani tinha sido eliminado, mas eles ainda estão vivos. E a guerra na capital nunca terminou - na verdade, continua neste momento...
 
 #PETR_DAUD_5	<MUSIC=Bois><SCR=CONTINUE>Admiral Daud barges into your cabin as you are discussing strategy with Pyotr Ignatyevich.
 #PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>You knew!
