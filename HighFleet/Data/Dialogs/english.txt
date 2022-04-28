@@ -1302,12 +1302,12 @@
 #PETR_DAUD_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Meu pai está vivo e bem!
 #PETR_DAUD_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RETURN OF DIANA@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Pensávamos que o Alto Comando da Frota Romani tinha sido eliminado, mas eles ainda estão vivos. E a guerra na capital nunca terminou - na verdade, continua neste momento...
 
-#PETR_DAUD_5	<MUSIC=Bois><SCR=CONTINUE>Admiral Daud barges into your cabin as you are discussing strategy with Pyotr Ignatyevich.
-#PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>You knew!
-#PETR_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>He screams these words at Pyotr the moment he appears in the doorway.
-#PETR_DAUD_8	<NPC=DAUD><SIDE=-1>You received a transmission from High Command, didn’t you?!
-<ANS=What are you talking about, Admiral?|PETR_DAUD_9>
-#PETR_DAUD_9	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud glances at you for a moment, then continues to stare Pyotr down.
+#PETR_DAUD_5	<MUSIC=Bois><SCR=CONTINUE>O almirante Daud entra em sua cabine enquanto você discute a estratégia com Pyotr Ignatyevich.
+#PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Você sabia!
+#PETR_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Grita estas palavras a Pyotr no momento em que ele aparece na porta.
+#PETR_DAUD_8	<NPC=DAUD><SIDE=-1>Você recebeu uma transmissão do Alto Comando, não recebeu?!
+<ANS=Do que você está falando, Almirante?|PETR_DAUD_9>
+#PETR_DAUD_9	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud olha para você por um momento, depois continua olhando Pyotr.
 #PETR_DAUD_10	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Does he know it too?
 #PETR_DAUD_11	<NPC=PETR><SIDE=1>Nay, Sharif. He does not.
 <ANS=What’s going on here? I demand an explanation!|PETR_DAUD_12>
