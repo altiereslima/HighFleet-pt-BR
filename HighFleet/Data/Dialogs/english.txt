@@ -1308,13 +1308,13 @@
 #PETR_DAUD_8	<NPC=DAUD><SIDE=-1>Você recebeu uma transmissão do Alto Comando, não recebeu?!
 <ANS=Do que você está falando, Almirante?|PETR_DAUD_9>
 #PETR_DAUD_9	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud olha para você por um momento, depois continua olhando Pyotr.
-#PETR_DAUD_10	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Does he know it too?
-#PETR_DAUD_11	<NPC=PETR><SIDE=1>Nay, Sharif. He does not.
-<ANS=What’s going on here? I demand an explanation!|PETR_DAUD_12>
-#PETR_DAUD_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>During our stay in Ur, General Shahin received a transmission from High Command.
-#PETR_DAUD_13	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>It was a direct order for us to return to the capital.
-#PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>But he kept this order from us.
-#PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Instead, he convinced us all that High Command had been eliminated and the war in the south was lost!
+#PETR_DAUD_10	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ele também sabe disso?
+#PETR_DAUD_11	<NPC=PETR><SIDE=1>Não, Sharif. Não sabe.
+<ANS=O que está acontecendo aqui? Eu exijo uma explicação!|PETR_DAUD_12>
+#PETR_DAUD_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Durante nossa estadia em Ur, o General Shahin recebeu uma transmissão do Alto Comando.
+#PETR_DAUD_13	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Foi uma ordem direta para que voltássemos à capital.
+#PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Mas ele escondeu esta ordem de nós.
+#PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Em vez disso, ele nos convenceu a todos de que o Alto Comando havia sido eliminado e que a guerra no sul estava perdida!
 #PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>And we obeyed him and agreed to this insane assault!
 #PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>Which can still succeed. The opportunity to capture Khiva is far more important than anything happening in the Motherland.
 #PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>But what of my family, Pyotr? My wife and children, who are still in the capital?
