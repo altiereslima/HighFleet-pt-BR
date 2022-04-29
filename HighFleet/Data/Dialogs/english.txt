@@ -1315,7 +1315,7 @@
 #PETR_DAUD_13	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Foi uma ordem direta para que voltássemos à capital.
 #PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Mas ele escondeu esta ordem de nós.
 #PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Em vez disso, ele nos convenceu a todos de que o Alto Comando havia sido eliminado e que a guerra no sul estava perdida!
-#PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>And we obeyed him and agreed to this insane assault!
+#PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>E nós obedecemos e concordamos com este insano ataque!
 #PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>Which can still succeed. The opportunity to capture Khiva is far more important than anything happening in the Motherland.
 #PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>But what of my family, Pyotr? My wife and children, who are still in the capital?
 #PETR_DAUD_19	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>What about the Emperor? What about your oath?!
