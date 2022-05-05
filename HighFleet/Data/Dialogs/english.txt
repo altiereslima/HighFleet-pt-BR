@@ -1316,30 +1316,30 @@
 #PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Mas ele escondeu esta ordem de nós.
 #PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Em vez disso, ele nos convenceu a todos de que o Alto Comando havia sido eliminado e que a guerra no sul estava perdida!
 #PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>E nós obedecemos e concordamos com este insano ataque!
-#PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>Which can still succeed. The opportunity to capture Khiva is far more important than anything happening in the Motherland.
-#PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>But what of my family, Pyotr? My wife and children, who are still in the capital?
-#PETR_DAUD_19	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>What about the Emperor? What about your oath?!
-#PETR_DAUD_20	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud turns to you.
-#PETR_DAUD_21	<NPC=DAUD><SIDE=-1>Duke, I demand you arrest the general immediately!
-<ANS=Please hand over your weapon, Pyotr Ignatyevich.|PETR_DAUD_UNARMED_1>
-<ANS=Pyotr Ignatyevich, I order you to arrest Admiral Daud.|PETR_DAUD_DISARM_FAIL>
-<ANS=Surely we can solve this peacefully.|PETR_DAUD_DISARM_FAIL>
+#PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>Que ainda pode ter sucesso. A oportunidade de capturar Khiva é muito mais importante do que qualquer coisa que aconteça na Pátria Mãe.
+#PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Mas o que dizer da minha família, Pyotr? Minha esposa e meus filhos, que ainda estão na capital?
+#PETR_DAUD_19	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>O que acontece com o Imperador? O que dizer de seu juramento?!
+#PETR_DAUD_20	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud se volta para você.
+#PETR_DAUD_21	<NPC=DAUD><SIDE=-1>Duque, exijo que prenda o general imediatamente!
+<ANS=Por favor, entregue sua arma, Pyotr Ignatyevich.|PETR_DAUD_UNARMED_1>
+<ANS=Pyotr Ignatyevich, ordeno-lhe que prenda o Almirante Daud.|PETR_DAUD_DISARM_FAIL>
+<ANS=Tenho certeza de que podemos resolver isto pacificamente.|PETR_DAUD_DISARM_FAIL>
 
-#PETR_DAUD_UNARMED_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr looks at you, dumbstruck.
-#PETR_DAUD_UNARMED_2	<NPC=PETR><SIDE=1>Mark, if you would just allow me to…
-<ANS=No, Pyotr Ignatyevich. That’s enough. It’s time to do the right thing.|PETR_DAUD_DISARM|PRECHECK_KINDNESS=3|CHECK_KINDNESS=3>
-#PETR_DAUD_DISARM	<NPC=PETR><SIDE=1><NOSPEAK>Embarrassed, Pyotr hands you his sidearm.
-<ANS=We won't turn south, Admiral. I suggest you leave our squadron at once.|PETR_DAUD_LEAVE_1>
+#PETR_DAUD_UNARMED_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr olha para você, boquiaberto.
+#PETR_DAUD_UNARMED_2	<NPC=PETR><SIDE=1>Mark, se você me permitir...
+<ANS=Não, Pyotr Ignatyevich. Isso é o suficiente. É hora de fazer a coisa certa.|PETR_DAUD_DISARM|PRECHECK_KINDNESS=3|CHECK_KINDNESS=3>
+#PETR_DAUD_DISARM	<NPC=PETR><SIDE=1><NOSPEAK>Envergonhado, Pyotr lhe entrega sua arma lateral.
+<ANS=Nós não vamos virar para o sul, Almirante. Sugiro que você deixe nosso esquadrão imediatamente.|PETR_DAUD_LEAVE_1>
 
-#PETR_DAUD_LEAVE_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>So you’re an accomplice too, Duke...
-#PETR_DAUD_LEAVE_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud knits the brow and shakes his head.
-#PETR_DAUD_LEAVE_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>So be it. Good day, gentlemen.
-#PETR_DAUD_LEAVE_4	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>You are soon told that several ships have taken off and left your squadron, heading south.
+#PETR_DAUD_LEAVE_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Então você também é um cúmplice, Duque...
+#PETR_DAUD_LEAVE_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud franze a testa e balança a cabeça.
+#PETR_DAUD_LEAVE_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Que assim seja. Bom dia, senhores.
+#PETR_DAUD_LEAVE_4	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>Em seguida, vocês são informados de que vários navios decolaram e deixaram seu esquadrão, dirigindo-se para o sul.
 
-#PETR_DAUD_DISARM_FAIL	<SCR=CONTINUE|PETR_DAUD_ARMED_2>Admiral Daud stares at you. You watch Pyotr reach for his sidearm...
-#PETR_DAUD_ARMED_2	<SCR=CONTINUE><EVENT><SOUND=shoot_01>Then, a point-blank shot.
-#PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>Impossibly slowly, the admiral collapses at your feet.
-#PETR_DAUD_ARMED_4	<SCR=CONTINUE>You feel the urge to scream, but your voice will not cooperate.
+#PETR_DAUD_DISARM_FAIL	<SCR=CONTINUE|PETR_DAUD_ARMED_2>O almirante Daud olha fixamente para você. Você observa Pyotr pegar a arma...
+#PETR_DAUD_ARMED_2	<SCR=CONTINUE><EVENT><SOUND=shoot_01>Então, ele atira à queima-roupa.
+#PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>Lentamente, o almirante desaba aos seus pés.
+#PETR_DAUD_ARMED_4	<SCR=CONTINUE>Você sente vontade de gritar, mas sua voz não coopera.
 #PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>With a heavy sigh, Pyotr clumsily tries to holster his pistol.
 #PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>There was no way around it, Duke.
 #PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Had I left him alive, half our officers would have sided with him.
