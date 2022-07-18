@@ -1341,120 +1341,120 @@
 #PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>Lentamente, o almirante desaba aos seus pés.
 #PETR_DAUD_ARMED_4	<SCR=CONTINUE>Você sente vontade de gritar, mas sua voz não coopera.
 #PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Com um forte suspiro, Pyotr tenta de maneira desajeitada guardar sua pistola.
-#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não havia como contornar isso, Duque.
+#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não havia jeito de evitar isso, Duque.
 #PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se eu o tivesse deixado vivo, metade de nossos oficiais teria ficado do lado dele.
 #PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>O sangue começa a se acumular ao redor da cabeça de Daud.
-<ANS=Pyotr... you’ve lost your mind, Pyotr...|PETR_DAUD_ARMED_9>
-#PETR_DAUD_ARMED_9	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>These are all the words your lungs can squeeze out of your throat. Your mind is still struggling to come to grips with what just happened.
-#PETR_DAUD_ARMED_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>Admiral of His Majesty’s Fleet...
+<ANS=Pyotr... você perdeu a cabeça, Pyotr...|PETR_DAUD_ARMED_9>
+#PETR_DAUD_ARMED_9	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Estas são todas as palavras que seus pulmões podem espremer para fora da garganta. Sua mente ainda está lutando para assimilar o que acabou de acontecer.
+#PETR_DAUD_ARMED_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>O Almirante da Frota de Sua Majestade...
 #PETR_DAUD_ARMED_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>...Sharif Rahmatovich Daud…
-#PETR_DAUD_ARMED_12	<NPC=PETR><SIDE=1><SCR=CONTINUE>...has departed on a mission of the utmost urgency.
-#PETR_DAUD_ARMED_13	<NPC=PETR><SIDE=1><SCR=CONTINUE>This is what I’ll tell the men.
-#PETR_DAUD_ARMED_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>And when this is over, I shall face the tribunal.
-#PETR_DAUD_ARMED_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>You should leave, Duke. You don’t have to see this.
-#PETR_DAUD_ARMED_16	<SCR=STOP|>You stumble out of the cabin, leaving Pyotr and the dead body behind like a bad dream.
+#PETR_DAUD_ARMED_12	<NPC=PETR><SIDE=1><SCR=CONTINUE>...partiu em uma missão de máxima urgência.
+#PETR_DAUD_ARMED_13	<NPC=PETR><SIDE=1><SCR=CONTINUE>Isto é o que vou dizer aos homens.
+#PETR_DAUD_ARMED_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>E quando isto terminar, eu enfrentarei o tribunal.
+#PETR_DAUD_ARMED_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>Você deveria ir, Duque. Não precisa ver isto.
+#PETR_DAUD_ARMED_16	<SCR=STOP|>Você sai tropeçando da cabine, deixando Pyotr e o cadáver para trás como um pesadelo.
 
 
 
-#PETR_DEPARTURE_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>Duke? If I may...
-#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>I wanted to thank you from rescuing me from the lunacy that came over me. I was about to do something unforgivable.
-#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>Even now, I have no idea how you knew what I was going to do... but I owe you a great debt.
+#PETR_DEPARTURE_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>Duque? Se me permite...
+#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Queria te agradecer por me resgatar da loucura que me tomou. Eu estava prestes a fazer algo imperdoável.
+#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>Mesmo agora, não tenho ideia de como você sabia o que eu ia fazer... mas eu tenho uma grande dívida com você.
 
-#PETR_DEPARTURE_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Which makes it even harder for me to say what I need to say.
-#PETR_DEPARTURE_5	<NPC=PETR><SIDE=1><SCR=CONTINUE>I’ve come to ask you for a ship, Duke.
-#PETR_DEPARTURE_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>I know this predicament demands that every cannon and every pair of hands be put to use, but here I am, asking for an entire ship... but please, allow me to try!
-#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>I wish to follow Daud. I want to explain myself to him and hopefully convince him to aid your cause.
-#PETR_DEPARTURE_8	<NPC=PETR><SIDE=1>He and I have been friends for many years. There are a few things I need to tell him.
-<ANS=Heading south now is sheer madness, Pyotr — even if Daud does agree to hear you out!|PETR_DEPARTURE_9>
-#PETR_DEPARTURE_9	<NPC=PETR><SIDE=1><SCR=PETR_DEPARTURE>I need to try, Mark. Please. I’m begging you.
+#PETR_DEPARTURE_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>O que torna ainda mais difícil para mim dizer o que tenho a dizer.
+#PETR_DEPARTURE_5	<NPC=PETR><SIDE=1><SCR=CONTINUE>Eu vim te pedir uma nave, Duque.
+#PETR_DEPARTURE_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Eu sei que este problema exige que se usem todos os canhão e todos os pares de mãos disponíveis, e aqui estou eu, te pedindo uma nave inteira... mas por favor, deixe-me tentar!
+#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Desejo seguir Daud. Quero me explicar a ele e, com sorte, convencê-lo a ajudar sua causa.
+#PETR_DEPARTURE_8	<NPC=PETR><SIDE=1>Ele e eu somos amigos há muitos anos. Há algumas coisas que tenho que dizer a ele.
+<ANS=Ir para o sul agora é pura loucura, Pyotr, mesmo que Daud concorde em escutá-lo!|PETR_DEPARTURE_9>
+#PETR_DEPARTURE_9	<NPC=PETR><SIDE=1><SCR=PETR_DEPARTURE>Preciso tentar, Mark. Por favor. Eu lhe suplico.
 
-#PETR_DEPARTURE_ANS_YES	Very well. I’ll give you the SHIPNAME(chance of success: XX%)|PETR_DEPARTURE_YES
-#PETR_DEPARTURE_ANS_NO	I’m sorry, Pyotr Ignatyevich, but I cannot let you go right now.|PETR_DEPARTURE_NO_1
-
-
-#PETR_DEPARTURE_YES	<NPC=PETR><SIDE=1><SCR=STOP|LEAVE=PETR>My thanks, Duke.
-
-#PETR_DEPARTURE_NO_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>Yes, of course. I understand.
-#PETR_DEPARTURE_NO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>He says this slowly and with difficulty.
-#PETR_DEPARTURE_NO_3	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>He salutes you as he always does and turns about face.
-#PETR_DEPARTURE_NO_4	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>There is a great difference in him now: his bearing, his arms hanging limply by his sides...
-#PETR_DEPARTURE_NO_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>There is a profound, wordless despair about him.
-#PETR_DEPARTURE_NO_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>You suddenly realize that Pyotr no longer believes this will end well.
-#PETR_DEPARTURE_NO_7	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>You are left alone with a heavy heart.
+#PETR_DEPARTURE_ANS_YES	Muito bem. Vou lhe dar a nave SHIPNAME (probabilidade de sucesso: XX%)|PETR_DEPARTURE_YES
+#PETR_DEPARTURE_ANS_NO	Sinto muito, Pyotr Ignatyevich, mas não posso deixá-lo ir agora.|PETR_DEPARTURE_NO_1
 
 
-#TELEGRAM_DAUD_RETURN	YOUR IMPERIAL HIGHNESS@10HAVING RECEIVED NEW INTEL FROM GENERAL SHAHIN, I HAVE DECIDED TO SUPPORT YOU IN THE KHIVA OFFENSIVE. AWAITING YOUR COMMAND.@10ADMIRAL DAUD
+#PETR_DEPARTURE_YES	<NPC=PETR><SIDE=1><SCR=STOP|LEAVE=PETR>Meus agradecimentos, Duque.
+
+#PETR_DEPARTURE_NO_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>Sim, é claro. Eu entendo.
+#PETR_DEPARTURE_NO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Ele diz isso devagar e com dificuldade.
+#PETR_DEPARTURE_NO_3	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Ele o cumprimenta como sempre e vira o rosto.
+#PETR_DEPARTURE_NO_4	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Agora há uma grande diferença nele: seu porte, seus braços apoiados sem firmeza ao seu lado.
+#PETR_DEPARTURE_NO_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Há nele um indescritível e profundo desespero.
+#PETR_DEPARTURE_NO_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>De repente você percebe que Pyotr não acredita mais que isto vai acabar bem.
+#PETR_DEPARTURE_NO_7	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>Você fica sozinho e com o coração pesado.
 
 
-#ANT_1	<SCR=CONTINUE><SCR=SKIP|EXIT><MUSIC=Mellifluous>You are sitting in your cabin, alone with your charts.
-#ANT_2	<BACKGROUND=background_ant>As you carefully chart a new course, you notice an ant crawling on the map.
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=An ant queen... where did it come from?|ANT_3>
+#TELEGRAM_DAUD_RETURN	SUA ALTEZA IMPERIAL@10TENDO RECEBIDO NOVAS INFORMAÇÕES DO GENERAL SHAHIN, DECIDI APOIÁ-LO NA OFENSIVA DE KHIVA. AGUARDANDO SUAS ORDENS.@10ALMIRANTE DAUD
+
+
+#ANT_1	<SCR=CONTINUE><SCR=SKIP|EXIT><MUSIC=Mellifluous>Você está sentado em sua cabine, sozinho com suas cartas de navegação.
+#ANT_2	<BACKGROUND=background_ant>Ao traçar cuidadosamente um novo rumo, você nota uma formiga rastejando pelo mapa.
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Uma formiga rainha... de onde ela veio?|ANT_3>
 #ANT_3	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=It must have flown in through the window.|ANT_4>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Deve ter voado pela janela.|ANT_4>
 #ANT_4	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=Great. Now it’ll lay eggs in here, and I’ll have an ant infestation in my cabin.|ANT_5>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Ótimo. Agora vai pôr ovos aqui, e eu terei uma infestação de formigas em minha cabine.|ANT_5>
 #ANT_5	
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 <ANS=...|ANT_6>
 #ANT_6	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=Why can’t I just kill you?|ANT_7>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Por que eu não posso simplesmente matar você?|ANT_7>
 #ANT_7	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=Mindless insect... it crawled out of a vile egg in some fetid corner of a nest.|ANT_8>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Inseto insignificante... você chocou de um ovo vil em algum canto asqueroso de um ninho.|ANT_8>
 #ANT_8	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=And now you dream of finding another fetid corner just like your birthplace.|ANT_9>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=E agora você sonha em encontrar outro canto asqueroso como aquele em que nasceu.|ANT_9>
 #ANT_9	
-<ANS=(Squash the ant)|ANT_KILL_1>
-<ANS=You have no idea I’m addressing you right now.|ANT_10>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+<ANS=Você não tem ideia de que estou falando com você neste momento.|ANT_10>
 #ANT_10	
-<ANS=You probably think I’m just a very large ant.|ANT_11>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=Você provavelmente pensa que eu sou uma formiga muito grande.|ANT_11>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_11	
-<ANS=You think I want to eat you, don’t you?|ANT_12>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=Você acha que eu quero te comer, não acha?|ANT_12>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_12	
-<ANS=And you don’t even realize you’ve found your way onto my ship.|ANT_13>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=E você nem percebe que encontrou seu caminho para a minha nave.|ANT_13>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_13	
-<ANS=You don’t even know what a ship is.|ANT_14>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=Você nem sequer sabe o que é uma nave.|ANT_14>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_14	
-<ANS=This knowledge is simply unavailable to you. It’s too big, too impossible to understand...|ANT_15>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=Este conhecimento simplesmente não está disponível para você. É muito grande, muito impossível de entender...|ANT_15>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_15	
-<ANS=And, try as I might, I can’t explain why I’m sitting here all alone, talking to you.|ANT_16>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=E, por mais que eu tente, não consigo explicar por que estou sentado aqui sozinho, falando com você.|ANT_16>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_16	
-<ANS=I’m crawling across the face of the world just as you’re crawling across my chart. Trying to save myself and everyone I love...|ANT_17>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=Eu rastejo pela face do mundo assim como você rasteja pela minha carta de navegação. Tentando salvar a mim mesmo e a todas as pessoas que amo...|ANT_17>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_17	
-<ANS=And someone else has been talking to me all the while.|ANT_18>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=E alguém mais tem falado comigo o tempo todo.|ANT_18>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_18	
 <ANS=...|ANT_19>
-<ANS=(Squash the ant)|ANT_KILL_1>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
 #ANT_19	
-<ANS=(Cover the ant with a glass and tell your aide to remove it from the ship)|ANT_SAVE>
-<ANS=(Squash the ant)|ANT_KILL_1>
-#ANT_SAVE	<SCR=STOP|FEAR=-1>You can already imagine the junior officers laughing as they discuss this in the wardroom.
-#ANT_KILL_1	<SCR=CONTINUE><BACKGROUND=background_ant2>The supple little creature is transformed into a dirty clump of chitin without any resistance.
-#ANT_KILL_2	<SCR=CONTINUE>For a brief moment, you have the urge to try and bring the ant back from the dead, if only to let it continue its trek across the chart.
-#ANT_KILL_3	<ANS=(Wipe your fingers)|EXIT>
+<ANS=(Cubra a formiga com um copo e diga a seu ajudante para tirá-la da nave)|ANT_SAVE>
+<ANS=(Esmagar a formiga)|ANT_KILL_1>
+#ANT_SAVE	<SCR=STOP|FEAR=-1>Você já pode imaginar os oficiais subalternos rindo enquanto discutem isso na sala dos oficiais.
+#ANT_KILL_1	<SCR=CONTINUE><BACKGROUND=background_ant2>A pequena e dócil criatura se transforma em uma massa suja de quitina sem resistência.
+#ANT_KILL_2	<SCR=CONTINUE>Por um breve momento, você sente a necessidade de tentar ressuscitar a formiga dentre os mortos, nem que seja para permitir que ela continue sua viagem ao longo da carta de navegação.
+#ANT_KILL_3	<ANS=(Limpe seus dedos)|EXIT>
 
 
-#PRESCREEN_1	By the grace of God WE, KERIM SHAH II, EMPEROR OF THE ROMANI, Great Duke of the Lands of Horan, Monarch of Sihem and Gerat...
-#PRESCREEN_2	...Most graciously grant the title of TARKHAN OF THE FLEET to Grand Duke Mark Sayadi Salemsky, thus granting him command over the ships of the Imperial Fleet at his sole discretion, the number of which shall be in accordance with his title.
-#PRESCREEN_3	May God grant him the wisdom to use the power with which he has been entrusted for the good and honor of the Romani.
-#PRESCREEN_4	Issued in the city of Salem, on the 9th month of the year 214 of the Dynasty.
-#PRESCREEN_5	Written by His Imperial Majesty’s own hand:
+#PRESCREEN_1	Pela graça de Deus, EU, KERIM SHAH II, IMPERADOR DOS ROMANI, Grão-Duque das Terras de Horan, Monarca de Shem e Gerat...
+#PRESCREEN_2	...Muito graciosamente concedo o título de TARKHAN DA FROTA ao Grão-Duque Mark Sayadi Salemsky, concedendo-lhe assim o comando das naves da Frota Imperial a seu exclusivo critério, cujo número deverá estar de acordo com o seu título.
+#PRESCREEN_3	Que Deus lhe conceda a sabedoria de usar o poder que lhe foi confiado para o bem e a honra dos Romani.
+#PRESCREEN_4	Emitido na cidade de Salem, no 9º mês do ano 214 da Dinastia.
+#PRESCREEN_5	Escrito pela própria mão de Sua Majestade Imperial:
 
-#DESIGNATED_CODENAME_1	DESIGNATED CODENAME: 
-#DESIGNATED_CODENAME_2	ACCESS LEVEL: 
+#DESIGNATED_CODENAME_1	CODINOME DESIGNADO: 
+#DESIGNATED_CODENAME_2	NÍVEL DE ACESSO: 
 
 
 #CONTACT_ELINT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_ELINT_PNL>Tarkhan, sir! Our electronic intelligence has reported a new contact.<ANS=CONTINUE|EXIT>
