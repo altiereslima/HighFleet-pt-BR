@@ -1340,10 +1340,10 @@
 #PETR_DAUD_ARMED_2	<SCR=CONTINUE><EVENT><SOUND=shoot_01>Então, ele atira à queima-roupa.
 #PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>Lentamente, o almirante desaba aos seus pés.
 #PETR_DAUD_ARMED_4	<SCR=CONTINUE>Você sente vontade de gritar, mas sua voz não coopera.
-#PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>With a heavy sigh, Pyotr clumsily tries to holster his pistol.
-#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>There was no way around it, Duke.
-#PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Had I left him alive, half our officers would have sided with him.
-#PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>Blood begins to pool around Daud’s head.
+#PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Com um forte suspiro, Pyotr tenta de maneira desajeitada guardar sua pistola.
+#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não havia como contornar isso, Duque.
+#PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se eu o tivesse deixado vivo, metade de nossos oficiais teria ficado do lado dele.
+#PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>O sangue começa a se acumular ao redor da cabeça de Daud.
 <ANS=Pyotr... you’ve lost your mind, Pyotr...|PETR_DAUD_ARMED_9>
 #PETR_DAUD_ARMED_9	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>These are all the words your lungs can squeeze out of your throat. Your mind is still struggling to come to grips with what just happened.
 #PETR_DAUD_ARMED_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>Admiral of His Majesty’s Fleet...
