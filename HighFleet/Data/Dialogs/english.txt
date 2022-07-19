@@ -1467,24 +1467,24 @@
 
 
 
-#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>Peace be upon you, my lord! I am <HIRE_CHAR>, doyen of <CITY>.
-<ANS=I’m looking for allies to wage war on Khiva. Will you join us?|HELLO_ROUND|DIPLOMACY_STARTS>
+#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>Que a paz esteja convosco, meu senhor! Eu sou <HIRE_CHAR>, o decano de <CITY>.
+<ANS=Estou procurando aliados para travar uma guerra contra a cidade de Khiva. Você vai se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
 
-#ANS_DIPLOMACY_JOIN_REACTION	You have my full attention. Speak your mind.
+#ANS_DIPLOMACY_JOIN_REACTION	Você tem toda a minha atenção. Diga o que pensa.
 
-#HELLO_1	<MUSIC=Duduk_4_ever><SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>You approach the group of people standing by the ship.
+#HELLO_1	<MUSIC=Duduk_4_ever><SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>Você se aproxima do grupo de pessoas que estão ao lado da nave.
 #HELLO_2	<NPC=HIRE><APPROVE><SCR=HELLO_PRE>
 #HELLO_ROUND	<NPC=HIRE><APPROVE><SCR=ROUND|HELLO_ROUND>
 #HELLO_END	<NPC=HIRE><APPROVE><SCR=ROUND_RES>
 
-#HELLO_END_YES_01	Well said, well said! This was a pleasant talk, Duke.
-#HELLO_END_NO_01	Very well, Duke. But enough talk.
-#HELLO_END_ANS	So? What have you decided? Will you join us?
+#HELLO_END_YES_01	Bem dito, bem dito! Essa foi uma boa conversa, Duque.
+#HELLO_END_NO_01	Muito bem, Duque. Mas chega de conversa.
+#HELLO_END_ANS	Então? O que você decidiu? Você vai se juntar a nós?
 
-#HELLO_RES_LIKE	<NPC=HIRE><APPROVE>I will join you gladly, Grand Duke!<ANS=I want to meet other tarkhans. Do you know where to find them?|HELLO_INTEL_TARKHANS>
-#HELLO_RES_LIKE2	<NPC=HIRE><APPROVE>I will not join you. But I will offer you all the help I can.<ANS=I want to meet other tarkhans. Do you know where to find them?|HELLO_INTEL_TARKHANS>
-#HELLO_RES_DESLIKE	<NPC=HIRE><APPROVE>No, Duke. We will not join you.<ANS=I want to meet other tarkhans. Do you know where to find them?|HELLO_INTEL_TARKHANS_LOOSE>
-#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>We will never join you. Gather your men and leave. We aren’t afraid of the likes of you.<ANS=(Turn away and leave)|EXIT>
+#HELLO_RES_LIKE	<NPC=HIRE><APPROVE>Terei prazer em me juntar a você, Grão-Duque!<ANS=Quero conhecer outros tarkhans. Você sabe onde encontrá-los?|HELLO_INTEL_TARKHANS>
+#HELLO_RES_LIKE2	<NPC=HIRE><APPROVE>Eu não me juntarei a você. Mas vou lhe oferecer toda a ajuda possível.<ANS=Quero conhecer outros tarkhans. Você sabe onde encontrá-los?|HELLO_INTEL_TARKHANS>
+#HELLO_RES_DESLIKE	<NPC=HIRE><APPROVE>Não, Duque. Não vamos nos juntar a você.<ANS=Quero conhecer outros tarkhans. Você sabe onde encontrá-los?|HELLO_INTEL_TARKHANS_LOOSE>
+#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>Nós nunca nos uniremos a vocês. Reúna seus homens e saia daqui. Nós não temos medo de pessoas como você.<ANS=(Dê meia volta e saia)|EXIT>
 
 #HELLO_INTEL_TARKHANS	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
 <ANS=Thank you. I appreciate it.|EXIT|DIPDIALOG_WIN>
