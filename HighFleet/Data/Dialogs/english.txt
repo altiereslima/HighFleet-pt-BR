@@ -204,7 +204,7 @@
 #STATS_RIGHT	ORDEM
 #STATS_FORCE	FORÇA
 #STATS_WEALTH	RIQUEZA
-#STATS_KINDNESS	AMABILIDADE
+#STATS_KINDNESS	BONDADE
 #STATS_LIKE	GOSTOU
 #STATS_SPEECH	BOM DISCURSO
 #STATS_PRESENT	PRESENTE
@@ -224,8 +224,8 @@
 #CHECK_NOFORCE	VERIFICAR CONTRA A VIOLÊNCIA
 #CHECK_WEALTH	VERIFICAR RIQUEZA
 #CHECK_NOWEALTH	VERIFICAR CONTRA A GANÂNCIA
-#CHECK_KINDNESS	VERIFICAR A AMABILIDADE
-#CHECK_NOKINDNESS	VERIFICAR CONTRA A AMABILIDADE
+#CHECK_KINDNESS	VERIFICAR A BONDADE
+#CHECK_NOKINDNESS	VERIFICAR CONTRA A BONDADE
 
 #CHECK_SUCCESS	 SUCESSO!
 #CHECK_FAILED	 FALHA
@@ -511,8 +511,8 @@
 #STATS_DESC_WEALTH3	Não valoriza a riqueza
 #STATS_DESC_WEALTH4	Despreza a riqueza
 
-#STATS_DESC_KINDNESS1	Muito amável
-#STATS_DESC_KINDNESS2	Amável
+#STATS_DESC_KINDNESS1	Muito bondoso
+#STATS_DESC_KINDNESS2	Bondoso
 #STATS_DESC_KINDNESS3	Rude
 #STATS_DESC_KINDNESS4	Cruel
 
@@ -1467,7 +1467,7 @@
 
 
 
-#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>Que a paz esteja convosco, meu senhor! Eu sou <HIRE_CHAR>, o decano de <CITY>.
+#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>Que a paz esteja com você, meu senhor! Eu sou <HIRE_CHAR>, o decano de <CITY>.
 <ANS=Estou procurando aliados para travar uma guerra contra a cidade de Khiva. Você vai se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
 
 #ANS_DIPLOMACY_JOIN_REACTION	Você tem toda a minha atenção. Diga o que pensa.
@@ -1487,35 +1487,35 @@
 #HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>Nós nunca nos uniremos a vocês. Reúna seus homens e saia daqui. Nós não temos medo de pessoas como você.<ANS=(Dê meia volta e saia)|EXIT>
 
 #HELLO_INTEL_TARKHANS	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
-<ANS=Thank you. I appreciate it.|EXIT|DIPDIALOG_WIN>
+<ANS=Obrigado. Fico muito agradecido.|EXIT|DIPDIALOG_WIN>
 
 #HELLO_INTEL_TARKHANS_LOOSE	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
 <ANS=Obrigado. Eu agradeço.|EXIT>
 
-#HELLO_INTEL_TARKHANS_01	All tarkhans became outlaws after the Khivan Revolution.
-#HELLO_INTEL_TARKHANS_02	Tarkhans are outlaws now.
-#HELLO_INTEL_TARKHANS_03	I’m not sure.
-#HELLO_INTEL_TARKHANS_04	The tarkhans scattered after the war in Khiva.
+#HELLO_INTEL_TARKHANS_01	Todos os tarkhans se converteram em foras-da-lei após a Revolução de Khivan..
+#HELLO_INTEL_TARKHANS_02	Os tarkhans são agora foras-da-lei.
+#HELLO_INTEL_TARKHANS_03	Eu não tenho certeza.
+#HELLO_INTEL_TARKHANS_04	Os tarkhans se dispersaram após a guerra de Khiva.
 
-#HELLO_INTEL_TARKHANS_N	But I’ve heard rumors of a tarkhan living to the {color=4294960128}north{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_NE	But I’ve heard rumors of a tarkhan living to the {color=4294960128}northeast{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_E	But I’ve heard rumors of a tarkhan living to the {color=4294960128}east{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_SE	But I’ve heard rumors of a tarkhan living to the {color=4294960128}southeast{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_S	But I’ve heard rumors of a tarkhan living to the {color=4294960128}south{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_SW	But I’ve heard rumors of a tarkhan living to the {color=4294960128}southwest{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_W	But I’ve heard rumors of a tarkhan living to the {color=4294960128}west{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_NW	But I’ve heard rumors of a tarkhan living to the {color=4294960128}northwest{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_FAR	It’s quite far.
-#HELLO_INTEL_TARKHANS_NO	There aren’t any tarkhans around here, Duke. I’ve never heard of any.
+#HELLO_INTEL_TARKHANS_N	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}norte{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_NE	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}nordeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_E	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}leste{color=4294305450} of here.
+#HELLO_INTEL_TARKHANS_SE	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}sudeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_S	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}sul{color=4294305450} of here.
+#HELLO_INTEL_TARKHANS_SW	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}sudoeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_W	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}oeste{color=4294305450} of here.
+#HELLO_INTEL_TARKHANS_NW	Mas ouvi rumores de um tarkhan que vive ao {color=4294960128}noroeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_FAR	É bastante longe.
+#HELLO_INTEL_TARKHANS_NO	Não há tarkhans por aqui, Duque. Eu nunca ouvi falar de nenhum.
 
-#HELLO_INTEL_TARKHANS_2_N	And I think there’s another one living to the {color=4294960128}north{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_NE	And I believe there’s another one living to the {color=4294960128}northeast{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_E	And they say another one lives to the {color=4294960128}east{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_SE	And another one supposedly lives to the {color=4294960128}southeast{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_S	And there might be another one to the {color=4294960128}south{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_SW	And there could be another one to the {color=4294960128}southwest{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_W	And they say another one lives to the {color=4294960128}west{color=4294305450} of here.
-#HELLO_INTEL_TARKHANS_2_NW	And another one supposedly lives to the {color=4294960128}northwest{color=4294305450} of here.
+#HELLO_INTEL_TARKHANS_2_N	E eu acho que há outro que vive ao {color=4294960128}norte{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_NE	E eu acho que há outro que vive ao {color=4294960128}nordeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_E	E dizem que outro vive para a {color=4294960128}leste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_SE	E outro supostamente vive ao {color=4294960128}sudeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_S	E pode haver outro para ao {color=4294960128}sul{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_SW	E poderia haver outro para ao {color=4294960128}sudoeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_W	E dizem que outro vive ao {color=4294960128}oeste{color=4294305450} daqui.
+#HELLO_INTEL_TARKHANS_2_NW	E outro supostamente vive ao {color=4294960128}noroeste{color=4294305450} daqui.
 
 
 
@@ -1531,34 +1531,34 @@
 #HELLO_PRAISE_NOFORCE	Conhecidos por seu pacifismo.|HELLO_ROUND|FORCE=-1
 #HELLO_PRAISE_WEALTH	Conhecidos por sua grande riqueza.|HELLO_ROUND|WEALTH=1
 #HELLO_PRAISE_NOWEALTH	Conhecidos por sua grande generosidade.|HELLO_ROUND|WEALTH=-1
-#HELLO_PRAISE_KINDNESS	Conhecidos por sua amabilidade.|HELLO_ROUND|KINDNESS=1
+#HELLO_PRAISE_KINDNESS	Conhecidos por sua bondade.|HELLO_ROUND|KINDNESS=1
 #HELLO_PRAISE_SKIP	SKIP|HELLO_ROUND
 
 
 
 #HELLO_DOSSIER	<NPC=LOCAL><SCR=HELLO_DOSSIER>
-#HELLO_DOSSIER_FEAR	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known to be a rather fainthearted individual.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>They say this doyen fears no one.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_ROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known to be devoted to the Romani.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known to resent the Romani.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_GERAT	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is said to be devoted to Gerat.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOGERAT	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known to dislike Elaims.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_FAITH	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is renowned as a person of faith.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOFAITH	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known as an apostate who rejects the faith.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_RIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known to be fair and just.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NORIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is infamous for ignoring justice and mistreating people.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_FORCE	<NPC=HIRE><APPROVE><NOSPEAK>They say this doyen values strength in people.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is known for their peaceful disposition.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_WEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen’s greed is well known.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOWEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen’s generosity is said to be remarkable.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_KINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>You hear frequent mention of this doyen’s kindness.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOKINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>This doyen is shunned as a vicious and evil person.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_FAIL	<NPC=LOCAL><APPROVE><NOSPEAK>You learn nothing new.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FEAR	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser um indivíduo covarde.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que este decano não teme ninguém..<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_ROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser devotado aos Romani.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ter ressentimentos com os Romani.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_GERAT	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que este decano é dedicado a Gerat.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOGERAT	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por não gostar dos Elaims.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FAITH	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano tem fama de ser uma pessoa de fé.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFAITH	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido como um apóstata que rejeita a fé.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_RIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser imparcial e justo.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NORIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano tem a má fama de ignorar a justiça e de maltratar as pessoas.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FORCE	<NPC=HIRE><APPROVE><NOSPEAK>Dizem que este decano valoriza a força nas pessoas.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por seu caráter pacífico..<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_WEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>A ganância desta decano é bem conhecida.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOWEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que a generosidade deste decano é notável.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_KINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>Se ouve falar com frequência da bondade deste decano.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOKINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é evitado por ser uma pessoa viciosa e má.<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FAIL	<NPC=LOCAL><APPROVE><NOSPEAK>Você não aprende nada de novo.<ANS=CONTINUE|HELLO_ROUND>
 
 
 
 #HELLO_GREETING_01	Saudações, meu senhor!|HELLO_2|GREETING|FEAR=-1
-#HELLO_GREETING_02	Em nome de {glossary=Ishu,GLOSS_ISHU}, que a paz esteja contigo!.|HELLO_2|GREETING|FAITH=1
+#HELLO_GREETING_02	Em nome de {glossary=Ishu,GLOSS_ISHU}, que a paz esteja com você!|HELLO_2|GREETING|FAITH=1
 #HELLO_GREETING_03	Em nome do {glossary=Império,GLOSS_IMPIRE}, te dou as boas-vindas!|HELLO_2|GREETING|ROMANI=1
 #HELLO_GREETING_04	Glória a {glossary=Gerat,GLOSS_GERAT}, e seja bem-vindo!|HELLO_2|GREETING|GERAT=1
 #HELLO_GREETING_05	Quem está no comando aqui?|HELLO_2|GREETING|FEAR=1
@@ -1570,37 +1570,37 @@
 
 
 
-#HELLO_AIRBORNE_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>You are surprised to see an odd group of people approaching you — at least a dozen men, well-armed and clad in assault armor.
-#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>The men’s cuirasses and faces bear the marks of overly long military service. And yet their gold stars are polished to a shine, and the arms they bear, while scuffed, glisten with fresh grease.
-#HELLO_GREETING_AIRBORNE_01	Greetings, milord!|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=-1
-#HELLO_GREETING_AIRBORNE_02	In the name of {glossary=Ishu,GLOSS_ISHU}, peace be with you!|HELLO_INTRODUCE_AIRBORNE|GREETING|FAITH=1
-#HELLO_GREETING_AIRBORNE_03	In the name of the {glossary=Empire,GLOSS_IMPIRE}, I welcome you!|HELLO_INTRODUCE_AIRBORNE|GREETING|ROMANI=1
-#HELLO_GREETING_AIRBORNE_04	Glory to {glossary=Gerat,GLOSS_GERAT}, and welcome!|HELLO_INTRODUCE_AIRBORNE|GREETING|GERAT=1
-#HELLO_GREETING_AIRBORNE_05	Who’s in charge here?|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=1
-#HELLO_INTRODUCE_AIRBORNE	<NPC=AIRBORNE><APPROVE>Your Imperial Highness, permission to introduce myself! Yemelyan Gulyaev.
-<ANS=Colonel of the Airborne Forces? How did you end up here?|HELLO_AIRBORNE_4>
-<ANS=Colonel, we’re assaulting Khiva. Would you care to join us?|HELLO_ROUND|DIPLOMACY_STARTS>
-#HELLO_AIRBORNE_4	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>The colonel’s eyes darken. He pauses, then lets out a bitter chuckle before he speaks.
-#HELLO_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE>After His Majesty - your father...
-#HELLO_AIRBORNE_6	<NPC=AIRBORNE><SCR=CONTINUE>...abandoned us all here...
-#HELLO_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE>...neither I nor my men have had any further connection to the Airborne Forces.
-#HELLO_AIRBORNE_8	<NPC=AIRBORNE>I’ll be honest with you, Duke. I’m a tarkhan too, after all.
-<ANS=You were abandoned here?|HELLO_AIRBORNE_9|AIRBORNE=-1>
-<ANS=I see... we’re assaulting Khiva, Colonel. Would you care to join us?|HELLO_ROUND|DIPLOMACY_STARTS>
-#HELLO_AIRBORNE_9	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>The colonel turns away. You can’t see his eyes, but you do see his face twitch as he winces and scowls. When he turns back to you, his voice is completely calm.
-#HELLO_AIRBORNE_10	<NPC=AIRBORNE><SCR=CONTINUE>Seven years ago, Duke. We expected you to arrive seven years ago...
-#HELLO_AIRBORNE_11	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>His eyes soften. His lips move, showing a hint of a smile.
-#HELLO_AIRBORNE_12	<NPC=AIRBORNE>But still... it brings me joy to hear my mother tongue again.
-<ANS=Colonel, we’re assaulting Khiva. Would you care to join us?|HELLO_ROUND|DIPLOMACY_STARTS>
+#HELLO_AIRBORNE_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Você se surpreende ao ver um estranho grupo de pessoas se aproximando de você: pelo menos uma dúzia de homens, bem armados e vestidos com armaduras de assalto.
+#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>As couraças e os rostos dos homens ostentam as marcas de um serviço militar excessivamente longo. E ainda assim suas estrelas douradas são polidas que brilham, e as armas que carregam, ainda que desgastadas, resplandecem.
+#HELLO_GREETING_AIRBORNE_01	Saudações, meu senhor!|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=-1
+#HELLO_GREETING_AIRBORNE_02	Em nome de {glossary=Ishu,GLOSS_ISHU}, que a paz esteja com você!|HELLO_INTRODUCE_AIRBORNE|GREETING|FAITH=1
+#HELLO_GREETING_AIRBORNE_03	Em nome do {glossary=Império,GLOSS_IMPIRE}, eu lhe dou as boas-vindas!|HELLO_INTRODUCE_AIRBORNE|GREETING|ROMANI=1
+#HELLO_GREETING_AIRBORNE_04	Glória a {glossary=Gerat,GLOSS_GERAT}, e boas-vindas!|HELLO_INTRODUCE_AIRBORNE|GREETING|GERAT=1
+#HELLO_GREETING_AIRBORNE_05	Quem está no comando aqui?|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=1
+#HELLO_INTRODUCE_AIRBORNE	<NPC=AIRBORNE><APPROVE>Sua Alteza Imperial, permissão para me apresentar! Sou Yemelyan Gulyaev.
+<ANS=Coronel das Forças Aéreas? Como você chegou até aqui?|HELLO_AIRBORNE_4>
+<ANS=Coronel, estamos atacando Khiva. Você gostaria de se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
+#HELLO_AIRBORNE_4	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Os olhos do coronel escurecem. Ele faz uma pausa e depois deixa sair um risinho amargo antes de falar.
+#HELLO_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE>Depois de Sua Majestade, seu pai...
+#HELLO_AIRBORNE_6	<NPC=AIRBORNE><SCR=CONTINUE>...nos abandonou a todos aqui...
+#HELLO_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE>...nem eu nem meus homens tivemos qualquer outra conexão com as Forças Aéreas.
+#HELLO_AIRBORNE_8	<NPC=AIRBORNE>Vou ser honesto com você, Duque. Afinal de contas, eu também sou um tarkhan.
+<ANS=Você foi abandonado aqui?|HELLO_AIRBORNE_9|AIRBORNE=-1>
+<ANS=Entendo... estamos atacando Khiva, Coronel. Você gostaria de se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
+#HELLO_AIRBORNE_9	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>O coronel se afasta. Você não pode ver os seus olhos, mas você vê o seu rosto se contorcer à medida que ele se vira e se afasta. Quando ele se vira novamente para você, sua voz está completamente calma.
+#HELLO_AIRBORNE_10	<NPC=AIRBORNE><SCR=CONTINUE>Sete anos, Duque. Esperamos há sete anos por sua chegada...
+#HELLO_AIRBORNE_11	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>Seus olhos amenizam. Seus lábios se movem, mostrando um leve sorriso.
+#HELLO_AIRBORNE_12	<NPC=AIRBORNE>Mas ainda assim... me alegra ouvir minha língua materna novamente.
+<ANS=Coronel, estamos atacando Khiva. Você gostaria de se juntar a nós?|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
 
 #RADIO_IN	<RECIEVER>
 #RADIO_OUT	=<NAME>
 
-#RECIEVER_HARBOUR_01	HARBOUR MASTER
-#RECIEVER_HARBOUR_02	PORT OFFICE
-#RECIEVER_HARBOUR_03	CAPTAIN OF THE PORT
+#RECIEVER_HARBOUR_01	DIRETOR DO PORTO
+#RECIEVER_HARBOUR_02	OFICINA DO PORTO
+#RECIEVER_HARBOUR_03	CAPITÃO DO PORTO
 
 #RADIO_POS_01	EM POS <POSITION>
 #RADIO_POS_02	POSIÇÃO <POSITION>
