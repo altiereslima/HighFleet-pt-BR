@@ -1726,112 +1726,112 @@
 
 
 
-#HAZARD_EXPLOSIVE	EXPLOSION HAZARD!@EXTINGUISH IT BEFORE IT EXPLODES, DESTROYING ONE RANDOM OBJECT.
-#HAZARD_FLAMEABLE	FIRE HAZARD!@EXTINGUISH IT BEFORE THE FIRE SPREADS FURTHER.
-#HAZARD_RADIATION	RADIATION HAZARD!@THE LOCATION IS RADIOACTIVE AND DANGEROUS TO THE RESCUE TEAM.
-#HAZARD_POISON	DANGEROUS ENVIRONMENT!@WITHOUT PROTECTION 50% CHANCE OF AN ACCIDENT.
-#HAZARD_SCARE	DREADFUL SIGHT!@THE LOCATION IS LITTERED WITH THE DEAD. SOME THINGS ARE BEST LEFT UNSEEN.
+#HAZARD_EXPLOSIVE	PERIGO DE EXPLOSÃO!@APAGUE ANTES DE EXPLODIR, DESTRUINDO UM OBJETO ALEATÓRIO.
+#HAZARD_FLAMEABLE	PERIGO DE INCÊNDIO!@APAGUE ANTES QUE O FOGO SE ESPALHE MAIS.
+#HAZARD_RADIATION	PERIGO DE RADIAÇÃO!@O LOCAL É RADIOATIVO E PERIGOSO PARA A EQUIPE DE RESGATE.
+#HAZARD_POISON	AMBIENTE PERIGOSO!@SEM PROTEÇÃO O RISCO DE UM ACIDENTE É DE 50%.
+#HAZARD_SCARE	UMA VISÃO TERRÍVEL!@O LOCAL ESTÁ REPLETO DE MORTOS. É MELHOR QUE ALGUMAS COISAS NÃO SEJAM VISTAS.
 
 
-#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}RADIATION EXPOSURE@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Due to your negligent actions during the rescue operation, several crewmembers were exposed to life-threatening levels of hazardous radiation.<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_POISON_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ACCIDENT@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The burning insulation released dangerous quantities of phosgene. Several crewmembers were poisoned by the fumes.<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}POST-TRAUMATIC STRESS@10 {animation=event_noimage} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Don’t look at it. Just don’t look.@20Surrounded by grisly death as they work, your crewmen return with troubled minds.<SCR=STOP|MORAL=-1>
+#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}EXPOSIÇÃO À RADIAÇÃO@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Devido a suas ações negligentes durante a operação de resgate, vários membros da tripulação foram expostos a níveis de radiação perigosa que ameaçam a vida.<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ACIDENTE@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A queima do isolamento liberou quantidades perigosas de fosgênio. Vários tripulantes foram envenenados pelos vapores.<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ESTRESSE PÓS-TRAUMÁTICO@10 {animation=event_noimage} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Não olhe para isso. Apenas não olhe.@20Rodeados de uma morte terrível enquanto trabalham, seus tripulantes retornam com a mente perturbada.<SCR=STOP|MORAL=-1>
 
-#RESCUE_SURVIVORS	SEARCH FOR SURVIVORS
-#RESCUE_SURVIVORS_DESC	50% chance of finding survivors among the debris.
+#RESCUE_SURVIVORS	BUSCA POR SOBREVIVENTES
+#RESCUE_SURVIVORS_DESC	50% de chances de encontrar sobreviventes nos escombros.
 
-#RESCUE_CABINS	SEARCH THE CREW CABINS
-#RESCUE_CABINS_DESC	There could be some valuables left inside.
+#RESCUE_CABINS	PROCURAR NAS CABINES DOS TRIPULANTES
+#RESCUE_CABINS_DESC	Poderia haver alguns objetos de valor deixados lá dentro.
 
-#RESCUE_CAPTAINS_CABIN	SEARCH THE CAPTAIN’S CABIN
-#RESCUE_CAPTAINS_CABIN_DESC	You could find important paperwork in the captain’s cabin.
+#RESCUE_CAPTAINS_CABIN	PROCURAR NA CABINE DO CAPITÃO
+#RESCUE_CAPTAINS_CABIN_DESC	Você poderia encontrar documentos importantes na cabine do capitão.
 
-#RESCUE_CARGO	SEARCH THE CARGO BAY
-#RESCUE_CARGO_DESC	Some of the cargo could still be intact.
+#RESCUE_CARGO	PROCURAR NO COMPARTIMENTO DE CARGA
+#RESCUE_CARGO_DESC	Parte da carga ainda pode estar intacta.
 
-#RESCUE_RADIO_ROOM	SEARCH THE RADIO ROOM
-#RESCUE_RADIO_ROOM_DESC	All electronic intelligence and classified documents passed through this room. With any luck, some of it could have survived.
+#RESCUE_RADIO_ROOM	PROCURAR NA SALA DE COMUNICAÇÕES
+#RESCUE_RADIO_ROOM_DESC	Toda a inteligência eletrônica e os documentos confidenciais passaram por esta sala. Com alguma sorte, alguns deles poderiam ter resistido.
 
-#RESCUE_RHBZ	CREW PROTECTION
-#RESCUE_RHBZ_DESC	Put on protective suits. This will take extra time, but it will save your people.
+#RESCUE_RHBZ	PROTEÇÃO DA TRIPULAÇÃO
+#RESCUE_RHBZ_DESC	Coloque os trajes de proteção. Isso levará mais tempo, mas salvará seu povo.
 
-#RESCUE_REMOVE_TOXICITY	HAZMAT SUITS
-#RESCUE_REMOVE_TOXICITY_DESC	Instruct the crew to put their hazmat suits on.
+#RESCUE_REMOVE_TOXICITY	TRAJES DE PROTEÇÃO
+#RESCUE_REMOVE_TOXICITY_DESC	Instrua a tripulação a vestir seus trajes de proteção.
 
-#RESCUE_REMOVE_FIRE	EXTINGUISH THE FIRE
-#RESCUE_REMOVE_FIRE_DESC	Direct your crew to fight the flames.
+#RESCUE_REMOVE_FIRE	APAGAR O FOGO
+#RESCUE_REMOVE_FIRE_DESC	Direcione sua tripulação para combater as chamas.
 
-#RESCUE_HULL	DISASSEMBLE THE HULL
-#RESCUE_HULL_DESC	There could be just enough time to collect the valuable parts of the hull.
+#RESCUE_HULL	DESMONTAR O CASCO
+#RESCUE_HULL_DESC	Pode haver apenas tempo suficiente para recolher as partes valiosas do casco.
 
-#RESCUE_AMMO	SECURE THE AMMUNITION
-#RESCUE_AMMO_DESC	You could still save some of the ammunition from the fire.
+#RESCUE_AMMO	ASSEGURAR A MUNIÇÃO
+#RESCUE_AMMO_DESC	Você ainda poderia salvar algumas das munições do incêndio.
 
-#RESCUE_FUEL	SECURE THE FUEL TANKS
-#RESCUE_FUEL_DESC	Some of the tanks were left undamaged and still contain fuel.
+#RESCUE_FUEL	ASSEGURAR OS TANQUES DE COMBUSTÍVEL
+#RESCUE_FUEL_DESC	Alguns dos tanques foram deixados intactos e ainda contêm combustível.
 
 
 
-#ITEM_PRESENT1	RELIC
-#ITEM_PRESENT1_DESC	{max=200}An elephant statue crafted of solid gold.
-#ITEM_PRESENT2	RELIC
-#ITEM_PRESENT2_DESC	{max=200}An ancient kindjal, richly adorned.
-#ITEM_PRESENT3	RELIC
-#ITEM_PRESENT3_DESC	{max=200}An old sacred icon cast of solid bronze.
-#ITEM_PRESENT4	RELIC
-#ITEM_PRESENT4_DESC	{max=200}A Romani award that carries great distinction.
-#ITEM_PRESENT5	RELIC
-#ITEM_PRESENT5_DESC	{max=200}A highly ornate royal banner of Elam.
+#ITEM_PRESENT1	RELÍQUIA
+#ITEM_PRESENT1_DESC	{max=200}Uma estátua de elefante feita de ouro maciço.
+#ITEM_PRESENT2	RELÍQUIA
+#ITEM_PRESENT2_DESC	{max=200}Um antigo kindjal, ricamente adornado.
+#ITEM_PRESENT3	RELÍQUIA
+#ITEM_PRESENT3_DESC	{max=200}Um antigo ícone sagrado fundido em bronze maciço.
+#ITEM_PRESENT4	RELÍQUIA
+#ITEM_PRESENT4_DESC	{max=200}Um prêmio Romani que traz uma grande distinção.
+#ITEM_PRESENT5	RELÍQUIA
+#ITEM_PRESENT5_DESC	{max=200}Uma estandarte real altamente ornamentada de Elam.
 
-#LOADOUT_LA29_PTB450	DROP FUEL TANKS
-#LOADOUT_LA29_PTB450_DESC	PTB-450 drop fuel tanks x@002
-#LOADOUT_LA29_GUN37	37mm CANNON
-#LOADOUT_LA29_GUN37_DESC	A standard-issue 37mm GSh-37 autocannon.
-#LOADOUT_LA29_GUN57	57mm CANNON
-#LOADOUT_LA29_GUN57_DESC	A 57mm 4A43 autocannon gun pod.
+#LOADOUT_LA29_PTB450	TANQUES EJETÁVEIS DE COMBUSTÍVEL
+#LOADOUT_LA29_PTB450_DESC	Tanques ejetáveis de combustível PTB-450 x@002
+#LOADOUT_LA29_GUN37	CANÃO 37mm
+#LOADOUT_LA29_GUN37_DESC	Um canhão automático GSh-37 de 37mm padrão.
+#LOADOUT_LA29_GUN57	CANÃO 57mm
+#LOADOUT_LA29_GUN57_DESC	Um contêiner de armas de canhão automático 4A43 de 57mm.
 #LOADOUT_LA29_FAB100	100kg GPB
-#LOADOUT_LA29_FAB100_DESC	FAB-100 general-purpose high-explosive bombs x@002
+#LOADOUT_LA29_FAB100_DESC	Bombas altamente explosivas de uso geral FAB-100 x@002
 #LOADOUT_LA29_FAB250	250kg GPB
-#LOADOUT_LA29_FAB250_DESC	FAB-250 general-purpose high-explosive bombs x@001
+#LOADOUT_LA29_FAB250_DESC	Bombas altamente explosivas de uso geral FAB-250 x@001
 #LOADOUT_LA29_KAB250L	250kg LGB
-#LOADOUT_LA29_KAB250L_DESC	KAB-250L laser-guided bombs x@001
-#LOADOUT_LA29_NURS57	57mm ROCKETS
-#LOADOUT_LA29_NURS57_DESC	S-57 unguided missiles x@0016
-#LOADOUT_LA29_NURS122	122mm ROCKETS
-#LOADOUT_LA29_NURS122_DESC	S-13 unguided missiles x@005
+#LOADOUT_LA29_KAB250L_DESC	Bombas guiadas por laser KAB-250L x@001
+#LOADOUT_LA29_NURS57	MÍSSEIS 57mm
+#LOADOUT_LA29_NURS57_DESC	Mísseis não guiados S-57 x@0016
+#LOADOUT_LA29_NURS122	MÍSSEIS 122mm
+#LOADOUT_LA29_NURS122_DESC	Mísseis não guiados S-13 x@005
 #LOADOUT_LA29_K13	K-13 AAM
-#LOADOUT_LA29_K13_DESC	K-13 air-to-air guided missiles x@002
+#LOADOUT_LA29_K13_DESC	Mísseis guiados ar-ar K-13 x@002
 #LOADOUT_LA29_KH2	H-2 ASM
-#LOADOUT_LA29_KH2_DESC	H-2 short-range anti-ship missiles x@001
+#LOADOUT_LA29_KH2_DESC	Mísseis anti-nave de curto alcance H-2 x@001
 
-#LOADOUT_T7_PTB450	DROP FUEL TANKS
-#LOADOUT_T7_PTB450_DESC	PTB-450 drop fuel tanks x@002
-#LOADOUT_T7_GUN37	37mm CANNON
-#LOADOUT_T7_GUN37_DESC	A standard-issue 37mm GSh-37 autocannon.
-#LOADOUT_T7_GUN57	57mm CANNON
-#LOADOUT_T7_GUN57_DESC	A 57mm 4A43 autocannon gun pod.
+#LOADOUT_T7_PTB450	TANQUES EJETÁVEIS DE COMBUSTÍVEL
+#LOADOUT_T7_PTB450_DESC	Tanques ejetáveis de combustível PTB-450 x@002
+#LOADOUT_T7_GUN37	CANÃO 37mm
+#LOADOUT_T7_GUN37_DESC	Um canhão automático GSh-37 de 37mm padrão.
+#LOADOUT_T7_GUN57	CANÃO 57mm
+#LOADOUT_T7_GUN57_DESC	Um contêiner de armas de canhão automático 4A43 de 57mm.
 #LOADOUT_T7_FAB100	100kg GPB
-#LOADOUT_T7_FAB100_DESC	FAB-100 general-purpose high-explosive bombs x@004
+#LOADOUT_T7_FAB100_DESC	Bombas altamente explosivas de uso geral FAB-100 x@004
 #LOADOUT_T7_FAB250	250kg GPB
-#LOADOUT_T7_FAB250_DESC	FAB-250 general-purpose high-explosive bombs x@002
+#LOADOUT_T7_FAB250_DESC	Bombas altamente explosivas de uso geral FAB-250 x@002
 #LOADOUT_T7_KAB250L	250kg LGB
-#LOADOUT_T7_KAB250L_DESC	KAB-250L laser-guided bombs x@002
+#LOADOUT_T7_KAB250L_DESC	Bombas guiadas por laser KAB-250L x@002
 #LOADOUT_T7_FAB500	500kg GPB
-#LOADOUT_T7_FAB500_DESC	FAB-500 general-purpose high-explosive bombs x@001
+#LOADOUT_T7_FAB500_DESC	Bombas altamente explosivas de uso geral FAB-500 x@001
 #LOADOUT_T7_KAB500L	500kg LGB
-#LOADOUT_T7_KAB500L_DESC	KAB-500L laser-guided bombs x@001
-#LOADOUT_T7_NURS57	57mm ROCKETS
-#LOADOUT_T7_NURS57_DESC	S-57 unguided missiles x@0032
-#LOADOUT_T7_NURS122	122mm ROCKETS
-#LOADOUT_T7_NURS122_DESC	S-13 unguided missiles x@0010
-#LOADOUT_T7_NURS340	266mm ROCKETS
-#LOADOUT_T7_NURS340_DESC	S-250 unguided missiles x@002
+#LOADOUT_T7_KAB500L_DESC	Bombas guiadas por laser KAB-500L x@001
+#LOADOUT_T7_NURS57	MÍSSEIS 57mm
+#LOADOUT_T7_NURS57_DESC	Mísseis não guiados S-57 x@0032
+#LOADOUT_T7_NURS122	MÍSSEIS 122mm
+#LOADOUT_T7_NURS122_DESC	Mísseis não guiados S-13 x@0010
+#LOADOUT_T7_NURS340	MÍSSEIS 266mm
+#LOADOUT_T7_NURS340_DESC	Mísseis não guiados S-250 x@002
 #LOADOUT_T7_K13	K-13 AAM
-#LOADOUT_T7_K13_DESC	K-13 air-to-air guided missiles x@002
+#LOADOUT_T7_K13_DESC	Mísseis guiados ar-ar K-13 x@002
 #LOADOUT_T7_RN1	RN-1 SPECIAL YIELD BOMB
-#LOADOUT_T7_RN1_DESC	Nuclear gravity bomb, 110 kiloton yield x@001
+#LOADOUT_T7_RN1_DESC	Bomba nuclear de gravidade, rendimento de 110 quilotons x@001
 
-#ITEM_HULL	HULL PARTS
+#ITEM_HULL	PARTES DO CASCO
 #ITEM_ARMOR	ARMOR PARTS
 #ITEM_FUEL	FUEL TANKS
 #ITEM_AMMO	AMMO PARTS
