@@ -1900,53 +1900,53 @@
 #MDL_RSZO_220_DESC	Lança-foguetes múltiplo de 220mm.
 
 #MDL_EVAC	SK-2M
-#MDL_EVAC_SDESC	ESCAPE POD
-#MDL_EVAC_DESC	This pod can hold up to 30 crewmembers during an emergency evacuation.
-#MDL_EVAC_KEY	PRESS {animation=key_t} TO ABANDON SHIP.
+#MDL_EVAC_SDESC	CÁPSULA DE FUGA
+#MDL_EVAC_DESC	Esta cápsula pode acomodar até 30 tripulantes durante uma evacuação de emergência.
+#MDL_EVAC_KEY	PRESSIONE {animation=key_t} PARA ABANDONAR A NAVE.
 
-#MDL_COMBRIDGE_01	BRIDGE
-#MDL_COMBRIDGE_01_DESC	The heart of the ship and the location of the captain.
+#MDL_COMBRIDGE_01	PONTE
+#MDL_COMBRIDGE_01_DESC	O coração da nave e o local onde se encontra o capitão.
 
-#MDL_FERMA1X1_01	HULL
-#MDL_FERMA1X1_02	HULL
-#MDL_FERMA1X1_03	HULL
-#MDL_FERMA1X1_04	HULL
-#MDL_FERMA2X1_01	HULL
-#MDL_FERMA2X2_01	HULL
-#MDL_FERMA2X2_02	HULL
-#MDL_FERMA2X2_03	HULL
-#MDL_FERMA2X2_04	HULL
-#MDL_FERMA4X4_01	LARGE HULL
+#MDL_FERMA1X1_01	CASCO 1 1x1
+#MDL_FERMA1X1_02	CASCO 2 1x1
+#MDL_FERMA1X1_03	CASCO 3 1x1
+#MDL_FERMA1X1_04	CASCO 4 1x1
+#MDL_FERMA2X1_01	CASCO 1 2x1
+#MDL_FERMA2X2_01	CASCO 1 2x2
+#MDL_FERMA2X2_02	CASCO 2 2x2
+#MDL_FERMA2X2_03	CASCO 3 2x2
+#MDL_FERMA2X2_04	CASCO 4 2x2
+#MDL_FERMA4X4_01	CASCO GRANDE 4x4
 
-#MDL_HARD1X1_01	REINFORCED HULL
-#MDL_HARD1X1_01_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD1X1_02	REINFORCED HULL
-#MDL_HARD1X1_02_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD1X1_03	REINFORCED HULL
-#MDL_HARD1X1_03_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD1X1_04	REINFORCED HULL
-#MDL_HARD1X1_04_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD2X1_01	REINFORCED HULL
-#MDL_HARD2X1_01_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD2X2_01	REINFORCED HULL
-#MDL_HARD2X2_01_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD2X2_02	REINFORCED HULL
-#MDL_HARD2X2_02_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD2X2_03	REINFORCED HULL
-#MDL_HARD2X2_03_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD2X2_04	REINFORCED HULL
-#MDL_HARD2X2_04_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
-#MDL_HARD4X4_01	REINFORCED HULL
-#MDL_HARD4X4_01_DESC	Reinforced steel body is stronger than aluminum, but also heavier.
+#MDL_HARD1X1_01	CASCO REFORÇADO 1 1x1
+#MDL_HARD1X1_01_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD1X1_02	CASCO REFORÇADO 2 1x1 
+#MDL_HARD1X1_02_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD1X1_03	CASCO REFORÇADO 3 1x1
+#MDL_HARD1X1_03_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD1X1_04	CASCO REFORÇADO 4 1x1
+#MDL_HARD1X1_04_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD2X1_01	CASCO REFORÇADO 1 2x1
+#MDL_HARD2X1_01_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD2X2_01	CASCO REFORÇADO 1 2x2
+#MDL_HARD2X2_01_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD2X2_02	CASCO REFORÇADO 2 2x2
+#MDL_HARD2X2_02_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD2X2_03	CASCO REFORÇADO 3 2x2
+#MDL_HARD2X2_03_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD2X2_04	CASCO REFORÇADO 4 2x2
+#MDL_HARD2X2_04_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
+#MDL_HARD4X4_01	CASCO REFORÇADO 4x4
+#MDL_HARD4X4_01_DESC	O corpo de aço reforçado é mais forte que o alumínio, mas também mais pesado.
 
-#MDL_DECK_01	FLIGHT DECK
-#MDL_DECK_01_DESC	Aircraft basing deck.
+#MDL_DECK_01	CONVÉS DE VOO
+#MDL_DECK_01_DESC	Convés para aeronaves.
 
-#MDL_ARMOR1X1_01	ARMOR
-#MDL_ARMOR1X1_02	ARMOR
-#MDL_ARMOR1X1_03	ARMOR
-#MDL_ARMOR1X1_04	ARMOR
-#MDL_ARMOR2X1_01	LARGE ARMOR
+#MDL_ARMOR1X1_01	BLINDAGEM 1x1 1
+#MDL_ARMOR1X1_02	BLINDAGEM 1x1 2
+#MDL_ARMOR1X1_03	BLINDAGEM 1x1 3
+#MDL_ARMOR1X1_04	BLINDAGEM 1x1 4
+#MDL_ARMOR2X1_01	BLINDAGEM GRANDE 2x1
 
 #MDL_AMMO	AZ-174
 #MDL_AMMO_SDESC	AMMO
