@@ -1492,7 +1492,7 @@
 #HELLO_INTEL_TARKHANS_LOOSE	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
 <ANS=Obrigado. Eu agradeço.|EXIT>
 
-#HELLO_INTEL_TARKHANS_01	Todos os tarkhans se converteram em foras-da-lei após a Revolução de Khivan..
+#HELLO_INTEL_TARKHANS_01	Todos os tarkhans se converteram em foras-da-lei após a Revolução de Khivan.
 #HELLO_INTEL_TARKHANS_02	Os tarkhans são agora foras-da-lei.
 #HELLO_INTEL_TARKHANS_03	Eu não tenho certeza.
 #HELLO_INTEL_TARKHANS_04	Os tarkhans se dispersaram após a guerra de Khiva.
@@ -3959,45 +3959,45 @@
 
 #EXTRA4 ///////////////////////////////////////////////////
 
-#MEETING_1	<BACKGROUND=empty_night><MUSIC=Bois><SCR=CONTINUE|MEETING_1_OLD>As you approach, you spot the lord governor’s massive cruiser looming over the dark valley where it touched down. You give the order to land a hundred meters away.
+#MEETING_1	<BACKGROUND=empty_night><MUSIC=Bois><SCR=CONTINUE|MEETING_1_OLD>À medida que se aproxima, você avista o cruzador maciço do senhor governador que paira sobre o vale escuro onde ele aterrissou. Você dá a ordem de pousar a cem metros de distância.
 
 
 
 #HELLO_END_YES_GOVERNOR_01	
-#HELLO_END_NO_GOVERNOR_01	I understand, Duke. Enough words.
-#HELLO_END_ANS_GOVERNOR	I would like to invite you to join my cause, my lord.
+#HELLO_END_NO_GOVERNOR_01	Eu entendo, Duque. Já é o suficiente.
+#HELLO_END_ANS_GOVERNOR	Gostaria de convidá-lo a juntar-se à minha causa, meu senhor.
 
-#HELLO_RES_LIKE_GOVERNOR	<NPC=HIRE><APPROVE>Very well. I will join you, Duke.<ANS=Then come with me. We have much to discuss.|EXIT|DIPDIALOG_WIN>
-#HELLO_RES_LIKE2_GOVERNOR	<NPC=HIRE><APPROVE>No. I won’t be involved in this game of yours.<ANS=I am very sorry to hear that.|MEETING_FIGHT>
-#HELLO_RES_DESLIKE_GOVERNOR	<NPC=HIRE><APPROVE>No, Duke.<ANS=I am very sorry to hear that.|MEETING_FIGHT>
-#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>Nay. Never.<ANS=I am very sorry to hear that.|MEETING_FIGHT>
+#HELLO_RES_LIKE_GOVERNOR	<NPC=HIRE><APPROVE>Muito bem. Eu me juntarei a você, Duque.<ANS=Então venha comigo. Temos muito a discutir.|EXIT|DIPDIALOG_WIN>
+#HELLO_RES_LIKE2_GOVERNOR	<NPC=HIRE><APPROVE>Não. Não me envolverei neste seu jogo.<ANS=Lamento muito ouvir isso.|MEETING_FIGHT>
+#HELLO_RES_DESLIKE_GOVERNOR	<NPC=HIRE><APPROVE>Não, Duque.<ANS=Lamento muito ouvir isso.|MEETING_FIGHT>
+#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>Não. Nunca.<ANS=Lamento muito ouvir isso.|MEETING_FIGHT>
 
-#SHIP_DESC_GEPARD	A powerful state-of-the-art anti-air ship, it sports enough heavy artillery and sturdy armor to survive even against lighter, faster vessels. Do not get too complacent, however — this vehicle is far too expensive to be sacrificed in a dogfight.
-#SHIP_DESC_SEVASTOPOL	The flagship model in the Romani heavy cruiser range, envisioned as the core of a large strike group. With unparalleled standalone cruising capacity and the best armaments in the Imperial Fleet, this vessel is formidable even on its own.@10The cruiser was sent into battle as soon as it was built, so it is still missing many of the non-vital systems it was designed to carry.
-
-
-
-#NIGHTFEAR_SPEECH_REACTOR_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1>Do you truly think the Khiva reactor is an ancient shelter of some sort, Duke?
-<ANS=I am certain of it, Admiral|NIGHTFEAR_SPEECH_REACTOR_2>
-<ANS=Without sunlight, an operational nuclear reactor represents our only chance at survival.|NIGHTFEAR_SPEECH_REACTOR_2>
-#NIGHTFEAR_SPEECH_REACTOR_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Shakhor Al-Farakh, “the Day of the Black Void...”
-#NIGHTFEAR_SPEECH_REACTOR_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>You know, Duke, with the sun gone, even the air is bound to grow too cold. It will eventually freeze.
-#NIGHTFEAR_SPEECH_REACTOR_4	<NPC=DAUD><SIDE=-1>All the air in the atmosphere will condense into a crust on the surface of the planet. How do you plan to survive in a vacuum, my Duke?
-<ANS=I have been told that the Khiva reactor is as large as a mountain. Our knowledge and skill pale before those of our ancestors. We need to trust them.|EXIT>
+#SHIP_DESC_GEPARD	Uma poderosa nave antiaérea de última geração, ela ostenta artilharia pesada e armadura resistente o suficiente para sobreviver mesmo contra naves mais leves e rápidas. No entanto, não fique muito confiante: este veículo é muito caro para ser sacrificado em um combate aéreo.
+#SHIP_DESC_SEVASTOPOL	O modelo insignia da classe de cruzadores pesados Romani, concebido como o núcleo de um grande grupo de ataque. Com incomparável capacidade de cruzeiro independente e o melhor armamento da Frota Imperial, esta nave é formidável, mesmo sozinha.@10O cruzador foi enviado para a batalha assim que foi construído, por isso ainda lhe faltam muitos dos sistemas não vitais que ele foi projetado para transportar.
 
 
 
-#ENDRACE_SPEECH_5	<NPC=PETR>An assault on the city will be quite impossible, then.
-<ANS=Surely you’ve noticed that it’s getting colder every day?|ENDRACE_SPEECH_6>
-#ENDRACE_SPEECH_6	<NPC=PETR><SCR=CONTINUE>I have more than noticed, my Duke.
-#ENDRACE_SPEECH_7	<NPC=PETR><SCR=CONTINUE>I check the thermometers every morning… (Pyotr trails off.) I mean, every day at six o’clock.
-#ENDRACE_SPEECH_8	<NPC=PETR><SCR=CONTINUE>Either way, if this continues…
-#ENDRACE_SPEECH_9	<NPC=PETR><NOSPEAK><SCR=CONTINUE>Pyotr sighs deeply, then shakes his head, at a loss for words.
-#ENDRACE_SPEECH_10	<NPC=PETR><SCR=STOP>I’ll be honest, my Duke — I still can’t make heads or tails of any of this.
+#NIGHTFEAR_SPEECH_REACTOR_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1>Você realmente acha que o reator de Khiva é um antigo abrigo de algum tipo, Duque?
+<ANS=Tenho certeza disso, Almirante|NIGHTFEAR_SPEECH_REACTOR_2>
+<ANS=Sem a luz solar, um reator nuclear operacional representa nossa única chance de sobrevivência.|NIGHTFEAR_SPEECH_REACTOR_2>
+#NIGHTFEAR_SPEECH_REACTOR_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Shakhor Al-Farakh, “o Dia do Vazio Escuro...”
+#NIGHTFEAR_SPEECH_REACTOR_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Sabe, Duque, sem o sol, até mesmo o ar está destinado a ficar muito frio. Ele acabará congelando.
+#NIGHTFEAR_SPEECH_REACTOR_4	<NPC=DAUD><SIDE=-1>Todo o ar na atmosfera se condensará em uma crosta na superfície do planeta. Como o senhor planeja sobreviver no vácuo, meu Duque?
+<ANS=Foi-me dito que o reator de Khiva é tão grande quanto uma montanha. Nosso conhecimento e habilidade são poucos diante dos de nossos ancestrais. Temos que confiar neles.|EXIT>
 
 
-#REACTOR_CAPTURED_1	<EVENT>The Khiva reactor was taken and obliterated by the forces of the Gathering.<SCR=CONTINUE>
-#REACTOR_CAPTURED_2	<EVENT>The people of Gerat have lost all hope of surviving this calamity.<SCR=STOP>
+
+#ENDRACE_SPEECH_5	<NPC=PETR>Um assalto à cidade será, então, completamente impossível.
+<ANS=Com certeza você já notou que está ficando mais frio a cada dia.|ENDRACE_SPEECH_6>
+#ENDRACE_SPEECH_6	<NPC=PETR><SCR=CONTINUE>Eu tenho reparado, meu Duque.
+#ENDRACE_SPEECH_7	<NPC=PETR><SCR=CONTINUE>Verifico os termômetros todas as manhãs… (Pyotr se interrompe.) Quero dizer, todos os dias às seis horas.
+#ENDRACE_SPEECH_8	<NPC=PETR><SCR=CONTINUE>De qualquer forma, se isto continuar…
+#ENDRACE_SPEECH_9	<NPC=PETR><NOSPEAK><SCR=CONTINUE>Pyotr suspira profundamente, depois sacode a cabeça, sem palavras.
+#ENDRACE_SPEECH_10	<NPC=PETR><SCR=STOP>Vou ser honesto, meu Duque: ainda não consigo chegar à uma conclusão sobre nada disso.
+
+
+#REACTOR_CAPTURED_1	<EVENT>O reator de Khiva foi tomado e destruído pelas forças da Confederação.<SCR=CONTINUE>
+#REACTOR_CAPTURED_2	<EVENT>Os habitantes de Gerat perderam toda a esperança de sobreviver a esta calamidade.<SCR=STOP>
 
 #TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}GUERRA TOTAL@10{font=fixed_20}{align=0}O dinheiro agora não significa nada. Combustível, munições e reparos são gratuitos.@10Em face da calamidade, muitas pessoas em Gerat procurarão juntar-se à sua causa.<SCR=STOP>
 
@@ -4072,7 +4072,7 @@
 #RECREATE_SHIP_UNABLE_ATTACH	Não é possível anexar um objeto a outro
 #RECREATE_SHIP_VERSION_COMPATIBLE	Compatível com a versão
 
-#QUIT_UNSAVED_PROGRESS	Você tem certeza de que desejasair? O progresso não salvo será perdido.
+#QUIT_UNSAVED_PROGRESS	Você tem certeza de que deseja sair? O progresso não salvo será perdido.
 
 #END_OF_FILE	vazio
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
