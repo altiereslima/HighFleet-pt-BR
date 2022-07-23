@@ -1843,7 +1843,7 @@
 #ITEM_CRAFTS	AERONAVE
 #ITEM_DEFENCE	SISTEMAS DE DEFESA
 #ITEM_GENERATORS	GERADORES
-#ITEM_QUARTERS	ALOJAMENTO DA TRIPULAÇÃO
+#ITEM_QUARTERS	CABINE DA TRIPULAÇÃO
 #ITEM_EMERGENCY	SISTEMAS DE EMERGÊNCIA
 
 #TRADE_HULL	PARTES DO CASCO
@@ -1949,39 +1949,39 @@
 #MDL_ARMOR2X1_01	BLINDAGEM GRANDE 2x1
 
 #MDL_AMMO	AZ-174
-#MDL_AMMO_SDESC	AMMO
-#MDL_AMMO_DESC	An electromechanical autoloader module.
+#MDL_AMMO_SDESC	MUNIÇÃO
+#MDL_AMMO_DESC	Um módulo autocarregador eletromecânico.
 
 #MDL_AMMO_02	AZ-182
-#MDL_AMMO_02_SDESC	AMMO
-#MDL_AMMO_02_DESC	An electromechanical autoloader module.
+#MDL_AMMO_02_SDESC	MUNIÇÃO
+#MDL_AMMO_02_DESC	Um módulo autocarregador eletromecânico.
 
 #MDL_FSS	EC11
-#MDL_FSS_SDESC	FSS
-#MDL_FSS_DESC	A rapid-action fire suppression system. Disperses liquid Halon 2402 to extinguish fires.
-#MDL_FSS_KEY	PRESS {animation=key_b} TO ACTIVATE FIRE SUPRESSION.
+#MDL_FSS_SDESC	SSI
+#MDL_FSS_DESC	Um sistema de supressão de incêndio de ação rápida. Dispersa Halon 2402 líquido para apagar incêndios.
+#MDL_FSS_KEY	PRESSIONE {animation=key_b} PARA ATIVAR A SUPRESSÃO DE INCÊNDIO.
 
 #MDL_FSS_02	EC13
-#MDL_FSS_02_SDESC	FSS
-#MDL_FSS_02_DESC	A rapid-action fire suppression system. Disperses liquid HALON 2402 to extinguish fires.
-#MDL_FSS_02_KEY	PRESS {animation=key_b} TO ACTIVATE FIRE SUPRESSION.
+#MDL_FSS_02_SDESC	SSI
+#MDL_FSS_02_DESC	Um sistema de supressão de incêndio de ação rápida. Dispersa Halon 2402 líquido para apagar incêndios.
+#MDL_FSS_02_KEY	PRESSIONE {animation=key_b} PARA ATIVAR A SUPRESSÃO DE INCÊNDIO.
 
 #MDL_FUEL_01	TC-40
-#MDL_FUEL_01_SDESC	FUEL TANK
-#MDL_FUEL_01_DESC	A standard 40m3 fuel tank for liquefied methane.
+#MDL_FUEL_01_SDESC	TANQUE DE COMBUSTÍVEL
+#MDL_FUEL_01_DESC	Um tanque de combustível padrão de 40m3 para metano liquefeito.
 
 #MDL_FUEL_02	TC-400
-#MDL_FUEL_02_SDESC	FUEL TANK
-#MDL_FUEL_02_DESC	A 400m3 bulk storage tank for liquefied gas.
+#MDL_FUEL_02_SDESC	TANQUE DE COMBUSTÍVEL
+#MDL_FUEL_02_DESC	Um tanque de armazenamento de 400m3 para gás liquefeito.
 
-#MDL_QUARTERS_01	LARGE QUARTERS
-#MDL_QUARTERS_01_DESC	The ship’s crew will be stationed in these quarters.
-#MDL_QUARTERS_02	SMALL QUARTERS
-#MDL_QUARTERS_02_DESC	The ship’s crew will be stationed in these quarters.
+#MDL_QUARTERS_01	CABINES GRANDES
+#MDL_QUARTERS_01_DESC	A tripulação da nave ficará alojada nestas cabines.
+#MDL_QUARTERS_02	CABINES PEQUENOS
+#MDL_QUARTERS_02_DESC	A tripulação da nave ficará alojada nestas cabines.
 
 #MDL_ANTENNA_01	STA-4
-#MDL_ANTENNA_01_SDESC	ANTENNA
-#MDL_ANTENNA_01_DESC	A high-frequency radio antenna.
+#MDL_ANTENNA_01_SDESC	ANTENA
+#MDL_ANTENNA_01_DESC	Uma antena de rádio de alta frequência.
 
 #MDL_FLARES	ASO-75
 #MDL_FLARES_SDESC	CHAMARIZ
@@ -1989,73 +1989,73 @@
 #MDL_FLARES_KEY	PRESSIONE {animation=key_f} PARA DISPARAR CHAMARIZES.
 
 #MDL_KAZ	Palash-1
-#MDL_KAZ_SDESC	APS
-#MDL_KAZ_DESC	An active protection system (APS) designed to defend the ship against artillery shelling.
+#MDL_KAZ_SDESC	SPA
+#MDL_KAZ_DESC	Um sistema de proteção ativa (SPA) projetado para defender a nave contra os bombardeios de artilharia.
 
 #MDL_GENERATOR_01	MGU-61
-#MDL_GENERATOR_01_SDESC	GENERATOR
-#MDL_GENERATOR_01_DESC	A standard-issue ship-based generator used by the Romani Fleet. Simple and reliable.
+#MDL_GENERATOR_01_SDESC	GERADOR
+#MDL_GENERATOR_01_DESC	Um gerador padrão para naves utilizado pela Frota Romani. Simples e confiável.
 
 #MDL_GENERATOR_02	MGU-28
-#MDL_GENERATOR_02_SDESC	GENERATOR
-#MDL_GENERATOR_02_DESC	A ship-based generator with a smaller footprint. Often used as an auxiliary power unit.
+#MDL_GENERATOR_02_SDESC	GERADOR
+#MDL_GENERATOR_02_DESC	Um gerador para naves que ocupa menos espaço. Muitas vezes utilizado como unidade auxiliar de energia.
 
-#MDL_LEG_01	CHASSIS PART
-#MDL_LEG_02	CHASSIS PART
-#MDL_LEG_03	CHASSIS PART
-#MDL_LEG_04	CHASSIS PART
+#MDL_LEG_01	PARTE DO CHASSI 1
+#MDL_LEG_02	PARTE DO CHASSI 1
+#MDL_LEG_03	PARTE DO CHASSI 1
+#MDL_LEG_04	PARTE DO CHASSI 1
 
 #MDL_MISSILE_01	R-5 ZENITH
-#MDL_MISSILE_01_SDESC	MISSILE
-#MDL_MISSILE_01_DESC	A heat-seeking anti-ship missile. Versatile and reliable.
-#MDL_MISSILE_01_KEY	PRESS {animation=key_space} TO LAUNCH A MISSILE.
+#MDL_MISSILE_01_SDESC	MÍSSIL
+#MDL_MISSILE_01_DESC	Um míssil teleguiado anti-nave. Versátil e confiável.
+#MDL_MISSILE_01_KEY	PRESSIONE {animation=key_space} PARA LANÇAR O MÍSSIL.
 
 #MDL_MISSILE_02	R-6 NADIR
-#MDL_MISSILE_02_SDESC	MISSILE
-#MDL_MISSILE_02_DESC	A heavy-yield heat-seeking anti-ship missile.
-#MDL_MISSILE_02_KEY	PRESS {animation=key_space} TO LAUNCH A MISSILE.
+#MDL_MISSILE_02_SDESC	MÍSSIL
+#MDL_MISSILE_02_DESC	AUm míssil teleguiado anti-nave de alto poder.
+#MDL_MISSILE_02_KEY	PRESSIONE {animation=key_space} PARA LANÇAR O MÍSSIL.
 
 #MDL_MISSILE_03	R-9 SPRINT
-#MDL_MISSILE_03_SDESC	AA MISSILE
-#MDL_MISSILE_03_DESC	Intercepts and neutralizes high-speed air targets of any type. Its high cost is offset by its high efficiency. REQUIRES FIRE CONTROL RADAR TO OPERATE!
-#MDL_MISSILE_03_KEY	PRESS {animation=key_c} TO LAUNCH AN INTERCEPTOR MISSILE.
+#MDL_MISSILE_03_SDESC	MÍSSIL AA
+#MDL_MISSILE_03_DESC	Intercepta e neutraliza alvos de ar de alta velocidade de qualquer tipo. Seu alto custo é compensado por sua alta eficiência. REQUER UM RADAR DE CONTROLE DE INCÊNDIO PARA OPERAR!
+#MDL_MISSILE_03_KEY	PRESSIONE {animation=key_c} PARA LANÇAR O MÍSSIL INTERCEPTADOR.
 
 #MDL_BOMB_01	FAB-1000
-#MDL_BOMB_01_SDESC	BOMB
-#MDL_BOMB_01_DESC	A 1,000kg high-explosive bomb designed for use against ground targets.
-#MDL_BOMB_01_KEY	HOLD {animation=WHL} TO DROP A BOMB.
+#MDL_BOMB_01_SDESC	BOMBA
+#MDL_BOMB_01_DESC	Uma bomba de 1.000kg altamente explosiva projetada para uso contra alvos terrestres.
+#MDL_BOMB_01_KEY	MANTENHA {animation=WHL} PARA LANÇAR UMA BOMBA.
 
 #MDL_NUKE_01	Kh-15N
-#MDL_NUKE_01_SDESC	MISSILE
-#MDL_NUKE_01_DESC	A turbojet-powered radar homing cruise missile with a nuclear warhead.
+#MDL_NUKE_01_SDESC	MÍSSIL
+#MDL_NUKE_01_DESC	Um míssil de cruzador com radar propulsado por turbojato com uma ogiva nuclear.
 
 #MDL_NUKE_02	Kh-15PN
-#MDL_NUKE_02_SDESC	MISSILE
-#MDL_NUKE_02_DESC	An anti-radiation missile with a nuclear warhead designed to track and target enemy radar signatures.
+#MDL_NUKE_02_SDESC	MÍSSIL
+#MDL_NUKE_02_DESC	Um míssil antirradiação com uma ogiva nuclear projetada para rastrear e localizar as assinaturas do radar inimigo.
 
 #MDL_NUKE_03	A-100N
-#MDL_NUKE_03_SDESC	MISSILE
-#MDL_NUKE_03_DESC	A radar homing tactical attack missile with a nuclear warhead.
+#MDL_NUKE_03_SDESC	MÍSSIL
+#MDL_NUKE_03_DESC	Um míssil de ataque tático com radar e uma ogiva nuclear.
 
 #MDL_NUKE_04	R-3N
-#MDL_NUKE_04_SDESC	MISSILE
-#MDL_NUKE_04_DESC	A theater ballistic missile with a nuclear warhead.
+#MDL_NUKE_04_SDESC	MÍSSIL
+#MDL_NUKE_04_DESC	Um míssil de teatro de operações com uma ogiva nuclear.
 
 #MDL_NUKE_01_CONV	Kh-15
-#MDL_NUKE_01_CONV_SDESC	MISSILE
-#MDL_NUKE_01_CONV_DESC	A radar homing turbojet-powered cruise missile.
+#MDL_NUKE_01_CONV_SDESC	MÍSSIL
+#MDL_NUKE_01_CONV_DESC	Um míssil de cruzador propulsado por turbojato e com localização por radar.
 
 #MDL_NUKE_02_CONV	Kh-15P
-#MDL_NUKE_02_CONV_SDESC	MISSILE
-#MDL_NUKE_02_CONV_DESC	An anti-radiation missile designed to track and target enemy radar signatures.
+#MDL_NUKE_02_CONV_SDESC	MÍSSIL
+#MDL_NUKE_02_CONV_DESC	Um míssil antirradiação projetada para rastrear e localizar as assinaturas do radar inimigo.
 
 #MDL_NUKE_03_CONV	A-100
-#MDL_NUKE_03_CONV_SDESC	MISSILE
-#MDL_NUKE_03_CONV_DESC	A radar homing tactical attack missile.
+#MDL_NUKE_03_CONV_SDESC	MÍSSIL
+#MDL_NUKE_03_CONV_DESC	Um míssil de ataque tático dirigido por radar.
 
 #MDL_NUKE_04_CONV	R-3
-#MDL_NUKE_04_CONV_SDESC	MISSILE
-#MDL_NUKE_04_CONV_DESC	A theater ballistic missile.
+#MDL_NUKE_04_CONV_SDESC	MÍSSIL
+#MDL_NUKE_04_CONV_DESC	Um míssil de teatro de operações.
 
 #MDL_RADAR_01	MR-700
 #MDL_RADAR_01_SDESC	RADAR
