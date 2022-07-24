@@ -311,7 +311,7 @@
 #PCS	pcs
 #MAN	ppl.
 #PER	por
-#TWR_STAT	EMPUXO/PESO
+#TWR_STAT	PROPULSÃO/PESO
 #LOW_THRUST_STAT	PROPULSÃO BAIXA!
 #SPEED_STAT	VELOCIDADE
 #RANGE_STAT	AUTONOMIA
@@ -402,7 +402,7 @@
 #ATTACK_CLASS	ATAQUE
 #INTERCEPTOR_CLASS	INTERCEPTADORA
 #CARRIER_CLASS	PORTA-AVIÕES
-#STRATEGIC_CLASS	ESTRATÉGICO
+#STRATEGIC_CLASS	ESTRATÉGICA
 #AUXILIARY_CLASS	AUXILIAR
 #GROUND_VEHICLE_CLASS	VEÍCULO TERRESTRE
 
@@ -2099,7 +2099,7 @@
 
 #MDL_ENGINE_04	NK-25
 #MDL_ENGINE_04_SDESC	MOTOR
-#MDL_ENGINE_04_DESC	Amplamente utilizado em naves de guerra Romani graças a seu excelente impulso. No entanto, os Elaims o chamam de devorador de combustível.
+#MDL_ENGINE_04_DESC	Amplamente utilizado em naves de guerra Romani graças a sua excelente propulsão. No entanto, os Elaims o chamam de devorador de combustível.
 
 #MDL_ENGINE_05	D-30S
 #MDL_ENGINE_05_SDESC	MOTOR
@@ -2170,57 +2170,57 @@
 
 
 
-#ARGHELP_QUESTION	The person speaking to you wants to ask you a question. This could increase your reputation — if you answer wisely.
-#ARGHELP_FINISH	It’s time to put an end to this conversation.
-#ARGHELP_PRESENT	A worthy gift will extend the conversation.
-#ARGHELP_PRAISE	The right praise to the right doyen will increase your reputation.
-#ARGHELP_DOSSIER	There are ways to learn more about the person you are talking to.
-#ARGHELP_SPEECH	Make a speech. If they enjoy it, the conversation will become more lively.
-#ARGHELP_SPEECH_USED	You already said that. You can try again, but the effect will be worse.
-#ARGHELP_VERSE	A holy word carries great weight. Does it speak of %, %, or %?
+#ARGHELP_QUESTION	A pessoa que fala com você quer lhe fazer uma pergunta. Isto pode aumentar sua reputação: se você responder com sabedoria.
+#ARGHELP_FINISH	É hora de pôr um fim a esta conversa.
+#ARGHELP_PRESENT	Um presente digno prolongará a conversa.
+#ARGHELP_PRAISE	O elogio correto ao doyen certo aumentará sua reputação.
+#ARGHELP_DOSSIER	Há outras maneiras de aprender mais sobre a pessoa com quem você está falando.
+#ARGHELP_SPEECH	Faça um discurso. Se eles gostarem, a conversa se tornará mais animada.
+#ARGHELP_SPEECH_USED	Você já disse isso. Você pode repetir, mas o efeito será pior.
+#ARGHELP_VERSE	Uma palavra sagrada tem um grande peso. Se refere a %, %, ou a %?
 
 
 
-#PROMOTION_NAME_00	READY AND WAITING!
-#PROMOTION_DESC_00	The ship enters combat with her guns fully loaded.
-#PROMOTION_NAME_01	VETERAN GUNNER
-#PROMOTION_DESC_01	Guns recharge 20% faster.
-#PROMOTION_NAME_02	VETERAN PILOT
-#PROMOTION_DESC_02	The ship is 20% more maneuverable in combat.
-#PROMOTION_NAME_03	VETERAN MECHANIC
-#PROMOTION_DESC_03	The ship’s cruising range is increased by 30%.
-#PROMOTION_NAME_04	VETERAN MEDIC
-#PROMOTION_DESC_04	The ship’s casualties are reduced by 30%.
-#PROMOTION_NAME_05	ELITE CREW
-#PROMOTION_DESC_05	The crew have been forged in the heat of battle and are thus more resilient against hardships.
-#PROMOTION_NAME_06	BATTLE SCARS
-#PROMOTION_DESC_06	Having gained combat experience, the team will repair the ship 20% faster.
+#PROMOTION_NAME_00	PRONTO E AGUARDANDO!
+#PROMOTION_DESC_00	A nave entra em combate com suas armas totalmente carregadas.
+#PROMOTION_NAME_01	ARTILHEIRO VETERANO
+#PROMOTION_DESC_01	As armas recarregam 20% mais rápido.
+#PROMOTION_NAME_02	PILOTO VETERANO
+#PROMOTION_DESC_02	A nave é 20% mais manobrável em combate.
+#PROMOTION_NAME_03	MECÂNICO VETERANO
+#PROMOTION_DESC_03	O alcance do cruzador é aumentado em 30%.
+#PROMOTION_NAME_04	MÉDICO VETERANO
+#PROMOTION_DESC_04	O número de vítimas da nave é reduzido em 30%.
+#PROMOTION_NAME_05	TRIPULAÇÃO DE ELITE
+#PROMOTION_DESC_05	A tripulação foi forjada no calor da batalha e, portanto, é mais resistente contra as dificuldades.
+#PROMOTION_NAME_06	CICATRIZES DE BATALHA
+#PROMOTION_DESC_06	Após ter adquirido experiência em combate, a equipe consertará a nave 20% mais rápido.
 
 
 
-#SPEECH_FEAR_01	Of how Sayadi is a good friend and a fearsome foe.
-#SPEECH_NOFEAR_01	Of your deep sense of respect for the Tarkhan.
+#SPEECH_FEAR_01	De como Sayadi é um bom amigo e um inimigo temível.
+#SPEECH_NOFEAR_01	De seu profundo senso de respeito pelo Tarkhan.
 
-#SPEECH_ROMANI_01	Of the great destiny of the Romani Empire.
-#SPEECH_NOROMANI_01	Of the coming decline of the Romani Empire.
+#SPEECH_ROMANI_01	Do grande destino do Império Romani.
+#SPEECH_NOROMANI_01	Do próximo declínio do Império Romani.
 
-#SPEECH_GERAT_01	Of the great future that awaits all the peoples of Gerat!
-#SPEECH_NOGERAT_01	Of the Romani Empire and how the Elaims need it to survive.
+#SPEECH_GERAT_01	Do grande futuro que aguarda todos os povos de Gerat!
+#SPEECH_NOGERAT_01	Do Império Romani e como os Elaims precisam dele para sobreviver.
 
-#SPEECH_FAITH_01	Of the importance of faith in times of trouble.
-#SPEECH_NOFAITH_01	Of the dangers of faith and superstition it brings.
+#SPEECH_FAITH_01	Da importância da fé em tempos difíceis.
+#SPEECH_NOFAITH_01	Dos perigos que a fé e a superstição trazem.
 
-#SPEECH_RIGHT_01	Of the injustice seen throughout Gerat.
-#SPEECH_NORIGHT_01	Of how the weak appeal to justice to undermine the strong.
+#SPEECH_RIGHT_01	Da injustiça vista em toda Gerat.
+#SPEECH_NORIGHT_01	De como os fracos apelam à justiça para minar os fortes.
 
-#SPEECH_FORCE_01	Of the war with Khiva and why it is necessary.
-#SPEECH_NOFORCE_01	Of ending the war, and why this must be done.
+#SPEECH_FORCE_01	Da guerra com Khiva e por que é necessária.
+#SPEECH_NOFORCE_01	Do fim da guerra, e por que isso deve ser feito.
 
-#SPEECH_WEALTH_01	Of the untold riches that await the victor in Gerat.
-#SPEECH_NOWEALTH_01	Of how the wealthy oppress the people of Gerat and must be brought down.
+#SPEECH_WEALTH_01	Das riquezas incalculáveis que esperam o vencedor em Gerat.
+#SPEECH_NOWEALTH_01	De como os ricos oprimem o povo de Gerat e devem ser derrubados.
 
-#SPEECH_KINDNESS_01	Of the woes of the people and how you wish to aid them.
-#SPEECH_NOKINDNESS_01	Of the fact that this is no time for philanthropy.
+#SPEECH_KINDNESS_01	Dos sofrimentos do povo e de como você deseja ajudá-los.
+#SPEECH_NOKINDNESS_01	Do fato de que este não é o momento para filantropia.
 
 
 #GLOSS_CONTINUE	Pressione a tecla ESPAÇO para continuar.
