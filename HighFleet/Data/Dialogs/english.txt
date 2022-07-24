@@ -249,11 +249,11 @@
 #DMG_MAP_LABLE	DANO
 #RESCUE_IN_MAP_LABLE	RESGATE EM
 #JAMMING_MAP_LABLE	OBSTRUÍDO
-#ELINT_DANGER_MAP_LABLE	PERIGO ELINT
-#ELINT_MAP_LABLE	ELINT
+#ELINT_DANGER_MAP_LABLE	PERIGO INTEL
+#ELINT_MAP_LABLE	INTEL
 #MORAL_MID_MAP_LABLE	MORAL BAIXA
 #MORAL_LOW_MAP_LABLE	RISCO DE MOTIM
-#ELINT_MAP_LABLE	ELINT
+#ELINT_MAP_LABLE	INTEL
 #RESCUE_MAP_LABLE	RESGATE
 #NEED_RESCUE_ORDER_MAP_LABLE	PRECISA DE ORDEM DE RESGATE
 #REST_MAP_LABLE	REST
@@ -343,8 +343,8 @@
 #RADAR_STAT	RADAR
 #TRACKING_STAT	RASTREAMENTO
 #GUIDING_STAT	ORIENTAÇÃO
-#IRST_STAT	IRST
-#ELINT_STAT	ELINF
+#IRST_STAT	BRIV
+#ELINT_STAT	INTEL
 #JAMMER_STAT	BLOQUEIO
 #POWER_NEED_STAT	ENER. NECESS.
 #FUEL_STAT	COMBUSTÍVEL
@@ -2059,51 +2059,51 @@
 
 #MDL_RADAR_01	MR-700
 #MDL_RADAR_01_SDESC	RADAR
-#MDL_RADAR_01_DESC	A long-range early warning radar system.
+#MDL_RADAR_01_DESC	Um sistema de radar de aviso prévio de longo alcance.
 
 #MDL_RADAR_02	MR-500
 #MDL_RADAR_02_SDESC	RADAR
-#MDL_RADAR_02_DESC	A long-range early warning radar system.
+#MDL_RADAR_02_DESC	Um sistema de radar de aviso prévio de longo alcance.
 
 #MDL_FCR_01	MR-12
-#MDL_FCR_01_SDESC	FCR
-#MDL_FCR_01_DESC	A fire control radar (FCR) designed to detect targets and aim weapons at them. However, it has significantly less range than a search radar.
+#MDL_FCR_01_SDESC	RCF
+#MDL_FCR_01_DESC	Um radar de controle de fogo (RCF) projetado para detectar alvos e apontar armas para eles. Entretanto, ele tem um alcance significativamente menor do que um radar de busca.
 
 #MDL_FCR_02	MR-2M
-#MDL_FCR_02_SDESC	FCR
-#MDL_FCR_02_DESC	A fire control radar (FCR) designed to detect targets and aim weapons at them. However, it has significantly less range than a search radar.
+#MDL_FCR_02_SDESC	RCF
+#MDL_FCR_02_DESC	Um radar de controle de fogo (RCF) projetado para detectar alvos e apontar armas para eles. Entretanto, ele tem um alcance significativamente menor do que um radar de busca.
 
 #MDL_IRST_01	IRS-1 Mars
-#MDL_IRST_01_SDESC	IRST
-#MDL_IRST_01_DESC	An infrared search and track (IRST) situational awareness system. Tracks enemies passively using their heat signatures.
+#MDL_IRST_01_SDESC	BRIV
+#MDL_IRST_01_DESC	Um sistema de busca e rastreamento por infravermelho (BRIV) de consciência situacional. Rastreia os inimigos passivamente usando suas assinaturas de calor.
 
 #MDL_SPO_01	MP-404
-#MDL_SPO_01_SDESC	ELINT
-#MDL_SPO_01_DESC	An electronic intelligence system capable of detecting enemy radar signals at long range.
+#MDL_SPO_01_SDESC	INTEL
+#MDL_SPO_01_DESC	Um sistema de inteligência eletrônica capaz de detectar sinais de radar do inimigo a longa distância.
 
 #MDL_SPO_02	MP-21
-#MDL_SPO_02_SDESC	ELINT
-#MDL_SPO_02_DESC	An electronic intelligence system capable of detecting enemy radar signals at long range.
+#MDL_SPO_02_SDESC	INTEL
+#MDL_SPO_02_DESC	Um sistema de inteligência eletrônica capaz de detectar sinais de radar do inimigo a longa distância.
 
 #MDL_ENGINE_01	RD-59
-#MDL_ENGINE_01_SDESC	ENGINE
-#MDL_ENGINE_01_DESC	A high-efficiency maneuvering thruster for heavy ships.
+#MDL_ENGINE_01_SDESC	MOTOR
+#MDL_ENGINE_01_DESC	Um propulsor de manobras de alta eficiência para naves pesadas.
 
 #MDL_ENGINE_02	RD-51
-#MDL_ENGINE_02_SDESC	ENGINE
-#MDL_ENGINE_02_DESC	A high-efficiency fixed propulsion engine designed as a primary source of thrust on a heavy ship.
+#MDL_ENGINE_02_SDESC	MOTOR
+#MDL_ENGINE_02_DESC	Um motor de propulsão fixo de alta eficiência projetado como uma fonte primária de propulsão em uma nave pesada.
 
 #MDL_ENGINE_03	D-30
-#MDL_ENGINE_03_SDESC	ENGINE
-#MDL_ENGINE_03_DESC	It is known for being fuel-efficient, which has made it the most popular type of engine in Gerat.
+#MDL_ENGINE_03_SDESC	MOTOR
+#MDL_ENGINE_03_DESC	É conhecido por seu baixo consumo de combustível, o que o tornou o tipo de motor mais popular em Gerat.
 
 #MDL_ENGINE_04	NK-25
-#MDL_ENGINE_04_SDESC	ENGINE
-#MDL_ENGINE_04_DESC	Widely used on Romani battleships thanks to its excellent thrust. However, the Elaims call it a gas-guzzler.
+#MDL_ENGINE_04_SDESC	MOTOR
+#MDL_ENGINE_04_DESC	Amplamente utilizado em naves de guerra Romani graças a seu excelente impulso. No entanto, os Elaims o chamam de devorador de combustível.
 
 #MDL_ENGINE_05	D-30S
-#MDL_ENGINE_05_SDESC	ENGINE
-#MDL_ENGINE_05_DESC	A fixed propulsion engine that generates more static thrust compared to maneuvering thrusters.
+#MDL_ENGINE_05_SDESC	MOTOR
+#MDL_ENGINE_05_DESC	Um motor de propulsão fixo que gera mais impulso estático em comparação com os propulsores de manobra.
 
 #MDL_ENGINE_06	06 MOTOR
 
@@ -2111,52 +2111,52 @@
 
 
 
-#ANS_REACT_PRESENT_01	A truly priceless gift!
-#ANS_REACT_PRESENT_02	A wonderful present. You have my gratitude.
-#ANS_REACT_PRESENT_03	<NOSPEAK>Your present is accepted with indifference.
-#ANS_REACT_PRESENT_04	<NOSPEAK>Your present is accepted with confusion. You sense resentment.
-#ANS_REACT_PRESENT_05	What kind of gift is this?!
+#ANS_REACT_PRESENT_01	Um presente realmente inestimável!
+#ANS_REACT_PRESENT_02	Um presente maravilhoso. Você tem a minha gratidão.
+#ANS_REACT_PRESENT_03	<NOSPEAK>Seu presente é aceito com indiferença.
+#ANS_REACT_PRESENT_04	<NOSPEAK>Seu presente é aceito com desapontamento. Você sente ressentimento.
+#ANS_REACT_PRESENT_05	Que tipo de presente é este?!
 
-#ANS_REACT_UNDEF	<NOSPEAK>Your words elicit no reaction.
-#ANS_REACT_LIKE2_01	Well said, Duke!
-#ANS_REACT_LIKE2_02	Indeed, it is so!
-#ANS_REACT_LIKE_01	You speak the truth.
-#ANS_REACT_LIKE_02	Yes, quite right.
-#ANS_REACT_HATE2_01	I can’t believe what I’m hearing!
-#ANS_REACT_HATE2_02	This is unthinkable!
-#ANS_REACT_HATE2_03	Enough!
-#ANS_REACT_HATE_01	<NOSPEAK>They remain silent, but you can feel the resentment in the air.
+#ANS_REACT_UNDEF	<NOSPEAK>Suas palavras não provocam nenhuma reação.
+#ANS_REACT_LIKE2_01	Bem dito, Duque!
+#ANS_REACT_LIKE2_02	De fato, é assim!
+#ANS_REACT_LIKE_01	Você fala a verdade.
+#ANS_REACT_LIKE_02	Sim, muito bem.
+#ANS_REACT_HATE2_01	Eu não posso acreditar no que estou ouvindo!
+#ANS_REACT_HATE2_02	Isto é inconcebível!
+#ANS_REACT_HATE2_03	Basta!
+#ANS_REACT_HATE_01	<NOSPEAK>Permanecem em silêncio, mas você pode sentir o ressentimento no ar.
 
-#ANS_REACT_FEAR2_01	<NOSPEAK>They exchange looks. It seems your words have made these people fear you.
-#ANS_REACT_FEAR2_02	<NOSPEAK>You can hear them whispering to each other in fear. They seem to be frightened by what you’ve just said.
-#ANS_REACT_FEAR_01	<NOSPEAK>They seem somewhat alarmed at your words.
-#ANS_REACT_FEAR_02	<NOSPEAK>They remain silent, but you can see fear in their eyes.
-#ANS_REACT_BOAST_01	<NOSPEAK>They look far more confident now.
-#ANS_REACT_BOAST2_01	<NOSPEAK>Your words seem to have inspired them with courage.
+#ANS_REACT_FEAR2_01	<NOSPEAK>Eles trocam olhares. Parece que suas palavras fizeram com que essas pessoas o temessem.
+#ANS_REACT_FEAR2_02	<NOSPEAK>Você pode ouvi-los sussurrando um para o outro com medo. Eles parecem estar assustados com o que você acabou de dizer.
+#ANS_REACT_FEAR_01	<NOSPEAK>Eles parecem um pouco alarmados com suas palavras.
+#ANS_REACT_FEAR_02	<NOSPEAK>Eles permanecem em silêncio, mas você pode ver o medo em seus olhos.
+#ANS_REACT_BOAST_01	<NOSPEAK>Eles parecem muito mais confiantes agora.
+#ANS_REACT_BOAST2_01	<NOSPEAK>Suas palavras pareceram tê-los inspirado com coragem.
 
-#ANS_REACT_NOFEAR2_01	<NOSPEAK>They are clearly enjoying your speech.
-#ANS_REACT_NOFEAR2_02	<NOSPEAK>They react to your words with obvious delight.
-#ANS_REACT_NOFEAR_01	<NOSPEAK>Your speech seems to have put them at ease.
-#ANS_REACT_NOFEAR_02	<NOSPEAK>A satisfied smile appears on the Tarkhan’s face.
-#ANS_REACT_NOBOAST_01	<NOSPEAK>There is resentment in their eyes now.
-#ANS_REACT_NOBOAST2_01	<NOSPEAK>They look outraged by your words.
+#ANS_REACT_NOFEAR2_01	<NOSPEAK>Eles estão claramente apreciando seu discurso.
+#ANS_REACT_NOFEAR2_02	<NOSPEAK>Eles reagem às suas palavras com evidente satisfação.
+#ANS_REACT_NOFEAR_01	<NOSPEAK>Seu discurso parece tê-los tranquilizado.
+#ANS_REACT_NOFEAR_02	<NOSPEAK>Um sorriso de satisfação aparece no rosto do Tarkhan.
+#ANS_REACT_NOBOAST_01	<NOSPEAK>Agora há ressentimento em seus olhos.
+#ANS_REACT_NOBOAST2_01	<NOSPEAK>Eles parecem indignados com as suas palavras.
 
 
 
-#GREET_REACT_UNDEF	<NOSPEAK>Your words elicit no reaction.
-#GREET_REACT_LIKE2	Truly, it is so!
-#GREET_REACT_LIKE	It pleases me to hear this.
-#GREET_REACT_HATE2	I can’t believe what I’m hearing!
-#GREET_REACT_HATE	<NOSPEAK>They remain silent, but you can feel the resentment in the air.
-#GREET_REACT_FEAR2	<NOSPEAK>They exchange looks. It seems your words have made these people fear you.
-#GREET_REACT_FEAR	<NOSPEAK>They seem somewhat alarmed at your words.
-#GREET_REACT_BOAST	<NOSPEAK>They look far more confident now.
-#GREET_REACT_BOAST2	<NOSPEAK>Your words seem to have inspired them with courage.
+#GREET_REACT_UNDEF	<NOSPEAK>Suas palavras não provocam nenhuma reação.
+#GREET_REACT_LIKE2	Realmente, é assim!
+#GREET_REACT_LIKE	É um prazer ouvir isso.
+#GREET_REACT_HATE2	Eu não posso acreditar no que estou ouvindo!
+#GREET_REACT_HATE	<NOSPEAK>Eles permanecem em silêncio, mas você pode sentir o ressentimento no ar.
+#GREET_REACT_FEAR2	<NOSPEAK>Eles trocam olhares. Parece que suas palavras fizeram com que essas pessoas o temessem.
+#GREET_REACT_FEAR	<NOSPEAK>Eles parecem um pouco alarmados com suas palavras.
+#GREET_REACT_BOAST	<NOSPEAK>Eles parecem muito mais confiantes agora.
+#GREET_REACT_BOAST2	<NOSPEAK>Suas palavras parecem tê-los inspirado com coragem.
 
-#GREET_REACT_NOFEAR2	<NOSPEAK>They are clearly pleased by your greeting.
-#GREET_REACT_NOFEAR	<NOSPEAK>They are pleased with your words.
-#GREET_REACT_NOBOAST	<NOSPEAK>Your greeting is received with indifference.
-#GREET_REACT_NOBOAST2	<NOSPEAK>You sense that they are outraged by your choice of greeting.
+#GREET_REACT_NOFEAR2	<NOSPEAK>Eles estão claramente satisfeitos com a sua recepção.
+#GREET_REACT_NOFEAR	<NOSPEAK>Eles estão satisfeitos com suas palavras.
+#GREET_REACT_NOBOAST	<NOSPEAK>Sua saudação é recebida com indiferença.
+#GREET_REACT_NOBOAST2	<NOSPEAK>Você sente que eles estão indignados com a sua escolha de saudação.
 
 
 
@@ -2630,7 +2630,7 @@
 
 
 
-#GLOSS_ELINT	Electronic Intelligence System
+#GLOSS_ELINT	Sistema de inteligência eletrônica
 #GLOSS_PELENG	Direction to the target relative to north (in degrees)
 
 #TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>The {glossary=ELINT,GLOSS_ELINT} reports a hostile radar signal.<SCR=SKIP_TUTORIAL>
@@ -2650,7 +2650,7 @@
 #TUTORIAL_CAMPAIGN_RLS_4	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>Use the pencil to mark the target’s position on the map based on where it is on the radar screen.<SCR=STOP>
 
 
-#GLOSS_IRST	Infrared Search and Track system
+#GLOSS_IRST	Sistema de busca e rastreamento por infravermelho
 
 #TUTORIAL_CAMPAIGN_IRST_1	<NPC=PETR><SIDE=-1><SHADOW=1>Infrared contact! The {glossary=IRST,GLOSS_IRST} reports a heat target.<SCR=SKIP_TUTORIAL>
 <ANS=I could use your advice here, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_IRST_2>
