@@ -3359,19 +3359,19 @@
 
 
 
-#INTERCOM_HISSID_1	<NPC=HISSID><SIDE=0><SHADOW=1>You called for me, sahib?<ANS=Thank you for coming to see me, Nadir Bek. Please close the door behind you. I have an important question.>
-#INTERCOM_HISSID_2	<NPC=HISSID><ANS=Can you tell me if there are any cities of the Hidden People nearby?>
-#INTERCOM_HISSID_3	<NPC=HISSID>(The pirate snorts behind his mask and shakes his head) That is a strange question indeed, Grand Duke. Surely the Romani understand that secrets remain secrets because they are never revealed?
-<ANS=But the Clans know about those cities, don’t they?>
-#INTERCOM_HISSID_4	<NPC=HISSID>The Clans know all.
-<ANS=Indeed.>
-#INTERCOM_HISSID_5	<NPC=HISSID>But what happens if everyone finds out about the hidden cities? Where will the Clans refuel their ships? Where will the Clans trade, if the Governor’s noyons come and bring their doyens with them?
-<ANS=The state of this war has forced my hand. I must ask you for a safe haven unknown to the Governor, somewhere we can heal our wounds and allow our men to rest.>
-<ANS=I understand what you’re saying. Forget I asked.|EXIT>
-#INTERCOM_HISSID_6	<NPC=HISSID><SCR=CONTINUE>Your hand has been forced, has it? Great Mother of Wind! If a Sayadi Grand Duke is asking the Pirate Clans for aid, then you really must have nowhere else to go!
-#INTERCOM_HISSID_7	<NPC=HISSID><NOSPEAK><SCR=CONTINUE>The pirate laughs heartily.
-#INTERCOM_HISSID_8	<TRG=INTERCOM_HISSID|1><NPC=HISSID>I don’t care if the Isi Clans crucify me for it — I’ll show you to the city of the Hidden People.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
-#INTERCOM_HISSID_SHORT	<NPC=HISSID>I’ll show you to the city of the Hidden People.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
+#INTERCOM_HISSID_1	<NPC=HISSID><SIDE=0><SHADOW=1>Você chamou por mim, sahib?<ANS=Obrigado por ter vindo me ver, Nadir Bek. Por favor, feche a porta. Eu tenho uma pergunta importante.>
+#INTERCOM_HISSID_2	<NPC=HISSID><ANS=Você pode me dizer se há alguma cidade do Povo Oculto nas proximidades?>
+#INTERCOM_HISSID_3	<NPC=HISSID>(O pirata bufa atrás de sua máscara e abana sua cabeça) Essa é uma pergunta estranha, de fato, Grão-Duque. Certamente os Romani entendem que os segredos permanecem segredos porque nunca são revelados.
+<ANS=Mas os Clãs sabem sobre essas cidades, não sabem?>
+#INTERCOM_HISSID_4	<NPC=HISSID>Os Clãs sabem tudo.
+<ANS=De fato.>
+#INTERCOM_HISSID_5	<NPC=HISSID>Mas o que acontece se todos souberem sobre as cidades ocultas? Onde os Clãs irão reabastecer suas naves? Onde os Clãs irão negociar, se os noyons do Governador vierem e trouxerem seus decanos com eles?
+<ANS=O estado desta guerra forçou minha mão. Devo pedir-lhe um porto seguro que seja desconhecido pelo Governador, um lugar onde possamos curar nossas feridas e permitir que nossos homens descansem.>
+<ANS=Eu entendo o que você está dizendo. Esqueça que eu perguntei.|EXIT>
+#INTERCOM_HISSID_6	<NPC=HISSID><SCR=CONTINUE>Sua mão foi forçada, foi? Grande Mãe do Vento! Se um Grão-Duque Sayadi está pedindo ajuda aos Clãs Piratas, então você realmente não deve ter mais para onde ir!
+#INTERCOM_HISSID_7	<NPC=HISSID><NOSPEAK><SCR=CONTINUE>O pirata ri de todo o coração.
+#INTERCOM_HISSID_8	<TRG=INTERCOM_HISSID|1><NPC=HISSID>Não me importa se os Clãs Isi me crucificarem por isso: eu lhes mostrarei a cidade do Povo Oculto.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
+#INTERCOM_HISSID_SHORT	<NPC=HISSID>Vou mostrar-lhes a cidade do Povo Oculto.<SCR=STOP|ASK_HIDDEN|HISSID=-1>
 
 
 
