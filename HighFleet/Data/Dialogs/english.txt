@@ -859,7 +859,7 @@
 #AFTERSHOCK_14	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Não há tempo para isso, {glossary=Sharif Rahmatovich,GLOSS_DAUD}. Se não prepararmos um ataque a {glossary=Khiva,GLOSS_KHIVA} aqui e agora, será tarde demais.
 #AFTERSHOCK_15	<SCR=CONTINUE>Nós passamos o resto da noite e todo o dia seguinte discutindo o plano de Pyotr.
 #AFTERSHOCK_16	<SCR=CONTINUE>Finalmente concordamos em enviar o cruzador Diana para o sul, em uma tentativa de restabelecer as comunicações com o Império. O resto de nossas forças começaram rapidamente os preparativos para chegar a {glossary=Khiva,GLOSS_KHIVA} e atacá-la.
-#AFTERSHOCK_17 <SCR=CONTINUE>O Sevastopol converteu-se na nave insignia da nova esquadra.
+#AFTERSHOCK_17 <SCR=CONTINUE>O Sevastopol converteu-se na nave capitânia da nova esquadra.
 #AFTERSHOCK_18	<SCR=CONTINUE>Em um determinado momento, um oficial perguntou quem deveria comandar a ofensiva. Pyotr foi rápido em responder com um plano próprio.
 #AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>Ele se levantou e falou com confiança. “Ninguém sabe ainda o que aconteceu com o Imperador”, disse ele. “Portanto, o Grão-Duque, o único herdeiro legítimo da dinastia, deve liderar o que resta da Frota {glossary=Romani,GLOSS_ROMANI} nesta ofensiva.”
 #AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>O almirante {glossary=Daud,GLOSS_DAUD} se opôs à ideia, mas seus gritos furiosos de protesto foram ignorados. Os oficiais apoiaram entusiasticamente a sugestão do general. A ideia do próprio herdeiro ao trono liderando a investida fez maravilhas para o moral deles.
@@ -2311,67 +2311,67 @@
 #FRACTION_VETERAN	RENEGADOS
 
 
-#ENDWAR_BRIEFING_0	<MUSIC=Bois><SCR=CONTINUE><BLUR=2><BLUR_FOCUS=0.3-><BLUR_ZOOM=1.0><SCR=END_BRIEFING|0>The Fleet officers and tarkhans assemble on the flagship thirty minutes later.
-#ENDWAR_BRIEFING_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|1>Thank you for coming, gentlemen. I know how tired you are.
-#ENDWAR_BRIEFING_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>But the predicament we now face is grave indeed.
-#ENDWAR_BRIEFING_3	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Khiva’s garrison officer has provided us with intelligence about the weapon that reduced the Imperial capital to ruins.
-#ENDWAR_BRIEFING_4	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>We didn’t coerce him. He told us because he believes the Gathering is planning to use this weapon to destroy Khiva.
-#ENDWAR_BRIEFING_5	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>The poor man was absolutely terrified. He insisted again and again that everyone here is in grave danger.
+#ENDWAR_BRIEFING_0	<MUSIC=Bois><SCR=CONTINUE><BLUR=2><BLUR_FOCUS=0.3-><BLUR_ZOOM=1.0><SCR=END_BRIEFING|0>Os oficiais da Frota e os tarkhans se reúnem na nave capitânia trinta minutos depois.
+#ENDWAR_BRIEFING_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|1>Obrigado por terem vindo, senhores. Eu sei o quanto vocês estão cansados.
+#ENDWAR_BRIEFING_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Mas a situação difícil que enfrentamos agora é realmente grave.
+#ENDWAR_BRIEFING_3	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>O oficial da guarnição de Khiva nos forneceu informações sobre a arma que reduziu a capital Imperial a ruínas.
+#ENDWAR_BRIEFING_4	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Nós não o coagimos. Ele nos disse porque acredita que a Confederação está planejando usar esta arma para destruir Khiva.
+#ENDWAR_BRIEFING_5	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>O pobre homem estava absolutamente aterrorizado. Ele insistiu repetidas vezes que todos aqui estão em sério perigo.
 
-#ENDWAR_BRIEFING_6	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|2>This new weapon is a ballistic missile.
-#ENDWAR_BRIEFING_7	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|3>It features an unparalleled trajectory correction system that allows it to strike targets as far as 2,000 km away.
-#ENDWAR_BRIEFING_8	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>As a ballistic missile, this weapon cannot be used against mobile targets.
-#ENDWAR_BRIEFING_9	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>However, it is absolutely devastating against stationary ones.
-#ENDWAR_BRIEFING_10	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Its speed is sufficient to strike its target in just over ten minutes.
+#ENDWAR_BRIEFING_6	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|2>Esta nova arma é um míssil balístico.
+#ENDWAR_BRIEFING_7	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|3>Possui um sistema de correção de trajetória inigualável que lhe permite atingir alvos até 2.000 km de distância.
+#ENDWAR_BRIEFING_8	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Sendo um míssil balístico, esta arma não pode ser usada contra alvos móveis.
+#ENDWAR_BRIEFING_9	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Entretanto, é absolutamente devastadora contra alvos fixos.
+#ENDWAR_BRIEFING_10	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>Sua velocidade é suficiente para atingir seu alvo em pouco mais de dez minutos.
 
-#ENDWAR_BRIEFING_11	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|4>These missiles are to be delivered to Gerat on two specially-made carrier cruisers. 
-#ENDWAR_BRIEFING_12	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|5>Each of them can carry up to ten of these missiles.
-#ENDWAR_BRIEFING_13	<CORNER_SPEAK=0><NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|6>I’ve marked the ships’ potential destinations on the map.
+#ENDWAR_BRIEFING_11	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|4>Estes mísseis devem ser entregues à Gerat em dois cruzadores transportadores especialmente fabricados para este fim.
+#ENDWAR_BRIEFING_12	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|5>Cada um deles pode carregar até dez desses mísseis.
+#ENDWAR_BRIEFING_13	<CORNER_SPEAK=0><NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|6>Marquei os potenciais destinos das naves no mapa.
 
-#ENDWAR_BRIEFING_14	<SCR=CHECK_JOINED|DAUD|ENDWAR_BRIEFING_17><NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>They will be able to launch a strike against Khiva if they dock anywhere within 2,000 km of their target.
-#ENDWAR_BRIEFING_15	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>These are all the cities that could be used to launch a missile strike against Khiva.
-#ENDWAR_BRIEFING_16	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>If we intercept both carriers before either of them reaches any of the cities marked on the map, Khiva will be safe from this new weapon.
+#ENDWAR_BRIEFING_14	<SCR=CHECK_JOINED|DAUD|ENDWAR_BRIEFING_17><NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>Eles serão capazes de lançar um ataque contra Khiva se atracarem em qualquer lugar a 2.000 km de seu alvo.
+#ENDWAR_BRIEFING_15	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>Estas são todas as cidades que poderiam ser usadas para lançar um ataque com mísseis contra Khiva.
+#ENDWAR_BRIEFING_16	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>Se interceptarmos os dois transportadores antes que qualquer um deles chegue a qualquer uma das cidades marcadas no mapa, Khiva estará a salvo desta nova arma.
 
-#ENDWAR_BRIEFING_17	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>They will be able to launch a strike against Khiva if they dock anywhere within 2,000 km of their target.
-#ENDWAR_BRIEFING_18	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>These are all the cities that could be used to launch a missile strike against Khiva.
-#ENDWAR_BRIEFING_19	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>If we intercept both carriers before either of them reaches any of the cities marked on the map, Khiva will be safe from this new weapon.
+#ENDWAR_BRIEFING_17	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>Eles serão capazes de lançar um ataque contra Khiva se atracarem em qualquer lugar a 2.000 km de seu alvo.
+#ENDWAR_BRIEFING_18	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>Estas são todas as cidades que poderiam ser usadas para lançar um ataque com mísseis contra Khiva.
+#ENDWAR_BRIEFING_19	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>Se interceptarmos os dois transportadores antes que qualquer um deles chegue a qualquer uma das cidades marcadas no mapa, Khiva estará a salvo desta nova arma.
 
-#ENDWAR_BRIEFING_SF_A_1	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>We still have the enemy strike groups to deal with, however.
-#ENDWAR_BRIEFING_SF_A_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_RADAR_S_1><SCR=END_BRIEFING|10>Their missiles are slow, but they have enough of them to reduce this place to a pile of radioactive ash.
+#ENDWAR_BRIEFING_SF_A_1	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>No entanto, ainda temos que lidar com os grupos de ataque inimigos.
+#ENDWAR_BRIEFING_SF_A_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_RADAR_S_1><SCR=END_BRIEFING|10>Seus mísseis são lentos, mas eles têm o suficiente deles para reduzir este lugar a uma pilha de cinzas radioativas.
 
-#ENDWAR_BRIEFING_RADAR_S_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_RADAR_V_1><NPC=OMAR><SIDE=1><SCR=CONTINUE>Can’t we intercept these new missiles before they hit the city and the ships? If we have a reliable radar and enough anti-air missiles...
-#ENDWAR_BRIEFING_RADAR_S_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>But the anti-air system won’t be able to intercept a high-speed ballistic missile.
-#ENDWAR_BRIEFING_RADAR_S_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>What if we use an A-100N?
-#ENDWAR_BRIEFING_RADAR_S_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>An A-100N... in theory, it could blast a ballistic missile if we detects it quickly enough.
+#ENDWAR_BRIEFING_RADAR_S_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_RADAR_V_1><NPC=OMAR><SIDE=1><SCR=CONTINUE>Não podemos interceptar estes novos mísseis antes que eles atinjam a cidade e as naves? Se tivermos um radar confiável e mísseis antiaéreos suficientes...
+#ENDWAR_BRIEFING_RADAR_S_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Mas o sistema antiaéreo não será capaz de interceptar um míssil balístico de alta velocidade.
+#ENDWAR_BRIEFING_RADAR_S_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>E se usarmos um míssil A-100N?
+#ENDWAR_BRIEFING_RADAR_S_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>Um A-100N... em teoria, poderia explodir um míssil balístico se o detectássemos com rapidez suficiente.
 
-#ENDWAR_BRIEFING_RADAR_V_1	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_GERAT_O_1><NPC=FASIL><SIDE=1><SCR=CONTINUE>Give us a reliable radar and enough anti-air missiles, and the city will be safe from these new missiles.
-#ENDWAR_BRIEFING_RADAR_V_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>But the anti-air system won’t be able to intercept a high-speed ballistic missile.
-#ENDWAR_BRIEFING_RADAR_V_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>What if we use an A-100N?
-#ENDWAR_BRIEFING_RADAR_V_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>An A-100N... in theory, it could blast a ballistic missile if we detects it quickly enough.
+#ENDWAR_BRIEFING_RADAR_V_1	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_GERAT_O_1><NPC=FASIL><SIDE=1><SCR=CONTINUE>Dê-nos um radar confiável e mísseis antiaéreos suficientes, e a cidade estará a salvo desses novos mísseis.
+#ENDWAR_BRIEFING_RADAR_V_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>Mas o sistema antiaéreo não será capaz de interceptar um míssil balístico de alta velocidade.
+#ENDWAR_BRIEFING_RADAR_V_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>E se usarmos um míssil A-100N?
+#ENDWAR_BRIEFING_RADAR_V_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>Um A-100N... em teoria, poderia explodir um míssil balístico se o detectássemos com rapidez suficiente.
 
-#ENDWAR_BRIEFING_MARK_1	<SCR=END_BRIEFING|12>Pyotr falls silent and looks at you. Everyone in the room turns to face you.<ANS=With this new information in mind, each of us must make a decision. You are free to leave this city, or stay and fight to the end.|ENDWAR_BRIEFING_MARK_2>
-#ENDWAR_BRIEFING_MARK_2	Your words echo in the deafening silence.<ANS=To those of you who choose to leave, I promise you that we will not stand in your way.|ENDWAR_BRIEFING_LOYALTY_1>
+#ENDWAR_BRIEFING_MARK_1	<SCR=END_BRIEFING|12>Pyotr fica em silêncio e olha para você. Todos na sala se voltam para olhar para você.<ANS=Com estas novas informações em mente, cada um de nós deve tomar uma decisão. Você é livre para sair desta cidade, ou ficar e lutar até o fim.|ENDWAR_BRIEFING_MARK_2>
+#ENDWAR_BRIEFING_MARK_2	Suas palavras ecoam no silêncio ensurdecedor.<ANS=Àqueles que optarem por partir, prometo que não nos interporemos no seu caminho.|ENDWAR_BRIEFING_LOYALTY_1>
 
-#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>I’m ready to die for your sake if I must, Sayadi. The Khans’ fleet will join you.
-#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>We’ve been through so much together, Grand Duke. The Elaou Dynasty is on your side.
-#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_JOINED|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>The Hidden People will join your cause, son of Sayadi.
-#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_JOINED|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>My clan will join you as well, sahib.
-#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_JOINED|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>The guardsmen of Gerat will stand with you, Grand Duke!
-#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_JOINED|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>So will the pirates.
-#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_JOINED|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT>The knights of Dustum will wage war with you!
-#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_JOINED|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT>My men are ready to support you too, Grand Duke.
-#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_JOINED|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>I’ve been waiting so long for this! It would’ve been a damn shame if I’d died of old age in that blasted desert...
-#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_JOINED|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN>Like the others, I put my life in your hands, Duke.
+#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>Estou pronto para morrer por você se for preciso, Sayadi. A frota dos Khans se juntará a você.
+#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>Passamos por tanta coisa juntos, Grã-Duque. A Dinastia Elaou está do seu lado.
+#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_JOINED|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>O Povo Oculto se unirá à sua causa, filho de Sayadi.
+#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_JOINED|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>Meu clã também se juntará a você, sahib.
+#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_JOINED|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>Os guardas de Gerat estarão ao seu lado, Grão-Duque!
+#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_JOINED|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>Os piratas também estarão com você.
+#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_JOINED|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT>Os cavaleiros de Dustum farão guerra junto com você.
+#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_JOINED|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT>Meus homens também estão prontos para apoiá-lo, Grão-Duque.
+#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_JOINED|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>Estou esperando há tanto tempo por isso! Teria sido uma vergonha se eu tivesse morrido de velhice naquele maldito deserto...
+#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_JOINED|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN>Como os outros, coloco minha vida em suas mãos, Duque.
 
-#ENDWAR_BRIEFING_END_1	<SCR=END_BRIEFING|14><BLUR=2><ANS=Then godspeed, gentlemen.|TOTAL_WAR_INFO>
+#ENDWAR_BRIEFING_END_1	<SCR=END_BRIEFING|14><BLUR=2><ANS=Então boa sorte, senhores.|TOTAL_WAR_INFO>
 
 
-#ENDWAR_BRIEFING_OBJ1	OBJECTIVE 1:@Intercept the missile carriers before any of them reaches any city within 2,000 km of Khiva. (2 remaining.)
-#ENDWAR_BRIEFING_OBJ2	OBJECTIVE 2:@Eliminate the strike groups threatening Khiva. (3 remaining.)
-#ENDWAR_BRIEFING_OBJ3	INTEL:@Ballistic missiles could be vulnerable to A-100N missiles with an nuclear payload.
+#ENDWAR_BRIEFING_OBJ1	OBJETIVO 1:@Interceptar os transportadores de mísseis antes que qualquer um deles chegue a qualquer cidade dentro de 2.000 km de Khiva. (2 restantes.)
+#ENDWAR_BRIEFING_OBJ2	OBJETIVO 2:@Eliminar os grupos de ataque que ameaçam Khiva. (3 restantes.)
+#ENDWAR_BRIEFING_OBJ3	INTELIGÊNCIA:@Os mísseis balísticos podem ser vulneráveis a mísseis A-100N com uma carga nuclear.
 
-#ENDWAR_SHOOTING	LOCA DE LANÇAMENTO POTENCIAL
-#ENDWAR_ARRIVAL	DESTINO POTENCIAL
+#ENDWAR_SHOOTING	POTENCIAL LOCA DE LANÇAMENTO
+#ENDWAR_ARRIVAL	POTENCIAL DESTINO
 
 
 
@@ -2600,7 +2600,7 @@
 
 #KHIVA_QUEST	CAPTURAR O REATOR
 #DETECTION_RANGE	ALCANCE DA DETECÇÃO
-#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}NAVE INSIGNIA@10{font=fixed_20}{align=0}Seu esquadrão precisa de uma nave insignia. Ela precisa de pelo menos uma nave capaz de abrigar o Quartel General da Frota.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
+#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}NAVE CAPITÂNIA@10{font=fixed_20}{align=0}Seu esquadrão precisa de uma nave capitânia. Precisa de pelo menos uma nave capaz de abrigar o Quartel General da Frota.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
 
 
 #TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Would you like me to brief you on the operation, Grand Duke?<SCR=SKIP_TUTORIAL>
@@ -3973,7 +3973,7 @@
 #HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>Não. Nunca.<ANS=Lamento muito ouvir isso.|MEETING_FIGHT>
 
 #SHIP_DESC_GEPARD	Uma poderosa nave antiaérea de última geração, ela ostenta artilharia pesada e armadura resistente o suficiente para sobreviver mesmo contra naves mais leves e rápidas. No entanto, não fique muito confiante: este veículo é muito caro para ser sacrificado em um combate aéreo.
-#SHIP_DESC_SEVASTOPOL	O modelo insignia da classe de cruzadores pesados Romani, concebido como o núcleo de um grande grupo de ataque. Com incomparável capacidade de cruzeiro independente e o melhor armamento da Frota Imperial, esta nave é formidável, mesmo sozinha.@10O cruzador foi enviado para a batalha assim que foi construído, por isso ainda lhe faltam muitos dos sistemas não vitais que ele foi projetado para transportar.
+#SHIP_DESC_SEVASTOPOL	O modelo capitânia da classe de cruzadores pesados Romani, concebido como o núcleo de um grande grupo de ataque. Com incomparável capacidade de cruzeiro independente e o melhor armamento da Frota Imperial, esta nave é formidável, mesmo sozinha.@10O cruzador foi enviado para a batalha assim que foi construído, por isso ainda lhe faltam muitos dos sistemas não vitais que ele foi projetado para transportar.
 
 
 
