@@ -2232,20 +2232,20 @@
 #GLOSS_ROMANI	Os Romani são o povo mais numeroso de Elaat. Muitas cidades em Gerat foram fundadas pelos Romani depois que Helam se juntou ao Império.
 #GLOSS_ISHU	Ishu é a figura central da religião Romani e um ponto de controvérsia em Gerat. Alguns Elaims aceitam a existência de Ishu, enquanto outros o rejeitam totalmente.
 #GLOSS_FLEET	A Frota é essencialmente uma casta político-militar de pessoas geneticamente predispostas a suportar e sobreviver às rápidas mudanças de movimento necessárias para o voo aéreo e o combate. Ou você nasce na Frota ou não, e assim evoluiu para a aristocracia hereditária que é hoje.
-#GLOSS_ELAM	Elam was once an independent kingdom in Gerat before being annexed by the Romani in the early 2nd century. The lord governor of Gerat joined the rebellion during the First Commune, and now the Romani Empire holds no sway over the province.
-#GLOSS_IMPIRE	The Romani Empire is the largest state in the known world. It was founded in the 1st century by the highest-ranking members of the Fleet. Duke Sayadi, chosen to rule the Empire, became the first hereditary monarch.
-#GLOSS_SAYADI	The Sayadi are the dynasty of the rulers of the Romani Empire, the oldest house in the known world.
-#GLOSS_ELAOU	The Elaou are the rulers of the kingdom of Elam and vassals to the Romani Empire. Prince Elaou-Fazil is the last representative of the Elaou dynasty.
-#GLOSS_GATHERING	The Gathering of Great Houses is an assembly of the Romani dynasties that supported the uprising against the Emperor.
-#GLOSS_DOYEN	A doyen is a Gerati clan elder. Many clans were forced to join the Gathering of Great Houses, so many doyens would gladly join the war against Khiva if given the chance.
-#GLOSS_REBELION	The rebellion against the Emperor began with the lord governor of Khiva, a former officer of the Empire. The Gathering of Great Houses, which harbored discontent against the Sayadi, soon joined his cause.
-#GLOSS_GOVERNOR	A former Imperial official, now ruler of Khiva. The man who sparked the rebellion against the Emperor.
-#GLOSS_KHIVA	Khiva is the main city in Northern Gerat. The lord governor of this city was the one who began the rebellion against the Romani Emperor.
-#GLOSS_SCOBELEV	Admiral Skobelev is the commander of the Second Squadron of the Expeditionary Fleet. His task is to provide communication with the capital. After the capture of Ur, the Second Squadron is to join the assault on Khiva.
-#GLOSS_DAUD	Admiral Daud Sharif Rahmatovich is the commander of the First Squadron of the Expeditionary Fleet. He also happens to be your immediate superior.
-#GLOSS_QODA	A qoda is a fragment of the Book of St. Lyn, the only sacred book that survived the Calamity. Most qodas have been lost. The ancient families and dynasties of Elaat guard and treasure their surviving qodas.
-#GLOSS_LEEN	A saint of legend who lived in the age of the Calamity. The owner and keeper of the last sacred book, they say he divided it among the future rulers of Elaat.
-#GLOSS_HARISHIDS	Former guardsmen of the king of Gerat. Some Harishids now serve the lord governor; others have taken refuge in the vast desert of Gerat.
+#GLOSS_ELAM	Elam já foi um reino independente em Gerat antes de ser anexado pelos Romani no início do segundo século. O senhor governador de Gerat juntou-se à rebelião durante a Primeira Comuna, e agora o Império Romani não tem influência sobre a província.
+#GLOSS_IMPIRE	O Império Romani é o maior estado do mundo conhecido. Foi fundado no primeiro século pelos membros mais altos da Frota. O Duque Sayadi, escolhido para governar o Império, tornou-se o primeiro monarca hereditário.
+#GLOSS_SAYADI	Os Sayadi são a dinastia dos governantes do Império Romani, a casa mais antiga do mundo conhecido.
+#GLOSS_ELAOU	Os Elaou são os governantes do reino de Elam e os vassalos do Império Romani. O príncipe Elaou-Fazil é o último representante da dinastia Elaou.
+#GLOSS_GATHERING	A Confederação das Grandes Casas é uma assembleia das dinastias Romani que apoiou a insurreição contra o Imperador.
+#GLOSS_DOYEN	Um decano é um ancião do clã Gerati. Muitos clãs foram forçados a se juntar à Confederação das Grandes Casas, por isso muitos decanos se juntariam de bom grado à guerra contra Khiva se tivessem a oportunidade.
+#GLOSS_REBELION	A rebelião contra o Imperador começou com o senhor governador de Khiva, um antigo oficial do Império. A Confederação das Grandes Casas, que abrigava o descontentamento contra os Sayadi, logo se juntou à sua causa.
+#GLOSS_GOVERNOR	Um ex-funcionário imperial, agora governante de Khiva. O homem que desencadeou a rebelião contra o Imperador.
+#GLOSS_KHIVA	Khiva é a principal cidade do norte de Gerat. Foi o senhor governador desta cidade que iniciou a rebelião contra o Imperador Romani.
+#GLOSS_SCOBELEV	O Almirante Skobelev é o comandante do Segundo Esquadrão da Frota Expedicionária. Sua tarefa é prover comunicação com a capital. Após a captura de Ur, o Segundo Esquadrão deve se juntar ao ataque a Khiva.
+#GLOSS_DAUD	O Almirante Daud Sharif Rahmatovich é o comandante do Primeiro Esquadrão da Frota Expedicionária. Ele também é seu superior imediato.
+#GLOSS_QODA	Um qoda é um fragmento do Livro de São Lyn, o único livro sagrado que sobreviveu à Calamidade. A maioria dos qodas foi perdida. As antigas famílias e dinastias de Elaat guardam e preservam seus qodas ainda existentes.
+#GLOSS_LEEN	Um santo da lenda que viveu na era da Calamidade. O proprietário e guardião do último livro sagrado, dizem que o dividiu entre os futuros governantes de Elaat.
+#GLOSS_HARISHIDS	Ex-guardas do rei de Gerat. Alguns Harishids agora servem ao senhor governador; outros se refugiaram no vasto deserto de Gerat.
 
 
 #HELP_RETRY_REQUEST	Solicitar reforços fará com que você perca o respeito do alto comando.
