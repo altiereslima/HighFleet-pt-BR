@@ -2375,34 +2375,34 @@
 
 
 
-#RADIOTREASON_1	<SCR=CHECK_JOINED|PETR|EXIT><NPC=PETR><SIDE=-1><SALUTE><SHADOW=1><SCR=CONTINUE>Tarkhan, sir! We’ve intercepted a transmission regarding our arrival at <FOCUS_INCITY>.
-#RADIOTREASON_2	<NPC=PETR><SIDE=-1><SCR=STOP>One of the locals must’ve sent it. Now the enemy knows we’re here.
+#RADIOTREASON_1	<SCR=CHECK_JOINED|PETR|EXIT><NPC=PETR><SIDE=-1><SALUTE><SHADOW=1><SCR=CONTINUE>Tarkhan, senhor! Interceptamos uma transmissão referente à nossa chegada a <FOCUS_INCITY>.
+#RADIOTREASON_2	<NPC=PETR><SIDE=-1><SCR=STOP>Um dos moradores locais deve tê-lo enviado. Agora o inimigo sabe que estamos aqui.
 
 
 
-#OMAR_GOODBUY_1	<NPC=OMAR><SIDE=0>I’m leaving, Duke. Siding with you was a mistake.
-<ANS=Farewell, Omar. May the wind always be at your back.|OMAR_GOODBUY_2>
-#OMAR_GOODBUY_2	<NPC=OMAR><SIDE=0>Same to you, Duke.<SCR=STOP>
+#OMAR_GOODBUY_1	<NPC=OMAR><SIDE=0>Estou indo embora, Duque. Ficar do seu lado foi um erro.
+<ANS=Adeus, Omar. Que o vento esteja sempre a seu favor.|OMAR_GOODBUY_2>
+#OMAR_GOODBUY_2	<NPC=OMAR><SIDE=0>O mesmo para você, Duque.<SCR=STOP>
 
-#FASIL_GOODBUY_1	<NPC=FASIL><SIDE=0>It pains me to say this, Duke, but you and I simply do not see eye to eye. It’s time for us to part ways.
-<ANS=I understand, Prince. Best of luck.|FASIL_GOODBUY_2>
-#FASIL_GOODBUY_2	<NPC=FASIL><SIDE=0>May fortune smile upon you as well, Duke.<SCR=STOP>
+#FASIL_GOODBUY_1	<NPC=FASIL><SIDE=0>Custa-me dizer isto, Duque, mas você e eu simplesmente não nos entendemos. Chegou a hora de nos separarmos.
+<ANS=Eu entendo, Príncipe. Boa sorte.|FASIL_GOODBUY_2>
+#FASIL_GOODBUY_2	<NPC=FASIL><SIDE=0>Que a sorte também sorria para você, Duque.<SCR=STOP>
 
-#KNIGHT_GOODBUY_1	<NPC=KNIGHT><SIDE=0>I’ve had enough of this, Your Grace! I’m leaving. May the Almighty bless your path.
-<ANS=Very well. Best of luck to you as well, Shuja.|EXIT>
-
-
+#KNIGHT_GOODBUY_1	<NPC=KNIGHT><SIDE=0>Já estou cansado disto, Vossa Graça! Estou indo embora. Que o Todo-Poderoso abençoe seu caminho.
+<ANS=Muito bem. Boa sorte para você também, Shuja.|EXIT>
 
 
-#EVENT_DAAVAT_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}One of the Elaims escorting your squadron has challenged you to single combat. He invoked the Dawaat, the Right of the Duel. Once a way to rise through the ranks, the Dawaat is now a matter of honor. Many Geratans still observe this ancient tradition.
-<ANS=Accept the challenge. {color=4294910720}[INJURY CHANCE 50%]|EVENT_DAAVAT_2|GERAT=1|FORCE=1>
-<ANS=Refuse the challenge.|EVENT_DAAVAT_NOFIGHT|GERAT=-1|FORCE=-1>
-#EVENT_DAAVAT_2	<AMBIENT=swordfight_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The Elaims surround the patch of earth chosen for the duel, standing shoulder to shoulder. Your opponent quickly shows himself to be a skilled fencer.<SCR=CONTINUE|EVENT_DAAVAT_RES|DICE=50>
-#EVENT_DAAVAT_RES	<AMBIENT=STOP><SOUND=swordhit_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}But then, to your surprise, your blade finds its mark. The sword cuts deep into your opponent’s hip, and he collapses.<SCR=CONTINUE|EVENT_DAAVAT_RES_1>
-#EVENT_DAAVAT_RES_FAIL	<AMBIENT=STOP><SOUND=swordhit_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}During the fray, his sword slices through your shoulder. You yield.<SCR=STOP|WOUND=24>
-#EVENT_DAAVAT_RES_1	<SOUND=crowd_medium_win_04><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The Elaims and your men are ecstatic.<SCR=CONTINUE|EVENT_DAAVAT_RES_2|MORAL=1>
-#EVENT_DAAVAT_RES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}All those years training with the best Romani swordsmen have finally paid off.<SCR=STOP|FEAR=1>
-#EVENT_DAAVAT_NOFIGHT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your opponent’s lips curl into a sneer. He spins around and leaves. The people surrounding you don’t even bother to hide their disappointment.<SCR=STOP>
+
+
+#EVENT_DAAVAT_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Um dos Elaims que escolta seu esquadrão o desafiou para um combate único. Ele invocou o Dawaat, o Direito do Duelo. Outrora uma forma de subir na hierarquia, o Dawaat é agora uma questão de honra. Muitos de Gerat ainda seguem esta antiga tradição.
+<ANS=Aceitar o desafio. {color=4294910720}[INJURY CHANCE 50%]|EVENT_DAAVAT_2|GERAT=1|FORCE=1>
+<ANS=Recusar o desafio.|EVENT_DAAVAT_NOFIGHT|GERAT=-1|FORCE=-1>
+#EVENT_DAAVAT_2	<AMBIENT=swordfight_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os Elaims cercam o pedaço de terra escolhido para o duelo, de pé, ombro a ombro. Seu adversário rapidamente se mostra um esgrimista habilidoso.<SCR=CONTINUE|EVENT_DAAVAT_RES|DICE=50>
+#EVENT_DAAVAT_RES	<AMBIENT=STOP><SOUND=swordhit_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Mas então, para sua surpresa, sua lâmina encontra o seu alvo. A espada corta profundamente o quadril de seu oponente e ele cai.<SCR=CONTINUE|EVENT_DAAVAT_RES_1>
+#EVENT_DAAVAT_RES_FAIL	<AMBIENT=STOP><SOUND=swordhit_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Durante a briga, a espada dele atravessa seu ombro. Você se rende.<SCR=STOP|WOUND=24>
+#EVENT_DAAVAT_RES_1	<SOUND=crowd_medium_win_04><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os Elaims e seus homens estão em êxtase.<SCR=CONTINUE|EVENT_DAAVAT_RES_2|MORAL=1>
+#EVENT_DAAVAT_RES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Todos esses anos de treinamento com os melhores espadachins Romani finalmente deram frutos.<SCR=STOP|FEAR=1>
+#EVENT_DAAVAT_NOFIGHT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O DAAVAT@10 {animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os lábios de seu oponente se encaracolam em um escárnio. Ele gira e sai. As pessoas ao seu redor nem se preocupam em esconder sua decepção.<SCR=STOP>
 
 
 
