@@ -653,7 +653,7 @@
 
 
 
-#TUTORIAL_FLY_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>As naves terminaram de reabastecer. Estamos prontos para vor. Suas ordens?
+#TUTORIAL_FLY_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>As naves terminaram de reabastecer. Estamos prontos para voar. Suas ordens?
 <ANS=Dê a ordem para decolar. Eu escolherei nosso destino.|TUTORIAL_FLY_10>
 <ANS=E quanto ao combustível, Pyotr Ignatyevich?|TUTORIAL_FLY_2>
 <ANS=O que você acha de toda esta expedição, General?|TUTORIAL_FLY_3>
@@ -2173,7 +2173,7 @@
 #ARGHELP_QUESTION	A pessoa que fala com você quer lhe fazer uma pergunta. Isto pode aumentar sua reputação: se você responder com sabedoria.
 #ARGHELP_FINISH	É hora de pôr um fim a esta conversa.
 #ARGHELP_PRESENT	Um presente digno prolongará a conversa.
-#ARGHELP_PRAISE	O elogio correto ao doyen certo aumentará sua reputação.
+#ARGHELP_PRAISE	O elogio correto ao decano certo aumentará sua reputação.
 #ARGHELP_DOSSIER	Há outras maneiras de aprender mais sobre a pessoa com quem você está falando.
 #ARGHELP_SPEECH	Faça um discurso. Se eles gostarem, a conversa se tornará mais animada.
 #ARGHELP_SPEECH_USED	Você já disse isso. Você pode repetir, mas o efeito será pior.
@@ -2272,8 +2272,8 @@
 #STRETCH_ON	ESTICAR LIG.
 #STRETCH_OFF	ESTICAR DESL.
 
-#DITHERING_ON	POPTILHAMENTO LIG.
-#DITHERING_OFF	POPTILHAMENTO DESL.
+#DITHERING_ON	PONTILHAMENTO LIG.
+#DITHERING_OFF	PONTILHAMENTO DESL.
 
 #GLITCHLOW_ON	FALHA BAIXA
 #GLITCHLOW_OFF	FALHA ALTA
@@ -2421,30 +2421,30 @@
 <ANS=Leve o monge com você.|EVENT_MONK_01_YES_OM|GERAT=1|FAITH=1|ROMANI=-1>
 <ANS=Diga a ele para ir embora.|EVENT_MONK_01_NO_AR|GERAT=-1|FAITH=-1|ROMANI=1>
 
-#EVENT_MONK_01_YES_OM	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_YES_GL><SCR=CONTINUE|EVENT_MONK_01_YES_AR|OMAR=1><NPC=OMAR><SIDE=0>When we give alms to the poor, we are but lending our money to God Himself! You chose wisely, sahib.
-#EVENT_MONK_01_YES_GL	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_FA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|GIRL=1><NPC=GIRL><SIDE=0>When we give alms to the poor, we are but lending our money to God Himself! You chose wisely, Duke.
-#EVENT_MONK_01_YES_FA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_HA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|FASIL=1><NPC=FASIL><SIDE=0>When we give alms to the poor, we are but lending our money to God Himself! You chose wisely, Duke.
-#EVENT_MONK_01_YES_HA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_DA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|HARISHID=1><NPC=HARISHID><SIDE=0>When we give alms to the poor, we are but lending our money to God Himself! You chose wisely.
+#EVENT_MONK_01_YES_OM	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_YES_GL><SCR=CONTINUE|EVENT_MONK_01_YES_AR|OMAR=1><NPC=OMAR><SIDE=0>Quando damos esmolas aos pobres, não fazemos mais do que emprestar nosso dinheiro ao próprio Deus! Você escolheu sabiamente, sahib.
+#EVENT_MONK_01_YES_GL	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_FA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|GIRL=1><NPC=GIRL><SIDE=0>Quando damos esmolas aos pobres, não fazemos mais do que emprestar nosso dinheiro ao próprio Deus! Você escolheu sabiamente, Duque.
+#EVENT_MONK_01_YES_FA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_HA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|FASIL=1><NPC=FASIL><SIDE=0>Quando damos esmolas aos pobres, não fazemos mais do que emprestar nosso dinheiro ao próprio Deus! Você escolheu sabiamente, Duque.
+#EVENT_MONK_01_YES_HA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_DA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|HARISHID=1><NPC=HARISHID><SIDE=0>Quando damos esmolas aos pobres, não fazemos mais do que emprestar nosso dinheiro ao próprio Deus! Você escolheu sabiamente.
 
-#EVENT_MONK_01_YES_AR	<SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_YES_DA><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>Bah! This is outrageous!
-#EVENT_MONK_01_YES_DA	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=-1><NPC=DAUD><SIDE=0>If I may, Duke, this endeavor seems less like a military campaign and more like a travelling freak show now.
+#EVENT_MONK_01_YES_AR	<SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_YES_DA><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>Bah! Isto é vergonhoso!
+#EVENT_MONK_01_YES_DA	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=-1><NPC=DAUD><SIDE=0>Se me permite, Duque, esta empreitada parece menos uma campanha militar e mais um espetáculo de aberrações agora.
 
-#EVENT_MONK_01_NO_AR	<AMBIENT=STOP><SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_NO_DA><SCR=CONTINUE|EVENT_MONK_01_NO_OM|AIRBORNE=1><NPC=AIRBORNE><SIDE=0>Well I’ll be... I almost thought you were going to take him in, Duke!
-#EVENT_MONK_01_NO_DA	<AMBIENT=STOP><SCR=CHECK_JOINED|DAUD|EVENT_MONK_01_NO_2><SCR=CONTINUE|EVENT_MONK_01_NO_OM|DAUD=1><NPC=DAUD><SIDE=0>Well I’ll be... I almost thought you were going to take him in, Duke!
+#EVENT_MONK_01_NO_AR	<AMBIENT=STOP><SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_NO_DA><SCR=CONTINUE|EVENT_MONK_01_NO_OM|AIRBORNE=1><NPC=AIRBORNE><SIDE=0>Bem, eu... Eu quase pensei que você ia acolhê-lo, Duque!
+#EVENT_MONK_01_NO_DA	<AMBIENT=STOP><SCR=CHECK_JOINED|DAUD|EVENT_MONK_01_NO_2><SCR=CONTINUE|EVENT_MONK_01_NO_OM|DAUD=1><NPC=DAUD><SIDE=0>Bem, eu... Eu quase pensei que você ia acolhê-lo, Duque!
 
-#EVENT_MONK_01_NO_OM	<SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_NO_GL><SCR=STOP|OMAR=-1><NPC=OMAR><SIDE=0>You ought to have honored the rakhib in the name of the Almighty, Duke.
-#EVENT_MONK_01_NO_GL	<SCR=CHECK_JOINED|GIRL|EXIT><SCR=STOP|GIRL=-1><NPC=GIRL><SIDE=0>You ought to have honored the rakhib in the name of the Almighty, Duke.
+#EVENT_MONK_01_NO_OM	<SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_NO_GL><SCR=STOP|OMAR=-1><NPC=OMAR><SIDE=0>Você deveria ter honrado o rakhib em nome do Todo-Poderoso, Duque.
+#EVENT_MONK_01_NO_GL	<SCR=CHECK_JOINED|GIRL|EXIT><SCR=STOP|GIRL=-1><NPC=GIRL><SIDE=0>Você deveria ter honrado o rakhib em nome do Todo-Poderoso, Duque.
 
 
 
-#EVENT_MURDER_01_1	<AMBIENT=crowd_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AN INCIDENT IN THE CITY@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your presence is urgently requested at the main hatch — there is a large and agitated crowd of locals gathered below the ship. On the way there, you learn the reason for their outrage: one of your men started a fight in the city and killed someone in a ghash-induced frenzy.<SCR=CONTINUE>
-#EVENT_MURDER_01_2	<SOUND=crowd_03><AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AN INCIDENT IN THE CITY@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The crowd falls silent as soon as they see your silhouette in the open hatch. They await your decision.
-<ANS=We will hold a public trial.|EVENT_MURDER_01_RES1|GERAT=1|ROMANI=-1|RIGHT=1>
-<ANS=This is an internal Fleet matter. The man’s fate will be decide by a tribunal.|EVENT_MURDER_01_RES2|ROMANI=1|GERAT=-1|RIGHT=1>
-<ANS=Disperse at once! There will be no trial. We’re at war — we cannot spare a single soldier.|EVENT_MURDER_01_RES3|GERAT=-1|RIGHT=-1>
-#EVENT_MURDER_01_RES1	<AMBIENT=STOP><SOUND=crowd_medium_win_05><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AN INCIDENT IN THE CITY@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The crowd roars in approval. Your officers, on the other hand, are clearly growing tense.<SCR=STOP>
-#EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AN INCIDENT IN THE CITY@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your men nod in agreement. As the crowd disperses, however, you catch many frustrated looks on the locals’ faces.<SCR=STOP>
-#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AN INCIDENT IN THE CITY@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Th crowd is shocked by your words, but their cries of outrage are soon forced silent. As the soldiers move out to push the people away from the ships, you notice some of your officers sigh in relief.<SCR=STOP|DISCIPLINE=-1>
+#EVENT_MURDER_01_1	<AMBIENT=crowd_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Sua presença é solicitada com urgência na escotilha principal: há uma grande e agitada multidão de moradores locais reunidos abaixo da nave. No caminho para lá, você descobre a razão da indignação deles: um de seus homens começou uma luta na cidade e matou alguém em um frenesi induzido pelo ghash.<SCR=CONTINUE>
+#EVENT_MURDER_01_2	<SOUND=crowd_03><AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A multidão fica em silêncio assim que vê sua silhueta na escotilha aberta. Eles aguardam sua decisão.
+<ANS=Faremos um julgamento público.|EVENT_MURDER_01_RES1|GERAT=1|ROMANI=-1|RIGHT=1>
+<ANS=Este é um assunto interno da Frota. O destino do homem será decidido por um tribunal..|EVENT_MURDER_01_RES2|ROMANI=1|GERAT=-1|RIGHT=1>
+<ANS=Disperse imediatamente! Não haverá julgamento. Estamos em guerra: não podemos perder um único soldado.|EVENT_MURDER_01_RES3|GERAT=-1|RIGHT=-1>
+#EVENT_MURDER_01_RES1	<AMBIENT=STOP><SOUND=crowd_medium_win_05><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A multidão ruge em aprovação. Seus oficiais, por outro lado, estão claramente nervosos.<SCR=STOP>
+#EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Seus homens acenam com a cabeça de acordo. À medida que a multidão se dispersa, no entanto, você captura muitos olhares frustrados nos rostos dos habitantes locais.<SCR=STOP>
+#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A multidão fica chocada com suas palavras, mas seus gritos de indignação logo são forçados ao silêncio. Quando os soldados saem para afastar as pessoas das naves, você percebe que alguns de seus oficiais suspiram em alívio.<SCR=STOP|DISCIPLINE=-1>
 
 
 
