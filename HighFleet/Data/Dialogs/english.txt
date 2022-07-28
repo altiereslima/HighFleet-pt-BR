@@ -1862,7 +1862,7 @@
 
 #CRAFT_MB110	MB-110
 #CRAFT_MB110_SDESC	BOMBARDEIRO
-#CRAFT_MB110_DESC	A turbojet frontline bomber.
+#CRAFT_MB110_DESC	Um bombardeiro turbojato de linha de frente.
 
 #CRAFT_UNREADY	AERONAVES NÃO PREPARADAS
 #CRAFT_UNREADY_DESC	As aeronaves estão rearmando, reabastecendo e se preparando para um novo voo.
@@ -3842,7 +3842,7 @@
 #SHIP_NAME_Archangel	Arcanjo
 #SHIP_NAME_Ballistic	Balística
 #SHIP_NAME_Borey	Borey
-#SHIP_NAME_Courageous	Valente
+#SHIP_NAME_Courageous	Corajosa
 #SHIP_NAME_Eagle	Águia
 #SHIP_NAME_EgidaMk2	Egida Mk2
 #SHIP_NAME_Egida	Egida
@@ -3857,7 +3857,7 @@
 #SHIP_NAME_GladiatorLANCE	Gladiador LANCE
 #SHIP_NAME_GladiatorMRL	Gladiadora LFM
 #SHIP_NAME_Gladiator	Gladiadora
-#SHIP_NAME_Grumble	Grunhir
+#SHIP_NAME_Grumble	Resmungo
 #SHIP_NAME_Gryphon	Grifo
 #SHIP_NAME_Hound	Cão de caça
 #SHIP_NAME_IntrepidMk2	Intrépida Mk2
@@ -3891,16 +3891,16 @@
 #SHIP_NAME_Odissey	Odisseia
 #SHIP_NAME_PaladinMk2	Paladina Mk2
 #SHIP_NAME_Paladin	Paladina
-#SHIP_NAME_Pegasus	Pegasus
+#SHIP_NAME_Pegasus	Pégaso
 #SHIP_NAME_Pollux	Pollux
 #SHIP_NAME_Rook	Gralha
-#SHIP_NAME_Runner	Runner
+#SHIP_NAME_Runner	Corredora
 #SHIP_NAME_Sarma	Sarma
 #SHIP_NAME_Scarab	Escaravelho
 #SHIP_NAME_Sevastopol	Sevastopol
 #SHIP_NAME_Skylark	Cotovia
 #SHIP_NAME_Slingshot	Estilingue
-#SHIP_NAME_Slogger	Vagabundo
+#SHIP_NAME_Slogger	Batedora
 #SHIP_NAME_Talos	Talos
 #SHIP_NAME_Tanker	Tanque
 #SHIP_NAME_TarantulARM	Tarântula ARM
@@ -3913,8 +3913,8 @@
 #SHIP_NAME_Vega	Vega
 #SHIP_NAME_VoskhodX2	Voskhod X2
 #SHIP_NAME_Voskhod	Voskhod
-#SHIP_NAME_WandererMk2	Errante Mk2
-#SHIP_NAME_Wanderer	Errante
+#SHIP_NAME_WandererMk2	Peregrina Mk2
+#SHIP_NAME_Wanderer	Peregrina
 #SHIP_NAME_Wasp	Vespa
 #SHIP_NAME_YarsMk2	Yars Mk2
 #SHIP_NAME_Yars	Yars
@@ -3922,7 +3922,7 @@
 
 
 #CREDITS	{color=4294967295}{align=2}{animation=credits_logo} @99 @99 @99
-{font=pollock_80}KONSTANTIN KOSHUTIN@{font=dinpro_30_reg}PROJETO, PROGRAMAÇÃO, ESCRITOR@99
+{font=pollock_80}KONSTANTIN KOSHUTIN@{font=dinpro_30_reg}PROJETO, PROGRAMAÇÃO, ROTEIRISTA@99
 {font=pollock_80}MAXIM KISELEV@{font=dinpro_30_reg}CO-AUTOR, PROGRAMADOR@99
  @99
 {font=pollock_80}TIMUR KVASOV@{font=dinpro_30_reg}ARTISTA DE PERSONAGENS@99
@@ -3946,7 +3946,7 @@
 {font=pollock_60}DAVIDE PESSACH@{font=dinpro_30_reg}COMERCIALIZAÇÃO@60
 {font=pollock_60}SERGIO COSTA@{font=dinpro_30_reg}GERENCIAMENTO DA COMUNIDADE@60
 {font=pollock_60}PHIL GILSON E TOMAS KUKLIK@{font=dinpro_30_reg}MANUAL@60
-{font=pollock_60}BRENT SCHRAFF@{font=dinpro_30_reg}ATUAÇÃO DE VOZ@60
+{font=pollock_60}BRENT SCHRAFF@{font=dinpro_30_reg}DUBLAGEM@60
  @99
 {animation=credits_hb} @20{font=dinpro_30_reg}Financiado em parte graças ao Humble Bundle@99
  @99
