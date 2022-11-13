@@ -1341,7 +1341,7 @@
 #PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>Lentamente, o almirante desaba aos seus pés.
 #PETR_DAUD_ARMED_4	<SCR=CONTINUE>Você sente vontade de gritar, mas sua voz não coopera.
 #PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Com um forte suspiro, Pyotr tenta de maneira desajeitada guardar sua pistola.
-#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não havia jeito de evitar isso, Duque.
+#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>Não havia como evitar isso, Duque.
 #PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>Se eu o tivesse deixado vivo, metade de nossos oficiais teria ficado do lado dele.
 #PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>O sangue começa a se acumular ao redor da cabeça de Daud.
 <ANS=Pyotr... você perdeu a cabeça, Pyotr...|PETR_DAUD_ARMED_9>
@@ -1984,9 +1984,9 @@
 #MDL_ANTENNA_01_DESC	Uma antena de rádio de alta frequência.
 
 #MDL_FLARES	ASO-75
-#MDL_FLARES_SDESC	CHAMARIZ
-#MDL_FLARES_DESC	Lançador de chamariz de 75mm para uso contra mísseis rastreadores de calor.
-#MDL_FLARES_KEY	PRESSIONE {animation=key_f} PARA DISPARAR CHAMARIZES.
+#MDL_FLARES_SDESC	ISCA ELETRÔNICA
+#MDL_FLARES_DESC	Lançador de isca eletrônica de 75mm para uso contra mísseis rastreadores de calor.
+#MDL_FLARES_KEY	PRESSIONE {animation=key_f} PARA DISPARAR A ISCA ELETRÔNICA.
 
 #MDL_KAZ	Palash-1
 #MDL_KAZ_SDESC	SPA
@@ -2448,52 +2448,52 @@
 
 
 
-#EVENT_HUSH_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The ship’s doctor asks to have a word with you. He claims that some of your men are suffering greatly from severe burns, and he has a suggestion. These patients could benefit from ghash, a local drug the Elaims often use to alleviate pain.
-<ANS=Very well. Head out into the city and find some ghash dealers.|EVENT_HUSH_01_YES|KINDNESS=1|RIGHT=-1>
-<ANS=I refuse to allow ghash on board my ship! Are you trying to turn my men into drug addicts?! The patients will recover on their own.|EVENT_HUSH_01_NO|KINDNESS=-1|RIGHT=1>
-#EVENT_HUSH_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}As you walk by the infirmary soon after, you suddenly realize how quiet it has become. The usual cries and moans are gone.<SCR=STOP|MORAL=1|HUSH=1>
-#EVENT_HUSH_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The doctor cannot change your mind, no matter how hard he tries. He walks away fuming, determined to place all the blame for the ailing soldiers’ suffering on you alone.<SCR=STOP|MORAL=-1|HUSH=-1>
+#EVENT_HUSH_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O médico da nave pede para falar com você. Ele afirma que alguns de seus homens estão sofrendo muito com queimaduras graves, e ele tem uma sugestão. Estes pacientes poderiam se beneficiar do ghash, uma droga local que os Elaims costumam usar para aliviar a dor.
+<ANS=Muito bem. Vá até a cidade e encontre alguns traficantes de ghash.|EVENT_HUSH_01_YES|KINDNESS=1|RIGHT=-1>
+<ANS=Eu me recuso a permitir o ghash a bordo da minha nave! Você está tentando transformar meus homens em viciados em drogas?! Os pacientes terão que se recuperar por conta própria.|EVENT_HUSH_01_NO|KINDNESS=-1|RIGHT=1>
+#EVENT_HUSH_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Ao passar pela enfermaria pouco tempo depois, você se dá conta de repente de quão silenciosa ela ficou. Os gritos e gemidos habituais desapareceram.<SCR=STOP|MORAL=1|HUSH=1>
+#EVENT_HUSH_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}GHASH@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O médico não pode fazer você mudar de ideia, por mais que tente. Ele se afasta furioso, determinado a colocar sobre você toda a culpa pelo sofrimento dos soldados feridos.<SCR=STOP|MORAL=-1|HUSH=-1>
 
 
 
-#EVENT_PARTISANS_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The doyen who greets you after landing tells you about a group of soldiers loyal to the Governor who left the city shortly before your arrival. These insurgents must be hiding somewhere in the mountains nearby.
-<ANS=Send troops to comb the nearby mountains.|EVENT_PARTISANS_01_RES1_1|FORCE=1|DICE=60>
-<ANS=Put all the ships on high alert and increase security.|EVENT_PARTISANS_01_RES2_1>
-<ANS=Our men need rest. Follow the standard docking procedure.|EVENT_PARTISANS_01_RES3_1|FORCE=-1|DICE=60>
+#EVENT_PARTISANS_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O decano que o cumprimenta após o desembarque lhe fala de um grupo de soldados leais ao Governador que deixou a cidade pouco antes de sua chegada. Estes insurgentes devem estar escondidos em algum lugar nas montanhas próximas.
+<ANS=Envie tropas para vasculhar as montanhas próximas.|EVENT_PARTISANS_01_RES1_1|FORCE=1|DICE=60>
+<ANS=Coloque todas as naves em alerta máximo e aumentar a segurança.|EVENT_PARTISANS_01_RES2_1>
+<ANS=Nossos homens precisam descansar. Siga o procedimento padrão de ancoragem.|EVENT_PARTISANS_01_RES3_1|FORCE=-1|DICE=60>
 
-#EVENT_PARTISANS_01_RES1_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your men find the enemy encampment!<SCR=CONTINUE|EVENT_PARTISANS_01_RES1_2|DICE=50>
-#EVENT_PARTISANS_01_RES1_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your troops seize the enemy camp without any casualties and return with a captive Gathering officer. His interrogation will no doubt prove fruitful.<SCR=STOP|FORCE=2|INTEL=3>
-#EVENT_PARTISANS_01_RES1_2_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Unfortunately, they find the camp abandoned. They turn up nothing else, no matter how hard they search.<SCR=STOP>
+#EVENT_PARTISANS_01_RES1_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Seus homens encontram o acampamento inimigo!<SCR=CONTINUE|EVENT_PARTISANS_01_RES1_2|DICE=50>
+#EVENT_PARTISANS_01_RES1_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Suas tropas capturam o acampamento inimigo sem baixas e retornam com um oficial Confederado. Seu interrogatório será, sem dúvida, frutífero.<SCR=STOP|FORCE=2|INTEL=3>
+#EVENT_PARTISANS_01_RES1_2_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Infelizmente, eles encontram o acampamento abandonado. Eles não encontram mais nada, por mais que procurem.<SCR=STOP>
 
 #EVENT_PARTISANS_01_RES1_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Nas montanhas, suas tropas são emboscadas e têm que recuar, sofrendo grandes perdas. As naves que você envia para resgatá-los não conseguem determinar a localização do inimigo. Pior ainda, seu esquadrão perdeu vários oficiais experientes.<SCR=STOP|MORAL=-1|FORCE=-2>
 
-#EVENT_PARTISANS_01_RES2_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your crew is unable to rest for the entire stay due to the high alert. They eye the nearby mountains with scorn even as they realize why you did what you did. Everyone is eager to leave this place as soon as humanly possible.<SCR=STOP|NO_REST>
-#EVENT_PARTISANS_01_RES3_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}It is a restless night — a grim foreboding looms over your thoughts. You expect to hear alarms and explosions at any moment... but time passes, and you wake up the next morning to learn that there were no incidents whatsoever during the night.<SCR=STOP>
-#EVENT_PARTISANS_01_RES3_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE INSURGENTS@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Your ships are bombarded in the dead of night. The mortar shells rip fresh holes in one of the hulls, and several crewmen and soldiers on watch are killed. You send a squad to find the insurgents, but they return empty-handed.<SCR=STOP|MORAL=-1>
+#EVENT_PARTISANS_01_RES2_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Sua tripulação não pode descansar durante toda a estadia devido ao alerta máximo. Eles olham as montanhas próximas com desprezo, mesmo quando percebem porque você fez o que fez. Todos estão ansiosos para deixar este lugar o mais rápido possível.<SCR=STOP|NO_REST>
+#EVENT_PARTISANS_01_RES3_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}É uma noite agitada: um mau presságio paira sobre seus pensamentos. Você espera ouvir alarmes e explosões a qualquer momento... mas o tempo passa, e você acorda na manhã seguinte para descobrir que não houve nenhum incidente durante a noite.<SCR=STOP>
+#EVENT_PARTISANS_01_RES3_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS INSURGENTES@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Suas naves são bombardeadas no meio da noite. Os projéteis de morteiros fazem novos furos em um dos cascos e vários tripulantes e soldados de guarda são mortos. Você envia um esquadrão para procurar os insurgentes, mas eles retornam de mãos vazias.<SCR=STOP|MORAL=-1>
 
 
 
-#EVENT_ROBE_1	<EVENT_CARD><AMBIENT=crowd_calm_02>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ELAIM GARB@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The city’s doyen approaches you. Bowing repeatedly, he presents you with a flowing robe embroidered in gold. Even from afar, you can tell that it is a veritable masterpiece of incredible luxury, made with exceptional skill.<SCR=CONTINUE>
-#EVENT_ROBE_2	<SCR=CHECK_JOINED|FASIL|EVENT_ROBE_3><NPC=FASIL><SIDE=0>One of my father’s master tailors made it. Money cannot buy a robe such as this. I wonder how this doyen got his hands on it...<SCR=CONTINUE>
-#EVENT_ROBE_3	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ELAIM GARB@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Dressing as Gerat royalty will impress the Elaims greatly, but the Romani might find it distasteful.
-<ANS=Start wearing the Elaim clothing.|EXIT|GERAT=2|ROMANI=-2>
-<ANS=Sell the robe at a profit.|EXIT|WEALTH=1|GERAT=-1|GOLD=5000>
+#EVENT_ROBE_1	<EVENT_CARD><AMBIENT=crowd_calm_02>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DISFARCE DE ELAIM@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O decano da cidade se aproxima de você. Curvando-se repetidamente, ele lhe presenteia com um manto esvoaçante bordado em ouro. Mesmo de longe, você pode dizer que é uma verdadeira obra-prima de incrível luxo, feita com excepcional habilidade.<SCR=CONTINUE>
+#EVENT_ROBE_2	<SCR=CHECK_JOINED|FASIL|EVENT_ROBE_3><NPC=FASIL><SIDE=0>Um dos mestres alfaiates de meu pai o fez. O dinheiro não pode comprar um manto como este. Pergunto-me como é que este decano colocou as mãos nisso...<SCR=CONTINUE>
+#EVENT_ROBE_3	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ELAIM GARB@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Vestir-se como a realeza de Gerat impressionará muito os Elaims, mas os Romani poderão achar isso de mau gosto.
+<ANS=Comece a usar a roupa Elaim.|EXIT|GERAT=2|ROMANI=-2>
+<ANS=Venda o manto obtendo um lucro.|EXIT|WEALTH=1|GERAT=-1|GOLD=5000>
 
 
 
-#EVENT_EHUDA_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}As you oversee the loading operations, you notice a band of men approaching your ships from the desert. The guards escort them to you.<SCR=CONTINUE>
-#EVENT_EHUDA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The eldest of the men introduces himself as Yehuda, son of Khazim. He states that he has been fighting the Governor’s men for a long time and is overjoyed to see the son of his Emperor with his own eyes.<SCR=CONTINUE>
-#EVENT_EHUDA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}He and his men have a ship. He humbly begs to join your squadron in exchange for his unwavering loyalty.<SCR=CONTINUE>
-#EVENT_EHUDA_4	<NPC=FASIL>You should be wary of him, Duke. His father Khazim was the leader of a gang of bandits who used to terrorize people all over Gerat. My father crossed swords with him and eliminated the pirates.<SCR=CONTINUE>
-#EVENT_EHUDA_5	<NPC=FASIL>But now I see that the apple has not fallen far from the tree. You should arrest these men here and now, while you still can!<SCR=CONTINUE>
-#EVENT_EHUDA_6	<NPC=PETR><NOSPEAK>As Fazil walks away, Pyotr addresses you wistfully.<SCR=CONTINUE>
-#EVENT_EHUDA_7	<NPC=PETR>In troubled times such as these, it can be difficult to tell a bandit from a freedom fighter. Even if Fazil’s father fought Yehuda’s father, that does not mean that Yehuda is cut from the same cloth.<SCR=CONTINUE>
-#EVENT_EHUDA_8	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yehuda’s man glance at Pyotr and Fazil restlessly, awaiting your final decision.
-<ANS=Let Yehuda and his men join your squadron.|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
-<ANS=Refuse Yehuda’s offer.|EVENT_EHUDA_NO_1|RIGHT=1|GERAT=-1>
-#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yehuda’s man shout for joy the moment they hear your answer. Some of your officers appear grim, however. “Ridiculous,” you hear them mutter. “We’re officers of the Fleet, and now we’re sharing our rations with pirates?”<SCR=STOP|EXIT|FASIL=-1|DISCIPLINE=-1|JOIN>
-#EVENT_EHUDA_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE KINLESS@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Yehuda’s face grows dark as he hears your words. He glances at Fazil menacingly, then turns his back on you and leaves without saying a word.<SCR=CONTINUE>
-#EVENT_EHUDA_NO_2	<NPC=FASIL>You made the right decision, Duke, believe me. I’m sure your men will agree.<SCR=STOP|EXIT|FASIL=1>
+#EVENT_EHUDA_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Ao supervisionar as operações de carga, você observa um grupo de homens se aproximando de suas naves a partir do deserto. Os guardas os escoltam até você.<SCR=CONTINUE>
+#EVENT_EHUDA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O mais velho dos homens se apresenta como Yehuda, filho de Khazim. Ele afirma que vem lutando contra os homens do Governador há muito tempo e está muito contente de ver o filho de seu Imperador com seus próprios olhos.<SCR=CONTINUE>
+#EVENT_EHUDA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Ele e seus homens têm uma nave. Ele implora humildemente para juntar-se a seu esquadrão em troca de sua lealdade inabalável.<SCR=CONTINUE>
+#EVENT_EHUDA_4	<NPC=FASIL>Você deveria ter cuidado com ele, Duque. O pai dele, Khazim, era o líder de um bando de bandidos que costumava aterrorizar as pessoas em toda Gerat. Meu pai cruzou espadas com ele e eliminou os piratas.<SCR=CONTINUE>
+#EVENT_EHUDA_5	<NPC=FASIL>Mas agora eu vejo que a maçã não caiu longe da árvore. Você deveria prender estes homens aqui e agora, enquanto ainda pode!<SCR=CONTINUE>
+#EVENT_EHUDA_6	<NPC=PETR><NOSPEAK>Enquanto Fazil se afasta, Pyotr se dirige a você com nostalgia.<SCR=CONTINUE>
+#EVENT_EHUDA_7	<NPC=PETR>Em tempos conturbados como estes, pode ser difícil distinguir um bandido de um lutador pela liberdade. Mesmo que o pai de Fazil tenha lutado contra o pai de Yehuda, isso não significa que Yehuda seja farinha do mesmo saco.<SCR=CONTINUE>
+#EVENT_EHUDA_8	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os homens de Yehuda olham para Pyotr e Fazil inquietos, aguardando sua decisão final.
+<ANS=Deixe que Yehuda e seus homens se juntem a seu esquadrão.|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
+<ANS=Recuse a oferta de Yehuda.|EVENT_EHUDA_NO_1|RIGHT=1|GERAT=-1>
+#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os homens de Yehuda gritam de alegria no momento em que ouve sua resposta. Alguns de seus oficiais, no entanto, parecem sombrios. “Ridículo,” você os ouve murmurar. “Somos oficiais da Frota, e agora estamos compartilhando nossas rações com piratas?”<SCR=STOP|EXIT|FASIL=-1|DISCIPLINE=-1|JOIN>
+#EVENT_EHUDA_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A face de Yehuda escurece quando ele ouve suas palavras. Ele olha para Fazil de forma ameaçadora, depois vira as costas para você e sai sem dizer uma palavra.<SCR=CONTINUE>
+#EVENT_EHUDA_NO_2	<NPC=FASIL>Você tomou a decisão certa, Duque, acredite em mim. Tenho certeza de que seus homens concordarão.<SCR=STOP|EXIT|FASIL=1>
 
 
 
@@ -4047,7 +4047,7 @@
 #TITLE_CTRL_AS_MISSILE	MÍSSIL AS
 #TITLE_CTRL_AA_MISSILE	MÍSSIL AA
 #TITLE_CTRL_CRAFT	LANÇAR AVIÕES
-#TITLE_CTRL_FLARES	CHAMARIZ
+#TITLE_CTRL_FLARES	ISCA ELETRÔNICA
 #TITLE_CTRL_AMMO	TROCAR A MUNIÇÃO
 #TITLE_CTRL_FSS	BOMBEIROS
 
