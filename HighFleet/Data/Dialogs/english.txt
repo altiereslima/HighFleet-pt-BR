@@ -2530,7 +2530,7 @@
 
 
 
-#EVENT_STEALING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AS ARMAS DESAPARECIDAS@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O intendente da nave capitânia visita você com um relatório: há um grande número de armas de fogo faltando em vários das naves do seu esquadrão.<SCR=CONTINUE>
+#EVENT_STEALING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AS ARMAS DESAPARECIDAS@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O intendente da nave capitânia visita você com um relatório: há um grande número de armas de fogo faltando em várias das naves do seu esquadrão.<SCR=CONTINUE>
 #EVENT_STEALING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}AS ARMAS DESAPARECIDAS@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os oficiais afirmam que as armas foram perdidas em batalha, mas o intendente suspeita de roubo. Ele acredita que alguém do esquadrão vem sistematicamente furtando as armas de fogo.
 <ANS=Devemos confiar nos oficiais nesse assunto. Não se pode esperar que eles prestem contas de cada equipamento perdido no calor da batalha.|EVENT_STEALING_01_NO|RIGHT=-2>
 <ANS=Inicie a investigação.|EVENT_STEALING_01_YES|RIGHT=2>
@@ -2603,30 +2603,30 @@
 #TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}NAVE CAPITÂNIA@10{font=fixed_20}{align=0}Seu esquadrão precisa de uma nave capitânia. Precisa de pelo menos uma nave capaz de abrigar o Quartel General da Frota.@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
 
 
-#TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Would you like me to brief you on the operation, Grand Duke?<SCR=SKIP_TUTORIAL>
-<ANS=Certainly, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_CORE_1>
-#TUTORIAL_CAMPAIGN_CORE_1	<SCR=TUTORIAL_CORE|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Very well. Our objective is to capture the Khiva reactor.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_2	<SCR=TUTORIAL_CORE|1><NPC=PETR><SIDE=-1>The city of Khiva is in the northern reaches of Gerat.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_3	<SCR=TUTORIAL_CORE|2><NPC=PETR><SIDE=-1>It’s protected by the Governor’s own squadron. We need to force them out of the city.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_4	<NPC=PETR><SIDE=-1>It is imperative that the reactor remain completely intact, which means that nuclear strikes against Khiva are not an option.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_5	<SCR=TUTORIAL_CORE|3><NPC=PETR><SIDE=-1>However, we will face far worse threats to the success of this operation before we even reach Khiva.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_6	<SCR=TUTORIAL_CORE|4><NPC=PETR><SIDE=-1>According to our intel, there are five Gathering strike groups equipped with nuclear weapons somewhere in Gerat. I strongly suggest avoiding them at all costs.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_7	<SCR=TUTORIAL_CORE|5><NPC=PETR><SIDE=-1>The strike groups move from city to city on average once a day.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_8	<SCR=TUTORIAL_CORE|6><NPC=PETR><SIDE=-1>If the enemy spots us and has time to report it...<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_9	<SCR=TUTORIAL_CORE|7><NPC=PETR><SIDE=-1>Strike groups will try to get close to us and fire missiles.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_10	<NPC=PETR><SIDE=-1>So we need to steer clear of them and track their movements at all times.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_11	<SCR=TUTORIAL_CORE|8><NPC=PETR><SIDE=-1>Information about the movement of strike groups can be obtained from radio interception.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_12	<SCR=TUTORIAL_CORE|9><NPC=PETR><SIDE=-1>Or by capturing one of the troposcatter communication stations.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_13	<SCR=TUTORIAL_CORE|10><NPC=PETR><SIDE=-1>Due to Gerat’s vast size, the enemy has had to use these stations to send messages.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_14	<SCR=TUTORIAL_CORE|11><NPC=PETR><SIDE=-1>Even one such station could supply us with priceless intel on the strike groups’ whereabouts.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_15	<SCR=TUTORIAL_CORE|12><NPC=PETR><SIDE=-1>As well as the location of their aircraft carriers.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_16	<SCR=TUTORIAL_CORE|13><NPC=PETR><SIDE=-1>And their missile carriers.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_17	<NPC=PETR><SIDE=-1>All of which is of EXTREME importance if we are to prevail in this operation.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_18	<SCR=TUTORIAL_CORE|14><NPC=PETR><SIDE=-1>The aircraft carriers, for one, can deploy attack aircrafts from as far as 2,000 km away.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_19	<NPC=PETR><SIDE=-1>We must always keep this in mind.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_20	<SCR=TUTORIAL_CORE|15><NPC=PETR><SIDE=-1>And, lastly, there are also transport ships moving to and fro between the cities of Gerat.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_21	<NPC=PETR><SIDE=-1>They are hardly, if ever, escorted, and could be easy pickings for us.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_CORE_22	<SCR=TUTORIAL_CORE|16><NPC=PETR><SIDE=-1>A captured transport ship could be quickly ransomed for a sizeable sum in any city, Duke. And we could really use some extra funds.<SCR=STOP>
+#TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Você gostaria que eu te apresentasse uma visão geral da operação, Grão-Duque?<SCR=SKIP_TUTORIAL>
+<ANS=Certamente, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_CORE_1>
+#TUTORIAL_CAMPAIGN_CORE_1	<SCR=TUTORIAL_CORE|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>Muito bem. Nosso objetivo é capturar o reator Khiva.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_2	<SCR=TUTORIAL_CORE|1><NPC=PETR><SIDE=-1>A cidade de Khiva fica nas regiões do norte de Gerat.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_3	<SCR=TUTORIAL_CORE|2><NPC=PETR><SIDE=-1>Ela é protegida pelo esquadrão do próprio Governador. Precisamos expulsá-los da cidade.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_4	<NPC=PETR><SIDE=-1>É imperativo que o reator permaneça completamente intacto, o que significa que ataques nucleares contra Khiva não são uma opção.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_5	<SCR=TUTORIAL_CORE|3><NPC=PETR><SIDE=-1>No entanto, enfrentaremos ameaças muito piores para o sucesso desta operação antes mesmo de chegarmos a Khiva.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_6	<SCR=TUTORIAL_CORE|4><NPC=PETR><SIDE=-1>De acordo com nossos dados, há cinco grupos de ataque Confederados equipados com armas nucleares em algum lugar de Gerat. Eu sugiro fortemente evitá-los a todo custo.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_7	<SCR=TUTORIAL_CORE|5><NPC=PETR><SIDE=-1>Os grupos de ataque se movem de cidade em cidade em média uma vez por dia.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_8	<SCR=TUTORIAL_CORE|6><NPC=PETR><SIDE=-1>Se o inimigo nos avistar e tiver tempo para relatar...<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_9	<SCR=TUTORIAL_CORE|7><NPC=PETR><SIDE=-1>Os grupos de ataque tentarão se aproximar de nós e lançar mísseis.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_10	<NPC=PETR><SIDE=-1>Então, precisamos evitar ficar perto deles e rastrear seus movimentos o tempo todo.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_11	<SCR=TUTORIAL_CORE|8><NPC=PETR><SIDE=-1>Informações sobre o movimento dos grupos de ataque podem ser obtidas por interceptação de rádio.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_12	<SCR=TUTORIAL_CORE|9><NPC=PETR><SIDE=-1>Ou capturando uma das estações de comunicação troposférica.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_13	<SCR=TUTORIAL_CORE|10><NPC=PETR><SIDE=-1>Devido ao grande tamanho de Gerat, o inimigo teve que usar essas estações para enviar mensagens.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_14	<SCR=TUTORIAL_CORE|11><NPC=PETR><SIDE=-1>Mesmo uma estação dessas poderia fornecer informações valiosas sobre o paradeiro dos grupos de ataque.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_15	<SCR=TUTORIAL_CORE|12><NPC=PETR><SIDE=-1>Assim como a localização de seus porta-aviões.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_16	<SCR=TUTORIAL_CORE|13><NPC=PETR><SIDE=-1>E seus porta-mísseis.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_17	<NPC=PETR><SIDE=-1>Tudo isso é de EXTREMA importância se quisermos prevalecer nesta operação.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_18	<SCR=TUTORIAL_CORE|14><NPC=PETR><SIDE=-1>Os porta-aviões, por exemplo, podem lançar aviões de ataque a partir de uma distância de até 2.000 km.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_19	<NPC=PETR><SIDE=-1>Devemos sempre ter isso em mente.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_20	<SCR=TUTORIAL_CORE|15><NPC=PETR><SIDE=-1>E, por último, há também naves de transporte indo e vindo entre as cidades de Gerat.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_21	<NPC=PETR><SIDE=-1>Elas raramente são escoltadas e podem ser alvos fáceis para nós.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_22	<SCR=TUTORIAL_CORE|16><NPC=PETR><SIDE=-1>Uma nave de transporte capturada poderia ser rapidamente resgatada por uma soma considerável em qualquer cidade, Duque. E poderíamos realmente usar algum dinheiro extra.<SCR=STOP>
 
 
 
