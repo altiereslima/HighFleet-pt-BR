@@ -989,7 +989,7 @@
 <ANS=Por todos os nossos pecados.|ISAIAH_2_12>
 #ISAIAH_2_12	<NPC=BOY><SIDE=0>Que pecados? Eu não cometi nenhum pecado!
 <ANS=Claro que não, Alsahir. Perdoe-me.|ISAIAH_2_16|BOY=1>
-<ANS=Acho difícil acreditar que um simples homem possa fazer isso..|ISAIAH_2_PARA_1>
+<ANS=Acho difícil acreditar que um simples homem possa fazer isso.|ISAIAH_2_PARA_1>
 <ANS="Da nossa vida, em meio da jornada...|ISAIAH_2_13>
 
 #ISAIAH_2_PARA_1	<NPC=BOY><SIDE=0>
@@ -999,7 +999,7 @@
 #ISAIAH_2_PARA_3	<NPC=BOY><SIDE=0>
 <ANS=Então o velho lhe disse para fazer o mesmo com um saco de areia.|ISAIAH_2_PARA_4>
 #ISAIAH_2_PARA_4	<NPC=BOY><SIDE=0>
-<ANS=Mas o homem não foi capaz de pegar toda a areia que havia derramado..|ISAIAH_2_PARA_5>
+<ANS=Mas o homem não foi capaz de pegar toda a areia que havia derramado.|ISAIAH_2_PARA_5>
 #ISAIAH_2_PARA_5	<NPC=BOY><SIDE=0>
 <ANS=Nossos pecados são frequentemente tão pequenos que não conseguimos vê-los, mas são tão numerosos quanto os grãos de areia.|ISAIAH_2_16>
 
@@ -1119,7 +1119,7 @@
 #HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>O garoto sorri quando o vê hesitar.
 #HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>Alsahir. Me chame de Alsahir.
 #HELLO_BOY_15	<NPC=BOY><SIDE=0>{glossary=Harishids,GLOSS_HARISHIDS} a serviço do senhor governador assassinaram meu pai três dias atrás.
-<ANS=Você tem minhas condolências, Alsahir..|HELLO_BOY_END>
+<ANS=Você tem minhas condolências, Alsahir.|HELLO_BOY_END>
 
 #HELLO_BOY_END	<NPC=BOY><SIDE=0>Você está indo para Khiva, filho de Sayadi. Deixe-me acompanhá-lo.
 <ANS=Ficarei feliz em lutar ao seu lado, Alsahir.|HELLO_BOY_END_OK|BOY_ANYTIME=99>
@@ -1538,7 +1538,7 @@
 
 #HELLO_DOSSIER	<NPC=LOCAL><SCR=HELLO_DOSSIER>
 #HELLO_DOSSIER_FEAR	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser um indivíduo covarde.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que este decano não teme ninguém..<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que este decano não teme ninguém.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_ROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser devotado aos Romani.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_NOROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ter ressentimentos com os Romani.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_GERAT	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que este decano é dedicado a Gerat.<ANS=CONTINUE|HELLO_ROUND>
@@ -1548,7 +1548,7 @@
 #HELLO_DOSSIER_RIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por ser imparcial e justo.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_NORIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano tem a má fama de ignorar a justiça e de maltratar as pessoas.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_FORCE	<NPC=HIRE><APPROVE><NOSPEAK>Dizem que este decano valoriza a força nas pessoas.<ANS=CONTINUE|HELLO_ROUND>
-#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por seu caráter pacífico..<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>Este decano é conhecido por seu caráter pacífico.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_WEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>A ganância desta decano é bem conhecida.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_NOWEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>Dizem que a generosidade deste decano é notável.<ANS=CONTINUE|HELLO_ROUND>
 #HELLO_DOSSIER_KINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>Se ouve falar com frequência da bondade deste decano.<ANS=CONTINUE|HELLO_ROUND>
@@ -1709,7 +1709,7 @@
 
 
 #RUINED_CITY_1	<EVENT>Esta é a primeira vez que você vê chover em Gerat. Um verdadeiro muro de água despenca sobre a terra.<SCR=CONTINUE>
-#RUINED_CITY_2	Um velho em farrapos emerge da enxurrada. Seus olhos olham através de você enquanto ele começa a falar. "Você pode sentir as montanhas tremendo, Tarkhan. Tremendo com a ira de Deus". E de fato, você sente algo: o mundo ao seu redor parece vibrar, quase como se estivesse gemendo..<SCR=CONTINUE>
+#RUINED_CITY_2	Um velho em farrapos emerge da enxurrada. Seus olhos olham através de você enquanto ele começa a falar. "Você pode sentir as montanhas tremendo, Tarkhan. Tremendo com a ira de Deus". E de fato, você sente algo: o mundo ao seu redor parece vibrar, quase como se estivesse gemendo.<SCR=CONTINUE>
 #RUINED_CITY_3	A cidade à sua frente está em ruínas, aniquilada por uma explosão nuclear. Não há mais nada: nem mesmo um telhado para abrigar-se da chuva.<SCR=RUINED>.
 #RUINED_CITY_RESCUE	<NPC=PETR><SIDE=-1>Tarkhan, senhor... talvez não deveríamos. Qualquer sobrevivente que você possa encontrar aqui falecerá dentro de dias. Eles estão além de qualquer esperança. Não arrisque sua tripulação.
 <ANS=Envie a tripulação assim mesmo|RUINED_CITY_3|RUINED_RESCUE|RIGHT=1|CREW=-10>
@@ -2440,7 +2440,7 @@
 #EVENT_MURDER_01_1	<AMBIENT=crowd_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Sua presença é solicitada com urgência na escotilha principal: há uma grande e agitada multidão de moradores locais reunidos abaixo da nave. No caminho para lá, você descobre a razão da indignação deles: um de seus homens começou uma luta na cidade e matou alguém em um frenesi induzido pelo ghash.<SCR=CONTINUE>
 #EVENT_MURDER_01_2	<SOUND=crowd_03><AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A multidão fica em silêncio assim que vê sua silhueta na escotilha aberta. Eles aguardam sua decisão.
 <ANS=Faremos um julgamento público.|EVENT_MURDER_01_RES1|GERAT=1|ROMANI=-1|RIGHT=1>
-<ANS=Este é um assunto interno da Frota. O destino do homem será decidido por um tribunal..|EVENT_MURDER_01_RES2|ROMANI=1|GERAT=-1|RIGHT=1>
+<ANS=Este é um assunto interno da Frota. O destino do homem será decidido por um tribunal.|EVENT_MURDER_01_RES2|ROMANI=1|GERAT=-1|RIGHT=1>
 <ANS=Disperse imediatamente! Não haverá julgamento. Estamos em guerra: não podemos perder um único soldado.|EVENT_MURDER_01_RES3|GERAT=-1|RIGHT=-1>
 #EVENT_MURDER_01_RES1	<AMBIENT=STOP><SOUND=crowd_medium_win_05><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A multidão ruge em aprovação. Seus oficiais, por outro lado, estão claramente nervosos.<SCR=STOP>
 #EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM INCIDENTE NA CIDADE@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Seus homens acenam com a cabeça de acordo. À medida que a multidão se dispersa, no entanto, você captura muitos olhares frustrados nos rostos dos habitantes locais.<SCR=STOP>
@@ -2594,7 +2594,7 @@
 
 
 
-#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O ACIDENTE@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>Devido aos componentes altamente irradiados a bordo da nave, vários membros da tripulação morreram de envenenamento por radiação..<SCR=STOP|CREW=-10|MORAL=-1>
+#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O ACIDENTE@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>Devido aos componentes altamente irradiados a bordo da nave, vários membros da tripulação morreram de envenenamento por radiação.<SCR=STOP|CREW=-10|MORAL=-1>
 
 
 
@@ -2636,29 +2636,29 @@
 #TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>Os {glossary=ELINT,GLOSS_ELINT} relatam um sinal de radar hostil.<SCR=SKIP_TUTORIAL>
 <ANS=Seria bom o seu conselho aqui, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_ELINT_2>
 #TUTORIAL_CAMPAIGN_ELINT_2	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>As antenas {glossary=ELINT,GLOSS_ELINT} detectam sinais de radar inimigo e calculam a {glossary=rota,GLOSS_PELENG} aproximada em relação ao alvo.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_ELINT_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>A radar signal is a telltale sign of a considerably well-armed ship.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_ELINT_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>If we’re close enough to detect their radar signal, that means they’re close enough to detect ours.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_ELINT_5	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>I’d rather keep our radars quiet for now, Duke.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_ELINT_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_CONT><GLOW_GUI=MAPMODE_RADAR_CONT>Just to be clear, this button turns the squadron’s radar systems on and off.<SCR=STOP>
+#TUTORIAL_CAMPAIGN_ELINT_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Um sinal de radar é um indício de que o inimigo possui uma nave bem armada.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Se estamos perto o suficiente para detectar o sinal de radar deles, isso significa que eles estão perto o suficiente para detectar o nosso.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_5	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>Eu prefiro manter nossos radares em silêncio por enquanto, Duque.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_CONT><GLOW_GUI=MAPMODE_RADAR_CONT>Só para deixar claro, este botão liga e desliga os sistemas de radar do esquadrão.<SCR=STOP>
 
 
 
-#TUTORIAL_CAMPAIGN_RLS_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Grand Duke! We have contact - an airborne target.<SCR=SKIP_TUTORIAL>
-<ANS=I could use your advice here, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_RLS_2>
-#TUTORIAL_CAMPAIGN_RLS_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Our radar displays the target as a short, thin line. The target is in the center of that line.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_RLS_3	<NPC=PETR><SIDE=-1><BLUR=0><SCR=TUTORIAL_RLS>The line grid on the radar screen is replicated on the map around our squadron.@10{align=2}{animation=radar_net}<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_RLS_4	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>Use the pencil to mark the target’s position on the map based on where it is on the radar screen.<SCR=STOP>
+#TUTORIAL_CAMPAIGN_RLS_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Grão-Duque! Temos contato - um alvo aéreo.<SCR=SKIP_TUTORIAL>
+<ANS=Seria bom o seu conselho aqui, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_RLS_2>
+#TUTORIAL_CAMPAIGN_RLS_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>Nossos radares mostram o alvo como uma linha curta e fina. O alvo está no centro dessa linha.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_RLS_3	<NPC=PETR><SIDE=-1><BLUR=0><SCR=TUTORIAL_RLS>A grade de linhas na tela do radar é replicada no mapa ao redor do nosso esquadrão.@10{align=2}{animation=radar_net}<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_RLS_4	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>Use o lápis para marcar a posição do alvo no mapa com base em onde ele está na tela do radar.<SCR=STOP>
 
 
 #GLOSS_IRST	Sistema de busca e rastreamento por infravermelho
 
-#TUTORIAL_CAMPAIGN_IRST_1	<NPC=PETR><SIDE=-1><SHADOW=1>Infrared contact! The {glossary=IRST,GLOSS_IRST} reports a heat target.<SCR=SKIP_TUTORIAL>
-<ANS=I could use your advice here, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_IRST_2>
-#TUTORIAL_CAMPAIGN_IRST_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM><SCR=CLOSE_RADIO>The infrared search and track system detects and calculates the {glossary=bearing,GLOSS_PELENG} of all heat sources.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_IRST_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>It excels at detecting airborne and grounded ships alike.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_IRST_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>The {glossary=IRST,GLOSS_IRST} has a much smaller detection range compared to our radar array. However, it is {color=4294960128}completely undetectable by the enemy{color=4294305450}.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>If the signal isn’t strong enough, aim the system with this control knob to focus it in a specific direction.<SCR=CONTINUE>
-#TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>The IR readings in this sector will be displayed on this screen in higher detail.<SCR=STOP>
+#TUTORIAL_CAMPAIGN_IRST_1	<NPC=PETR><SIDE=-1><SHADOW=1>Contato infravermelho! O {glossary=IRST,GLOSS_IRST} relata um alvo com uma emissão de calor.<SCR=SKIP_TUTORIAL>
+<ANS=Seria bom o seu conselho aqui, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_IRST_2>
+#TUTORIAL_CAMPAIGN_IRST_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM><SCR=CLOSE_RADIO>O sistema de busca e rastreamento por infravermelho detecta e calcula a {glossary=rota,GLOSS_PELENG} de todas as fontes de calor.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>Ele é excelente em detectar tanto naves aéreas quanto terrestres.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>O {glossary=IRST,GLOSS_IRST} tem um alcance de detecção muito menor em comparação com nosso radar. No entanto, é {color=4294960128}completamente indetectável pelo inimigo{color=4294305450}.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>Se o sinal não for forte o suficiente, ajuste o sistema com este botão de controle para focalizá-lo em uma direção específica.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>As leituras do IR nesse setor serão exibidas nessa tela com maior detalhamento.<SCR=STOP>
 
 #RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}JOGO SALVO@10{font=fixed_20}{align=0}Seu jogo foi salvo. Agora você pode recarregar a campainha a partir deste ponto a qualquer momento.<SCR=STOP>
 
