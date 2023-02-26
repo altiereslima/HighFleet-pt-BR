@@ -732,10 +732,10 @@
 #TUTORIAL_RADIO_IN_2	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Escolha a banda. {animation=LMB}
 #TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>Agora gire o botão usando ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ) até conseguir o sinal.
 #TUTORIAL_RADIO_IN_4	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>Por favor, apresse-se, Tarkhan! Se demorarmos muito tempo, eles cortarão a transmissão antes que os encontremos!
-#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>Ótimo, nós temos o sinal! Agora temos que determinar seu {glossary=rumo,GLOSS_PELENG}. Gire o botão da antena com ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ).@Encontre a direção seguindo o sinal mais forte.
+#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>Ótimo, nós temos o sinal! Agora temos que determinar sua {glossary=rota,GLOSS_PELENG}. Gire o botão da antena com ( {animation=WHL} èëè {animation=HOLD_AND_DRAG} ).@Encontre a direção seguindo o sinal mais forte.
 #TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>Se você tiver certeza de que é a direção correta, clique no botão para salvar seus cálculos.
 #TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>É uma transmissão do grupo de ataque inimigo - e não é criptografada!<SCR=CONTINUE>
-#TUTORIAL_RADIO_IN_8	<NPC=PETR>Agora sabemos o {glossary=rumo,GLOSS_PELENG} e o destino!<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_8	<NPC=PETR>Agora sabemos a {glossary=rota,GLOSS_PELENG} e o destino!<SCR=CONTINUE>
 #TUTORIAL_RADIO_IN_9	{font=dinpro_48_black}{align=2}GRUPOS DE ATAQUE@10{font=fixed_20}{align=0}Os grupos de ataque são formações poderosas de naves inimigas que o perseguem. A melhor maneira de agir é evitá-los em todos os momentos.<SCR=CONTINUE>
 #TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>Para onde eles estão indo?
 <ANS=Estão indo para HAMAT.|TUTORIAL_RADIO_IN_11>
@@ -2539,26 +2539,26 @@
 
 
 
-#EVENT_BLESSING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE BLESSING@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}As you descend, the locals begin to crowd around you. There are so many of them that your guards have to form a protective cordon around you to keep the throng at bay. You are beginning to get used to this.<SCR=CONTINUE>
-#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE BLESSING@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}There are cries of joy as the Elaims greet you: “Blessed be he who cometh! Blessed be he who cometh!” The people closest to you reach over the guards’ shoulders, trying to touch your clothing. “The Tannaim, the blessing-bringer” — that’s what the locals seem to call you here.
-<ANS=Let the people reach out and touch you.|EVENT_BLESSING_01_YES_1|FAITH=2>
-<ANS=Keep away from the crowd.|EVENT_BLESSING_01_NO_1|FAITH=-2>
-#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE BLESSING@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}You approach the line of troops separating you from the crowd and stand as close as you can so the locals can touch you. The people begin to jostle and push — it only takes them a moment to break the line. The human sea quickly sweeps you over.<SCR=CONTINUE>
-#EVENT_BLESSING_01_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE BLESSING@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The officers barely manage to drive the crowd away from you and restore the line. The captain of the guard is livid — he can barely restrain his rage as he asks you, with all due respect, not to do that ever again.<SCR=STOP|MORAL=-1>
-#EVENT_BLESSING_01_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE BLESSING@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}It is already quite difficult for the guards to keep a crowd like this at bay. The captain of the guard thanks you from the bottom of his heart for your consideration.<SCR=STOP|MORAL=1>
+#EVENT_BLESSING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Conforme você desce, os moradores locais começam a se aglomerar em torno de você. São tantos que seus guardas têm que formar um cordão de proteção ao seu redor para manter a multidão afastada. Você está começando a se acostumar com isso.<SCR=CONTINUE>
+#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Há gritos de alegria enquanto os Elaims te saúdam: "Bendito aquele que vem! Bendito aquele que vem!" As pessoas mais próximas de você se esticam sobre os ombros dos guardas, tentando tocar em suas roupas. "O Tannaim, o portador de bênção" - é assim que os locais parecem te chamar aqui.
+<ANS=Deixe as pessoas se aproximarem e tocarem em você.|EVENT_BLESSING_01_YES_1|FAITH=2>
+<ANS=Mantenha-se afastado da multidão.|EVENT_BLESSING_01_NO_1|FAITH=-2>
+#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você se aproxima da linha de tropas que separa você da multidão e fica o mais próximo possível para que os moradores possam tocá-lo. As pessoas começam a se empurrar e leva apenas um momento para rompar a linha. O mar humano rapidamente o arrasta.<SCR=CONTINUE>
+#EVENT_BLESSING_01_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os oficiais mal conseguem afastar a multidão de você e restaurar a linha. O capitão da guarda está furioso, mal consegue conter sua raiva enquanto pede a você, com todo o respeito, que nunca faça isso novamente.<SCR=STOP|MORAL=-1>
+#EVENT_BLESSING_01_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Já é bastante difícil para os guardas manterem uma multidão como essa afastada. O capitão da guarda agradece do fundo do coração pela sua consideração.<SCR=STOP|MORAL=1>
 
 
 
-#EVENT_SLAVERY_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PEOPLE FREE FOR THE TAKING@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}To the officers’ chagrin, your Elaim allies are not above claiming slaves after a battle.<SCR=CONTINUE>
+#EVENT_SLAVERY_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Para o desgosto dos oficiais, seus aliados Elaims não se importam em reivindicar escravos após uma batalha.<SCR=CONTINUE>
 
-#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PEOPLE FREE FOR THE TAKING@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"These people have no master now, sahib," one of the warriors assures. "They used to belong to the noyons you defeated, and now they belong to us by law."
-#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PEOPLE FREE FOR THE TAKING@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"We can sell them for a tidy profit," he continues calmly, "and share it among all the warriors equally." "You will have the first share, sahib! Or perhaps you wish to keep one of them for yourself?"
-<ANS=I’ll keep one for myself.|EVENT_SLAVERY_01_GET|GERAT=1|RIGHT=-2>
-<ANS=Very well, do as you like.|EXIT|WEALTH=2|RIGHT=-2|GERAT=1|GOLD=5000>
-<ANS=I forbid slave trading of any kind! Let the prisoners go!|EVENT_SLAVERY_01_NO|WEALTH=-2|GERAT=-2|RIGHT=2>
+#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Essas pessoas não têm dono agora, sahib", assegura um dos guerreiros. "Elas costumavam pertencer aos noyons que você derrotou, e agora elas nos pertencem por lei."
+#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Podemos vendê-los por um bom preço", continua calmamente, "e dividir entre todos os guerreiros por igual." "Você terá a primeira parte, sahib! Ou talvez queira ficar com um deles para você?"
+<ANS=Eu vou ficar com um para mim.|EVENT_SLAVERY_01_GET|GERAT=1|RIGHT=-2>
+<ANS=Muito bem, façam como quiserem.|EXIT|WEALTH=2|RIGHT=-2|GERAT=1|GOLD=5000>
+<ANS=Eu proíbo o comércio de escravos de qualquer tipo! Deixem os prisioneiros irem!|EVENT_SLAVERY_01_NO|WEALTH=-2|GERAT=-2|RIGHT=2>
 
-#EVENT_SLAVERY_01_GET	One of your captives strikes you with her beauty and refined manners — she has all the telltale signs of a rich noyon’s former concubine. Any doyen would be delighted to receive such a lovely creature as a gift.<SCR=STOP|GIFT=PRESENT_SLAVE>
-#EVENT_SLAVERY_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PEOPLE FREE FOR THE TAKING@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The Elaims respond with deafening silence. You brace yourself for mutiny... but the tense moment soon passes, and the Elaims walk away and do as they are told, glancing around ominously.<SCR=STOP>
+#EVENT_SLAVERY_01_GET	Uma de suas prisioneiras te chama a atenção por sua beleza e maneiras refinadas: ela tem todos os sinais de ter sido a concubina de um rico noyon. Qualquer decano ficaria encantado em receber uma criatura tão adorável como presente.<SCR=STOP|GIFT=PRESENT_SLAVE>
+#EVENT_SLAVERY_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os Elaims respondem com um silêncio ensurdecedor. Você se prepara para um possível motim... mas o momento tenso logo passa e os Elaims se afastam e fazem o que lhes foi ordenado, lançando olhares ameaçadores ao redor.<SCR=STOP>
 
 #DIALOG_GIFT_HINT	VOCÊ PODE OFERECER UM PRESENTE@PARA CONSEGUIR UM TURNO EXTRA
 #DIALOG_TURN	TURNO
@@ -2631,11 +2631,11 @@
 
 
 #GLOSS_ELINT	Sistema de inteligência eletrônica
-#GLOSS_PELENG	Direction to the target relative to north (in degrees)
+#GLOSS_PELENG	Direção para o alvo em relação ao norte (em graus)
 
-#TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>The {glossary=ELINT,GLOSS_ELINT} reports a hostile radar signal.<SCR=SKIP_TUTORIAL>
-<ANS=I could use your advice here, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_ELINT_2>
-#TUTORIAL_CAMPAIGN_ELINT_2	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>The {glossary=ELINT,GLOSS_ELINT} antennas detect enemy radar signals and calculate the approximate {glossary=bearing,GLOSS_PELENG} to the target.<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>Os {glossary=ELINT,GLOSS_ELINT} relatam um sinal de radar hostil.<SCR=SKIP_TUTORIAL>
+<ANS=Seria bom o seu conselho aqui, Pyotr Ignatyevich.|TUTORIAL_CAMPAIGN_ELINT_2>
+#TUTORIAL_CAMPAIGN_ELINT_2	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>As antenas {glossary=ELINT,GLOSS_ELINT} detectam sinais de radar inimigo e calculam a {glossary=rota,GLOSS_PELENG} aproximada em relação ao alvo.<SCR=CONTINUE>
 #TUTORIAL_CAMPAIGN_ELINT_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>A radar signal is a telltale sign of a considerably well-armed ship.<SCR=CONTINUE>
 #TUTORIAL_CAMPAIGN_ELINT_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>If we’re close enough to detect their radar signal, that means they’re close enough to detect ours.<SCR=CONTINUE>
 #TUTORIAL_CAMPAIGN_ELINT_5	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>I’d rather keep our radars quiet for now, Duke.<SCR=CONTINUE>
