@@ -2667,48 +2667,48 @@
 <SCR=STOP>
 
 
-#FLAGSHIP_LOST_1	<MUSIC=Bois><BLUR=2><BLUR_FOCUS=0.2><BLUR_ZOOM=3.0><SCR=FLAGSHIP_LOST_HIDDEN|0>The commander of our squadron, Grand Duke Mark Sayadi, is dead.<SCR=CONTINUE|FLAGSHIP_LOST_GAMEOVER>
+#FLAGSHIP_LOST_1	<MUSIC=Bois><BLUR=2><BLUR_FOCUS=0.2><BLUR_ZOOM=3.0><SCR=FLAGSHIP_LOST_HIDDEN|0>O comandante do nosso esquadrão, o Grão-Duque Mark Sayadi, está mort.<SCR=CONTINUE|FLAGSHIP_LOST_GAMEOVER>
 #FLAGSHIP_LOST_GAMEOVER	<SCR=GAME_OVER><SCR=EXIT>
-#FLAGSHIP_LOST_2	<NPC=PETR><SIDE=-1><SHADOW=1>I will assume command of the squadron in his stead.<SCR=CONTINUE>
-#FLAGSHIP_LOST_3	<NPC=PETR><SIDE=-1>All surviving ships, abandon the operation and seek shelter. I repeat, seek shelter. That is an order.<SCR=CONTINUE>
-#FLAGSHIP_LOST_4	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>There are several cities marked on the map - there must be a city hidden near them. If we can find that city and bring our remaining ships there, we are saved.<SCR=CONTINUE>
-#FLAGSHIP_LOST_5	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>Take heart, gentlemen. May God be with us!<SCR=STOP>
+#FLAGSHIP_LOST_2	<NPC=PETR><SIDE=-1><SHADOW=1>Assumirei o comando do esquadrão em seu lugar.<SCR=CONTINUE>
+#FLAGSHIP_LOST_3	<NPC=PETR><SIDE=-1>Todas as naves sobreviventes, abandonem a operação e busquem abrigo. Repito, busquem abrigo. É uma ordem.<SCR=CONTINUE>
+#FLAGSHIP_LOST_4	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>Há várias cidades marcadas no mapa: deve haver uma cidade escondida perto delas. Se pudermos encontrar essa cidade e levar as naves que nos restam para lá, estaremos salvos.<SCR=CONTINUE>
+#FLAGSHIP_LOST_5	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>Ânimo, cavaleiros. Que Deus esteja conosco!<SCR=STOP>
 
 #FLAGSHIP_LOST_QUEST	ENCONTRAR A CIDADE OCULTA
 
 
-#EVENT_LEGEND_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE ANECDOTE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>As you survey the ship before the next sortie, you overhear one of Fazil’s men eagerly describing his adventures.
-#EVENT_LEGEND_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE ANECDOTE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“In the name of the Heavens and the Throne of the Almighty, I swear that it is true!” you hear him declare to his friends. “When one of Temur-Khan’s noyons called His Grace - our Duke - a servant of Elaou, he had the noyon boiled alive in a cast-iron pot! By the Heavens and the Throne of the Almighty, that noyon squealed like a pig!”
-#EVENT_LEGEND_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE ANECDOTE@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The man suddenly notices your presence. He jumps to his feet and bows reverently to you.
-<ANS=Explain to our allies that nothing of the sort ever happened.|EXIT|KINDNESS=1>
-<ANS=No matter. Let them believe whatever pleases them.|EXIT|KINDNESS=-1|FEAR=1>
+#EVENT_LEGEND_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ANEDOTA@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Enquanto examina a nave antes da próxima missão, você ouve um dos homens de Fazil descrevendo entusiasmadamente suas aventuras.
+#EVENT_LEGEND_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ANEDOTA@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Em nome dos Céus e do Trono do Todo-Poderoso, juro que é verdade!”, você o ouve declarar a seus amigos. “Quando um dos noyons de Temur-Khan chamou Sua Alteza - nosso Duque - de servo de Elaou, o noyon foi fervido vivo em uma panela de ferro fundido! Pelos Céus e pelo Trono do Todo-Poderoso, aquele noyon grunhiu como um porco!”
+#EVENT_LEGEND_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ANEDOTA@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Agora, o homem repentinamente percebe sua presença. Ele se levanta e se curva reverentemente para você.
+<ANS=Explicar para nossos aliados que nada disso realmente aconteceu.|EXIT|KINDNESS=1>
+<ANS=Não importa. Deixe-os acreditar no que lhes agrada.|EXIT|KINDNESS=-1|FEAR=1>
 
 
 
-#EVENT_RADIORELAY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}There is an abandoned Gathering relay station on a nearby mountaintop. It is still intact - the station’s crew and guards ran for their lives before they could destroy the place.<SCR=CONTINUE>
-#EVENT_RADIORELAY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Fazil’s nokers are eager to dismantle it for valuable parts. Your radio operators, on the other hand, want to keep it intact in order to intercept enemy communications.
-<ANS=Send in the radio operators.|EVENT_RADIORELAY_INTEL|INTEL=5>
-<ANS=Have the station dismantled.|EVENT_RADIORELAY_SCAVENGE>
-<ANS=Climb the mountain by yourself.|EVENT_RADIORELAY_SELF_1>
-#EVENT_RADIORELAY_SELF_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The deserted signal station on top of the mountain is incredibly quiet, with nary a soul around... you suddenly realize that, for the first time in recent memory, you are finally alone.<SCR=CONTINUE>
-#EVENT_RADIORELAY_SELF_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The emptiness and utter silence envelop you completely. This encounter with nothingness feels like a gift - a taste of something you have craved for a very long time.<SCR=CONTINUE>
-#EVENT_RADIORELAY_SELF_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}You hear your men on the trail below, and the sensation passes as unexpectedly as it came. It is time to make a decision.
-<ANS=Send in the radio operators.|EVENT_RADIORELAY_INTEL|INTEL=5>
-<ANS=Have the station dismantled.|EVENT_RADIORELAY_SCAVENGE>
-#EVENT_RADIORELAY_INTEL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=-1>The Elaims are visibly disappointed by your decision. As they turn to leave, you hear some of them complaining about how little this campaign has profited them.
-#EVENT_RADIORELAY_SCAVENGE	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SIGNAL STATION@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=1|REPAIR=10|GOLD=10000>The Elaims echo your orders with shouts of delight and eagerly begin dismantling the station. They seem to know exactly what they are doing.
+#EVENT_RADIORELAY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Existe uma estação de retransmissão abandonada no topo de uma montanha próxima. Ainda está intacta: a tripulação e os guardas da estação fugiram para salvar suas vidas antes de destruírem o local.<SCR=CONTINUE>
+#EVENT_RADIORELAY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os nokers de Fazil estão ansiosos para desmontá-la para obter peças valiosas. Seus operadores de rádio, por outro lado, querem mantê-la intacta para interceptar as comunicações inimigas.
+<ANS=Envie os operadores de rádio.|EVENT_RADIORELAY_INTEL|INTEL=5>
+<ANS=Mande desmontar a estação.|EVENT_RADIORELAY_SCAVENGE>
+<ANS=Suba a montanha sozinho.|EVENT_RADIORELAY_SELF_1>
+#EVENT_RADIORELAY_SELF_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A estação de sinal deserta no topo da montanha é incrivelmente silenciosa, nenhum alarme dispara... de repente você percebe que, pela primeira vez em muito tempo, finalmente está sozinho.<SCR=CONTINUE>
+#EVENT_RADIORELAY_SELF_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O vazio e o silêncio absoluto te envolvem por completo. Esse encontro com o nada parece um presente, uma mostra de algo que você ansiava há muito tempo.<SCR=CONTINUE>
+#EVENT_RADIORELAY_SELF_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você ouve seus homens no caminho abaixo, e a sensação passa tão inesperadamente quanto chegou. É hora de tomar uma decisão.
+<ANS=Envie os operadores de rádio.|EVENT_RADIORELAY_INTEL|INTEL=5>
+<ANS=Mande desmontar a estação.|EVENT_RADIORELAY_SCAVENGE>
+#EVENT_RADIORELAY_INTEL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=-1>Os Elaims estão visivelmente desapontados com a sua decisão. Conforme eles se preparam para sair, você ouve alguns reclamando sobre o quão pouco esta campanha os beneficiou.
+#EVENT_RADIORELAY_SCAVENGE	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESTAÇÃO DE SINAL@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=1|REPAIR=10|GOLD=10000>Os Elaims ecoam as suas ordens com gritos de alegria e começam a desmontar a estação com entusiasmo. Eles parecem saber exatamente o que estão fazendo.
 
 
 
-#SCAVENGE_TARKHAN_PRE_01	BE ADVISED ROGUE TARKHAN SPOTTED
-#SCAVENGE_TARKHAN_PRE_02	REPORTS INDICATE UNKNOWN GERATI TARKHAN IN AREA
-#SCAVENGE_TARKHAN_PRE_03	INTERCEPTED ENEMY COMMUNICATIONS MENTION TARKHAN SHIPS
-#SCAVENGE_TARKHAN_PRE_04	SHIPS OF GERATI TARKHAN SPOTTED
+#SCAVENGE_TARKHAN_PRE_01	FOI RELATADO AVISTAMENTO DE UM TARKHAN REBELDE
+#SCAVENGE_TARKHAN_PRE_02	RELATÓRIOS INDICAM A PRESENÇA DE UM TARKHAN GERATI DESCONHECIDO NA ÁREA
+#SCAVENGE_TARKHAN_PRE_03	COMUNICAÇÕES INIMIGAS INTERCEPTADAS MENCIONAM NAVES TARKHAN
+#SCAVENGE_TARKHAN_PRE_04	NAVES DE TARKHAN GERATI FORAM AVISTADAS
 
-#SCAVENGE_TARKHAN_OUT_01	YOU ARE ORDERED TO INCREASE SECURITY PATROLS FOR ALL OPERATIONS IN AREA
-#SCAVENGE_TARKHAN_OUT_02	USE CAUTION WHEN NAVIGATING AREA
-#SCAVENGE_TARKHAN_OUT_03	ARMED ESCORT MANDATORY FOR ALL SHIPS WHEN NAVIGATING AREA
-#SCAVENGE_TARKHAN_OUT_04	ADDITIONAL SECURITY REQUESTED FOR ALLIED SHIPS IN AREA
+#SCAVENGE_TARKHAN_OUT_01	ORDENS FORAM DADAS PARA AUMENTAR AS PATRULHAS DE SEGURANÇA EM TODAS AS OPERAÇÕES NA ÁREA
+#SCAVENGE_TARKHAN_OUT_02	TENHA CUIDADO AO NAVEGAR NA ÁREA
+#SCAVENGE_TARKHAN_OUT_03	ESCOLTA ARMADA É OBRIGATÓRIA PARA TODAS AS NAVES QUE TRANSITAREM PELA ÁREA
+#SCAVENGE_TARKHAN_OUT_04	SOLICITA-SE SEGURANÇA ADICIONAL PARA AS NAVES ALIADAS PRESENTES NA ÁREA
 
 #SCAVENGE_TARKHAN_MID_N	NORTE DA CIDADE 
 #SCAVENGE_TARKHAN_MID_NE	AO NORDESTE DA CIDADE 
@@ -2730,26 +2730,26 @@
 #ATTITUDE_HELP	A lealdade dos seus aliados
 #MORALE_HELP	A lealdade da sua tripulação
 
-#TUTORIAL_INTERCOM_1	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>No one knows what might be waiting for us, Duke. Should the going get tough, I ask…<SCR=CONTINUE>
-#TUTORIAL_INTERCOM_2	<NPC=PETR>I ask that you request reinforcements from the Admiral.
-<ANS=And become a laughingstock? Don’t even think about it, General.|TUTORIAL_INTERCOM_3>
-<ANS=Rest assured, General, I would never put my men at risk just to save face.|TUTORIAL_INTERCOM_5>
-#TUTORIAL_INTERCOM_3	<NPC=PETR><NOSPEAK>Pyotr Ignatyevich frowns, about to speak his mind, but a moment later he continues in the same matter-of-fact tone as before.<SCR=CONTINUE|TUTORIAL_INTERCOM_4|PETR=-1>
-#TUTORIAL_INTERCOM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Should you require reinforcements, use the internal comms to contact the Admiral.<SCR=STOP>
-#TUTORIAL_INTERCOM_5	<NPC=PETR>I’m glad to hear that, Duke.<SCR=CONTINUE|TUTORIAL_INTERCOM_6|PETR=1>
-#TUTORIAL_INTERCOM_6	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Should you require reinforcements, just use the internal comms to contact the Admiral.<SCR=STOP>
+#TUTORIAL_INTERCOM_1	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>Ninguém sabe o que pode estar nos esperando, Duque. Se as coisas ficarem difíceis, eu peço...<SCR=CONTINUE>
+#TUTORIAL_INTERCOM_2	<NPC=PETR>Peço que você solicite reforços ao Almirante.
+<ANS=E me tornar motivo de piada? Nem pense nisso, General.|TUTORIAL_INTERCOM_3>
+<ANS=Tenha certeza, General, que eu nunca colocaria meus homens em risco em perigo apenas por orgulho.|TUTORIAL_INTERCOM_5>
+#TUTORIAL_INTERCOM_3	<NPC=PETR><NOSPEAK>Pyotr Ignatyevich franze a testa, prestes a falar o que pensa, mas um momento depois ele continua com o mesmo tom natural de antes.<SCR=CONTINUE|TUTORIAL_INTERCOM_4|PETR=-1>
+#TUTORIAL_INTERCOM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Se você precisar de reforços, use as comunicações internas para entrar em contato com o Almirante.<SCR=STOP>
+#TUTORIAL_INTERCOM_5	<NPC=PETR>Fico feliz em ouvir isso, Duque.<SCR=CONTINUE|TUTORIAL_INTERCOM_6|PETR=1>
+#TUTORIAL_INTERCOM_6	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>Se você precisar de reforços, basta usar as comunicações internas para entrar em contato com o Almirante.<SCR=STOP>
 
 
-#TUTORIAL_DAUD_HELP_01	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>So... I see you require assistance, Duke? Very well - I shall transfer more ships to your squadron.
-#TUTORIAL_DAUD_HELP_02	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Asking for reinforcements again, are you? Perhaps I overestimated your abilities, Duke.
-#TUTORIAL_DAUD_HELP_03	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Very well. You’ll have more ships.
+#TUTORIAL_DAUD_HELP_01	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Vejo que precisa de ajuda, Duque? Muito bem, vou transferir mais naves para o seu esquadrão.
+#TUTORIAL_DAUD_HELP_02	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Você está pedindo reforços novamente? Talvez eu tenha superestimado suas habilidades, Duque.
+#TUTORIAL_DAUD_HELP_03	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>Muito bem. Você terá mais naves.
 
-#TUTORIAL_DISCONTENT_1	<NPC=PETR><SIDE=1><SHADOW=1>Grand Duke, sir, we’ve spent too much time here. Sooner or later someone is going to send a message to {glossary=the Governor,GLOSS_GOVERNOR}.<SCR=STOP>
+#TUTORIAL_DISCONTENT_1	<NPC=PETR><SIDE=1><SHADOW=1>Grão-Duque, senhor, já passamos muito tempo aqui. Mais cedo ou mais tarde, alguém vai enviar uma mensagem para o {glossary=Governador,GLOSS_GOVERNOR}.<SCR=STOP>
 
-#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Grand Duke! We have captured a troposcatter communication station. It will supply us with intel on enemy movements until they realize what’s happened.<SCR=STOP>
+#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Grão-Duque! Capturamos uma estação de comunicação de troposférica. Ela nos fornecerá informações sobre os movimentos inimigos até que eles percebam o que aconteceu.<SCR=STOP>
 
-#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}ANTI-AIR MISSILE SYSTEM@10{font=fixed_20}{align=0}The ship has been equipped with an anti-air missile system that can destroy incoming missiles and planes (<AAM_COUNT> AA missiles).@10Press {animation=key_c} to fire an AA missile.<SCR=STOP>
-#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}ANTI-AIR MISSILE SYSTEM@10{font=fixed_20}{align=0}The ship has been equipped with an anti-air missile system that can destroy incoming missiles and planes (You have <AAM_COUNT> AA missiles).@10Press {animation=key_c} to fire an AA missile.<SCR=STOP>
+#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTI-AÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir os mísseis e aviões que chegam (<AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
+#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTI-AÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir os mísseis e aviões que chegam. (Você tem <AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
 
 #DIALOG_END_HINT	Sucesso! Você pode terminar esta conversa agora.
 
