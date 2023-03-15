@@ -2746,10 +2746,10 @@
 
 #TUTORIAL_DISCONTENT_1	<NPC=PETR><SIDE=1><SHADOW=1>Grão-Duque, senhor, já passamos muito tempo aqui. Mais cedo ou mais tarde, alguém vai enviar uma mensagem para o {glossary=Governador,GLOSS_GOVERNOR}.<SCR=STOP>
 
-#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Grão-Duque! Capturamos uma estação de comunicação de troposférica. Ela nos fornecerá informações sobre os movimentos inimigos até que eles percebam o que aconteceu.<SCR=STOP>
+#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Grão-Duque! Capturamos uma estação de comunicação troposférica. Ela nos fornecerá informações sobre os movimentos inimigos até que eles percebam o que aconteceu.<SCR=STOP>
 
-#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTI-AÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir os mísseis e aviões que chegam (<AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
-#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTI-AÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir os mísseis e aviões que chegam. (Você tem <AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
+#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aviões que chegam (<AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
+#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aviões que chegam. (Você tem <AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
 
 #DIALOG_END_HINT	Sucesso! Você pode terminar esta conversa agora.
 
@@ -2759,13 +2759,13 @@
 #SHIP_DESC_YARS	Um porta-míssil tático, sua blindagem confiável e robusta pode proteger sua valiosa carga útil contra uma explosão nuclear a curta distância. O simples fato de estar ao lado desta nave pode fazer com que a pessoa se sinta desconfortável.
 #SHIP_DESC_ROOK	Uma pequena corveta concebida como um bombardeiro por uma mente particularmente brilhante no Comando, este mágico de apenas um truque é bom para liberar cargas explosivas sobre alvos em baixas altitudes. No entanto, ela é bem adequada para o trabalho que faz e garantiu um lugar na Frota.
 #SHIP_DESC_NAVARIN	Um pilar da Frota, tão antigo quanto o tempo, o Navarin é amado pelos oficiais por sua versatilidade e adorado pelos pilotos por sua confiabilidade. Pode levar qualquer coisa - novos canhões de artilharia, novos motores, até mais equipamentos - sem suar. Não é de admirar que nave ainda esteja em serviço após décadas de uso.
-#SHIP_DESC_FENEK	The doyens of Gerat may detest these small Romani anti-air defense ships for being too expensive and difficult to maintain, but they were built for a great war.
-#SHIP_DESC_TRIUMPHANT	A long range anti-air ship that is utterly impossible to find in Gerat. Use her wisely - she was designed for important work.
-#SHIP_DESC_GLADIATOR	Hailing from the newest frigate line of the Romani Fleet, this vessel is a true powerhouse in combat. Extreme caution is advised when engaging these vessels in a dogfight.
-#SHIP_DESC_LONGBOW	One of a plethora of ships built to provide air support to faraway outposts, these vessels now make up half of all Gerati aircraft carriers. When all is said and done, this plane-carrying frigate combines an affordable price with well-balanced specs.
-#SHIP_DESC_FLOWER	A missile corvette with a dated design refurbished by Fleet engineers. In spite of all her upgrades, she still lacks top speed and firepower. The six missiles she carries are still enough to make a sizable dent in a battlecruiser, but once they’re gone, it would be wise to retreat.
-#SHIP_DESC_KORMORAN	The Cormoran and her sister the Negev are the two main light cruisers in the Romani Fleet. They can operate entirely on their own or provide tactical integrity as the core unit of an airborne group.
-#SHIP_DESC_WANDERER	The Wanderer! We survived many an adventure with this old girl! This quintessential expeditionary frigate of the Romani Fleet was designed specifically to cross the boundless expanses of Elaat. She’s a reliable vessel that carries enough fuel for the long haul and enough armaments to fend off sky pirates if need be.
+#SHIP_DESC_FENEK	Os decanos de Gerat podem detestar estas pequenas naves de defesa antiaérea Romani por serem muito caras e difíceis de manter, mas elas foram construídas para uma grande guerra.
+#SHIP_DESC_TRIUMPHANT	Uma nave antiaérea de longo alcance que é totalmente impossível de encontrar em Gerat. Use-a com sabedoria: ela foi projetada para um trabalho importante.
+#SHIP_DESC_GLADIATOR	Vinda da mais nova linha de fragatas da Frota Romani, esta nave é uma verdadeira potência em combate. Extrema cautela é aconselhada ao enfrentar estas naves em um combate aéreo.
+#SHIP_DESC_LONGBOW	Um das muitas naves construídas para fornecer apoio aéreo a postos avançados distantes, essas embarcações agora constituem metade de todos os porta-aviões de Gerati. No final das contas, esta fragata porta-aviões combina um preço acessível com especificações bem equilibradas.
+#SHIP_DESC_FLOWER	Uma corveta de mísseis com um design antigo reformado pelos engenheiros da Frota. Apesar de todas as suas melhorias, ela ainda carece de velocidade máxima e poder de fogo. Os seis mísseis que ela carrega são suficientes para causar um grande impacto em um cruzador de batalha, mas uma vez que eles se acabem, seria sábio recuar.
+#SHIP_DESC_KORMORAN	O Cormoran e seu irmão, o Negev, são os dois principais cruzadores leves da Frota Romani. Eles podem operar completamente sozinhos ou fornecer integridade tática como unidade central de um grupo aéreo.
+#SHIP_DESC_WANDERER	A Peregrina! Sobrevivemos a muitas aventuras com essa velha garota! Essa fragata expedicionária por excelência da Frota Romani foi projetada especificamente para cruzar as vastas extensões de Elaat. É uma nave confiável que transporta combustível suficiente para longas viagens e armamentos suficientes para se defender de piratas aéreos, se necessário.
 
 
 
@@ -3724,7 +3724,7 @@
 #ESCADRA_NAME_NOMAD	NOMAD
 #ESCADRA_NAME_WEREWOLF	WEREWOLF
 #ESCADRA_NAME_ALBATROS	ALBATROS
-#ESCADRA_NAME_WANDERER	WANDERER
+#ESCADRA_NAME_WANDERER	PEREGRINA
 #ESCADRA_NAME_BANDIT	BANDIT
 #ESCADRA_NAME_PIRATE	PIRATE
 #ESCADRA_NAME_RENEGADE	RENEGADE
@@ -3869,7 +3869,7 @@
 #SHIP_NAME_Jaguar	Jaguar
 #SHIP_NAME_KadeshMk1	Kadesh Mk1
 #SHIP_NAME_Kastor	Kastor
-#SHIP_NAME_Kormoran	Kormoran
+#SHIP_NAME_Kormoran	Cormoran
 #SHIP_NAME_Lancer2	Lanceiro 2
 #SHIP_NAME_Lancer	Lanceiro
 #SHIP_NAME_LightningMk2	Relâmpago Mk2
