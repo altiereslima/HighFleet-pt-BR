@@ -1334,7 +1334,7 @@
 #PETR_DAUD_LEAVE_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Então você também é um cúmplice, Duque...
 #PETR_DAUD_LEAVE_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>Daud franze a testa e balança a cabeça.
 #PETR_DAUD_LEAVE_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Que assim seja. Bom dia, senhores.
-#PETR_DAUD_LEAVE_4	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>Em seguida, vocês são informados de que vários navios decolaram e deixaram seu esquadrão, dirigindo-se para o sul.
+#PETR_DAUD_LEAVE_4	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>Em seguida, vocês são informados de que várias naves decolaram e deixaram seu esquadrão, dirigindo-se para o sul.
 
 #PETR_DAUD_DISARM_FAIL	<SCR=CONTINUE|PETR_DAUD_ARMED_2>O almirante Daud olha fixamente para você. Você observa Pyotr pegar a arma...
 #PETR_DAUD_ARMED_2	<SCR=CONTINUE><EVENT><SOUND=shoot_01>Então, ele atira à queima-roupa.
