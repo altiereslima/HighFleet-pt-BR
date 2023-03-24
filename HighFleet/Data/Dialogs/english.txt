@@ -2774,56 +2774,56 @@
 
 
 
-#TUTORIAL_ANTIMISSILE_COMBAT	{font=dinpro_48_black}{align=2}DEFENDING AGAINST MISSILES@10{font=fixed_20}{align=0}Tactical missile incoming! Try to destroy it with anti-air fire before it hits one of your ships.@10Friendly fire warning — be careful not to shoot allied ships by mistake!<SCR=STOP>
-#TUTORIAL_ANTIAIR_COMBAT	{font=dinpro_48_black}{align=2}DEFENDING AGAINST PLANES@10{font=fixed_20}{align=0}Enemy aircraft incoming! Consider destroying the planes before they get close enough for a missile strike or bombing run.@10Friendly fire warning — be careful not to shoot allied ships by mistake!<SCR=STOP>
+#TUTORIAL_ANTIMISSILE_COMBAT {font=dinpro_48_black}{align=2}DEFESA CONTRA MÍSSEIS@10{font=fixed_20}{align=0}Míssil tático detectado! Tente destruí-lo com fogo antiaéreo antes que ele atinja uma de suas naves.@10Aviso de fogo amigo: tenha cuidado para não atirar nas naves aliadas por engano!<SCR=STOP>
+#TUTORIAL_ANTIAIR_COMBAT {font=dinpro_48_black}{align=2}DEFESA CONTRA AVIÕES@10{font=fixed_20}{align=0}Aeronaves inimigas se aproximando! Considere destruir os aviões antes que eles cheguem perto o suficiente para um ataque com mísseis ou bombardeio.@10Aviso de fogo amigo: tenha cuidado para não atirar em naves aliadas por engano!<SCR=STOP>
 
 
 
-#NIGHTFALL_SPEECH_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><RAM=1><MUSIC=Bois>The men are scared, Mark. You need to do something to reassure them.
-#NIGHTFALL_SPEECH_2	<NPC=DAUD><SIDE=-1>You must address the crew, Duke. Duty calls.
-<ANS=I want to hear from you first. What are your thoughts, gentlemen?|NIGHTFALL_SPEECH_3>
-#NIGHTFALL_SPEECH_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>This can only be a solar eclipse. Tell the crew it will pass.
-#NIGHTFALL_SPEECH_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>The nuclear war to the south could have kicked up a cloud of ash.
-#NIGHTFALL_SPEECH_5	<NPC=PETR><SIDE=1>An enormous cloud of ash.
-<ANS=Assemble all hands. I’ll talk to the men.|NIGHTFALL_SPEECH_6>
+#NIGHTFALL_SPEECH_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><RAM=1><MUSIC=Bois>Os homens estão assustados, Mark. Você precisa fazer algo para tranquilizá-los.
+#NIGHTFALL_SPEECH_2	<NPC=DAUD><SIDE=-1>Você precisa falar com a tripulação, Duque. O dever chama.
+<ANS=Quero ouvir você primeiro. Quais são seus pensamentos, senhor?|NIGHTFALL_SPEECH_3>
+#NIGHTFALL_SPEECH_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Isso só pode ser um eclipse solar. Diga à tripulação que isso vai passar.
+#NIGHTFALL_SPEECH_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>A guerra nuclear no sul pode ter levantado uma nuvem de cinzas.
+#NIGHTFALL_SPEECH_5	<NPC=PETR><SIDE=1>Uma enorme nuvem de cinzas.
+<ANS=Reúna todos os tripulantes. Eu vou conversar com eles.|NIGHTFALL_SPEECH_6>
 
-#NIGHTFALL_SPEECH_6	<BACKGROUND=background_crowd_01><AMBIENT=crowd_01>Half an hour later, you find yourself standing before a massive, murmuring crowd.
-<ANS=Officers and crewmembers...|NIGHTFALL_SPEECH_ORDER|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
-<ANS=Brothers and sisters...|NIGHTFALL_SPEECH_FAITH|PRECHECK_FAITH=1|CHECK_FAITH=1>
+#NIGHTFALL_SPEECH_6	<BACKGROUND=background_crowd_01><AMBIENT=crowd_01>Após meia hora, você se encontra diante de uma multidão imensa e murmurante.
+<ANS=Oficiais e membros da tripulação...|NIGHTFALL_SPEECH_ORDER|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
+<ANS=Irmãos e irmãs...|NIGHTFALL_SPEECH_FAITH|PRECHECK_FAITH=1|CHECK_FAITH=1>
 
-#NIGHTFALL_SPEECH_ORDER	<AMBIENT=crowd_calm_02>Your subordinates are reassured by your confident military tone. Silence falls. The men are listening now.<SCR=MORAL|1>
-<ANS=This is the end of the world.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
-<ANS=The sun has been eclipsed by some unknown celestial body.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
-<ANS=Dust and ash from the nuclear war in the south have reached us and blotted out the sun.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+#NIGHTFALL_SPEECH_ORDER <AMBIENT=crowd_calm_02>Seus subordinados são tranquilizados por sua postura militar confiante. O silêncio se instaura. Os homens escutam atentamente.<SCR=MORAL|1>
+<ANS=Este é o fim do mundo.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+<ANS=O sol foi eclipsado por algum corpo celeste desconhecido.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+<ANS=Poeira e cinzas da guerra nuclear no sul chegaram até nós e encobriram o sol.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
 
-#NIGHTFALL_SPEECH_ORDER_FAIL	This would be a fitting beginning for a grand parade in Ur, but here and now, these formulaic phrases have no power. The crowd barely pays you any mind.<SCR=MORAL|-1>
-<ANS=This is the end of the world.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
-<ANS=The sun has been eclipsed by some unknown celestial body.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
-<ANS=Dust and ash from the nuclear war in the south have reached us and blotted out the sun.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+#NIGHTFALL_SPEECH_ORDER_FAIL	Isso poderia ser um começo apropriado para um discurso em um grande desfile em Ur, mas aqui e agora, essas palavras não têm nenhum poder. A multidão mal lhe dá atenção.<SCR=MORAL|-1>
+<ANS=Este é o fim do mundo.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+<ANS=O sol foi eclipsado por algum corpo celeste desconhecido.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+<ANS=Poeira e cinzas da guerra nuclear no sul chegaram até nós e encobriram o sol.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
 
-#NIGHTFALL_SPEECH_FAITH	<AMBIENT=crowd_calm_02>Your voice rings out over the crowd like a benevolent incantation. Silence falls. The men are listening now.<SCR=MORAL|1>
-<ANS=This is the end of the world.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
-<ANS=The sun has been eclipsed by some unknown celestial body.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
-<ANS=Dust and ash from the nuclear war in the south have reached us and blotted out the sun.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+#NIGHTFALL_SPEECH_FAITH <AMBIENT=crowd_calm_02>Sua voz ecoa sobre a multidão como uma benevolente invocação. O silêncio se instaura. Os homens escutam atentamente. <SCR=MORAL|1>
+<ANS=Este é o fim do mundo.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+<ANS=O sol foi eclipsado por algum corpo celeste desconhecido.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+<ANS=Poeira e cinzas da guerra nuclear no sul chegaram até nós e encobriram o sol.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
 
-#NIGHTFALL_SPEECH_FAITH_FAIL	The men look up in surprise. They did not expect you to begin like this.<SCR=MORAL|-1>
-<ANS=This is the end of the world.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
-<ANS=The sun has been eclipsed by some unknown celestial body.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
-<ANS=Dust and ash from the nuclear war in the south have reached us and blotted out the sun.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
+#NIGHTFALL_SPEECH_FAITH_FAIL	Os homens olham surpresos. Eles não esperavam que você começasse assim. <SCR=MORAL|-1>
+<ANS=Este é o fim do mundo.|NIGHTFALL_SPEECH_DARKNESS_1|PRECHECK_FAITH=2>
+<ANS=O sol foi eclipsado por algum corpo celeste desconhecido.|NIGHTFALL_SPEECH_ECLIPSE_1|PRECHECK_GERAT=2>
+<ANS=Poeira e cinzas da guerra nuclear no sul chegaram até nós e encobriram o sol.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
 
 
-#NIGHTFALL_SPEECH_DARKNESS_1	<TRG=SPEECH_DARKNESS|1><AMBIENT=crowd_calm_02>Pyotr Ignatyevich stares at you, his mouth agape. Everyone freezes in place, waiting for an explanation.<ANS=Do not wait for the darkness to fade. The sun will never rise again.|NIGHTFALL_SPEECH_DARKNESS_2>
-#NIGHTFALL_SPEECH_DARKNESS_2	<AMBIENT=crowd_calm_01>There are whispers in the crowd.<ANS=(With your right hand stretched out to the crowd) The Romani, and all the peoples of Gerat, heed my words: you must be strong! Know that all of this has been preordained. The day of reckoning is at hand!|NIGHTFALL_SPEECH_DARKNESS_3>
-#NIGHTFALL_SPEECH_DARKNESS_3	Now. Now is the time...<ANS=Shakhor-Al-Farakh!|NIGHTFALL_SPEECH_DARKNESS_RES|CHECK_FAITH=2>
+#NIGHTFALL_SPEECH_DARKNESS_1	<TRG=SPEECH_DARKNESS|1><AMBIENT=crowd_calm_02>Pyotr Ignatyevich olha para você, com a boca aberta. Todos congelam sem seu lugar, esperando por uma explicação.<ANS=Não esperem a escuridão desaparecer. O sol nunca mais voltará a nascer.|NIGHTFALL_SPEECH_DARKNESS_2>
+#NIGHTFALL_SPEECH_DARKNESS_2	<AMBIENT=crowd_calm_01>Há sussurros na multidão.<ANS=(Com sua mão direita estendida para a multidão) Romanis, e todos os povos de Gerat, ouçam minhas palavras: vocês devem ser fortes! Saibam que tudo isso foi predestinado. O dia do juízo final está próximo!|NIGHTFALL_SPEECH_DARKNESS_3>
+#NIGHTFALL_SPEECH_DARKNESS_3	Agora. Agora é a hora...<ANS=Shakhor-Al-Farakh!|NIGHTFALL_SPEECH_DARKNESS_RES|CHECK_FAITH=2>
 
-#NIGHTFALL_SPEECH_DARKNESS_RES	<AMBIENT=crowd_large_chant_01>Your words strike the Elaims in the crowd like a thunderclap. “Shakhor-Al-Farakh... Shakhor-Al-Farakh!” the crowd hums louder and louder. Like madmen, they repeat your last words again and again.<SCR=MORAL|3>
-<ANS=Turn around and walk away from the podium. The address is over.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
-#NIGHTFALL_SPEECH_DARKNESS_RES_FAIL	The crew is flabbergasted by your behavior. Some people knit their brows, while others smile weakly.<SCR=MORAL|-3>
-<ANS=Turn around and walk away from the podium. The address is over.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>This is unnerving, Pyotr. Are you sure he’s in his right mind?
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFALL_SPEECH_DARKNESS_DAUD_3|DAUD=-1>Should we say something?
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>He is the lawful heir of the dynasty, Sharif.
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_4	<NPC=PETR><SIDE=1><SCR=STOP>We swore an oath to him.
+#NIGHTFALL_SPEECH_DARKNESS_RES <AMBIENT=crowd_large_chant_01>As suas palavras atingem os Elaims na multidão como um trovão. “Shakhor-Al-Farakh... Shakhor-Al-Farakh!” a multidão murmura mais e mais alto. Como loucos, eles repetem as suas últimas palavras uma e outra vez. <SCR=MORAL|3>
+<ANS=Vire-se e saia do pódio. O discurso acabou.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
+#NIGHTFALL_SPEECH_DARKNESS_RES_FAIL	A tripulação fica chocada com seu comportamento. Alguns franzem a testa, enquanto outros sorriem timidamente.<SCR=MORAL|-3>
+<ANS=Vire-se e saia do pódio. O discurso acabou.|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Isso é preocupante, Pyotr. Você tem certeza de que ele está em seu juízo perfeito?
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFALL_SPEECH_DARKNESS_DAUD_3|DAUD=-1>Deveríamos dizer algo?
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ele é o herdeiro legítimo da dinastia, Sharif.
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_4	<NPC=PETR><SIDE=1><SCR=STOP>Nós juramos lealdade a ele.
 
 
 #NIGHTFALL_SPEECH_ECLIPSE_1	<AMBIENT=crowd_calm_02>The crewmen are quiet now, listening closely.<ANS=I know what’s on your mind, my brothers. You see this as a sign, an omen. And it terrifies you.|NIGHTFALL_SPEECH_ECLIPSE_2>
