@@ -1447,7 +1447,7 @@
 #ANT_KILL_3	<ANS=(Limpe seus dedos)|EXIT>
 
 
-#PRESCREEN_1	Pela graça de Deus, EU, KERIM SHAH II, IMPERADOR DOS ROMANI, Grão-Duque das Terras de Horan, Monarca de Shem e Gerat...
+#PRESCREEN_1	Pela graça de Deus, EU, KERIM SHAH II, IMPERADOR DOS ROMANI, Grão-Duque das Terras de Horan, Monarca de Sihem e Gerat...
 #PRESCREEN_2	...Muito graciosamente concedo o título de TARKHAN DA FROTA ao Grão-Duque Mark Sayadi Salemsky, concedendo-lhe assim o comando das naves da Frota Imperial a seu exclusivo critério, cujo número deverá estar de acordo com o seu título.
 #PRESCREEN_3	Que Deus lhe conceda a sabedoria de usar o poder que lhe foi confiado para o bem e a honra dos Romani.
 #PRESCREEN_4	Emitido na cidade de Salem, no 9º mês do ano 214 da Dinastia.
@@ -2826,20 +2826,20 @@
 #NIGHTFALL_SPEECH_DARKNESS_DAUD_4	<NPC=PETR><SIDE=1><SCR=STOP>Nós juramos lealdade a ele.
 
 
-#NIGHTFALL_SPEECH_ECLIPSE_1	<AMBIENT=crowd_calm_02>The crewmen are quiet now, listening closely.<ANS=I know what’s on your mind, my brothers. You see this as a sign, an omen. And it terrifies you.|NIGHTFALL_SPEECH_ECLIPSE_2>
-#NIGHTFALL_SPEECH_ECLIPSE_2	The Elaims nod.<ANS=But this eclipse is a harbinger of change! Why should YOU be terrified? Are we the only ones who can see it? No, we most certainly are not. The Khivans see it too. THEY are the ones who should be terrified!!|NIGHTFALL_SPEECH_ECLIPSE_3>
-#NIGHTFALL_SPEECH_ECLIPSE_3	<AMBIENT=crowd_calm_01>These words echo throughout the crowd. You sense... support? It’s too early to tell.<ANS=Today, all of Gerat will realize that the time for change has come. So say the heavens themselves! These are the final hours of the Governor’s grip on power!|NIGHTFALL_SPEECH_ECLIPSE_RES|CHECK_GERAT=2>
+#NIGHTFALL_SPEECH_ECLIPSE_1	<AMBIENT=crowd_calm_02>Os tripulantes estão em silêncio, ouvindo atentamente.<ANS=Eu sei o que está passando em suas mentes, meus irmãos. Vocês veem isso como um sinal, um presságio. E isso os aterroriza.|NIGHTFALL_SPEECH_ECLIPSE_2>
+#NIGHTFALL_SPEECH_ECLIPSE_2	Os Elaims acenam em concordância.<ANS=Mas esse eclipse é um prenúncio de mudança! Por que VOCÊS deveriam estar aterrorizados? Somos os únicos que podem ver isso? Não, certamente não somos. Os Khivans também veem. ELES são aqueles que deveriam estar aterrorizados!|NIGHTFALL_SPEECH_ECLIPSE_3>
+#NIGHTFALL_SPEECH_ECLIPSE_3	<AMBIENT=crowd_calm_01>Essas palavras ecoam por toda a multidão. Você sente que te apoiam...? É cedo demais para dizer.<ANS=Hoje, toda Gerat vai perceber que chegou a hora da mudança. Isso é o que os céus mesmos dizem! Essas são as horas finais do domínio do governador!|NIGHTFALL_SPEECH_ECLIPSE_RES|CHECK_GERAT=2>
 
-#NIGHTFALL_SPEECH_ECLIPSE_RES	<SOUND=crowd_large_shout_03><AMBIENT=crowd_calm_02>The Elaims react immediately. Their support is loud and confident, so much so that the rest of the crowd before you appears substantially reassured.<SCR=MORAL|3><ANS=That is all. Pease return to your stations.|EXIT>
-#NIGHTFALL_SPEECH_ECLIPSE_RES_FAIL	Some Elaims react with cries of support, but most of the crowd remains unmoved by your words.<SCR=MORAL|-3><ANS=That is all. Please return to your stations.|EXIT>
+#NIGHTFALL_SPEECH_ECLIPSE_RES	<SOUND=crowd_large_shout_03><AMBIENT=crowd_calm_02>Os Elaims reagem imediatamente. Seu apoio é alto e confiante, tanto que o resto da multidão diante de você parece consideravelmente mais seguro.<SCR=MORAL|3><ANS=Isso é tudo. Por favor, voltem às suas estações.|EXIT>
+#NIGHTFALL_SPEECH_ECLIPSE_RES_FAIL	Alguns Elaims reagem com gritos de apoio, mas a maioria da multidão permanece inabalável pelas suas palavras.<SCR=MORAL|-3><ANS=Isso é tudo. Por favor, voltem aos seus postos.|EXIT>
 
 
-#NIGHTFALL_SPEECH_DUST_1	You see several frontline officers nodding along.<ANS=The ashes of our cities have risen up to block out the sun of Gerat. And I tell you this, my fellow Romani...|NIGHTFALL_SPEECH_DUST_2>
-#NIGHTFALL_SPEECH_DUST_2	<AMBIENT=crowd_calm_02>Somewhere in the crowd, a woman’s solitary sob slices through the silence.<ANS=I swear to you that this squadron will keep moving forward until we have fully retaliated against the enemy. Until Khiva is ours. We will seize Khiva’s plutonium, and we will use it to scorch the cities that have betrayed us from the face of the planet.|NIGHTFALL_SPEECH_DUST_3>
-#NIGHTFALL_SPEECH_DUST_3	<AMBIENT=crowd_calm_01>The crowd is utterly silent.<ANS=And then, we will rebuild the Empire! We will rebuild the Empire on the graves of those traitors. This I swear! For the honor of our fallen brethren, we will rise again!|NIGHTFALL_SPEECH_DUST_RES|CHECK_ROMANI=2>
+#NIGHTFALL_SPEECH_DUST_1	Você vê vários oficiais da linha de frente acenando com a cabeça.<ANS=As cinzas de nossas cidades se ergueram para bloquear o sol de Gerat. E eu digo isso a vocês, meus companheiros Romanis...|NIGHTFALL_SPEECH_DUST_2>
+#NIGHTFALL_SPEECH_DUST_2 	AMBIENT=crowd_calm_02>Em algum lugar na multidão, o soluço solitário de uma mulher corta o silêncio.<ANS=Juro a vocês que este esquadrão continuará avançando até que tenhamos retaliado completamente contra o inimigo. Até que Khiva seja nossa. Vamos capturar o plutônio de Khiva e usá-lo para incendiar as cidades que nos traíram da face da Terra.|NIGHTFALL_SPEECH_DUST_3>
+#NIGHTFALL_SPEECH_DUST_3	<AMBIENT=crowd_calm_01>A multidão está completamente em silêncio.<ANS=E então, reconstruiremos o Império! Reconstruiremos o Império sobre as covas daqueles traidores. Eu juro isso! Em honra aos nossos irmãos caídos, nós nos levantaremos novamente!|NIGHTFALL_SPEECH_DUST_RES|CHECK_ROMANI=2>
 
-#NIGHTFALL_SPEECH_DUST_RES	<SOUND=crowd_large_shout_01>The crowd roars in ecstatic approval, drowning out your final words.<SCR=MORAL|3><ANS=That is all. Please return to your stations.|EXIT>
-#NIGHTFALL_SPEECH_DUST_RES_FAIL	The crowd is silent. You hear nothing, not ever a single hurrah as the men weigh your words.<SCR=MORAL|-3><ANS=That is all. Please return to your stations.|EXIT>
+#NIGHTFALL_SPEECH_DUST_RES	<SOUND=crowd_large_shout_01>A multidão urra em aprovação extasiada, afogando suas palavras finais.<SCR=MORAL|3><ANS=Isso é tudo. Por favor, voltem aos seus postos.|EXIT>
+#NIGHTFALL_SPEECH_DUST_RES_FAIL	A multidão permanece em silêncio. Você não ouve nada, nem mesmo um único hurra enquanto os homens ponderam suas palavras.<SCR=MORAL|-3><ANS=Isso é tudo. Por favor, voltem aos seus postos.|EXIT>
 
 
 
