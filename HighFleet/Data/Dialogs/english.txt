@@ -2843,33 +2843,33 @@
 
 
 
-#KISHTIM_SPEECH_1	<SCR=CHECK_JOINED|BOY|EXIT><SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_6><NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Please allow me to speak with you, Son of Sayadi.
-#KISHTIM_SPEECH_2	<NPC=BOY>I am tormented by a question I cannot answer on my own, Sahib. How do you know about Shakhor-Al-Farakh?<ANS=I must confess, I know nothing at all.|KISHTIM_SPEECH_3>
-#KISHTIM_SPEECH_3	<NPC=BOY>But you said...<ANS=I said the words I knew I had to say. I have no idea what they mean.|KISHTIM_SPEECH_4>
-#KISHTIM_SPEECH_4	<NPC=BOY><SCR=CONTINUE><NOSPEAK>For a moment, Alsahir is silent, lost in thought. Then his golden eyes focus on you again, grown wide in awe...
-#KISHTIM_SPEECH_5	<NPC=BOY><SCR=CONTINUE|KISHTIM_SPEECH_6|BOY=1>(with a gasp) I see!
+#KISHTIM_SPEECH_1	<SCR=CHECK_JOINED|BOY|EXIT><SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_6><NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Por favor, permita-me falar com você, Filho de Sayadi.
+#KISHTIM_SPEECH_2	<NPC=BOY>Estou atormentado por uma pergunta que não consigo responder sozinho, Sahib. Como você sabe sobre Shakhor-Al-Farakh?<ANS=Devo confessar que não sei absolutamente nada.|KISHTIM_SPEECH_3>
+#KISHTIM_SPEECH_3	<NPC=BOY>Mas você disse...<ANS=Eu disse as palavras que sabia que tinha que dizer. Não tenho ideia do que elas significam.|KISHTIM_SPEECH_4>
+#KISHTIM_SPEECH_4	<NPC=BOY><SCR=CONTINUE><NOSPEAK>Por um momento, Alsahir fica em silêncio, perdido em pensamentos. Então, seus olhos dourados se concentram em você novamente, crescendo em admiração...
+#KISHTIM_SPEECH_5	<NPC=BOY><SCR=CONTINUE|KISHTIM_SPEECH_6|BOY=1>(com um suspiro) Ah, compreendo!
 
-#KISHTIM_SPEECH_6	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>There is something I must tell you, Son of Sayadi...
-#KISHTIM_SPEECH_7	<NPC=BOY><SCR=CONTINUE>Since ancient times, my people have known the city of Khiva under a different name.
-#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>We call it Kishtim — “the Ark-City.”
-#KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>This city was once ruled by a {glossary=Shakhsi,GLOSS_SHAKHSI} duke. When the {glossary=Elaou,GLOSS_ELAOU} invaded Gerat, they seized Kishtim for themselves and made her their capital.
-#KISHTIM_SPEECH_10	<NPC=BOY>The old legend says there will come a day called Shakhor-Al-Farakh, “the Day of the Black Void,” and on that day all the peoples of the world must gather in Kishtim.<ANS=I have heard that the Khiva nuclear reactor is unlike any other. Is that so?|KISHTIM_SPEECH_11>
-#KISHTIM_SPEECH_11	<NPC=BOY>They say it is covered by a gigantic dome of over two thousand cubits in width.<ANS=Such a dome would be large enough for thousands of people to live in safely.|EXIT>
+#KISHTIM_SPEECH_6	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Há algo que eu preciso lhe contar, Filho de Sayadi...
+#KISHTIM_SPEECH_7	<NPC=BOY><SCR=CONTINUE>Desde tempos antigos, meu povo conhece a cidade de Khiva por outro nome.
+#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>Nós a chamamos de Kishtim - "A cidade-arca".
+#KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>Esta cidade foi uma vez governada por um duque {glossary=Shakhsi,GLOSS_SHAKHSI}. Quando os {glossary=Elaou,GLOSS_ELAOU} invadiram Gerat, eles pegaram Kishtim para si e a tornaram sua capital.
+#KISHTIM_SPEECH_10	<NPC=BOY>A antiga lenda diz que chegará um dia chamado Shakhor-Al-Farakh, "o Dia do Vazio Negro", e nesse dia todos os povos do mundo devem se reunir em Kishtim. <ANS=Eu ouvi dizer que o reator nuclear de Khiva é diferente de qualquer outro. Isso é verdade?|KISHTIM_SPEECH_11>
+#KISHTIM_SPEECH_11	<NPC=BOY>Dizem que ela é coberta por uma gigantesca cúpula com mais de dois mil cúbitos de largura.<ANS=Tal cúpula seria grande o suficiente para milhares de pessoas viverem com segurança.|EXIT>
 
-#GLOSS_SHAKHSI	The Shakhsi, the Hidden People, ruled over Gerat before the Elaou conquered the land. The last of the Shakhsi live in bunker cities. Their locations are a closely-guarded secret. The people of Gerat revere the Shakhsi greatly as the keepers of sacred wisdom.
+#GLOSS_SHAKHSI	Os Shakhsi, o Povo Oculto, governaram Gerat antes da conquista dos Elaou sobre a terra. Os últimos dos Shakhsi vivem em cidades-bunker, cujas localizações são um segredo muito bem guardado. O povo de Gerat venera muito os Shakhsi como os guardiões da sabedoria sagrada.
 
-#NIGHTFEAR_SPEECH_1	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>I need to have a word with you, Mark.
-#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>The people are terrified beyond all reason. It’s only a matter of time until we lose control of the situation.
-#NIGHTFEAR_SPEECH_3	<NPC=PETR><SCR=CONTINUE>The air is getting colder and colder. It was only 4 degrees Celsius today...
-#NIGHTFEAR_SPEECH_4	<NPC=PETR>Everyone says that continuing to fight under these conditions would be utter madness.
-<ANS=Madness, they say? So what are we to do then?|NIGHTFEAR_SPEECH_5>
-#NIGHTFEAR_SPEECH_5	<NPC=PETR><SCR=CONTINUE>Some think we ought to start negotiating for peace with the {glossary=Gathering,GLOSS_GATHERING}. 
-#NIGHTFEAR_SPEECH_6	<NPC=PETR>Others say nothing. What they want is to go south, to Ur, then return to the capital.
-<ANS=Assemble all hands, Pyotr Ignatyevich. I will address the crew.|NIGHTFEAR_SPEECH_7>
-#NIGHTFEAR_SPEECH_7	<BACKGROUND=background_crowd_01>You soon find yourself before a human sea, a thousand eyes fixed upon you. The men’s faces are pale with fear.
-<ANS=All of this was meant to happen. It was preordained.|NIGHTFEAR_SPEECH_FAITH_1|PRECHECK_FAITH=3>
-<ANS=We must capture the Khiva reactor. It is a matter of survival.|NIGHTFEAR_SPEECH_FORCE_1|PRECHECK_FORCE=3>
-<ANS=Very soon, those who rule Khiva will rule the entire world.|NIGHTFEAR_SPEECH_WEALTH_1|PRECHECK_WEALTH=3>
+#NIGHTFEAR_SPEECH_1	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>Eu preciso falar com você, Mark.
+#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>As pessoas estão aterrorizadas, elas estão chegando ao limite. É apenas uma questão de tempo até perdermos o controle da situação.
+#NIGHTFEAR_SPEECH_3	<NPC=PETR><SCR=CONTINUE>O ar está ficando cada vez mais frio. Hoje estava apenas 4 graus Celsius...
+#NIGHTFEAR_SPEECH_4	<NPC=PETR>Todos dizem que continuar lutando sob essas condições seria uma loucura completa.
+<ANS=Loucura, eles dizem? Então o que devemos fazer?|NIGHTFEAR_SPEECH_5>
+#NIGHTFEAR_SPEECH_5	<NPC=PETR><SCR=CONTINUE>Alguns acham que devemos começar a negociar a paz com a {glossary=Confederação,GLOSS_GATHERING}.
+#NIGHTFEAR_SPEECH_6	<NPC=PETR>Outros não dizem nada. O que eles querem é ir para o sul, para Ur, e depois voltar para a capital.
+<ANS=Reúna todos, Pyotr Ignatyevich. Vou falar com a tripulação.|NIGHTFEAR_SPEECH_7>
+#NIGHTFEAR_SPEECH_7 <BACKGROUND=background_crowd_01>Logo você se encontra diante de um mar humano, mil olhos fixos em você. Os rostos dos homens estão pálidos de medo.
+<ANS=Tudo isso foi destinado a acontecer. Foi predestinado.|NIGHTFEAR_SPEECH_FAITH_1|PRECHECK_FAITH=3>
+<ANS=Precisamos capturar o reator Khiva. É uma questão de sobrevivência.|NIGHTFEAR_SPEECH_FORCE_1|PRECHECK_FORCE=3>
+<ANS=Muito em breve, aqueles que governam Khiva governarão o mundo inteiro.|NIGHTFEAR_SPEECH_WEALTH_1|PRECHECK_WEALTH=3>
 
 
 #NIGHTFEAR_SPEECH_FAITH_1	You can almost see a wave of bewilderment emanate from you and spread across the sea of eyes. No one expected you to begin your address this way.<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_FAITH_2><ANS=You believe me now, brothers and sisters, for, as you can see, the sun will never rise again. Do you fear the darkness? Do you fear the gathering cold? I have foreseen it all.|NIGHTFEAR_SPEECH_FAITH_3|FAITH=1>
@@ -3163,10 +3163,10 @@
 
 
 
-#EVENT_LOYALISTS_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE LOYALISTS@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The doyen of this city is a seneschal of House Sayadi, deeply devoted to His Majesty. He is overjoyed to see the Grand Duke of the Romani pay a visit to his land.
-#EVENT_LOYALISTS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE LOYALISTS@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The doyen cordially invites you to his home as a guest of honor, but makes it quite clear that your Elaim companions are not welcome.
-<ANS=Accept the invitation.|EXIT|LEVEL_GERAT=-1|ROMANI=2|JOIN>
-<ANS=Decline the invitation.|EXIT|LEVEL_GERAT=1|ROMANI=-2>
+#EVENT_LOYALISTS_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS LEAIS@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>O decano desta cidade é um senescal da Casa Sayadi, profundamente dedicado a Sua Majestade. Ele está muito feliz em ver o Grão-Duque dos Romanis fazer uma visita à sua terra.
+#EVENT_LOYALISTS_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS LEAIS@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O decano cordialmente convida você para sua casa como convidado de honra, mas deixa bem claro que seus companheiros Elaims não são bem-vindos.
+<ANS=Aceitar o convite.|EXIT|LEVEL_GERAT=-1|ROMANI=2|JOIN>
+<ANS=Recusar o convite.|EXIT|LEVEL_GERAT=1|ROMANI=-2>
 
 
 
@@ -3521,12 +3521,12 @@
 
 
 
-#CONSTRUCTOR_EXIT	Are you sure you want to leave the editor screen? All unsaved changes will be lost.
-#CONSTRUCTOR_RESET	All unsaved changes will be lost. Continue anyway?
-#CONSTRUCTOR_LOAD	All unsaved changes will be lost. Continue anyway?
-#CONSTRUCTOR_OVERWRITE	A ship project with this name already exists. Overwrite it?
-#TO_EDITOR_BUTTON	TO THE EDITOR
-#CONSTRUCTOR	This ship name cannot be used. Please enter a different name.
+#CONSTRUCTOR_EXIT	Tem certeza de que deseja sair da tela de edição? Todas as alterações não salvas serão perdidas.
+#CONSTRUCTOR_RESET	Todas as alterações não salvas serão perdidas. Deseja continuar mesmo assim?
+#CONSTRUCTOR_LOAD	Todas as alterações não salvas serão perdidas. Deseja continuar mesmo assim?
+#CONSTRUCTOR_OVERWRITE	Já existe um projeto de nave com este nome. Deseja sobrescrevê-lo?
+#TO_EDITOR_BUTTON	IR PARA O EDITOR
+#CONSTRUCTOR	Este nome de nave não pode ser usado. Por favor, insira um nome diferente.
 
 #PROFILE_RESET	A campanha será concluída.
 #PROFILE_RESET2	Os pontos ganhos serão adicionados ao bônus de seu perfil. Você deseja prosseguir?
