@@ -1272,7 +1272,7 @@
 #KHIVA_LANDING_1	<SCR=CONTINUE>Notícias inacreditáveis logo se espalham por toda a cidade
 #KHIVA_LANDING_2	<SCR=CHECK_JOINED|GOVERNOR|KHIVA_LANDING_NOGOVERNOR><SCR=CONTINUE|KHIVA_LANDING_3|MORAL=1>O senhor governador se retirou!
 #KHIVA_LANDING_NOGOVERNOR	<SCR=CONTINUE|KHIVA_LANDING_3>O senhor governador caiu em batalha!
-#KHIVA_LANDING_3	<SCR=CHECK_JOINED|FASIL|KHIVA_LANDING_4><SCR=CONTINUE|KHIVA_LANDING_4|MORAL=1>O Grande Duque Sayadi entrou na cidade na companhia do Príncipe Elaou!
+#KHIVA_LANDING_3	<SCR=CHECK_JOINED|FASIL|KHIVA_LANDING_4><SCR=CONTINUE|KHIVA_LANDING_4|MORAL=1>O Grão-Duque Sayadi entrou na cidade na companhia do Príncipe Elaou!
 #KHIVA_LANDING_4	<SCR=CHECK_JOINED|OMAR|KHIVA_LANDING_5><SCR=CONTINUE|KHIVA_LANDING_5|MORAL=1>E seu aliado é Omar Khan, um homem que todos acreditavam estar morto!
 #KHIVA_LANDING_5	<SCR=CHECK_JOINED|BOY|KHIVA_LANDING_6><SCR=CONTINUE|KHIVA_LANDING_6|MORAL=1>E seu aliado não é outro senão Alsahir do Povo Oculto!
 #KHIVA_LANDING_6	<SCR=CHECK_JOINED|GIRL|KHIVA_LANDING_7><SCR=CONTINUE|KHIVA_LANDING_7|MORAL=1>E, além disso, eles se unem à Duquesa Isi.
@@ -2872,86 +2872,86 @@
 <ANS=Muito em breve, aqueles que governam Khiva governarão o mundo inteiro.|NIGHTFEAR_SPEECH_WEALTH_1|PRECHECK_WEALTH=3>
 
 
-#NIGHTFEAR_SPEECH_FAITH_1	You can almost see a wave of bewilderment emanate from you and spread across the sea of eyes. No one expected you to begin your address this way.<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_FAITH_2><ANS=You believe me now, brothers and sisters, for, as you can see, the sun will never rise again. Do you fear the darkness? Do you fear the gathering cold? I have foreseen it all.|NIGHTFEAR_SPEECH_FAITH_3|FAITH=1>
-#NIGHTFEAR_SPEECH_FAITH_2	You can almost see a wave of bewilderment emanate from you and spread across the sea of eyes. No one expected you to begin your address this way.<ANS=Hear me, brothers and sisters. Do you fear the darkness? Do you fear the gathering cold? I have foreseen it all.|NIGHTFEAR_SPEECH_FAITH_3>
+#NIGHTFEAR_SPEECH_FAITH_1	Você quase pode ver uma onda de perplexidade emanar de você e se espalhar pelo mar de olhos. Ninguém esperava que você começasse sua fala dessa maneira.<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_FAITH_2><ANS=Agora vocês acreditam em mim, irmãos e irmãs, pois, como podem ver, o sol nunca mais se erguerá. Vocês temem a escuridão? Vocês temem o frio que se aproxima? Eu vi tudo isso antecipadamente.|NIGHTFEAR_SPEECH_FAITH_3|FAITH=1>
+#NIGHTFEAR_SPEECH_FAITH_2	Você quase pode ver uma onda de perplexidade emanar de você e se espalhar pelo mar de olhos. Ninguém esperava que você começasse sua fala dessa maneira.<ANS=Ouçam-me, irmãos e irmãs. Vocês temem a escuridão? Vocês temem o frio que se aproxima? Eu vi tudo isso antecipadamente.|NIGHTFEAR_SPEECH_FAITH_3>
 
-#NIGHTFEAR_SPEECH_FAITH_3	The people listen silently.<SCR=CHECK_JOINED|BOY|NIGHTFEAR_SPEECH_FAITH_4><ANS=Children of the Romani. Children of Gerat. This is why I have guided you all to Khiva — to Kishtim, the Ark-City. The {glossary=Shakhsi,GLOSS_SHAKHSI} reactor is a bunker, a shelter made to protect the chosen few from the darkness and the cold. What I am about to tell you is the truth. Very soon, every living soul in Gerat will know it.|NIGHTFEAR_SPEECH_FAITH_5>
-#NIGHTFEAR_SPEECH_FAITH_4	The people listen silently.<ANS=Children of the Romani. Children of Gerat. This is why I have guided you all to Khiva. The city’s reactor is a bunker, a shelter made to protect the chosen few from the darkness and the cold. What I am about to tell you is the truth. Very soon, every living soul in Gerat will know it.|NIGHTFEAR_SPEECH_FAITH_5>
+#NIGHTFEAR_SPEECH_FAITH_3	O povo escuta silenciosamente.<SCR=CHECK_JOINED|BOY|NIGHTFEAR_SPEECH_FAITH_4><ANS=Filhos dos Romani. Filhos de Gerat. É por isso que os conduzi até Khiva — para Kishtim, a Cidade-Arca. O reator {glossary=Shakhsi,GLOSS_SHAKHSI} é um abrigo, um refúgio feito para proteger os escolhidos da escuridão e do frio. O que estou prestes a contar é a verdade. Em breve, todas as almas vivas em Gerat saberão disso.|NIGHTFEAR_SPEECH_FAITH_5>
+#NIGHTFEAR_SPEECH_FAITH_4	O povo escuta silenciosamente.<ANS=Filhos dos Romani. Filhos de Gerat. É por isso que os conduzi até Khiva. O reator da cidade é um abrigo, um refúgio feito para proteger os escolhidos da escuridão e do frio. O que estou prestes a contar é a verdade. Em breve, todas as almas vivas em Gerat saberão disso.|NIGHTFEAR_SPEECH_FAITH_5>
 
-#NIGHTFEAR_SPEECH_FAITH_5	<TRG=SPEECH_DARKNESS2|1>There is no way to tell what they are thinking. All you can do is keep talking.<ANS=If you believe in me and reject all fear, then very soon we will overthrow the Governor and seize the capital for ourselves, for this is our destiny. Then every soul in Gerat will seek to join us — no, even beyond Gerat! The kings of all the peoples of Elaat will come to Khiva to beg us for salvation.|NIGHTFEAR_SPEECH_RES|CHECK_FAITH=3>
+#NIGHTFEAR_SPEECH_FAITH_5	<TRG=SPEECH_DARKNESS2|1>Não há como saber o que eles estão pensando. Tudo que você pode fazer é continuar falando.<ANS=Se vocês acreditarem em mim e rejeitarem o medo, então em breve derrubaremos o Governador e tomaremos a capital para nós mesmos, pois este é nosso destino. Então, toda alma em Gerat buscará se unir a nós — não, mesmo além de Gerat! Os reis de todos os povos de Elaat virão a Khiva nos implorar por salvação.|NIGHTFEAR_SPEECH_RES|CHECK_FAITH=3>
 
-#NIGHTFEAR_SPEECH_FORCE_1	You can almost see a wave of bewilderment emanate from you and spread across the sea of eyes. No one expected you to begin your address this way.<ANS=Deep in our hearts, we all sense the terrifying truth: the world as we know it will soon be no more. A new world will arise to replace it. And this world will know only one law: might makes right.|NIGHTFEAR_SPEECH_FORCE_2>
-#NIGHTFEAR_SPEECH_FORCE_2	The crowd listens in silence.<ANS=If we are to survive in this world, we must be strong, fearless, and resolute. Today we have what it takes to crush the Governor and seize Khiva for ourselves, lest tomorrow the enemy fleet reach the city and doom us all.|NIGHTFEAR_SPEECH_FORCE_3>
-#NIGHTFEAR_SPEECH_FORCE_3	There is no way to tell what they are thinking. All you can do is keep talking.<ANS=Hear me, sons of the Romani, sons of Gerat. Brace yourselves, muster all your strength, and prepare to fight for your survival. Fight with all your might, or you will have no future at all.|NIGHTFEAR_SPEECH_RES|CHECK_FORCE=3>
-
-
-#NIGHTFEAR_SPEECH_WEALTH_1	You can almost see a wave of bewilderment emanate from you and spread across the sea of eyes. No one expected you to begin your address this way.<ANS=You say, “if we negotiate with them, they will have to make concessions.” But you don’t see the great treasure right before us, ripe for the taking.|NIGHTFEAR_SPEECH_WEALTH_2>
-#NIGHTFEAR_SPEECH_WEALTH_2	The crowd listens in silence.<ANS=Now we know that the sun will never rise again, that the world will grow colder and colder. And in this new world, those who control Khiva will control everything.|NIGHTFEAR_SPEECH_WEALTH_3>
-#NIGHTFEAR_SPEECH_WEALTH_3	There is no way to tell what they are thinking. All you can do is keep talking.<ANS=The Khiva reactor will provide light and warmth to a chosen few numbering in the thousands. Rulers and great warriors will come to Khiva’s doorstep, begging for a chance at salvation. This is the future. But you say, “if we negotiate with them, we can sue for peace.” Madness! This is a once-in-a-lifetime opportunity! We will overthrow the Governor, we will take Khiva, and we will rule the world!|NIGHTFEAR_SPEECH_RES|CHECK_WEALTH=3>
+#NIGHTFEAR_SPEECH_FORCE_1	Você quase pode ver uma onda de perplexidade emanar de você e se espalhar pelo mar de olhos. Ninguém esperava que você começasse sua fala dessa maneira.<ANS=No fundo de nossos corações, todos sentimos a terrível verdade: o mundo como o conhecemos em breve não existirá mais. Um novo mundo surgirá para substituí-lo. E esse mundo conhecerá apenas uma lei: o poder é o que vale.|NIGHTFEAR_SPEECH_FORCE_2>
+#NIGHTFEAR_SPEECH_FORCE_2	A multidão ouve em silêncio.<ANS=Se quisermos sobreviver neste mundo, devemos ser fortes, destemidos e resolutos. Hoje temos o necessário para derrotar o Governador e tomar Khiva para nós mesmos, para que amanhã a frota inimiga não alcance a cidade e nos condene a todos.|NIGHTFEAR_SPEECH_FORCE_3>
+#NIGHTFEAR_SPEECH_FORCE_3	Não há como saber o que eles estão pensando. Tudo que você pode fazer é continuar falando.<ANS=Escutem-me, filhos dos Romani, filhos de Gerat. Preparem-se, reúnam todas as suas forças e estejam prontos para lutar por sua sobrevivência. Lutem com todo o seu poder, ou não terão futuro algum.|NIGHTFEAR_SPEECH_RES|CHECK_FORCE=3>
 
 
-#NIGHTFEAR_SPEECH_RES	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_2><NOSPEAK>When you are done, you look at the people before you . The terror in their eyes is completely gone.
-#NIGHTFEAR_SPEECH_RES_2	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_3><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=3><NOSPEAK>The crowd is moved by your speech. As you listen to them passionately discussing your words, you become confident that your speech has served you well.
-#NIGHTFEAR_SPEECH_RES_3	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=3><NOSPEAK>The crowd is moved by your speech. As you listen to them passionately discussing your words, you become confident that your speech has served you well.
-
-#NIGHTFEAR_SPEECH_RES_FAIL	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_FAIL_2><NOSPEAK>A heavy silence hangs over the crowd as you finish. Your men do not believe you.
-#NIGHTFEAR_SPEECH_RES_FAIL_2	<SCR=CONTINUE>The officers of the Fleet avert their eyes, gloomily refusing to meet your gaze.
-#NIGHTFEAR_SPEECH_RES_FAIL_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_FAIL_4><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=-3><NOSPEAK>What is done is done. All you can do now is tell the crew to return to their stations and prepare for the worst.
-#NIGHTFEAR_SPEECH_RES_FAIL_4	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=-3><NOSPEAK>What is done is done. All you can do now is tell the crew to return to their stations and prepare for the worst.
-
-#NIGHTFEAR_SPEECH_DAUD_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1><SCR=CONTINUE>This is horrifying, Pyotr. He’s lost all touch with reality. It’s a living nightmare. We have to end this.
-#NIGHTFEAR_SPEECH_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_3|DAUD=-1>This operation has stalled out, Pyotr. It was a valorous effort, but now it’s time to turn back. If we keep going north, we’re dead men!
-#NIGHTFEAR_SPEECH_DAUD_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_DAUD_4><NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_5>Look around you, Sharif. Open your eyes. It’s obvious that he’s right, the sun will never rise again. It’s getting colder by the day. Soon the rain will turn to snow. What if he’s right about the reactor too? What if it IS an ancient bunker?
-#NIGHTFEAR_SPEECH_DAUD_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>It’s getting colder by the day. Soon the rain will turn to snow. What if he’s right about the reactor too? What if it IS an ancient bunker?
-#NIGHTFEAR_SPEECH_DAUD_5	<NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_6|PETR=1>The further north we go, Sharif, the less I doubt him. He’s not insane, and he’s not toying with us all.
-#NIGHTFEAR_SPEECH_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Are you daft, Pyotr?! Do you actually think he’s...?
-#NIGHTFEAR_SPEECH_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=STOP>A prophet?!
+#NIGHTFEAR_SPEECH_WEALTH_1	Você quase pode ver uma onda de perplexidade emanar de você e se espalhar pelo mar de olhos. Ninguém esperava que você começasse sua fala dessa maneira.<ANS=Vocês dizem: “se negociarmos com eles, eles terão que fazer concessões”. Mas vocês não veem o grande tesouro bem diante de nós, pronto para ser tomado.|NIGHTFEAR_SPEECH_WEALTH_2>
+#NIGHTFEAR_SPEECH_WEALTH_2	A multidão ouve em silêncio.<ANS=Agora sabemos que o sol nunca mais se erguerá, que o mundo ficará cada vez mais frio. E nesse novo mundo, aqueles que controlam Khiva controlarão tudo.|NIGHTFEAR_SPEECH_WEALTH_3>
+#NIGHTFEAR_SPEECH_WEALTH_3	Não há como saber o que eles estão pensando. Tudo que você pode fazer é continuar falando.<ANS=O reator de Khiva fornecerá luz e calor a alguns escolhidos, em número de milhares. Governantes e grandes guerreiros virão à porta de Khiva, implorando por uma chance de salvação. Este é o futuro. Mas vocês dizem: “se negociarmos com eles, podemos buscar a paz”. Loucura! Esta é uma oportunidade única na vida! Derrubaremos o Governador, tomaremos Khiva e governaremos o mundo!|NIGHTFEAR_SPEECH_RES|CHECK_WEALTH=3>
 
 
-#ALSAHIR_REVENGE_FORCE	The boy’s eyes flash with rage. He raises his sword aloft, but cannot strike. The blade freezes in midair, trembling visibly.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_1>
-#ALSAHIR_REVENGE_FORCE_1	<SOUND=sword_drop_01>A moment passes, the sword drops form his hand and clatters on the floor. You look up to see tears streaming down the boy’s face. He meets your gaze, then immediately turns around and dashes out the door.<SCR=CONTINUE>
-#ALSAHIR_REVENGE_FORCE_2	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_FORCE_4><NPC=FASIL><SIDE=1><SCR=CONTINUE>He’ll never demand another’s death again... (the prince shakes his head)
-#ALSAHIR_REVENGE_FORCE_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Your death, sir... (he continues, now facing the Governor)
-#ALSAHIR_REVENGE_FORCE_4	<SCR=CHECK_JOINED|GOVERNOR|ALSAHIR_REVENGE_FORCE_6><NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>The Lord Governor stares at you, dazed. Finding his words with difficulty, he finally says ...
-#ALSAHIR_REVENGE_FORCE_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_6|GOVERNOR=2>I can’t thank you enough, Duke.
-#ALSAHIR_REVENGE_FORCE_6	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_FORCE_7><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_7|AIRBORNE=1>Well I’ll be...
-#ALSAHIR_REVENGE_FORCE_7	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_FORCE_8><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_8|VETERAN=1>I was certain that fanatic was going to kill you.
-#ALSAHIR_REVENGE_FORCE_8	<SCR=CHECK_JOINED|GIRL|ALSAHIR_REVENGE_FORCE_9><NPC=GIRL><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_9|GIRL=1>You’re a miracle-worker, Duke.
-#ALSAHIR_REVENGE_FORCE_9	<SCR=CHECK_JOINED|OMAR|EXIT><NPC=OMAR><SIDE=-1>May many more swords drop as this one has. <ANS=Amen.|EXIT|OMAR=1>
+#NIGHTFEAR_SPEECH_RES	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_2><NOSPEAK>Quando você termina, olha para as pessoas à sua frente. O terror em seus olhos desapareceu completamente.
+#NIGHTFEAR_SPEECH_RES_2	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_3><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=3><NOSPEAK>A multidão é tocada por sua fala. Ao ouvi-los discutindo suas palavras com paixão, você fica confiante de que sua fala serviu bem a você.
+#NIGHTFEAR_SPEECH_RES_3	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=3><NOSPEAK>A multidão se comove com seu discurso. Ao ouvi-los discutindo suas palavras com paixão, você fica confiante de que sua fala serviu bem a você.
+
+#NIGHTFEAR_SPEECH_RES_FAIL	<SCR=CONTINUE|NIGHTFEAR_SPEECH_RES_FAIL_2><NOSPEAK>Um silêncio pesado paira sobre a multidão quando você termina. Seus homens não acreditam em você.
+#NIGHTFEAR_SPEECH_RES_FAIL_2	<SCR=CONTINUE>Os oficiais da Frota desviam o olhar, recusando-se melancolicamente a encontrar seu olhar.
+#NIGHTFEAR_SPEECH_RES_FAIL_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS2|NIGHTFEAR_SPEECH_RES_FAIL_4><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_1|MORAL=-3><NOSPEAK>O que está feito, está feito. Tudo que você pode fazer agora é dizer à tripulação para voltar às suas posições e se preparar para o pior.
+#NIGHTFEAR_SPEECH_RES_FAIL_4	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=-3><NOSPEAK>O que está feito, está feito. Tudo que você pode fazer agora é dizer à tripulação para voltar às suas posições e se preparar para o pior.
+
+#NIGHTFEAR_SPEECH_DAUD_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1><SCR=CONTINUE>Isso é horrível, Pyotr. Ele perdeu todo o contato com a realidade. É um pesadelo vivo. Precisamos acabar com isso.
+#NIGHTFEAR_SPEECH_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_3|DAUD=-1>Esta operação travou, Pyotr. Foi um esforço valente, mas agora é hora de recuar. Se continuarmos indo para o norte, seremos homens mortos!
+#NIGHTFEAR_SPEECH_DAUD_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_DAUD_4><NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_5>Olhem ao redor, Sharif. Abram seus olhos. É óbvio que ele está certo, o sol nunca mais se erguerá. Está ficando mais frio a cada dia. Logo a chuva se transformará em neve. E se ele também estiver certo sobre o reator? E se ele REALMENTE for um antigo abrigo?
+#NIGHTFEAR_SPEECH_DAUD_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Está ficando mais frio a cada dia. Logo a chuva se transformará em neve. E se ele também estiver certo sobre o reator? E se ele REALMENTE for um antigo abrigo?
+#NIGHTFEAR_SPEECH_DAUD_5	<NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_6|PETR=1>Quanto mais ao norte vamos, Sharif, menos duvido dele. Ele não está louco e não está brincando conosco.
+#NIGHTFEAR_SPEECH_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Você enlouqueceu, Pyotr?! Você realmente acha que ele é...?
+#NIGHTFEAR_SPEECH_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=STOP>Um profeta?!
 
 
-
-#REACTOR_DESTROYED_1	<EVENT>The Khiva reactor was destroyed in the explosion. After the shock wave hit, the reactor was buried beneath what remained of its colossal dome.<SCR=CONTINUE>
-#REACTOR_DESTROYED_2	<EVENT>The people of Gerat lost all hope of surviving the calamity.<SCR=STOP>
+#ALSAHIR_REVENGE_FORCE	Os olhos do garoto faíscam de raiva. Ele ergue sua espada no alto, mas não consegue atacar. A lâmina congela no ar, tremendo visivelmente.<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_1>
+#ALSAHIR_REVENGE_FORCE_1	<SOUND=sword_drop_01>Um momento passa, a espada cai de sua mão e bate no chão. Você olha para cima e vê lágrimas escorrendo pelo rosto do garoto. Ele encontra seu olhar e imediatamente vira as costas e corre para fora da sala.<SCR=CONTINUE>
+#ALSAHIR_REVENGE_FORCE_2	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_FORCE_4><NPC=FASIL><SIDE=1><SCR=CONTINUE>Ele nunca mais exigirá a morte de outro... (o príncipe balança a cabeça)
+#ALSAHIR_REVENGE_FORCE_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>Sua morte, senhor... (ele continua, agora encarando o Governador)
+#ALSAHIR_REVENGE_FORCE_4	<SCR=CHECK_JOINED|GOVERNOR|ALSAHIR_REVENGE_FORCE_6><NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>O Senhor Governador olha para você, atordoado. Encontrando suas palavras com dificuldade, ele finalmente diz...
+#ALSAHIR_REVENGE_FORCE_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_6|GOVERNOR=2>Não posso agradecer o suficiente, Duque.
+#ALSAHIR_REVENGE_FORCE_6	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_FORCE_7><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_7|AIRBORNE=1>Bem, eu vou...
+#ALSAHIR_REVENGE_FORCE_7	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_FORCE_8><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_8|VETERAN=1>Eu estava certo de que aquele fanático ia te matar.
+#ALSAHIR_REVENGE_FORCE_8	<SCR=CHECK_JOINED|GIRL|ALSAHIR_REVENGE_FORCE_9><NPC=GIRL><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_9|GIRL=1>Você é um fazedor de milagres, Duque.
+#ALSAHIR_REVENGE_FORCE_9	<SCR=CHECK_JOINED|OMAR|EXIT><NPC=OMAR><SIDE=-1>Que muitas mais espadas caiam como esta caiu. <ANS=Amém.|EXIT|OMAR=1>
 
 
 
-#ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>This is it, Mark. I’ll inform the crew that our operation was a success.<SCR=CONTINUE>
-#ENDWAR_WIN_2	<EVENT>“This is it.”<SCR=CONTINUE>
-#ENDWAR_WIN_3	<EVENT>I leaned back in in the chair and closed my eyes. The tons of war machinery around me finally fell silent — not a clank, not a rattle, not even a rustle. The perpetual hum of the jet engines seemed so far away, so distant I could barely hear it. <SCR=CONTINUE>
-#ENDWAR_WIN_4	<EVENT>Hundreds of people freeze at their battle stations as Pyotr’s slow, rhythmical voice rings out from from the loudspeakers, announcing that the war is over.<ANS=It’s time to return to Khiva, Pyotr Ignatyevich. The sooner we show them the reactor is functional, the better.|ENDWAR_WIN_5>
-#ENDWAR_WIN_5	<NPC=PETR>I have a personal request for you, Grand Duke.<SCR=CONTINUE>
-#ENDWAR_WIN_6	<NPC=PETR>There is a pillar in the reactor control room in Khiva. I saw it many years ago, back when we had to withdraw from Gerat.<SCR=CONTINUE>
-#ENDWAR_WIN_7	<NPC=PETR>There was something written on the pillar. It looked very old. And the letters, the language... it looked very similar to a {glossary=qoda,GLOSS_QODA}. I remember it very clearly.<SCR=CONTINUE>
-#ENDWAR_WIN_8	<NPC=PETR>If you could take a look at it, Duke, perhaps you can read it. I have a feeling it may be important.<SCR=CONTINUE>
-#ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|The next day we were in Khiva.|A couple of days later we arrived in Khiva.> <BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
-#ENDWAR_WIN_10	With great confidence, Pyotr kept walking deeper and deeper into the endless labyrinth of the reactor’s corridors and stairwells. He stopped briefly once or twice as he guided me to our destination. Once we finally arrived, he opened the door and gestured for me to step into the control room. <SCR=CONTINUE>
-#ENDWAR_WIN_11	As I entered, I saw his hand clutching the doorknob out of the corner of my eye. His fingers were trembling uncontrollably. Pyotr Ignatyevich was clearly worried. At the time, I thought he was just exhausted, like every other soldier in our squadron.<SCR=CONTINUE>
-#ENDWAR_WIN_12	<BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Behind the door was a perfectly circular room, surprisingly bright and immaculately clean. All other rooms and corridors were covered in dust, but here I could see nary a speck.<SCR=CONTINUE>
-#ENDWAR_WIN_13	<ILLUSTRATION=-1>In the center of the room, about a dozen meters in front of me, was a massive pillar encased in a layer of white stone. On that stone, just slightly above a man’s height, was a message. The writing was neat and very clear.<SCR=CONTINUE>
+#REACTOR_DESTROYED_1	<EVENT>O reator de Khiva foi destruído pela explosão. Após a onda de choque, o reator ficou enterrado sob o que restava de sua colossal cúpula.<SCR=CONTINUE>
+#REACTOR_DESTROYED_2	<EVENT>A população de Gerat perdeu toda esperança de sobreviver à calamidade.<SCR=STOP>
+
+
+
+#ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>Isso é tudo, Mark. Vou informar a tripulação que nossa operação foi um sucesso.<SCR=CONTINUE>
+#ENDWAR_WIN_2	<EVENT>“Isso é tudo.”<SCR=CONTINUE>
+#ENDWAR_WIN_3	<EVENT>Me inclinei na cadeira e fechei os olhos. As toneladas de maquinaria de guerra ao meu redor finalmente silenciaram: nenhum som metálico, nenhum rangido, nem mesmo um estalo. O zumbido constante dos motores dos motores a jato parecia tão distante, tão longínquo, que mal podia ouvi-lo. <SCR=CONTINUE>
+#ENDWAR_WIN_4	<EVENT>Centenas de pessoas ficam petrificadas em suas posições de combate quando a voz lenta e ritmada de Pyotr ecoa pelos alto-falantes, anunciando que a guerra acabou.<ANS=É hora de voltar para Khiva, Pyotr Ignatyevich. Quanto mais cedo mostrarmos que o reator está funcional, melhor.|ENDWAR_WIN_5>
+#ENDWAR_WIN_5	<NPC=PETR>Tenho um pedido pessoal a fazer, Grão-Duque.<SCR=CONTINUE>
+#ENDWAR_WIN_6	<NPC=PETR>Há uma coluna na sala de controle do reator em Khiva. Eu a vi muitos anos atrás, quando tivemos que nos retirar de Gerat.<SCR=CONTINUE>
+#ENDWAR_WIN_7	<NPC=PETR>Havia algo escrito na coluna. Parecia muito antigo. E as letras, o idioma... lembrava muito um {glossary=qoda,GLOSS_QODA}. Lembro-me muito claramente disso.<SCR=CONTINUE>
+#ENDWAR_WIN_8	<NPC=PETR>Se você puder dar uma olhada, Duque, talvez consiga ler. Sinto que pode ser importante.<SCR=CONTINUE>
+#ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|No dia seguinte, estávamos em Khiva.|Um par de dias depois, chegamos a Khiva.> <BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
+#ENDWAR_WIN_10	Com grande confiança, Pyotr continuou a se aventurar pelo labirinto interminável de corredores e escadas do reator. Ele parou brevemente uma ou duas vezes enquanto me guiava em direção ao nosso destino. Quando finalmente chegamos, ele abriu a porta e me indicou que entrasse na sala de controle. <SCR=CONTINUE>
+#ENDWAR_WIN_11	Ao entrar, percebi sua mão segurando a maçaneta da porta. Seus dedos tremiam incontrolavelmente. Pyotr Ignatyevich estava claramente preocupado. Naquele momento, pensei que ele estava apenas exausto, assim como todos os outros soldados de nosso esquadrão.<SCR=CONTINUE>
+#ENDWAR_WIN_12	<BACKGROUND=undeground_02><ILLUSTRATION=-1><BLUR=0>Atrás da porta havia uma sala perfeitamente circular, surpreendentemente iluminada e impecavelmente limpa. Todas as outras salas e corredores estavam cobertos de poeira, mas aqui não havia sequer um grão. <SCR=CONTINUE>
+#ENDWAR_WIN_13	<ILLUSTRATION=-1>No centro da sala, a cerca de uma dúzia de metros de mim, havia uma enorme coluna revestida por uma camada de pedra branca. Nessa pedra, logo acima da altura de um homem, havia uma mensagem. A escrita era nítida e muito clara.<SCR=CONTINUE>
 
 #ENDWAR_CREDITS	<SCR=ENDWAR_CREDITS><SCR=EXIT>
 
-#REPUTATION_HINT	ADDRESS SUCCESS CHANCE
+#REPUTATION_HINT	CHANCE DE SUCESSO NO DISCURSO
 
-#ALSAHIR_MESSAGE	SON OF SAYADI ALSAHIR WISHES TO MEET WITH YOU
+#ALSAHIR_MESSAGE	O FILHO DE SAYADI ALSAHIR DESEJA SE ENCONTRAR COM VOCÊ
 
 
 
-#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SWORD OF DAMOCLES@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Near the city we discovered a smooth, level platform dotted with low concrete domes, each topped with a heavy steel lid. It took us a while to pry one of them open. Inside we found a wide, deep shaft, and in the very center of it we discovered the smooth white nose of a missile.
-#EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>My Duke! Those are the nuclear weapons of the {glossary=Gathering,GLOSS_GATHERING}! We must extract them at once!
-#EVENT_SILO_3	<NPC=DAUD><SIDE=-1>It seems our enemy’s nuclear arsenal is far larger than we had expected (the admiral casts a grim glance at the launch silos).<ANS=Get these missiles are out of the launch bays and onto our ships, Pyotr Ignatyevich.|EXIT|MISSILE_SILO>
-#EVENT_SILO_SIMPLE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SWORD OF DAMOCLES@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Near the city are several {glossary=Gathering,GLOSS_GATHERING} missile silos.<ANS=Order your men to extract the nuclear missiles and bring them to the ships.|EXIT|MISSILE_SILO>
+#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESPADA DE DAMOCLES@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Perto da cidade, descobrimos uma plataforma suave e nivelada pontilhada por domos de concreto baixos, cada um deles coberto por uma pesada tampa de aço. Demoramos um pouco para abrir uma delas. Dentro encontramos um poço largo e profundo, e bem no centro dele descobrimos a ponta branca e lisa de um míssil.
+#EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>Meu Duque! Essas são as armas nucleares da {glossary=Confederação,GLOSS_GATHERING}! Devemos retirá-las imediatamente!
+#EVENT_SILO_3	<NPC=DAUD><SIDE=-1>Parece que o arsenal nuclear de nosso inimigo é muito maior do que esperávamos (o almirante lança um olhar sombrio para os silos de lançamento).<ANS=Tire esses mísseis das baías de lançamento e leve-os para nossas naves, Pyotr Ignatyevich.|EXIT|MISSILE_SILO>
+#EVENT_SILO_SIMPLE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A ESPADA DE DAMOCLES@10 {animation=event_silo} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Perto da cidade, há vários silos de mísseis da {glossary=Confederação,GLOSS_GATHERING}.<ANS=Ordene que seus homens retirem os mísseis nucleares e os levem para as naves.|EXIT|MISSILE_SILO>
 
 
 #INTEL_DIR_N	ao {color=4294960128}norte{color=4294305450} daqui. 
@@ -2964,55 +2964,55 @@
 #INTEL_DIR_NW	ao {color=4294960128}noroeste{color=4294305450} daqui. 
 #INTEL_DIR_FAR	Está bastante longe. 
 
-#CARAVAN_TARKHANS_PRE	The caravan drivers told you a tarkhan lives 
-#CARAVAN_TARKHANS_NO	As far as the caravan drivers know, there aren’t any tarkhans around here.
+#CARAVAN_TARKHANS_PRE	Os condutores de caravanas disseram que um tarkhan vive aqui.
+#CARAVAN_TARKHANS_NO	Pelo que os condutores de caravanas sabem, não há nenhum tarkhan por aqui.
 
-#CARAVAN_HIDDENS_PRE	Hidden in a tent and away from prying eyes, the leader of the caravan discreetly tells you of a hidden city 
-#CARAVAN_HIDDENS_NO	As far as the caravan drivers know, there aren’t any tarkhans around here.
+#CARAVAN_HIDDENS_PRE	Escondido em uma tenda e longe de olhos curiosos, o líder da caravana lhe conta discretamente sobre uma cidade escondida.
+#CARAVAN_HIDDENS_NO	Pelo que os condutores de caravanas sabem, não há nenhum tarkhan por aqui.
 
-#EVENT_CARAVAN_TARKHANS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_TARKHANS_CARAVANS>
-#EVENT_CARAVAN_CONVOYS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_CONVOYS_CARAVANS>The caravan drivers gladly tell you everything they know about nearby convoys.
-#EVENT_CARAVAN_HIDDENS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_HIDDENS_CARAVANS>
+#EVENT_CARAVAN_TARKHANS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_TARKHANS_CARAVANS>
+#EVENT_CARAVAN_CONVOYS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_CONVOYS_CARAVANS>Os condutores de caravanas contam com prazer tudo o que sabem sobre as caravanas próximas.
+#EVENT_CARAVAN_HIDDENS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_HIDDENS_CARAVANS>
 
-#EVENT_CARAVAN_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A dozen colorful tents dot the sand along the edge of the city, surrounded by vehicles and scurrying servants — all signs of a visiting caravan. You decide to pay them a visit and ask them about current events.
-#EVENT_CARAVAN_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The caravan drivers greet you warmly. “Life is too tough these days, too tough,” the caravan leader tells you in dismay. “We used to move at night to stay safe, away from the clans and their ships. But now our caravans are disappearing even in the dead of night!”
-#EVENT_CARAVAN_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“We thought it was the work of pirates, so we went to them to pay the customary ransom. But the clans knew nothing of our missing caravans! Take heed, Grand Noyon — something is amiss in the desert. The End Times are nigh.”
-<ANS=Ask the caravan drivers about the tarkhans.|EVENT_CARAVAN_TARKHANS>
-<ANS=Ask the caravan drivers about the Khiva convoys.|EVENT_CARAVAN_CONVOYS>
-<ANS=Ask the caravan drivers about hidden cities.|EVENT_CARAVAN_HIDDENS>
+#EVENT_CARAVAN_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma dúzia de tendas coloridas pontilham a areia à beira da cidade, cercadas por veículos e serviçais apressados — todos sinais de uma caravana visitante. Você decide visitá-los e perguntar sobre os eventos atuais.
+#EVENT_CARAVAN_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Os condutores de caravanas o saúdam calorosamente. “A vida está muito difícil nos dias de hoje, muito difícil”, diz o líder da caravana, desolado. “Costumávamos nos mover à noite para ficarmos seguros, longe dos clãs e de suas naves. Mas agora nossas caravanas estão desaparecendo até mesmo no meio da noite!”
+#EVENT_CARAVAN_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Pensamos que era obra de piratas, então fomos a eles para pagar o resgate costumeiro. Mas os clãs não sabiam de nada sobre nossas caravanas desaparecidas! Atenção, Grande Noyon — algo está errado no deserto. Os Tempos Finais estão próximos.”
+<ANS=Pergunte aos condutores de caravanas sobre os tarkhans.|EVENT_CARAVAN_TARKHANS>
+<ANS=Pergunte aos condutores de caravanas sobre as caravanas de Khiva.|EVENT_CARAVAN_CONVOYS>
+<ANS=Pergunte aos condutores de caravanas sobre cidades escondidas.|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A dozen colorful tents dot the sand along the edge of the city, surrounded by vehicles and scurrying servants — all signs of a visiting caravan. You decide to pay them a visit and ask them about current events.
-#EVENT_CARAVAN_02_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The caravan leader invites you into his tent and shares his deepest concerns with you. “Grand Noyon, the stars that guide us are disappearing!”
-#EVENT_CARAVAN_02_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>You hear emotion in his voice as he continues. “I refused to believe it at first, but the Star of the East, Al-Jharmi, has not been in the sky for a month. The charts I bought in Meshed are useless now that Al-Jharmi is no more.”
-#EVENT_CARAVAN_02_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“These are the End Times, Grand Noyon. These are the End Time.” The Elaim shakes his head in sorrow.
-<ANS=Ask the caravan drivers about the tarkhans.|EVENT_CARAVAN_TARKHANS>
-<ANS=Ask the caravan drivers about the Khiva convoys.|EVENT_CARAVAN_CONVOYS>
-<ANS=Ask the caravan drivers about hidden cities.|EVENT_CARAVAN_HIDDENS>
+#EVENT_CARAVAN_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma dúzia de tendas coloridas pontilham a areia à beira da cidade, cercadas por veículos e serviçais apressados — todos sinais de uma caravana visitante. Você decide visitá-los e perguntar sobre os eventos atuais.
+#EVENT_CARAVAN_02_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>O líder da caravana o convida para a tenda dele e compartilha suas preocupações mais profundas com você. “Grande Noyon, as estrelas que nos guiam estão desaparecendo!”
+#EVENT_CARAVAN_02_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Você ouve emoção em sua voz enquanto ele continua. “Recusei-me a acreditar no início, mas a Estrela do Oriente, Al-Jharmi, não está no céu há um mês. Os mapas que comprei em Meshed agora são inúteis, pois Al-Jharmi não existe mais.”
+#EVENT_CARAVAN_02_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Estes são os Tempos Finais, Grande Noyon. Estes são os Tempos Finais.” O Elaim balança a cabeça em tristeza.
+<ANS=Pergunte aos condutores de caravanas sobre os tarkhans.|EVENT_CARAVAN_TARKHANS>
+<ANS=Pergunte aos condutores de caravanas sobre as caravanas de Khiva.|EVENT_CARAVAN_CONVOYS>
+<ANS=Pergunte aos condutores de caravanas sobre cidades escondidas.|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_03_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A dozen colorful tents dot the sand along the edge of the city, surrounded by vehicles and scurrying servants — all signs of a visiting caravan. You decide to pay them a visit and ask them about current events.
-#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>For some time, you enjoy the warmth of the caravan fire and hot coffee. “Gerat has never seen such rain!” the caravan leader tells you, shaking his head slowly.
-#EVENT_CARAVAN_03_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“For the first time ever it rained in Keilah, the third month of our calendar. And we all said, “ah, the Almighty has blessed this year!” Then, in the month of San, it rained again. And the peasants were overjoyed. “Come to us when the second moon wanes,” they told us, “and bring twice as many people, for there will be a great harvest!”
-#EVENT_CARAVAN_03_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“But when I visited them again, all joy was gone from their faces. Ever since we left, it had rained every week. The sevchah never rose and had begun to rot, and the samykh had been struck down by a strange illness... these are the End Times, Grand Noyon.”
-<ANS=Ask the caravan drivers about the tarkhans.|EVENT_CARAVAN_TARKHANS>
-<ANS=Ask the caravan drivers about the Khiva convoys.|EVENT_CARAVAN_CONVOYS>
-<ANS=Ask the caravan drivers about hidden cities.|EVENT_CARAVAN_HIDDENS>
+#EVENT_CARAVAN_03_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma dúzia de tendas coloridas pontilham a areia à beira da cidade, cercadas por veículos e serviçais apressados — todos sinais de uma caravana visitante. Você decide visitá-los e perguntar sobre os eventos atuais.
+#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Por um tempo, você desfruta do calor da fogueira da caravana e de um café quente. “Gerat nunca viu tanta chuva!", diz o líder da caravana, balançando a cabeça lentamente.
+#EVENT_CARAVAN_03_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Pela primeira vez, choveu em Keilah, no terceiro mês de nosso calendário. E todos disseram: “ah, o Todo-Poderoso abençoou este ano!” Então, no mês de San, choveu novamente. E os camponeses ficaram muito felizes. “Venham até nós quando a segunda lua diminuir”, disseram-nos, “e tragam o dobro de pessoas, pois haverá uma grande colheita!”
+#EVENT_CARAVAN_03_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Mas quando os visitei novamente, toda a alegria havia desaparecido de seus rostos. Desde que partimos, choveu todas as semanas. A sevchah nunca subiu e começou a apodrecer, e a samykh foi atingida por uma estranha doença... estes são os Tempos Finais, Grande Noyon.”
+<ANS=Pergunte aos condutores de caravanas sobre os tarkhans.|EVENT_CARAVAN_TARKHANS>
+<ANS=Pergunte aos condutores de caravanas sobre as caravanas de Khiva.|EVENT_CARAVAN_CONVOYS>
+<ANS=Pergunte aos condutores de caravanas sobre cidades escondidas.|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_04_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A dozen colorful tents dot the sand along the edge of the city, surrounded by vehicles and scurrying servants — all signs of a visiting caravan. You decide to pay them a visit and ask them about current events.
-#EVENT_CARAVAN_04_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The caravan leader, a tall, gaunt man, relays to you the grim news of recent days. “Refugees are fleeing the Great Sea in droves, gracious Noyon! They are without number — far too many. They offer gold and riches for a safe journey, but they bring misery without end. Too many of them are sick... al wadah!”
-#EVENT_CARAVAN_04_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CARAVAN@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Ishvan’s caravan has had pyres burning for the third day in a row. So many dead... these are the End Times, Grand Noyon.”
-<ANS=Ask the caravan drivers about the tarkhans.|EVENT_CARAVAN_TARKHANS>
-<ANS=Ask the caravan drivers about the Khiva convoys.|EVENT_CARAVAN_CONVOYS>
-<ANS=Ask the caravan drivers about hidden cities.|EVENT_CARAVAN_HIDDENS>
+#EVENT_CARAVAN_04_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma dúzia de tendas coloridas pontilham a areia à beira da cidade, cercadas por veículos e serviçais apressados — todos sinais de uma caravana visitante. Você decide visitá-los e perguntar sobre os eventos atuais.
+#EVENT_CARAVAN_04_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>O líder da caravana, um homem alto e magro, lhe traz as sombrias notícias dos dias recentes. “Refugiados estão fugindo do Grande Mar em multidões, nobre Noyon! Eles são incontáveis — muito numerosos. Eles oferecem ouro e riquezas por uma jornada segura, mas trazem miséria sem fim. Muitos deles estão doentes... al wadah!”
+#EVENT_CARAVAN_04_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“A caravana de Ishvan tem piras acesas há três dias seguidos. Tantos mortos... estes são os Tempos Finais, Grande Noyon.”
+<ANS=Pergunte aos condutores de caravanas sobre os tarkhans.|EVENT_CARAVAN_TARKHANS>
+<ANS=Pergunte aos condutores de caravanas sobre as caravanas de Khiva.|EVENT_CARAVAN_CONVOYS>
+<ANS=Pergunte aos condutores de caravanas sobre cidades escondidas.|EVENT_CARAVAN_HIDDENS>
 
 
 
-#EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A crowd of people rushes from the city to your ships as soon as you arrive, an elderly doyen in the lead. Amid the screams and wails, he tells you about a military convoy that left the city just the other day.
-#EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The leader of the escort (may the Almighty curse him for all time!) took many people hostage and stole much of the city’s riches. The doyen begs you to chase down the armed ship and punish the villains, and he promises you all of the city’s stolen riches as a reward for saving the hostages.<ANS=Where did they go?|EVENT_CHASE_3>
-#EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CHASE@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
+#EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma multidão de pessoas se precipita da cidade em direção às suas naves assim que você chega, um decano idoso na liderança. No meio dos gritos e lamentos, ele lhe fala sobre um comboio militar que deixou a cidade outro dia.
+#EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O líder do comboio de escolta (que o Todo-Poderoso o amaldiçoe para todo o sempre!) fez muitas pessoas reféns e roubou grande parte das riquezas da cidade. O decano lhe suplica para perseguir a nave armada e punir os vilões, e ele lhe promete todas as riquezas roubadas da cidade como recompensa por salvar os reféns.<ANS=Onde eles foram?|EVENT_CHASE_3>
+#EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
 #EVENT_CHASE_END	Os reféns o enchem de gratidão e elogios. O decano estava dizendo a verdade: o porão da nave está cheio de carga preciosa. Esta escolta deve ter saqueado muitas cidades em seu caminho.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
 
-#EVENT_CHASE_PRE	The doyen tells you that the villains were headed 
-#EVENT_CHASE_POST	. He also tells you the escort’s callsign: CROW.
+#EVENT_CHASE_PRE	O decano lhe diz que os vilões estavam indo
+#EVENT_CHASE_POST	. Ele também lhe diz o indicativo da escolta: CROW.
 
 #DIR2_N	norte
 #DIR2_NE	nordeste
@@ -3025,19 +3025,19 @@
 
 
 
-#EVENT_DISCONTENT_01_1	<MUSIC=Bois><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The Romani officers who joined you in Ur are growing more sullen and tense by the day. Not all of them were happy when the squadron was entrusted to your command, and now those malcontent officers are openly questioning your decisions.
-#EVENT_DISCONTENT_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The constant infighting has made the crew weary, and you can feel this exhaustion growing into resentment. Eventually one of the senior officers dares to publicly denounce you, claiming you are too young and inexperienced for your post.
-#EVENT_DISCONTENT_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The officer claims that whoever appointed you to lead this squadron made a grave mistake. He insists that this desperate march must end, and the ships must turn south and return to Ur.
-#EVENT_DISCONTENT_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}They must then return to the capital, while there is still time.
-<ANS=If that is what you wish, Captain, I can relieve you of duty. You will be free to leave the squadron at the next port, and from there you may head back to Ur as you desire.|EVENT_DISCONTENT_01_RES|PRECHECK_FEAR=1|CHECK_FEAR=1>
-<ANS=You gave an oath as a captain of the Fleet. I am the lawful heir to the throne, and until we all know what happened to my father, it is my duty, and mine alone, to command the Romani Fleet.|EVENT_DISCONTENT_01_RES|PRECHECK_ROMANI=2|CHECK_ROMANI=2>
-<ANS=Watch your tongue, Captain, or you will face a tribunal for inciting insubordination against high command.|EVENT_DISCONTENT_01_RES|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
-#EVENT_DISCONTENT_01_RES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>The mutinous officer decides to remain quiet. He will not speak out against you again — your words seem to have defused the situation, at least for now. You instruct ship’s security to keep an eye on the officer for the time being.
-#EVENT_DISCONTENT_01_RES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE MALCONTENT OFFICERS@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The captain decides to persevere in his impudence. “Do you think I’m the only one who thinks this way, Duke? Open your eyes, take an good look around — the majority of the officers in this squadron think the same!”
-<ANS=Those who are dissatisfied with my orders are free to leave the squadron. We will provide you with a ship for the journey back.|EVENT_DISCONTENT_01_LEFT|SHIP_LEFT=WEAKEST>
-<ANS=Arrest the captain for mutiny.|EVENT_DISCONTENT_01_AREST>
-#EVENT_DISCONTENT_01_LEFT	<SCR=STOP|MORAL=5>With your explicit permission, several officers leave the squadron and prepare to return to Ur. Luckily, there are not too many of them; and with the malcontent officers gone, the tension in the squadron disappears for a time.
-#EVENT_DISCONTENT_01_AREST	<SCR=STOP|MORAL=-1>Security officers escort the insolent officer to the brig for a prolonged stay. You have managed to prevent a mutiny this time, but the tension only intensifies after the arrest.
+#EVENT_DISCONTENT_01_1	<MUSIC=Bois><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Os oficiais Romanis que se uniram a você em Ur estão cada dia mais mal-humorados e tensos. Nem todos eles estavam contentes quando o esquadrão foi confiado ao seu comando, e agora esses oficiais descontentes estão questionando abertamente suas decisões.
+#EVENT_DISCONTENT_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>As constantes lutas internas têm cansado a tripulação, e você pode sentir como esse cansaço se transforma em ressentimento. Finalmente, um dos oficiais superiores se atreve a te denunciar publicamente, alegando que você é jovem e inexperiente demais para o seu posto.
+#EVENT_DISCONTENT_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>O oficial afirma que aquele que o nomeou para liderar esse esquadrão cometeu um erro grave. Ele insiste que essa marcha desesperada deve acabar, e as naves devem virar ao sul e retornar a Ur.
+#EVENT_DISCONTENT_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}E depois voltar à capital, enquanto ainda há tempo.
+<ANS=Se é isso que deseja, capitão, posso destituí-lo de suas funções. Você será livre para deixar o esquadrão no próximo porto, e a partir daí poderá voltar a Ur como desejar.|EVENT_DISCONTENT_01_RES|PRECHECK_FEAR=1|CHECK_FEAR=1>
+<ANS=Você prestou juramento como capitão da Frota. Sou o legítimo herdeiro do trono, e até que todos saibamos o que aconteceu com meu pai, é meu dever, e somente meu, comandar a Frota Romani.|EVENT_DISCONTENT_01_RES|PRECHECK_ROMANI=2|CHECK_ROMANI=2>
+<ANS=Cuide de sua língua, capitão, ou enfrentará um tribunal por incitar a insubordinação contra o alto comando.|EVENT_DISCONTENT_01_RES|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
+#EVENT_DISCONTENT_01_RES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>O oficial amotinado decide ficar em silêncio. Ele não falará contra você novamente; suas palavras parecem ter acalmado a situação, pelo menos por enquanto. Você ordena à segurança da nave que vigie o oficial por enquanto.
+#EVENT_DISCONTENT_01_RES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OFICIAIS DESCONTENTES@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O capitão decide persistir em sua insolência. “Acha que sou o único que pensa assim, Duque? Abra os olhos, olhe ao seu redor: a maioria dos oficiais deste esquadrão pensa o mesmo!”
+<ANS=Aqueles que não estão satisfeitos com minhas ordens são livres para deixar o esquadrão. Forneceremos uma nave para a viagem de volta.|EVENT_DISCONTENT_01_LEFT|SHIP_LEFT=WEAKEST>
+<ANS=Prendam o capitão por amotinamento.|EVENT_DISCONTENT_01_AREST>
+#EVENT_DISCONTENT_01_LEFT	<SCR=STOP|MORAL=5>Com sua permissão explícita, vários oficiais deixam o esquadrão e se preparam para voltar a Ur. Felizmente, eles não são muitos; e com a partida dos oficiais descontentes, a tensão no esquadrão diminui por um tempo.
+#EVENT_DISCONTENT_01_AREST	<SCR=STOP|MORAL=-1>Os agentes de segurança escoltam o oficial insolente para uma estadia prolongada na prisão. Desta vez, eles conseguiram evitar um motim, mas a tensão só aumenta após a detenção.
 
 
 
