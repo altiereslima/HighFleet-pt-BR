@@ -147,7 +147,7 @@
 #CARD_PRESENT1	Elefante de ouro
 #CARD_PRESENT2	Adaga dourada
 #CARD_PRESENT3	Ícone de bronze
-#CARD_PRESENT4	Cruz Imperial
+#CARD_PRESENT4	Cruz imperial
 #CARD_PRESENT5	Bandeira de Gerat
 #CARD_PRESENT_SLAVE	Mulher escrava
 
@@ -3041,107 +3041,107 @@
 
 
 
-#EVENT_DISHONOR_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A MATTER OF HONOR@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>Visiting merchants staying in the city bring news that leaves your men shaking with rage. The doyen of <DISHONOR_CITY> has been openly insulting you, calling you the “Duke of Beggars” and insisting that you deserve neither aid nor hospitality from the doyens.
-#EVENT_DISHONOR_OMAR	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1>The doyen of <DISHONOR_CITY> is a mangy cur who has been slandering your good name, naib. The Elaims are wise, but if you leave him unpunished, some may come to trust him.
-#EVENT_DISHONOR_FASIL	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1>You ought to send ships to <DISHONOR_CITY> and pay that doyen a visit. If you leave him unpunished, some Elaims may come to trust him.
+#EVENT_DISHONOR_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM ASSUNTO DE HONRA@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>Comerciantes visitantes que estão na cidade trazem notícias que deixam seus homens tremendo de raiva. O decano de <DISHONOR_CITY> tem insultado abertamente você, chamando-o de “Duque dos Mendigos” e insistindo que você não merece ajuda nem hospitalidade dos decanos.
+#EVENT_DISHONOR_OMAR	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1>O decano de <DISHONOR_CITY> é um cão sarnento que vem difamando o seu bom nome, naib. Os Elaims são sábios, mas se você deixá-lo impune, alguns podem começar a confiar nele.
+#EVENT_DISHONOR_FASIL	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1>Você deveria enviar naves para <DISHONOR_CITY> e visitar esse decano. Se você deixá-lo impune, alguns Elaims podem começar a confiar nele.
 
-#QUEST_DISHONOR	THE ROGUE DOYEN
+#QUEST_DISHONOR	O DECANO RENEGADO
 
-#EVENT_DISHONOR_END_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A MATTER OF HONOR@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_DISHONOR>The rogue doyen seemed very brave when he was slandering you, but now that he is your prisoner, all his courage has vanished. He kneels before you, trembling in terror and begging you for mercy.
-<ANS=Have the doyen executed and seize his property for yourself.|EXIT|FEAR=5|GERAT=1|KINDNESS=-1|GOLD=4000>
-<ANS=Leave the doyen alive and seize his property as punishment.|EXIT|FEAR=3|GERAT=-1|WEALTH=1|KINDNESS=1|GOLD=4000>
-
-
-#EVENT_NAME_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE NEW NAME@10 {animation=event_name} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}You no longer think anything of it when the Elaims address you as “amir” or “naib,” but recently you have often seen them pointing at you and saying “Amir Al-Matar.”<ANS=Amir Al-Matar... what does it mean, Prince?|EVENT_NAME_2>
-#EVENT_NAME_2	<NPC=FASIL><SCR=CONTINUE>They say your arrival has brought constant rainfall to Gerat.
-#EVENT_NAME_3	<NPC=FASIL><SCR=CONTINUE>Rain is a good omen. They say the Almighty has sent you to Gerat for a reason, and the ancient promises are beginning to come true.
-#EVENT_NAME_4	<NPC=FASIL>If I were you, my Duke, I’d accept this title as my new name. It will help you win the hearts of my people.
-<ANS=Take this new name as your own.|EXIT|LEVEL_GERAT=1|LEVEL_ROMANI=-1|LEVEL_FAITH=1>
-<ANS=Reject the name.|EXIT>
+#EVENT_DISHONOR_END_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}UM ASSUNTO DE HONRA@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_DISHONOR>O decano renegado parecia muito corajoso quando estava difamando você, mas agora que ele é seu prisioneiro, toda a sua coragem desapareceu. Ele se ajoelha diante de você, tremendo de terror e implorando por misericórdia.
+<ANS=Mande executar o decano e confisque os bens dele para você.|EXIT|FEAR=5|GERAT=1|KINDNESS=-1|GOLD=4000>
+<ANS=Deixe o decano vivo e confisque sua propriedade como punição.|EXIT|FEAR=3|GERAT=-1|WEALTH=1|KINDNESS=1|GOLD=4000>
 
 
-
-#EVENT_DISASTER_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DISASTER@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>As you arrive in the city, you see an enormous black chasm yawning in its very center — the aftermath of a fuel depot explosion. Half the city around the crater lies in ruins, with countless dead buried beneath the rubble.
-#EVENT_DISASTER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DISASTER@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The doyen begs you to help with the rescue effort. Many people have been buried alive. He needs your ships and machines for two full days. “The northern fuel depot is gone,” he pleads, “but there are 6,000 tons of methane left in the southern depot. It will all be yours, Grand Duke, if you agree to help us in our hour of need.”
-<ANS=If I stay here for two days, a message will definitely make its way to Khiva.|EVENT_DISASTER_3>
-#EVENT_DISASTER_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DISASTER@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“I understand,” says the downcast doyen, “but the Almighty has left us no other choice. If you do not help us, many people will be left for dead.”
-<ANS=Order the squadron to help with the rescue.|EXIT|NOMOVE=48|KINDNESS=3|FUEL=6000>
-<ANS=You ask too much. I cannot stay here for two full days.|EXIT|KINDNESS=-3>
+#EVENT_NAME_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O NOVO NOME@10 {animation=event_name} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você já não pensa mais nisso quando os Elaims o chamam de “amir” ou “naib,” mas recentemente você os viu muitas vezes apontando para você e dizendo “Amir Al-Matar.”<ANS=Amir Al-Matar... o que isso significa, Príncipe?|EVENT_NAME_2>
+#EVENT_NAME_2	<NPC=FASIL><SCR=CONTINUE>Dizem que sua chegada trouxe chuva constante para Gerat.
+#EVENT_NAME_3	<NPC=FASIL><SCR=CONTINUE>Chuva é um bom presságio. Dizem que o Todo-Poderoso o enviou para Gerat por uma razão, e as antigas promessas estão começando a se concretizar.
+#EVENT_NAME_4	<NPC=FASIL>Se eu fosse você, meu Duque, aceitaria este título como meu novo nome. Isso ajudará você a conquistar os corações do meu povo.
+<ANS=Adote este novo nome como seu.|EXIT|LEVEL_GERAT=1|LEVEL_ROMANI=-1|LEVEL_FAITH=1>
+<ANS=Rejeite o nome.|EXIT>
 
 
 
-#EVENT_CLOTH_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>After landing, Pyotr Ignatyevich asks to speak with you in private. “Mark,” he says quietly, “we don’t have nearly enough warm clothing in the squadron.”
-#EVENT_CLOTH_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“I ordered all crewmen on duty to be given high-altitude suits, but we only have so many. And I fear we’ll soon need warm clothing for every last one of us.”
-#EVENT_CLOTH_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_CLOTH_ANSWERS>Pyotr’s glances somberly at the city. “We ought to acquire as much warm clothing as we can from the locals... while we still can.”
-
-#EVENT_CLOTH_ANS1	Very well. Purchase warm clothing. As much as we can afford.|EVENT_CLOTH_BUY_1
-#EVENT_CLOTH_ANS2	We can no longer afford to be civil, Pyotr. Send in the troops. Tell them to confiscate all the warm clothing they can find.|EVENT_CLOTH_FORCE_1|FORCE=2|RIGHT=-2
-#EVENT_CLOTH_ANS3	We cannot afford such an expense right now.|EXIT
-
-#EVENT_CLOTH_BUY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Smelling profit, the merchants jacked up their prices. The fools had no idea what was coming!
-#EVENT_CLOTH_BUY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|EVENT_CLOTH_BUY>Wool robes are soon distributed among the crew, along with Pyotr’s orders to wear them over their uniforms. It takes the men a while to stop choking back laughter every time they see each other, but nobody on duty complains about the cold anymore.
-
-#EVENT_CLOTH_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Sighing wearily, Pyotr acknowledges your order with a salute and leaves without saying a word.
-#EVENT_CLOTH_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}WARM CLOTHING@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>The confiscated wool robes are soon distributed among the crew, along with Pyotr’s orders to wear them over their uniforms. It takes the men a while to stop choking back laughter every time they see each other, but nobody on duty complains about the cold anymore.
+#EVENT_DISASTER_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DESASTRE@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Ao chegar na cidade, você vê um enorme abismo negro se abrindo bem no centro dela — o resultado de uma explosão no depósito de combustível. Metade da cidade ao redor do cratera está em ruínas, com inúmeras pessoas mortas soterradas sob os escombros.
+#EVENT_DISASTER_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DESASTRE@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O decano implora para que você ajude no esforço de resgate. Muitas pessoas foram soterradas vivas. Ele precisa de suas naves e máquinas por dois dias inteiros. “O depósito de combustível do norte se foi,” ele suplica, “mas há 6.000 toneladas de metano no depósito do sul. Tudo será seu, Grão-Duque, se você concordar em nos ajudar em nossa hora de necessidade.”
+<ANS=Se eu ficar aqui por dois dias, uma mensagem definitivamente chegará a Khiva.|EVENT_DISASTER_3>
+#EVENT_DISASTER_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}DESASTRE@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Eu entendo,” diz o decano desanimado, “mas o Todo-Poderoso não nos deixou outra escolha. Se você não nos ajudar, muitas pessoas ficarão para morrer.”
+<ANS=Ordene ao esquadrão que ajude com o resgate.|EXIT|NOMOVE=48|KINDNESS=3|FUEL=6000>
+<ANS=Você está pedindo muito. Não posso ficar aqui por dois dias inteiros.|EXIT|KINDNESS=-3>
 
 
 
-#EVENT_BURN_FUEL_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE GROWING COLD@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Pyotr approaches you, clearing preparing himself for a difficult discussion. “It’s getting very cold on the ships,” he begins. “Grand Duke, for our crew’s sake, I must ask your permission to keep the turbines running idle even while docked.”
-<ANS=Are you saying we should keep burning fuel at all times?>
-#EVENT_BURN_FUEL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE GROWING COLD@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Yes, my Duke, at low rates,” responds the weary general. “If it means the men won’t freeze. I’ve been to sick bay. It’s filled to the brim.”
-<ANS=We cannot afford to burn fuel while docked!|EVENT_BURN_FUEL_NO>
-<ANS=Very well. You have my permission.|EVENT_BURN_FUEL_YES|EVENT_BURN_FUEL>
-#EVENT_BURN_FUEL_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE GROWING COLD@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=5>The crew is clearly relieved to hear your orders.
-#EVENT_BURN_FUEL_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE GROWING COLD@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“Aye aye, sir,” Pyotr sighs and leaves.
+#EVENT_CLOTH_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Após aterrissar, Pyotr Ignatyevich pede para falar com você em particular. “Mark,” ele diz baixinho, “não temos quase roupas quentes suficientes no esquadrão.”
+#EVENT_CLOTH_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Eu ordenei que todos os tripulantes de serviço recebessem trajes de alta altitude, mas temos apenas o suficiente. E temo que logo precisaremos de roupas quentes para todos nós.”
+#EVENT_CLOTH_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_CLOTH_ANSWERS>Pyotr olha sombriamente para a cidade. “Devemos adquirir o máximo de roupas quentes que pudermos dos habitantes locais... enquanto ainda podemos.”
+
+#EVENT_CLOTH_ANS1 Muito bem. Compre roupas quentes. Tantas quantas pudermos pagar.|EVENT_CLOTH_BUY_1
+#EVENT_CLOTH_ANS2 Não podemos mais nos dar ao luxo de sermos civilizados, Pyotr. Envie as tropas. Diga a elas para confiscarem todas as roupas quentes que encontrarem.|EVENT_CLOTH_FORCE_1|FORCE=2|RIGHT=-2
+#EVENT_CLOTH_ANS3 Não podemos arcar com esse gasto agora.|EXIT
+
+#EVENT_CLOTH_BUY_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Percebendo o lucro, os comerciantes aumentaram os preços. Os tolos não tinham ideia do que estava por vir!
+#EVENT_CLOTH_BUY_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|EVENT_CLOTH_BUY>Robes de lã logo são distribuídos entre a tripulação, juntamente com as ordens de Pyotr para usá-los sobre seus uniformes. Leva um tempo para que os homens parem de rir toda vez que se veem, mas ninguém de serviço reclama mais do frio.
+
+#EVENT_CLOTH_FORCE_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Suspirando cansado, Pyotr reconhece sua ordem com uma saudação e sai sem dizer uma palavra.
+#EVENT_CLOTH_FORCE_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2>VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>Os robes de lã confiscados logo são distribuídos entre a tripulação, juntamente com as ordens de Pyotr para usá-los sobre seus uniformes. Leva um tempo para que os homens parem de rir toda vez que se veem, mas ninguém de serviço reclama mais do frio.
 
 
 
-#EVENT_BLASPHEMY_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASPHEMY@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>You notice Admiral Daud marching toward you out of the corner of your eye. “Have you heard what the men are saying?” he exclaims from a few paces away. “They say this eclipse is divine punishment for blasphemy!”
-#EVENT_BLASPHEMY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASPHEMY@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“They think the Almighty has plunged Gerat into darkness because the Governor’s men have renounced the Faith!” “This seems a valuable sentiment for our cause, no?” Prince Fazil interjects softly and suddenly.
-#EVENT_BLASPHEMY_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASPHEMY@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“So it may seem, prince. But entertaining such notions will do us no good,” the admiral declares with a wry, bitter grin.
-<ANS=I’ll tell the men they’re mistaken.|EVENT_BLASPHEMY_DISAGREE|FAITH=-2>
-<ANS=I’ll tell the men they’re right.|EVENT_BLASPHEMY_AGREE|FAITH=2>
-#EVENT_BLASPHEMY_DISAGREE	<SCR=STOP|DAUD=1|FASIL=-1>The Elaims listen to you with distrust. You hear them rejecting your ideas as they disperse.
-#EVENT_BLASPHEMY_AGREE	<SCR=STOP|DAUD=-1|FASIL=1><TRG=BLASPHEMY_AGREE|1>The Elaims accept your words with elation. You hear voices of approval in the crowd.
+#EVENT_BURN_FUEL_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Pyotr se aproxima de você, claramente se preparando para uma conversa difícil. “Está ficando muito frio nas naves,” ele começa. “Grão-Duque, pelo bem da nossa tripulação, devo pedir sua permissão para manter as turbinas funcionando em marcha lenta mesmo quando estamos atracados.”
+<ANS=Você está sugerindo que devemos continuar queimando combustível o tempo todo?>
+#EVENT_BURN_FUEL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Sim, meu Duque, em taxas baixas", responde o general cansado. “Se isso significa que os homens não vão congelar. Eu fui à enfermaria. Está lotada.”
+<ANS=Nós não podemos nos dar ao luxo de queimar combustível enquanto estamos atracados!|EVENT_BURN_FUEL_NO>
+<ANS=Muito bem. Você tem minha permissão.|EVENT_BURN_FUEL_YES|EVENT_BURN_FUEL>
+#EVENT_BURN_FUEL_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=5>A tripulação está claramente aliviada ao ouvir suas ordens.
+#EVENT_BURN_FUEL_NO <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“Entendido, senhor,” suspira Pyotr e sai.
 
 
 
-#EVENT_REVOLT_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>While in the city, you receive an invitation to a secret meeting with certain high-ranking local dignitaries. They assure you they yearn to join your cause, but the local doyen is too cowardly to oppose the Governor and offer you aid.
-#EVENT_REVOLT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}They offer you a plan to depose the city’s doyen and start a rebellion. Should you succeed, they promise to seize a ship and join you.
-<ANS=Join the cabal.|EVENT_REVOLT_YES|DICE=50|RIGHT=-2>
-<ANS=Refuse to participate.|EXIT|RIGHT=2>
-#EVENT_REVOLT_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>You pay the doyen a visit, surrounded by your best fighters disguised in civilian clothing. During dinner, you give the signal, and your men slay the doyen and his guards.
-#EVENT_REVOLT_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>At that very moment, the leader of the cabal announces that the doyen has made an attempt on your life. Before the doyen’s strongest supporters can react, the cabal invades their homes and murders them all.
-#EVENT_REVOLT_YES_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|FORCE=2>A few hours later, the city is under your complete control.
-
-
-#EVENT_REVOLT_YES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>You pay the doyen a visit, surrounded by your best fighters disguised in civilian clothing. During dinner, you give the signal, and your men slay the doyen and his guards.
-#EVENT_REVOLT_YES_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The cabal rushes to the homes of the doyen’s strongest followers, but they face firm resistance. A few hours later, the entire city is in the midst of a bloody internecine conflict.
-<ANS=This plan is a failure. Stay out of it and retreat to the ships.|EXIT|FORCE=-2>
-<ANS=Send soldiers into the city and support the insurgents with artillery fire.|EVENT_REVOLT_WAR|DICE=50|FORCE=2>
-
-#EVENT_REVOLT_WAR	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|GOLD=8000|CREW=-50>After a bitter and bloody battle, you manage to quash all resistance and seize the city. But victory comes at a steep cost.
-#EVENT_REVOLT_SHIP	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|JOIN>The conspirators seize the doyen’s own ship and offer it to your squadron.
-#EVENT_REVOLT_WAR_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_WAR_FAIL_2|CREW=-50|FORCE=-2>Your troops quickly get bogged down in street combat and begin taking casualties. The officers order a retreat toward the ships.
-#EVENT_REVOLT_WAR_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE CABAL@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|NO_REPAIR|MORAL=-1>Before long, you receive a message from a group of city residents. They tell you to refuel your ships and get out.
+#EVENT_BLASPHEMY_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASFÊMIA@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Você percebe o Almirante Daud se aproximando de você, preparando-se para uma discussão difícil. “Você ouviu o que os homens estão dizendo?” ele exclama a alguns passos de distância. “Eles dizem que este eclipse é punição divina por blasfêmia!”
+#EVENT_BLASPHEMY_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASFÊMIA@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Eles acreditam que o Todo-Poderoso mergulhou Gerat na escuridão porque os homens do Governador renunciaram à Fé!” “Isso parece um sentimento valioso para a nossa causa, não?” O Príncipe Fazil interrompe suavemente e repentinamente.
+#EVENT_BLASPHEMY_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}BLASFÊMIA@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Pode até parecer, príncipe. Mas acolher tais noções não nos trará benefícios,” declara o almirante com um sorriso irônico e amargo.
+<ANS=Vou dizer aos homens que estão enganados.|EVENT_BLASPHEMY_DISAGREE|FAITH=-2>
+<ANS=Vou dizer aos homens que estão certos.|EVENT_BLASPHEMY_AGREE|FAITH=2>
+#EVENT_BLASPHEMY_DISAGREE <SCR=STOP|DAUD=1|FASIL=-1>Os Elaims ouvem você com desconfiança. Você os ouve rejeitando suas ideias enquanto se dispersam.
+#EVENT_BLASPHEMY_AGREE <SCR=STOP|DAUD=-1|FASIL=1><TRG=BLASPHEMY_AGREE|1>Os Elaims aceitam suas palavras com alegria. Você ouve vozes de aprovação na multidão.
 
 
 
-#EVENT_TRAITOR_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>The morning after, you find a note in the pocket of your uniform...
-#EVENT_TRAITOR_2	<SCR=CONTINUE>You have no idea how this slip of paper ended up in your possession. The message is short: “One of your tarkhans is a traitor, amir. Go to Urgeh’s house in the Veteran District. Come alone.”
-#EVENT_TRAITOR_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE TRAITOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The house mentioned in the note is easy to find. A tall, aged Elaim — perhaps Urgeh himself — meets you at the door. He is getting on in years, but his bearing and commanding voice betray his {glossary=Harishid,GLOSS_HARISHIDS} origins.
-<ANS=Is this your home, Urgeh? Is this truly how former {glossary=merisades,GLOSS_MERISAD} live?>
-#EVENT_TRAITOR_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE TRAITOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“The Harishids stopped receiving their pensions when the Lord Governor overthrew the king,” the old man responds calmly. “But I am glad to live among my former brothers-in-arms.”
-<ANS=How did I get this note? Who slipped it into my pocket?>
-#EVENT_TRAITOR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE TRAITOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Some of the Harishids who serve the Governor wish only good fortune for you, amir. Know that Khiva is regularly informed about your journey. I was told the information comes from Prince Elaou.”
-#EVENT_TRAITOR_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE TRAITOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Now go. No one must see us.” Urgeh turns around, but lingers in the doorway. “May the heavens be with you, Amir Al-Matar,” he says over his shoulder.
-<ANS=Assign a permanent security escort to the prince. Fazil will be furious, but we cannot afford such a risk.|EXIT|FASIL=-4|LESS_TRAITORS>
-<ANS=This is all very strange, and the old man inspires little confidence. Even if Fazil is a double agent, he’s still more useful than otherwise.|EXIT>
+#EVENT_REVOLT_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Enquanto está na cidade, você recebe um convite para uma reunião secreta com certos dignitários locais de alta patente. Eles asseguram que desejam se juntar à sua causa, mas o decano local é muito covarde para se opor ao Governador e oferecer-lhe ajuda.
+#EVENT_REVOLT_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Eles lhe oferecem um plano para depor o decano da cidade e iniciar uma rebelião. Caso tenha sucesso, eles prometem apoderar-se de uma nave e se juntar a você.
+<ANS=Junte-se à conspiração.|EVENT_REVOLT_YES|DICE=50|RIGHT=-2>
+<ANS=Recuse-se a participar.|EXIT|RIGHT=2>
+#EVENT_REVOLT_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>Você visita o decano, cercado pelos seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens matam o decano e seus guardas.
+#EVENT_REVOLT_YES_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Naquele exato momento, o líder da conspiração anuncia que o decano tentou matá-lo. Antes que os apoiadores mais fortes do decano possam reagir, a conspiração invade suas casas e os mata a todos.
+#EVENT_REVOLT_YES_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|FORCE=2>Algumas horas depois, a cidade está sob seu completo controle.
 
-#GLOSS_MERISAD	A unit commander in the Gerati king’s personal guard.
-#GLOSS_MUALI	“Mentor.” It is an honorific reserved for sages and legal scholars.
 
-#LESS_TRAITORS	REDUCED CHANCE@OF BETRAYAL IN CITIES
+#EVENT_REVOLT_YES_FAIL <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>Você visita o decano, cercado por seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens matam o decano e seus guardas.
+#EVENT_REVOLT_YES_FAIL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A conspiração se apressa para as casas dos seguidores mais fortes do decano, mas eles enfrentam firme resistência. Algumas horas depois, a cidade inteira está no meio de um conflito interno sangrento.
+<ANS=Este plano é um fracasso. Mantenha-se fora disso e recue para as naves.|EXIT|FORCE=-2>
+<ANS=Envie soldados para a cidade e apoie os insurgentes com fogo de artilharia.|EVENT_REVOLT_WAR|DICE=50|FORCE=2>
+
+#EVENT_REVOLT_WAR <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|GOLD=8000|CREW=-50>Após uma amarga e sangrenta batalha, você consegue sufocar toda a resistência e conquistar a cidade. Mas a vitória tem um custo elevado.
+#EVENT_REVOLT_SHIP <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|JOIN>Os conspiradores tomam a própria nave do decano e a oferecem ao seu esquadrão.
+#EVENT_REVOLT_WAR_FAIL <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_WAR_FAIL_2|CREW=-50|FORCE=-2>Suas tropas logo ficam atoladas em combates de rua e começam a sofrer baixas. Os oficiais ordenam uma retirada em direção às naves.
+#EVENT_REVOLT_WAR_FAIL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|NO_REPAIR|MORAL=-1>Em pouco tempo, você recebe uma mensagem de um grupo de residentes da cidade. Eles dizem para abastecer suas naves e sair.
+
+
+
+#EVENT_TRAITOR_1 <MUSIC=Duduk_4_ever><SCR=CONTINUE>Na manhã seguinte, você encontra uma nota no bolso de seu uniforme...
+#EVENT_TRAITOR_2 <SCR=CONTINUE>Você não tem ideia de como este pedaço de papel foi parar em seu poder. A mensagem é curta: “Um de seus tarkhans é um traidor, amir. Vá para a casa de Urgeh no Distrito dos Veteranos. Vá sozinho.”
+#EVENT_TRAITOR_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O TRAIDOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A casa mencionada na nota é fácil de encontrar. Um Elaim alto e idoso - talvez Urgeh ele mesmo - encontra você na porta. Ele está envelhecendo, mas sua postura e voz imponente revelam suas origens {glossary=Harishid,GLOSS_HARISHIDS}.
+<ANS=Esta é sua casa, Urgeh? É assim que os antigos {glossary=merisades,GLOSS_MERISAD} vivem?>
+#EVENT_TRAITOR_4 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O TRAIDOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Os Harishids pararam de receber suas pensões quando o Senhor Governador derrubou o rei,” responde o velho calmamente. “Mas estou feliz em viver entre meus antigos companheiros de armas.”
+<ANS=Como recebi essa nota? Quem a colocou em meu bolso?>
+#EVENT_TRAITOR_5 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O TRAIDOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Alguns dos Harishids que servem ao Governador desejam apenas boa sorte para você, amir. Saiba que Khiva é regularmente informado sobre sua jornada. Fui informado de que as informações vêm do Príncipe Elaou.”
+#EVENT_TRAITOR_6 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O TRAIDOR@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Agora vá. Ninguém deve nos ver.” Urgeh se vira, mas fica na porta. “Que os céus estejam com você, Amir Al-Matar,” diz ele por cima do ombro.
+<ANS=Atribua uma escolta de segurança permanente ao príncipe. Fazil ficará furioso, mas não podemos correr esse risco.|EXIT|FASIL=-4|LESS_TRAITORS>
+<ANS=Tudo isso é muito estranho, e o velho inspira pouca confiança. Mesmo que Fazil seja um agente duplo, ele ainda é mais útil do que o contrário.|EXIT>
+
+#GLOSS_MERISAD	Um comandante de uma unidade da guarda pessoal do rei de Gerat.
+#GLOSS_MUALI	“Mentor.” É um título honorífico reservado para sábios e juristas.
+
+#LESS_TRAITORS	REDUÇÃO NA CHANCE@DE TRAIÇÃO NAS CIDADES
 
 
 #EVENT_DILEMA_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Two well-dressed young men ask to see you. Bowing deeply, they cordially invite you to dine at the house of a local {glossary=muali,GLOSS_MUALI}.
