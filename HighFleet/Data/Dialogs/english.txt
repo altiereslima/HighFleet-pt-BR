@@ -3528,8 +3528,8 @@
 #TO_EDITOR_BUTTON	IR PARA O EDITOR
 #CONSTRUCTOR	Este nome de nave não pode ser usado. Por favor, insira um nome diferente.
 
-#PROFILE_RESET	A campanha será concluída.
-#PROFILE_RESET2	Os pontos ganhos serão adicionados ao bônus de seu perfil. Você deseja prosseguir?
+#PROFILE_RESET	A campanha será única.
+#PROFILE_RESET2	Os pontos ganhos serão adicionados ao bônus do seu perfil. Você deseja prosseguir?
 
 
 
