@@ -371,11 +371,11 @@
 
 #MORAL_PRIZE	CAPTURADO
 
-#HIGH_EXPLOSIVE	Alto explosivo
-#INCENDIARY	Incendiário
-#ARMOR_PIERCING	Perfurador de blindagem
+#HIGH_EXPLOSIVE	Alto explosiva
+#INCENDIARY	Incendiária
+#ARMOR_PIERCING	Perfuradora de blindagem
 #PROXIMITY_FUZE	Fuzil de proximidade
-#LASER_GUIDED	Laser guiado
+#LASER_GUIDED	Guiada a laser
 #CAPTION_NAR	Foguete não guiado
 #CAPTION_GPB	Bomba de uso geral
 #CAPTION_AAM	Míssil ar-ar
@@ -574,14 +574,14 @@
 #INTERMEDIA_01_02	Esta terra parece condenada a suportar para sempre o fardo da guerra. Há sete anos, um funcionário imperial, o Senhor Governador de Khiva, depôs o rei e declarou uma rebelião contra a autoridade imperial.
 #INTERMEDIA_01_03	E agora é a nossa vez. Viemos à Gerat para pôr um fim a isto de uma vez por todas.
 
-#INTERMEDIA_02_01	Na manhã do sexto dia, a estação de observação relatou que uma grande embarcação estava se aproximando do sul. Todas as nossas forças foram colocadas em alerta máximo.
-#INTERMEDIA_02_02	Era uma nave solitária, aproximando-se lentamente e não mostrando sinais de agressão. A esperança começou a se espalhar entre os oficiais: talvez tenha sido uma das embarcações de Skobelev. Mas quando chegou perto o suficiente, nós a reconhecemos: era o cruzador Imperial Sevastopol.
+#INTERMEDIA_02_01	Na manhã do sexto dia, a estação de observação relatou que uma grande nave estava se aproximando do sul. Todas as nossas forças foram colocadas em alerta máximo.
+#INTERMEDIA_02_02	Era uma nave solitária, aproximando-se lentamente e não mostrando sinais de agressão. A esperança começou a se espalhar entre os oficiais: talvez tenha sido uma das naves de Skobelev. Mas quando chegou perto o suficiente, nós a reconhecemos: era o cruzador Imperial Sevastopol.
 #INTERMEDIA_02_03	Era assombrosamente gigantesco, uma verdadeira montanha voadora. Montamos uma guarda de honra e nos preparamos para receber a tripulação.
 #INTERMEDIA_02_04	Mas, para nosso espanto, o primeiro homem na rampa era um alto Elaim usando uma máscara dourada. Atrás dele havia uma multidão interminável de pessoas com queimaduras terríveis e ferimentos horríveis, todos eles Romanis da capital. Foi com eles que finalmente soubemos da terrível notícia.
 #INTERMEDIA_02_05	A capital do Império tinha sofrido um ataque nuclear há quatro dias. A Fortaleza de Sayadi queimou em um instante, reduzida a uma pilha fumegante de resíduos radioativos. O que restava da Frota Imperial estava em desordem, tentando desesperadamente lutar contra as forças Confederadas em avanço.
 #INTERMEDIA_02_06	Ficamos sem palavras. Nós não sabíamos o que fazer. A maioria de nós queria ir para a capital e se juntar à batalha, sabendo que a guerra já estava perdida.
 
-#INTERMEDIA_03_01	Fui despertado em minha cabine por um mensageiro. "Almirante, senhor! O Grão-Duque lhe pediu para vir até a ponte". Tinha algo estava errado com a nave.
+#INTERMEDIA_03_01	Fui despertado em minha cabine por um mensageiro. “Almirante, senhor! O Grão-Duque lhe pediu para vir até a ponte”. Tinha algo estava errado com a nave.
 #INTERMEDIA_03_02	Os tripulantes da casa do leme pareciam angustiados e confusos, seus olhos vazios e perdidos no pensamento. No entanto, ele estava completamente calmo, um contraste muito forte com o resto da sala que eu achei estranhamente fascinante.
 #INTERMEDIA_03_03	Mas quando olhei através da vigia, vi o motivo de seu alarme. De acordo com o relógio, o sol deveria ter nascido, mas o mundo por trás do vidro estava escuro como breu. Os holofotes das naves estavam se movendo freneticamente, vasculhando o céu e a terra em uma tentativa vã de cortar a escuridão que consumia tudo com seus feixes estreitos de luz artificial.
 
@@ -596,7 +596,7 @@
 #TUTORIAL_FASIL_DUKE_1	<NPC=FASIL><SCR=CONTINUE>Estou vendo. Por favor, perdoe minha indiscrição, Grão-Duque. Eu nunca tive o prazer de conhecê-lo antes.
 #TUTORIAL_FASIL_DUKE_2	<NPC=FASIL>Não pense sobre isso. Certamente os dois herdeiros das monarquias mais antigas de Elaat podem encontrar algo sobre o que conversar. (O príncipe acena com a cabeça gentilmente.)
 <ANS=Estou aqui para discutir sua participação na libertação de {glossary=Gerat,GLOSS_GERAT}.|TUTORIAL_FASIL_6>
-#TUTORIAL_FASIL_6	<NPC=FASIL>"Libertação?" Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mais de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
+#TUTORIAL_FASIL_6	<NPC=FASIL>“Libertação?” Estamos em guerra com a {glossary=Confederação,GLOSS_GATHERING} durante mais de sete anos, e eu ainda não recuperei o trono de meu pai. E agora os almirantes de Sua Majestade Imperial pretendem retomá-la em uma única semana!
 <ANS=Na verdade, estão trabalhando nisso. E eu acho que eles serão bem sucedidos.|TUTORIAL_FASIL_7|FASIL_ANYTIME=-1>
 <ANS=Talvez eles consigam.|TUTORIAL_FASIL_7>
 #TUTORIAL_FASIL_7	<NPC=FASIL>Meu povo não pode igualar a força da frota da {glossary=Confederação,GLOSS_GATHERING}. Temos somente uma corveta para cada um de seus cruzadores pesados.
@@ -616,7 +616,7 @@
 #TUTORIAL_FASIL_13	<NPC=FASIL>O que você quer dizer, Duque?
 <ANS=Elaims dificilmente se preocupam com os problemas dos romanis.|TUTORIAL_FASIL_19|FASIL_ANYTIME=-1>
 <ANS=Esta é uma época de grandes oportunidades para homens como nós.|TUTORIAL_FASIL_14>
-#TUTORIAL_FASIL_14	<NPC=FASIL>"Homens como nós?"
+#TUTORIAL_FASIL_14	<NPC=FASIL>“Homens como nós?”
 <ANS=Para príncipes sem reinos.|TUTORIAL_FASIL_15>
 <ANS=Para cada {glossary=Tarkhan,GLOSS_TARKHAN}, a guerra é uma oportunidade para demostrar seu valor.|TUTORIAL_FASIL_18>
 #TUTORIAL_FASIL_15	<NPC=FASIL><NOSPEAK>Fazil faz uma pausa para olhar para você com atenção.<SCR=CONTINUE>
@@ -895,8 +895,8 @@
 #ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>Pyotr lança um olhar confuso sobre o pedaço de papel em suas mãos.
 #ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>Eu não entendo! Como você pode ler isto?! O que diz, Duque?!<ANS=Ele fala de um servo ou algo parecido. Tem mais: “Assim como muitas pessoas ficaram pasmadas à vista dele, tão...|ISAIAH_0_17>
 #ISAIAH_0_17	<ANS=...desfigurado?|ISAIAH_0_18>
-#ISAIAH_0_18	<ANS=...ele aspergirá muitas nações."|ISAIAH_0_19>
-#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} grita de repente, "É isso mesmo! É tudo verdade." O grito do velho se desvanece em um suspiro: "O meu há de prosperar! O meu há de prosperar!"
+#ISAIAH_0_18	<ANS=...ele aspergirá muitas nações.”|ISAIAH_0_19>
+#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} grita de repente, “É isso mesmo! É tudo verdade.” O grito do velho se desvanece em um suspiro: “O meu há de prosperar! O meu há de prosperar!”
 #ISAIAH_0_20	<SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} começa a ofegar e tossir de excitação, seus olhos se abrem. A família do velho corre para o seu lado. Eles nos pedem para sair.
 #ISAIAH_0_21	<SCR=CONTINUE>Todos estão chocados com este evento, assim como nós.
 #ISAIAH_0_22	<NPC=PETR><SIDE=1>Como você leu o {glossary=qoda,GLOSS_QODA}, Duque?
@@ -919,7 +919,7 @@
 #ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Naturalmente, minha linhagem de sangue  também tem nosso próprio fragmento do livro sagrado. E eu desejo ajudá-lo, Duque.
 #ISAIAH_1_6	<NPC=FASIL><SIDE=-1>Vou te mostrar o meu {glossary=qoda,GLOSS_QODA}. Se você for capaz de ler o que ele diz, nós espalharemos a palavra. Sua influência entre os {glossary=Elaims,GLOSS_ELAIM} crescerá duas vezes mais forte!
 <ANS=E, sem dúvida, você está curioso para saber o que seu próprio qoda diz, não está?|ISAIAH_1_7_1|FASIL=1>
-<ANS="Se eu for capaz?" Você duvida que eu seja um profeta?=?|ISAIAH_1_7_2|FAITH=1>
+<ANS=“Se” eu for capaz? Você duvida que eu seja um profeta?=?|ISAIAH_1_7_2|FAITH=1>
 #ISAIAH_1_7_1	<NPC=FASIL><SIDE=-1>(Fazil sorri.) Não é por acaso que o céu nos uniu.<SCR=CONTINUE|ISAIAH_1_8>
 #ISAIAH_1_7_2	<NPC=FASIL><SIDE=-1><NOSPEAK>Fazil se inclina respeitosamente, mas não diz nada.<SCR=CONTINUE|ISAIAH_1_8>
 #ISAIAH_1_8	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ele lhe oferece uma pequena caixa semelhante àquela que o velho decano lhe presenteou.
@@ -930,7 +930,7 @@
 #ISAIAH_1_13	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>Você leu realmente o que diz? Isto não é brincadeira?
 <ANS=Eu li tudo corretamente.ISAIAH_1_14>
 #ISAIAH_1_14	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>Fazil se afasta, visivelmente chateado.
-#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Devo confessar, Duque, que eu mesmo só sei o significado das três primeiras palavras do qoda. "Quem poderia crer..." Você as leu imediatamente. Eu acredito em você.
+#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Devo confessar, Duque, que eu mesmo só sei o significado das três primeiras palavras do qoda. “Quem poderia crer...” Você as leu imediatamente. Eu acredito em você.
 #ISAIAH_1_16	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Mas o resto... como um homem assim poderia ser um Salvador?
 #ISAIAH_1_17	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Precisamos da profecia de um líder que seja sábio e forte. Que possa realmente nos trazer a salvação.
 #ISAIAH_1_18	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>O qoda descreve um homem que não consegue nem se salvar, quanto mais qualquer outra pessoa...
@@ -942,7 +942,7 @@
 #ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Eu não gostei do que você leu. Meus súditos provavelmente gostarão ainda menos.
 #ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Os {glossary=Elaims,GLOSS_ELAIM} estão impressionados com suas vitórias, e o fato de você conhecer o idioma do livro sagrado fez com que eles o adorassem.
 #ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Eles podem vir a vê-lo como o próprio Salvador descrito nesta profecia.
-#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Tenho que lhe pedir um favor. Quando você disser às pessoas o que diz o qoda, diga-lhes o seguinte: "Ele é de boa índole; o sucesso o segue para onde quer que ele vá...". Se você disser isso, eles o seguirão completamente.
+#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Tenho que lhe pedir um favor. Quando você disser às pessoas o que diz o qoda, diga-lhes o seguinte: “Ele é de boa índole; o sucesso o segue para onde quer que ele vá...”. Se você disser isso, eles o seguirão completamente.
 #ISAIAH_1_25	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>Você terá poder sobre {glossary=Gerat,GLOSS_GERAT} além do de qualquer outro governante!
 #ISAIAH_1_26	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>E então salvará nós todos.
 #ISAIAH_1_27	<SCR=CONTINUE>No dia seguinte, o príncipe Fazil anunciou que o Grão-Duque havia decifrado o {glossary=qoda,GLOSS_QODA} de {glossary=Elaou,GLOSS_ELAOU} e desejava recitar a profecia que ele contém.
@@ -990,7 +990,7 @@
 #ISAIAH_2_12	<NPC=BOY><SIDE=0>Que pecados? Eu não cometi nenhum pecado!
 <ANS=Claro que não, Alsahir. Perdoe-me.|ISAIAH_2_16|BOY=1>
 <ANS=Acho difícil acreditar que um simples homem possa fazer isso.|ISAIAH_2_PARA_1>
-<ANS="Da nossa vida, em meio da jornada...|ISAIAH_2_13>
+<ANS=“Da nossa vida, em meio da jornada...”|ISAIAH_2_13>
 
 #ISAIAH_2_PARA_1	<NPC=BOY><SIDE=0>
 <ANS=Um velho disse uma vez a um jovem para levar um saco de pedras para as margens do rio.|ISAIAH_2_PARA_2>
@@ -1003,8 +1003,8 @@
 #ISAIAH_2_PARA_5	<NPC=BOY><SIDE=0>
 <ANS=Nossos pecados são frequentemente tão pequenos que não conseguimos vê-los, mas são tão numerosos quanto os grãos de areia.|ISAIAH_2_16>
 
-#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>"...Achei-me numa selva tenebrosa..."
-#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>...Tendo perdido a verdadeira estrada".
+#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>“...Achei-me numa selva tenebrosa...”
+#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>...Tendo perdido a verdadeira estrada.”
 #ISAIAH_2_15	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>O garoto olha para você sem a menor ideia.
 
 #ISAIAH_2_16	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>Após um momento de silêncio, ele pergunta.
@@ -1038,16 +1038,16 @@
 #ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar lhe dá uma pequena caixa.
 #ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>Por favor, diga-me o que diz.
 #ISAIAH_3_10	<SCR=ISAIAH|3><MUSIC=Yeshoua>
-<ANS="Como um cordeiro..."|ISAIAH_3_LAMB_1>
-<ANS="Como um leão..."|ISAIAH_3_LION_1>
+<ANS=“Como um cordeiro...”|ISAIAH_3_LAMB_1>
+<ANS=“Como um leão...”|ISAIAH_3_LION_1>
 
-#ISAIAH_3_LAMB_1	<ANS="Ele foi oprimido, e ele foi afligido, porém não abriu a sua boca."|ISAIAH_3_LAMB_2>
-#ISAIAH_3_LAMB_2	<ANS="Como um cordeiro foi levado ao matadouro."|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
-#ISAIAH_3_LION_1	<ANS="Terrível é sua fúria! Quem resistirá a ele?"|ISAIAH_3_LION_2>
-#ISAIAH_3_LION_2	<ANS="Sua força é seu Deus! Quem ficará contra ele?"|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
+#ISAIAH_3_LAMB_1	<ANS=“Ele foi oprimido, e ele foi afligido, porém não abriu a sua boca.”|ISAIAH_3_LAMB_2>
+#ISAIAH_3_LAMB_2	<ANS=“Como um cordeiro foi levado ao matadouro.”|ISAIAH_3_WEAKENESS_1|LEVEL_FORCE=-1>
+#ISAIAH_3_LION_1	<ANS=“Terrível é sua fúria! Quem resistirá a ele?”|ISAIAH_3_LION_2>
+#ISAIAH_3_LION_2	<ANS=“Sua força é seu Deus! Quem ficará contra ele?”|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
 
 #ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Omar pensa por muito tempo antes de responder.
-#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>"Dar a outra face", não é isso que ensina o seu povo?
+#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>“Dar a outra face”, não é isso que ensina o seu povo?
 #ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>Ele não lhe devolve o olhar. Um sorriso amargo aparece em seu rosto.
 #ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>Sinto muito, sahib. Não é assim que o mundo funciona.
 #ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>Ele pega seu qoda e vai embora, sem dizer mais nada.
@@ -1157,7 +1157,7 @@
 #MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Ele daria garantias se realmente tivesse a intenção de negociar.
 #MEETING_RADIOGRAM_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>Ele está tramando alguma coisa... mas o quê?
 #MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>Poderia ser uma tática de distração destinada a ganhar tempo.
-<ANS=Diz: "no vale de Basra". Onde fica isso?|MEETING_RADIOGRAM_6>
+<ANS=Diz: “no vale de Basra.” Onde fica isso?|MEETING_RADIOGRAM_6>
 #MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>Aqui, Duque.
 #MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>O Todo-Poderoso nos concedeu uma maneira de fazer a morte de meu pai ser paga com a vida do senhor governador!
 #MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>Lembre-se, Filho de Sayadi, você me deu sua palavra.
@@ -1709,7 +1709,7 @@
 
 
 #RUINED_CITY_1	<EVENT>Esta é a primeira vez que você vê chover em Gerat. Um verdadeiro muro de água despenca sobre a terra.<SCR=CONTINUE>
-#RUINED_CITY_2	Um velho em farrapos emerge da enxurrada. Seus olhos olham através de você enquanto ele começa a falar. "Você pode sentir as montanhas tremendo, Tarkhan. Tremendo com a ira de Deus". E de fato, você sente algo: o mundo ao seu redor parece vibrar, quase como se estivesse gemendo.<SCR=CONTINUE>
+#RUINED_CITY_2	Um velho em farrapos emerge da enxurrada. Seus olhos olham através de você enquanto ele começa a falar. “Você pode sentir as montanhas tremendo, Tarkhan. Tremendo com a ira de Deus.” E de fato, você sente algo: o mundo ao seu redor parece vibrar, quase como se estivesse gemendo.<SCR=CONTINUE>
 #RUINED_CITY_3	A cidade à sua frente está em ruínas, aniquilada por uma explosão nuclear. Não há mais nada: nem mesmo um telhado para abrigar-se da chuva.<SCR=RUINED>.
 #RUINED_CITY_RESCUE	<NPC=PETR><SIDE=-1>Tarkhan, senhor... talvez não deveríamos. Qualquer sobrevivente que você possa encontrar aqui falecerá dentro de dias. Eles estão além de qualquer esperança. Não arrisque sua tripulação.
 <ANS=Envie a tripulação assim mesmo|RUINED_CITY_3|RUINED_RESCUE|RIGHT=1|CREW=-10>
@@ -2540,7 +2540,7 @@
 
 
 #EVENT_BLESSING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Conforme você desce, os moradores locais começam a se aglomerar em torno de você. São tantos que seus guardas têm que formar um cordão de proteção ao seu redor para manter a multidão afastada. Você está começando a se acostumar com isso.<SCR=CONTINUE>
-#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Há gritos de alegria enquanto os Elaims te saúdam: "Bendito aquele que vem! Bendito aquele que vem!" As pessoas mais próximas de você se esticam sobre os ombros dos guardas, tentando tocar em suas roupas. "O Tannaim, o portador de bênção" - é assim que os locais parecem te chamar aqui.
+#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Há gritos de alegria enquanto os Elaims te saúdam: “Bendito aquele que vem! Bendito aquele que vem!” As pessoas mais próximas de você se esticam sobre os ombros dos guardas, tentando tocar em suas roupas. “O Tannaim, o portador de bênção” — é assim que os locais parecem te chamar aqui.
 <ANS=Deixe as pessoas se aproximarem e tocarem em você.|EVENT_BLESSING_01_YES_1|FAITH=2>
 <ANS=Mantenha-se afastado da multidão.|EVENT_BLESSING_01_NO_1|FAITH=-2>
 #EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você se aproxima da linha de tropas que separa você da multidão e fica o mais próximo possível para que os moradores possam tocá-lo. As pessoas começam a se empurrar e leva apenas um momento para rompar a linha. O mar humano rapidamente o arrasta.<SCR=CONTINUE>
@@ -2551,8 +2551,8 @@
 
 #EVENT_SLAVERY_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Para o desgosto dos oficiais, seus aliados Elaims não se importam em reivindicar escravos após uma batalha.<SCR=CONTINUE>
 
-#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Essas pessoas não têm dono agora, sahib", assegura um dos guerreiros. "Elas costumavam pertencer aos noyons que você derrotou, e agora elas nos pertencem por lei."
-#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Podemos vendê-los por um bom preço", continua calmamente, "e dividir entre todos os guerreiros por igual." "Você terá a primeira parte, sahib! Ou talvez queira ficar com um deles para você?"
+#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Essas pessoas não têm dono agora, sahib," assegura um dos guerreiros. "Elas costumavam pertencer aos noyons que você derrotou, e agora elas nos pertencem por lei."
+#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}PESSOAS DISPONÍVEIS PARA SEREM ESCRAVIZADAS@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Podemos vendê-los por um bom preço," continua calmamente, "e dividir entre todos os guerreiros por igual." "Você terá a primeira parte, sahib! Ou talvez queira ficar com um deles para você?"
 <ANS=Eu vou ficar com um para mim.|EVENT_SLAVERY_01_GET|GERAT=1|RIGHT=-2>
 <ANS=Muito bem, façam como quiserem.|EXIT|WEALTH=2|RIGHT=-2|GERAT=1|GOLD=5000>
 <ANS=Eu proíbo o comércio de escravos de qualquer tipo! Deixem os prisioneiros irem!|EVENT_SLAVERY_01_NO|WEALTH=-2|GERAT=-2|RIGHT=2>
@@ -2748,8 +2748,8 @@
 
 #TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>Grão-Duque! Capturamos uma estação de comunicação troposférica. Ela nos fornecerá informações sobre os movimentos inimigos até que eles percebam o que aconteceu.<SCR=STOP>
 
-#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aviões que chegam (<AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
-#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aviões que chegam. (Você tem <AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
+#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aeronaves que chegam (<AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
+#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}SISTEMA DE MÍSSEIS ANTIAÉREOS@10{font=fixed_20}{align=0}A nave foi equipada com um sistema de mísseis antiaéreos que pode destruir mísseis e aeronaves que chegam. (Você tem <AAM_COUNT> mísseis AA).@10Pressione {animation=key_c} para disparar um míssel AA.<SCR=STOP>
 
 #DIALOG_END_HINT	Sucesso! Você pode terminar esta conversa agora.
 
@@ -2762,7 +2762,7 @@
 #SHIP_DESC_FENEK	Os decanos de Gerat podem detestar estas pequenas naves de defesa antiaérea Romani por serem muito caras e difíceis de manter, mas elas foram construídas para uma grande guerra.
 #SHIP_DESC_TRIUMPHANT	Uma nave antiaérea de longo alcance que é totalmente impossível de encontrar em Gerat. Use-a com sabedoria: ela foi projetada para um trabalho importante.
 #SHIP_DESC_GLADIATOR	Vinda da mais nova linha de fragatas da Frota Romani, esta nave é uma verdadeira potência em combate. Extrema cautela é aconselhada ao enfrentar estas naves em um combate aéreo.
-#SHIP_DESC_LONGBOW	Um das muitas naves construídas para fornecer apoio aéreo a postos avançados distantes, essas embarcações agora constituem metade de todos os porta-aviões de Gerati. No final das contas, esta fragata porta-aviões combina um preço acessível com especificações bem equilibradas.
+#SHIP_DESC_LONGBOW	Um das muitas naves construídas para fornecer apoio aéreo a postos avançados distantes, essas naves agora constituem metade de todos os porta-aviões de Gerati. No final das contas, esta fragata porta-aviões combina um preço acessível com especificações bem equilibradas.
 #SHIP_DESC_FLOWER	Uma corveta de mísseis com um design antigo reformado pelos engenheiros da Frota. Apesar de todas as suas melhorias, ela ainda carece de velocidade máxima e poder de fogo. Os seis mísseis que ela carrega são suficientes para causar um grande impacto em um cruzador de batalha, mas uma vez que eles se acabem, seria sábio recuar.
 #SHIP_DESC_KORMORAN	O Cormoran e seu irmão, o Negev, são os dois principais cruzadores leves da Frota Romani. Eles podem operar completamente sozinhos ou fornecer integridade tática como unidade central de um grupo aéreo.
 #SHIP_DESC_WANDERER	A Peregrina! Sobrevivemos a muitas aventuras com essa velha garota! Essa fragata expedicionária por excelência da Frota Romani foi projetada especificamente para cruzar as vastas extensões de Elaat. É uma nave confiável que transporta combustível suficiente para longas viagens e armamentos suficientes para se defender de piratas aéreos, se necessário.
@@ -2775,7 +2775,7 @@
 
 
 #TUTORIAL_ANTIMISSILE_COMBAT {font=dinpro_48_black}{align=2}DEFESA CONTRA MÍSSEIS@10{font=fixed_20}{align=0}Míssil tático detectado! Tente destruí-lo com fogo antiaéreo antes que ele atinja uma de suas naves.@10Aviso de fogo amigo: tenha cuidado para não atirar nas naves aliadas por engano!<SCR=STOP>
-#TUTORIAL_ANTIAIR_COMBAT {font=dinpro_48_black}{align=2}DEFESA CONTRA AVIÕES@10{font=fixed_20}{align=0}Aeronaves inimigas se aproximando! Considere destruir os aviões antes que eles cheguem perto o suficiente para um ataque com mísseis ou bombardeio.@10Aviso de fogo amigo: tenha cuidado para não atirar em naves aliadas por engano!<SCR=STOP>
+#TUTORIAL_ANTIAIR_COMBAT {font=dinpro_48_black}{align=2}DEFESA CONTRA AERONAVES@10{font=fixed_20}{align=0}Aeronaves inimigas se aproximando! Considere destruir as aeronaves antes que elas cheguem perto o suficiente para um ataque com mísseis ou bombardeio.@10Aviso de fogo amigo: tenha cuidado para não atirar em naves aliadas por engano!<SCR=STOP>
 
 
 
@@ -2851,9 +2851,9 @@
 
 #KISHTIM_SPEECH_6	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>Há algo que eu preciso lhe contar, Filho de Sayadi...
 #KISHTIM_SPEECH_7	<NPC=BOY><SCR=CONTINUE>Desde tempos antigos, meu povo conhece a cidade de Khiva por outro nome.
-#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>Nós a chamamos de Kishtim - "A cidade-arca".
+#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>Nós a chamamos de Kishtim - “A cidade-arca.”
 #KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>Esta cidade foi uma vez governada por um duque {glossary=Shakhsi,GLOSS_SHAKHSI}. Quando os {glossary=Elaou,GLOSS_ELAOU} invadiram Gerat, eles pegaram Kishtim para si e a tornaram sua capital.
-#KISHTIM_SPEECH_10	<NPC=BOY>A antiga lenda diz que chegará um dia chamado Shakhor-Al-Farakh, "o Dia do Vazio Negro", e nesse dia todos os povos do mundo devem se reunir em Kishtim. <ANS=Eu ouvi dizer que o reator nuclear de Khiva é diferente de qualquer outro. Isso é verdade?|KISHTIM_SPEECH_11>
+#KISHTIM_SPEECH_10	<NPC=BOY>A antiga lenda diz que chegará um dia chamado Shakhor-Al-Farakh, “o Dia do Vazio Negro,” e nesse dia todos os povos do mundo devem se reunir em Kishtim. <ANS=Eu ouvi dizer que o reator nuclear de Khiva é diferente de qualquer outro. Isso é verdade?|KISHTIM_SPEECH_11>
 #KISHTIM_SPEECH_11	<NPC=BOY>Dizem que ela é coberta por uma gigantesca cúpula com mais de dois mil cúbitos de largura.<ANS=Tal cúpula seria grande o suficiente para milhares de pessoas viverem com segurança.|EXIT>
 
 #GLOSS_SHAKHSI	Os Shakhsi, o Povo Oculto, governaram Gerat antes da conquista dos Elaou sobre a terra. Os últimos dos Shakhsi vivem em cidades-bunker, cujas localizações são um segredo muito bem guardado. O povo de Gerat venera muito os Shakhsi como os guardiões da sabedoria sagrada.
@@ -2990,7 +2990,7 @@
 <ANS=Pergunte aos condutores de caravanas sobre cidades escondidas.|EVENT_CARAVAN_HIDDENS>
 
 #EVENT_CARAVAN_03_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma dúzia de tendas coloridas pontilham a areia à beira da cidade, cercadas por veículos e serviçais apressados — todos sinais de uma caravana visitante. Você decide visitá-los e perguntar sobre os eventos atuais.
-#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Por um tempo, você desfruta do calor da fogueira da caravana e de um café quente. “Gerat nunca viu tanta chuva!", diz o líder da caravana, balançando a cabeça lentamente.
+#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Por um tempo, você desfruta do calor da fogueira da caravana e de um café quente. “Gerat nunca viu tanta chuva!”, diz o líder da caravana, balançando a cabeça lentamente.
 #EVENT_CARAVAN_03_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“Pela primeira vez, choveu em Keilah, no terceiro mês de nosso calendário. E todos disseram: “ah, o Todo-Poderoso abençoou este ano!” Então, no mês de San, choveu novamente. E os camponeses ficaram muito felizes. “Venham até nós quando a segunda lua diminuir”, disseram-nos, “e tragam o dobro de pessoas, pois haverá uma grande colheita!”
 #EVENT_CARAVAN_03_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CARAVANA@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Mas quando os visitei novamente, toda a alegria havia desaparecido de seus rostos. Desde que partimos, choveu todas as semanas. A sevchah nunca subiu e começou a apodrecer, e a samykh foi atingida por uma estranha doença... estes são os Tempos Finais, Grande Noyon.”
 <ANS=Pergunte aos condutores de caravanas sobre os tarkhans.|EVENT_CARAVAN_TARKHANS>
@@ -3088,7 +3088,7 @@
 
 #EVENT_BURN_FUEL_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Pyotr se aproxima de você, claramente se preparando para uma conversa difícil. “Está ficando muito frio nas naves,” ele começa. “Grão-Duque, pelo bem da nossa tripulação, devo pedir sua permissão para manter as turbinas funcionando em marcha lenta mesmo quando estamos atracados.”
 <ANS=Você está sugerindo que devemos continuar queimando combustível o tempo todo?>
-#EVENT_BURN_FUEL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}"Sim, meu Duque, em taxas baixas", responde o general cansado. “Se isso significa que os homens não vão congelar. Eu fui à enfermaria. Está lotada.”
+#EVENT_BURN_FUEL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Sim, meu Duque, em taxas baixas,” responde o general cansado. “Se isso significa que os homens não vão congelar. Eu fui à enfermaria. Está lotada.”
 <ANS=Nós não podemos nos dar ao luxo de queimar combustível enquanto estamos atracados!|EVENT_BURN_FUEL_NO>
 <ANS=Muito bem. Você tem minha permissão.|EVENT_BURN_FUEL_YES|EVENT_BURN_FUEL>
 #EVENT_BURN_FUEL_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O CRESCENTE FRIO@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=5>A tripulação está claramente aliviada ao ouvir suas ordens.
@@ -3144,21 +3144,21 @@
 #LESS_TRAITORS	REDUÇÃO NA CHANCE@DE TRAIÇÃO NAS CIDADES
 
 
-#EVENT_DILEMA_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Two well-dressed young men ask to see you. Bowing deeply, they cordially invite you to dine at the house of a local {glossary=muali,GLOSS_MUALI}.
-#EVENT_DILEMA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DILEMA_3|MORAL=1>The room they take you to is well lit and spacious. Several guests are already reposing at the long dining table. The master of the house has saved the best seats for you and your companions.
-#EVENT_DILEMA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>The excellent meal is followed by a slow, leisurely conversation. The master of the house addresses you: “I have heard many stories of Sayadi wisdom. Would you be so kind as to answer a question for me, Grand Duke?”
-#EVENT_DILEMA_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Two men are stranded in the desert. One carries a jug full of water. If both drink from it, both will die. But if only one drinks, he will have the strength to reach a village and survive. What would be the right thing to do?”
-<ANS=The man with the water should drink it all.|EVENT_DILEMA_FORCE_1|FORCE=1>
-<ANS=The man with the water should give it all to his friend.|EVENT_DILEMA_KIND_1|KINDNESS=1>
-<ANS=They should split the water.|EVENT_DILEMA_ORDER_1|RIGHT=1>
-#EVENT_DILEMA_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The room is quiet as the rest of the guests await your explanation.<ANS=If only one of you can survive, your own life is more important.|EVENT_DILEMA_FORCE_2>
-#EVENT_DILEMA_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>The old man shakes his head slowly. “You have no mercy for the survivor, Grand Noyon.”
+#EVENT_DILEMA_1 <MUSIC=Duduk_4_ever><SCR=CONTINUE>Dois jovens bem vestidos pedem para te ver. Inclinando-se profundamente, eles cordialmente te convidam para jantar na casa de um {glossary=muali,GLOSS_MUALI} local.
+#EVENT_DILEMA_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DILEMA_3|MORAL=1>O quarto para onde eles te levam está bem iluminado e espaçoso. Vários convidados já estão reclinados na longa mesa de jantar. O mestre da casa reservou os melhores lugares para você e seus companheiros.
+#EVENT_DILEMA_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>A excelente refeição é seguida por uma conversa lenta e tranquila. O mestre da casa se dirige a você: “Ouvi muitas histórias sobre a sabedoria Sayadi. Você poderia ter a gentileza de responder a uma pergunta para mim, Grão-Duque?”
+#EVENT_DILEMA_4 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“Dois homens estão perdidos no deserto. Um deles carrega um jarro cheio de água. Se ambos beberem, ambos morrerão. Mas se apenas um beber, ele terá forças para chegar a um vilarejo e sobreviver. Qual seria a coisa certa a fazer?”
+<ANS=O homem com a água deve bebê-la toda.|EVENT_DILEMA_FORCE_1|FORCE=1>
+<ANS=O homem com a água deve dar tudo ao seu amigo.|EVENT_DILEMA_KIND_1|KINDNESS=1>
+<ANS=Eles devem dividir a água.|EVENT_DILEMA_ORDER_1|RIGHT=1>
+#EVENT_DILEMA_FORCE_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O quarto fica em silêncio enquanto o restante dos convidados aguarda sua explicação.<ANS=Se apenas um de vocês pode sobreviver, sua própria vida é mais importante.|EVENT_DILEMA_FORCE_2>
+#EVENT_DILEMA_FORCE_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>O velho homem balança a cabeça lentamente. “Você não tem misericórdia pelo sobrevivente, Grande Noyon.”
 
-#EVENT_DILEMA_KIND_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The room is quiet as the rest of the guests await your explanation.<ANS=There is no greater love than to sacrifice one’s life for a friend. So sayeth Ishu.|EVENT_DILEMA_KIND_2>
-#EVENT_DILEMA_KIND_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>The old man slowly shakes his head. “But if your fellow traveler accepts your water, would that not make him a murderer?”
+#EVENT_DILEMA_KIND_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O quarto fica em silêncio enquanto o restante dos convidados aguarda sua explicação.<ANS=Não há amor maior do que sacrificar a própria vida por um amigo. Assim diz Ishu.|EVENT_DILEMA_KIND_2>
+#EVENT_DILEMA_KIND_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>O velho homem balança a cabeça lentamente. “Mas se seu companheiro de viagem aceitar sua água, ele não se tornaria um assassino?”
 
-#EVENT_DILEMA_ORDER_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}The room is quiet as the rest of the guests await your explanation.<ANS=It is better for both to drink and die than for one to be doomed to watch his brother perish.|EVENT_DILEMA_ORDER_2>
-#EVENT_DILEMA_ORDER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE QUANDARY@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“And may only the desert remain,” the old man says, rising to his feet. “I thank you for this pleasant conversation, amir.”
+#EVENT_DILEMA_ORDER_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O quarto fica em silêncio enquanto o restante dos convidados aguarda sua explicação.<ANS=É melhor para ambos beber e morrer do que um ser condenado a assistir seu irmão perecer.|EVENT_DILEMA_ORDER_2>
+#EVENT_DILEMA_ORDER_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O QUANDÁRIO@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“E que apenas o deserto permaneça,” diz o velho homem, levantando-se. “Agradeço por essa agradável conversa, amir.”
 
 
 
@@ -3170,161 +3170,161 @@
 
 
 
-#EVENT_SLAVERY_02_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SLAVE TRADE@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>You’ve started hearing rumors about your officers getting involved in slave trade. This would have been utterly unthinkable in the capital, but here, so far from home, some of your subordinates may be quick to adopt all manner of local customs.
-#EVENT_SLAVERY_02_2	<NPC=PETR><SIDE=1><RAM=1>This is absolutely outrageous, but investigating the matter might be too much for us right now. Too many men could be involved.
-<ANS=Begin an investigation. Any guilty parties will be punished severely.|EVENT_SLAVERY_02_YES|RIGHT=2>
-<ANS=Turn a blind eye to the rumors.|EVENT_SLAVERY_02_NO|RIGHT=-2>
-<ANS=Allow the slave trading to continue and assign an officer to oversee it.|EVENT_SLAVERY_02_ACCEPT|RIGHT=-2|WEALTH=2>
+#EVENT_SLAVERY_02_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O COMÉRCIO DE ESCRAVOS@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Você começou a ouvir rumores sobre seus oficiais estarem envolvidos no comércio de escravos. Isso seria impensável na capital, mas aqui, tão longe de casa, alguns de seus subordinados podem estar dispostos a adotar todos os tipos de costumes locais.
+#EVENT_SLAVERY_02_2 <NPC=PETR><SIDE=1><RAM=1>Isso é absolutamente escandaloso, mas investigar o assunto pode ser demais para nós agora. Muitos homens podem estar envolvidos.
+<ANS=Iniciar uma investigação. Qualquer pessoa culpada será severamente punida.|EVENT_SLAVERY_02_YES|RIGHT=2>
+<ANS=Fechar os olhos para os rumores.|EVENT_SLAVERY_02_NO|RIGHT=-2>
+<ANS=Permitir que o comércio de escravos continue e designar um oficial para supervisioná-lo.|EVENT_SLAVERY_02_ACCEPT|RIGHT=-2|WEALTH=2>
 
-#EVENT_SLAVERY_02_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SLAVE TRADE@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_SLAVERY_02_INV>
+#EVENT_SLAVERY_02_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O COMÉRCIO DE ESCRAVOS@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_SLAVERY_02_INV>
 
-#EVENT_SLAVERY_02_INV1	The investigation finds that several officers are involved in slave trading. They all receive harsh punishments. However, not everyone agrees with this decision and the divisions in the squadron are aggravated.
-#EVENT_SLAVERY_02_INV2	To your surprise, a considerable portion of your crew was involved in slave trading. Numerous arrests heighten the situation in the squadron.
-#EVENT_SLAVERY_02_INV3	The investigation yields staggering results: about a half of your squadron’s officers were in some way involved in trading slaves. Numerous arrests greatly escalate the situation in the squadron.
+#EVENT_SLAVERY_02_INV1	A investigação descobre que vários oficiais estão envolvidos no comércio de escravos. Todos eles recebem punições severas. No entanto, nem todos concordam com essa decisão e as divisões no esquadrão se agravam.
+#EVENT_SLAVERY_02_INV2	Para sua surpresa, uma parte considerável de sua tripulação estava envolvida no comércio de escravos. Diversas prisões intensificam a situação no esquadrão.
+#EVENT_SLAVERY_02_INV3	A investigação revela resultados surpreendentes: cerca de metade dos oficiais de seu esquadrão estavam de alguma forma envolvidos no comércio de escravos. Diversas prisões agravam significativamente a situação no esquadrão.
 
-#EVENT_SLAVERY_02_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SLAVE TRADE@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=1>Far too many of the officers in your squadron were happy to learn that the rumors of slave trading will not be investigated any further.
+#EVENT_SLAVERY_02_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O COMÉRCIO DE ESCRAVOS@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=1>Muitos dos oficiais em seu esquadrão ficaram felizes ao saber que os rumores sobre o comércio de escravos não serão investigados mais a fundo.
 
-#EVENT_SLAVERY_02_ACCEPT	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE SLAVE TRADE@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|GERAT=1|GOLD=10000>The Elaim cheerfully welcome your decision. And one of your officers notices that at least it will bring a good income.
-
-
-
-#TUTORIAL_UR_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ARRIVAL IN UR@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>As we entered the city of Ur, a large crowd of people welcomed us as heroes with cries of joy.
+#EVENT_SLAVERY_02_ACCEPT	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O COMÉRCIO DE ESCRAVOS@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|GERAT=1|GOLD=10000>Os Elaim recebem alegremente sua decisão. E um de seus oficiais nota que pelo menos isso trará uma boa renda.
 
 
 
-#HIDDEN_CITY_01_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_2|MORAL=2>The city of the Hidden People welcomes your squadron with great excitement. Its entire population pours out onto the street to meet you. The children run to and fro with shouts of glee, the men offer your their solemn greetings, and the women rush to you with flowers.
-#HIDDEN_CITY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_3|HIDDEN_BONUS>The doyen of the city promises to help your squadron in any way he can. No one fears the Gathering here, and everyone wishes for your endeavor to succeed.
-#HIDDEN_CITY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|PETR|EXIT><SCR=CONTINUE>"The Gathering doesn’t even know this city exists, and none of her people will give us away," Pyotr Ignatievich says confidently. "We’re safe here. We can stay here as long as we need to."
-#HIDDEN_CITY_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"This place doesn’t look half bad. What do you say, Duke?" Pyotr looks around the valley. "Should we perhaps stay here and found a colony of our own?" Half-joking, Pyotr grins. You don’t remember the last time you saw him in such high spirits.	
-#HIDDEN_CITY_01_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|DAUD|EXIT><SCR=CONTINUE>"Îh, I can imagine it!" Daud joins in the conversation. "You’d make a fine farmer, General."
-#HIDDEN_CITY_01_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>"Why not," Pyotr Ignatievich answers unexpectedly seriously. "I’m an old man, Sharif. Living out my autumn years in peace and quiet doesn’t sound bad at all."
+#TUTORIAL_UR_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}CHEGADA A UR@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Ao entrar na cidade de Ur, fomos recebidos por uma grande multidão como heróis com gritos de alegria.
 
 
 
-#HIDDEN_CITY_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}THE HIDDEN PEOPLE@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=2|HIDDEN_BONUS>The city welcomes you with open arms. The doyen promises to help your squadron in any way he can. No one fears the Gathering here, and everyone wishes for your endeavor to succeed.
+#HIDDEN_CITY_01_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_2|MORAL=2>A cidade do Povo Oculto recebe seu esquadrão com grande entusiasmo. Toda a população sai às ruas para recebê-los. As crianças correm de um lado para o outro com gritos de alegria, os homens oferecem suas saudações solenes, e as mulheres se apressam até vocês com flores.
+#HIDDEN_CITY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_3|HIDDEN_BONUS>O decano da cidade promete ajudar seu esquadrão de todas as maneiras possíveis. Ninguém teme a Confederação aqui, e todos desejam que seu empreendimento tenha sucesso.
+#HIDDEN_CITY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|PETR|EXIT><SCR=CONTINUE>"A Confederação nem sabe que essa cidade existe, e ninguém de seu povo nos denunciará," Pyotr Ignatievich diz com confiança. "Estamos seguros aqui. Podemos ficar o tempo que for necessário."
+#HIDDEN_CITY_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>"Este lugar não parece nada mal. O que você acha, Grão-Duque?" Pyotr olha ao redor do vale. "Deveríamos talvez ficar aqui e fundar uma colônia própria?" Em tom de brincadeira, Pyotr sorri. Você não se lembra da última vez que o viu tão animado.
+#HIDDEN_CITY_01_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|DAUD|EXIT><SCR=CONTINUE>"Ah, consigo imaginar!" Daud se junta à conversa. "Você seria um ótimo fazendeiro, General."
+#HIDDEN_CITY_01_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>"Por que não," Pyotr Ignatievich responde inesperadamente seriamente. "Sou um homem velho, Sharif. Viver meus anos de outono em paz e tranquilidade não parece uma má ideia."
 
 
 
-#TUTORIAL_SCAVENGE_1	<TRG=TUTORIAL_SCAVENGE|0><NPC=DAUD><SIDE=1><SHADOW=1><SCR=CONTINUE>There could be survivors on the surface, Duke. If we don’t save them, people will talk.
-#TUTORIAL_SCAVENGE_2	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>We could salvage something valuable. Something we could sell in a city. And we could certainly use the money.
-#TUTORIAL_SCAVENGE_3	<NPC=PETR><SCR=CONTINUE>But we must act quickly. The fire is spreading. It will consume the wreckage before long.
-#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>And... be careful out there, my Duke. Some of the things you find may be too dangerous.
+#HIDDEN_CITY_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O POVO OCULTO@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=2|HIDDEN_BONUS>A cidade os recebe de braços abertos. O decano promete ajudar seu esquadrão de todas as maneiras possíveis. Ninguém teme a Confederação aqui, e todos desejam que seu empreendimento tenha sucesso.
 
 
 
-#TUTORIAL_FUNDS_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>We’re out of funds, my Duke. We can remedy this by selling some of our cargo, or even one of our ships.
-#TUTORIAL_FUNDS_2	<NPC=PETR><SIDE=-1><SHADOW=1>And I suspect Prince Fazil could lend you a small fortune if you but say the word.
-<ANS=Let’s see what cargo we can sell.|TUTORIAL_FUNDS_CARGO>
-<ANS=We will sell one of the ships.|TUTORIAL_FUNDS_SHIP>
-<ANS=I suppose it’s time to have a word with the prince.|TUTORIAL_FUNDS_FASIL>
+#TUTORIAL_SCAVENGE_1	<TRG=TUTORIAL_SCAVENGE|0><NPC=DAUD><SIDE=1><SHADOW=1><SCR=CONTINUE>Pode haver sobreviventes na superfície, Grão-Duque. Se não os salvamos, as pessoas vão falar.
+#TUTORIAL_SCAVENGE_2	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Poderíamos recuperar algo valioso. Algo que poderíamos vender em uma cidade. E certamente poderíamos usar o dinheiro.
+#TUTORIAL_SCAVENGE_3	<NPC=PETR><SCR=CONTINUE>Mas devemos agir rapidamente. O fogo está se espalhando. Em breve consumirá os destroços.
+#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>E... tenha cuidado lá fora, meu Grão-Duque. Algumas das coisas que você encontrar podem ser perigosas demais.
+
+
+
+#TUTORIAL_FUNDS_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>Estamos sem fundos, meu Grão-Duque. Podemos remediar isso vendendo parte de nossa carga ou até mesmo uma de nossas naves.
+#TUTORIAL_FUNDS_2	<NPC=PETR><SIDE=-1><SHADOW=1>E suspeito que o Príncipe Fazil poderia emprestar uma pequena fortuna a você com apenas uma palavra sua.
+<ANS=Vamos ver que carga podemos vender.|TUTORIAL_FUNDS_CARGO>
+<ANS=Vamos vender uma das naves.|TUTORIAL_FUNDS_SHIP>
+<ANS=Suponho que seja hora de falar com o príncipe.|TUTORIAL_FUNDS_FASIL>
 <SCR=STOP>
 
 #TUTORIAL_FUNDS_CARGO	<SCR=TUTORIAL_FUNDS_CARGO>
 #TUTORIAL_FUNDS_SHIP	<SCR=TUTORIAL_FUNDS_SHIP>
 #TUTORIAL_FUNDS_FASIL	<SCR=TUTORIAL_FUNDS_FASIL>
 
-#TUTORIAL_FUNDS_CARGO_1	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1><SIDE=1>Scroll down to the cargo panel.
-#TUTORIAL_FUNDS_CARGO_2	<NPC=PETR><SIDE=1><NOBOTTOM><HANDSHOW_POS=1111|968><MOUSE_TRACK=0><SCR=STOP>This is the list of all the cargo in our squadron. Some of it could be sold.
+#TUTORIAL_FUNDS_CARGO_1	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1><SIDE=1>Role a tela para baixo até o painel de carga.
+#TUTORIAL_FUNDS_CARGO_2	<NPC=PETR><SIDE=1><NOBOTTOM><HANDSHOW_POS=1111|968><MOUSE_TRACK=0><SCR=STOP>Esta é a lista de toda a carga em nosso esquadrão. Alguma dela pode ser vendida.
 
-#TUTORIAL_FUNDS_SHIP_1	<NPC=PETR><SIDE=1><HANDSHOW_POS=1884|848><GLOW_GUI=ED_SHPWRK_SELL><SCR=STOP>You can sell one of your ships here.
+#TUTORIAL_FUNDS_SHIP_1	<NPC=PETR><SIDE=1><HANDSHOW_POS=1884|848><GLOW_GUI=ED_SHPWRK_SELL><SCR=STOP>Aqui você pode vender uma de suas naves.
 
-#TUTORIAL_FUNDS_FASIL_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM><SCR=STOP>Use the internal comms to contact the prince and arrange a meeting.
-
-
-
-#TUTORIAL_CODES_1	<TRG=TUTORIAL_CODES|0><NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE><NOBOTTOM><HANDSHOW_POS=370|990>They’re encoding their communications now, Grand Duke.
-#TUTORIAL_CODES_2	<NPC=PETR><SCR=CONTINUE>Next time we have wreckage to inspect, we should look for the radio room. Perhaps we can find the keys to their code. 
-#TUTORIAL_CODES_3	<NPC=PETR><SCR=STOP><HANDSHOW_GUI=SHIFT_CARD_BUTTON><GLOW_GUI=RADIO_KEY_PANEL>I will leave all the encryption-related materials we’ve found here.
+#TUTORIAL_FUNDS_FASIL_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM><SCR=STOP>Use a comunicação interna para entrar em contato com o príncipe e marcar uma reunião.
 
 
 
-#TUTORIAL_ALARM_1	<TRG=TUTORIAL_ALARM|0><NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>The enemy has sent a warning message about our presence. The local garrisons will sound the alarm and start looking for us!
-#TUTORIAL_ALARM_2	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>Before long, the strike groups will change course and head this way. But if they have any aircraft carriers, they’ll probably send planes here first.
-#TUTORIAL_ALARM_3	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>The transport ships will change course as well and try their best to stay out of danger.
-#TUTORIAL_ALARM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=STOP>Either way, Grand Duke, the less the enemy is warned about our presence, the better.
+#TUTORIAL_CODES_1	<TRG=TUTORIAL_CODES|0><NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE><NOBOTTOM><HANDSHOW_POS=370|990>Estão codificando suas comunicações agora, Grão-Duque.
+#TUTORIAL_CODES_2	<NPC=PETR><SCR=CONTINUE>Da próxima vez que tivermos destroços para inspecionar, devemos procurar a sala de rádio. Talvez possamos encontrar as chaves de seu código de criptografia.
+#TUTORIAL_CODES_3	<NPC=PETR><SCR=STOP><HANDSHOW_GUI=SHIFT_CARD_BUTTON><GLOW_GUI=RADIO_KEY_PANEL>Vou deixar aqui todo o material relacionado à criptografia que encontramos.
 
 
 
-#TUTORIAL_RELOAD	<TRG=TUTORIAL_RELOAD|0>{font=dinpro_48_black}{align=2}AMMUNITION TYPE@10{font=fixed_20}{align=0}To switch between special ammo and standard HE ammo, press {animation=key_r}.<SCR=STOP>
-
-#TUTORIAL_COMBAT_TAKEOFF	<TRG=TUTORIAL_COMBAT_TAKEOFF|0>{font=dinpro_48_black}{align=2}PLANES@10{font=fixed_20}{align=0}To launch a plane from the ship, press {animation=key_x}.<SCR=STOP>
-
-#TUTORIAL_EVAC	<TRG=TUTORIAL_EVAC|0>{font=dinpro_48_black}{align=2}ABANDONING SHIP@10{font=fixed_20}{align=0}If the ship’s condition becomes critical, you still have a chance to save her crew. To order your men to abandon ship, press {animation=key_t}.<SCR=STOP>
-
-#TUTORIAL_BOMBS	<TRG=TUTORIAL_BOMBS|0>{font=dinpro_48_black}{align=2}BOMBS@10{font=fixed_20}{align=0}Your ship carries a bomb payload, and there are several ground-based targets. Approach the targets, then press and hold {animation=WHL} to initiate a bombing run.<SCR=STOP>
-
-#TUTORIAL_TRADER	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>Based on the contents of this message, it’s coming from a transport ship. It even mentions the ship’s cargo and heading. If we capture that ship, we can sell it for a small fortune.<SCR=STOP>
-
-#TUTORIAL_RIOT_1	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Grand Duke, the crew of one of our ships is refusing to engage the enemy.
-#TUTORIAL_RIOT_2	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Grand Duke, the crews of several of our ships are refusing to engage the enemy. If all our ships start refusing your orders, the squadron will be lost!
-
-#TUTORIAL_PRIZE_1	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>One of the enemy vessels is a transport ship. If we can destroy all the other ships and keep this one intact, she’ll surrender.<SCR=STOP>
-#TUTORIAL_PRIZE_2	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>This transport ship has no armed escort. She will surrender without a fight.<SCR=STOP>
-
-#TUTORIAL_REPAIR_BONUS	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}REPAIR BONUS <REPAIR_BONUS>@10{font=fixed_20}{align=0}If you position your ships well during landing, this could greatly accelerate repairs.<SCR=STOP>
-
-#TUTORIAL_RADIO_BAND	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>You need to set the range first, my Duke.<SCR=STOP>
-#TUTORIAL_RADIO_SIGNAL	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>You need to pick up a stable signal first.<SCR=STOP>
-
-#TUTORIAL_REPAIR_PARTS	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>We’ve received some repair parts for our ships. Repairs will take much less time while we have spare parts in stock.<SCR=STOP>
+#TUTORIAL_ALARM_1	<TRG=TUTORIAL_ALARM|0><NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>O inimigo enviou uma mensagem de advertência sobre nossa presença. As guarnições locais darão o alarme e começarão a nos procurar.
+#TUTORIAL_ALARM_2	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>Em pouco tempo, os grupos de ataque mudarão de rumo e se dirigirão para cá. Mas se eles tiverem um porta-aviões, a primeira coisa que farão é enviar aeronaves contra nós.
+#TUTORIAL_ALARM_3	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>As naves de transporte também mudarão de rumo e tentarão se manter fora de perigo.
+#TUTORIAL_ALARM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=STOP>De qualquer forma, Grão-Duque, quanto menos o inimigo souber de nossa presença, melhor.
 
 
 
-#INTERCOM_PETR_1	<NPC=PETR><SIDE=0><SHADOW=1>Yes, Grand Duke.
-<ANS=The repairs are taking too long, Pyotr Ignatyevich.>
-#INTERCOM_PETR_2	<NPC=PETR>The crew is doing their best, my Duke. You know that as well as I do.
-<ANS=It’s not enough, Pyotr. Take a security detail and convince them. Resort to drastic measures if you have to. We need those ships repaired right away.>
-<ANS=I understand, Pyotr. That will be all.|EXIT>
-#INTERCOM_PETR_3	<NPC=PETR><NOSPEAK><SCR=CONTINUE>For a moment, there is silence. Then Pyotr salutes you.
-#INTERCOM_PETR_4	<TRG=INTERCOM_PETR|1><NPC=PETR>Aye-aye, Duke. May I go?<SCR=STOP|ASK_REPAIR|PETR=-1>
-#INTERCOM_PETR_SHORT	<NPC=PETR>Aye-aye, Grand Duke.<SCR=STOP|ASK_REPAIR|PETR=-1>
+#TUTORIAL_RELOAD	<TRG=TUTORIAL_RELOAD|0>{font=dinpro_48_black}{align=2}TIPO DE MUNIÇÃO@10{font=fixed_20}{align=0}Para alternar entre munição especial e munição padrão Alto Explosiva, pressione {animation=key_r}.<SCR=STOP>
+
+#TUTORIAL_COMBAT_TAKEOFF	<TRG=TUTORIAL_COMBAT_TAKEOFF|0>{font=dinpro_48_black}{align=2}AERONAVES@10{font=fixed_20}{align=0}Para lançar uma aeronave da nave, pressione {animation=key_x}.<SCR=STOP>
+
+#TUTORIAL_EVAC	<TRG=TUTORIAL_EVAC|0>{font=dinpro_48_black}{align=2}ABANDONAR A NAVE@10{font=fixed_20}{align=0}Se a condição da nave se tornar crítica, você ainda tem a chance de salvar a tripulação. Para ordenar que seus homens abandonem a nave, pressione {animation=key_t}.<SCR=STOP>
+
+#TUTORIAL_BOMBS	<TRG=TUTORIAL_BOMBS|0>{font=dinpro_48_black}{align=2}BOMBAS@10{font=fixed_20}{align=0}Sua nave transporta uma carga de bombas, e há vários alvos terrestres. Aproxime-se dos alvos e mantenha pressionado {animation=WHL} para iniciar um ataque com bombas.<SCR=STOP>
+
+#TUTORIAL_TRADER	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>Com base no conteúdo desta mensagem, ela vem de uma nave de transporte. Ela até menciona a carga e a direção da nave. Se capturarmos essa nave, podemos vendê-la por uma pequena fortuna.<SCR=STOP>
+
+#TUTORIAL_RIOT_1	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Grão-Duque, a tripulação de uma de nossas naves está se recusando a enfrentar o inimigo.
+#TUTORIAL_RIOT_2	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>Grão-Duque, as tripulações de várias de nossas naves estão se recusando a enfrentar o inimigo. Se todos as nossas naves começarem a recusar suas ordens, o esquadrão estará perdido!
+
+#TUTORIAL_PRIZE_1	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>Uma das naves inimigas é uma nave de transporte. Se conseguirmos destruir todas as outras naves e manter esta intacta, ela se renderá.<SCR=STOP>
+#TUTORIAL_PRIZE_2	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>Esta neve de transporte não tem escolta armada. Ela se renderá sem lutar.<SCR=STOP>
+
+#TUTORIAL_REPAIR_BONUS	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}BÔNUS DE REPARO <REPAIR_BONUS>@10{font=fixed_20}{align=0}Se posicionar suas naves bem durante o pouso, isso pode acelerar muito os reparos.<SCR=STOP>
+
+#TUTORIAL_RADIO_BAND	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>Primeiro você precisa ajustar o alcance, meu Grão-Duque.<SCR=STOP>
+#TUTORIAL_RADIO_SIGNAL	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>Primeiro você precisa captar um sinal estável.<SCR=STOP>
+
+#TUTORIAL_REPAIR_PARTS	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>Recebemos algumas peças de reposição para nossas naves. Os reparos serão muito mais rápidas enquanto tivermos peças de reposição em estoque.<SCR=STOP>
 
 
 
-#INTERCOM_VETERAN_1	<NPC=VETERAN><SIDE=0><SHADOW=1>Yes, Duke.<ANS=Admiral, I’ve heard you have ways of encouraging people to work harder. The repairs are taking too long. Can you take care of this for me?>
-#INTERCOM_VETERAN_2	<NPC=VETERAN>My Duke, I’m afraid your men aren’t used to the kind of rigorous discipline that is customary on a Gathering ship.
-<ANS=The ships must be repaired more quickly, Admiral. Do what you must, and no one will stop you. You have my word.>
-<ANS=I see, Admiral. Perhaps this wasn’t such a good idea. That will be all.|EXIT>
-#INTERCOM_VETERAN_3	<TRG=INTERCOM_VETERAN|1><NPC=VETERAN>Very well, my Duke. I will help you... and do all your dirty work for you.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
-#INTERCOM_VETERAN_SHORT	<NPC=VETERAN>Very well, my Duke. I will help you with this.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
+#INTERCOM_PETR_1	<NPC=PETR><SIDE=0><SHADOW=1>Sim, Grão-Duque.
+<ANS=Os reparos estão demorando muito, Pyotr Ignatyevich.>
+#INTERCOM_PETR_2	<NPC=PETR>A tripulação está fazendo o seu melhor, meu Grão-Duque. Você sabe disso tão bem quanto eu.
+<ANS=Não é suficiente, Pyotr. Pegue uma equipe de segurança e convença-os. Recorra a medidas drásticas, se necessário. Precisamos que essas naves sejam reparadas imediatamente.>
+<ANS=Entendi, Pyotr. Isso é tudo.|EXIT>
+#INTERCOM_PETR_3	<NPC=PETR><NOSPEAK><SCR=CONTINUE>Por um momento, há silêncio. Então, Pyotr presta continência a você.
+#INTERCOM_PETR_4	<TRG=INTERCOM_PETR|1><NPC=PETR>Sim, Duque. Posso ir? <SCR=STOP|ASK_REPAIR|PETR=-1>
+#INTERCOM_PETR_SHORT	<NPC=PETR>Sim, Grão-Duque.<SCR=STOP|ASK_REPAIR|PETR=-1>
 
 
 
-#INTERCOM_DAUD_1	<NPC=DAUD><SIDE=0><SHADOW=1>Yes, Duke?<ANS=Admiral, I must ask you to help me convince the crew of the importance of our campaign. Your words carry great weight with them.>
-#INTERCOM_DAUD_2	<NPC=DAUD>The crew has refused to fight for a reason, my Duke. Your indiscretions and General Shahin’s delusions are to blame for this. I’ve said it before, and I’ll say it again: this campaign was a reckless endeavor from the start.
-<ANS=Please speak to the officers, Admiral. I need your help.>
-<ANS=I see, Admiral. That will be all.|EXIT>
-#INTERCOM_DAUD_3	<TRG=INTERCOM_DAUD|1><NPC=DAUD>I swore a sacred oath to your father, and that is the only reason I’m still involved in this questionable venture. Very well, I will have a word with the officers.<SCR=STOP|MORAL=5|DAUD=-1>
-#INTERCOM_DAUD_SHORT	<NPC=DAUD>I will have a word with the officers, my Duke.<SCR=STOP|MORAL=5|DAUD=-1>
+#INTERCOM_VETERAN_1	<NPC=VETERAN><SIDE=0><SHADOW=1>Sim, Grão-Duque.<ANS=Almirante, ouvi dizer que você tem maneiras de encorajar as pessoas a trabalhar mais. Os reparos estão demorando muito. Você pode cuidar disso por mim?>
+#INTERCOM_VETERAN_2	<NPC=VETERAN>Meu Grão-Duque, receio que seus homens não estão acostumados à disciplina rigorosa que é costume em uma nave da Confederação.
+<ANS=As naves precisam ser reparadas mais rapidamente, Almirante. Faça o que for necessário, e ninguém o impedirá. Você tem minha palavra.>
+<ANS=Entendo, Almirante. Talvez isso não tenha sido uma boa ideia. Isso é tudo.|EXIT>
+#INTERCOM_VETERAN_3	<TRG=INTERCOM_VETERAN|1><NPC=VETERAN>Muito bem, meu Grão-Duque. Eu vou ajudá-lo... e fazer todo o trabalho sujo por você.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
+#INTERCOM_VETERAN_SHORT	<NPC=VETERAN>Muito bem, meu Grão-Duque. Vou ajudá-lo com isso.<SCR=STOP|ASK_REPAIR|VETERAN=-1>
 
 
 
-#INTERCOM_OMAR_1	<NPC=OMAR><SIDE=0><SHADOW=1>You wanted to see me, sahib?<ANS=I need to speak with you, Omar.>
-#INTERCOM_OMAR_2	<NPC=OMAR>I am listening, sahib.
-<ANS=This war has taken a heavy toll on us, Omar. My men are tired. Someone needs to rekindle the flame of faith in their souls. You are a hero to every Elaim, and your words carry great weight. Speak to the men on my behalf. Lift their spirits! Save them from despair!>
-#INTERCOM_OMAR_3	<NPC=OMAR>You say this war has taken a heavy toll, sahib. But what awaits us? Are you certain the Almighty will give Khiva to us? What if we are chasing a mirage into the very heart of the desert?
-<ANS=Speak to the men, Omar. I need you help.>
-<ANS=Have you lost all faith as well, Omar? Fine, I’ll do as I see fit. That will be all.|EXIT>
-#INTERCOM_OMAR_4	<TRG=INTERCOM_OMAR|1><NPC=OMAR>I’ll speak to them, sahib. But I fear even my faith has its limits.<SCR=STOP|MORAL=5|OMAR=-1>
-#INTERCOM_OMAR_SHORT	<NPC=OMAR>I’ll speak to them, sahib.<SCR=STOP|MORAL=5|OMAR=-1>
+#INTERCOM_DAUD_1	<NPC=DAUD><SIDE=0><SHADOW=1>Sim, Grão-Duque?<ANS=Almirante, devo pedir que você me ajude a convencer a tripulação da importância de nossa campanha. Suas palavras têm grande peso para eles.>
+#INTERCOM_DAUD_2	<NPC=DAUD>A tripulação se recusou a lutar por um motivo, meu Grão-Duque. Suas imprudências e as ilusões do General Shahin são os culpados por isso. Já disse antes, e vou repetir: esta campanha foi uma empreitada imprudente desde o início.
+<ANS=Por favor, fale com os oficiais, Almirante. Preciso de sua ajuda.>
+<ANS=Entendo, Almirante. Isso é tudo.|EXIT>
+#INTERCOM_DAUD_3	<TRG=INTERCOM_DAUD|1><NPC=DAUD>Jurei um juramento sagrado a seu pai, e essa é a única razão pela qual ainda estou envolvido nessa empreitada questionável. Muito bem, vou conversar com os oficiais.<SCR=STOP|MORAL=5|DAUD=-1>
+#INTERCOM_DAUD_SHORT	<NPC=DAUD>Vou conversar com os oficiais, meu Grão-Duque.<SCR=STOP|MORAL=5|DAUD=-1>
 
 
 
-#INTERCOM_FASIL_1	<NPC=FASIL><SIDE=0><SHADOW=1>Yes, Duke?<ANS=I’d like to ask you for a loan to supply this campaign, Prince.>
-#INTERCOM_FASIL_2	<NPC=FASIL>War is an expensive undertaking, is it not, my Duke?
-<ANS=Alas, it most certainly is. Can you lend me a hand, Prince?>
-<ANS=I’ve changed my mind, Prince. My apologies. That will be all.|EXIT>
-#INTERCOM_FASIL_3	<TRG=INTERCOM_FASIL|1><NPC=FASIL>Very well. I’ll get the money together.<SCR=STOP|GOLD=10000|FASIL=-1>
-#INTERCOM_FASIL_SHORT	<NPC=FASIL>Very well. I’ll get the money together.<SCR=STOP|GOLD=10000|FASIL=-1>
+#INTERCOM_OMAR_1 <NPC=OMAR><SIDE=0><SHADOW=1>Você queria me ver, sahib?<ANS=Eu preciso falar com você, Omar.>
+#INTERCOM_OMAR_2 <NPC=OMAR>Estou ouvindo, sahib.
+<ANS=Esta guerra tem cobrado um alto preço de nós, Omar. Meus homens estão cansados. Alguém precisa reacender a chama da fé em suas almas. Você é um herói para cada Elaim, e suas palavras têm grande peso. Fale com os homens em meu nome. Eleve seus espíritos! Salve-os do desespero!
+#INTERCOM_OMAR_3 <NPC=OMAR>Você diz que esta guerra tem cobrado um alto preço, sahib. Mas o que nos espera? Você tem certeza de que o Todo-Poderoso nos dará Khiva? E se estivermos perseguindo uma miragem no próprio coração do deserto?
+<ANS=Fale com os homens, Omar. Preciso da sua ajuda.
+<ANS=Você também perdeu toda a fé, Omar? Tudo bem, farei o que considerar adequado. Isso é tudo.|EXIT>
+#INTERCOM_OMAR_4 <TRG=INTERCOM_OMAR|1><NPC=OMAR>Falarei com eles, sahib. Mas temo que até minha fé tenha seus limites.<SCR=STOP|MORAL=5|OMAR=-1>
+#INTERCOM_OMAR_SHORT <NPC=OMAR>Falarei com eles, sahib.<SCR=STOP|MORAL=5|OMAR=-1>
 
 
 
-#INTERCOM_GIRL_1	<NPC=GIRL><SIDE=0><SHADOW=1>Did you wish to speak with me, sahib?<ANS=I will be frank with you, Duchess — this campaign is costing far more than we had anticipated. I understand your clan is one of the wealthiest in all of Gerat.>
-#INTERCOM_GIRL_2	<NPC=GIRL>Have you run out of money?
-<ANS=I’m afraid so. Could you lend me a hand?>
-<ANS=That’s not what I meant, Duchess. My apologies. That will be all.|EXIT>
-#INTERCOM_GIRL_3	<TRG=INTERCOM_GIRL|1><NPC=GIRL>I understand, Grand Duke. I will help you.<SCR=STOP|GOLD=10000|GIRL=-1>
-#INTERCOM_GIRL_SHORT	<NPC=GIRL>I will arrange the loan.<SCR=STOP|GOLD=10000|GIRL=-1>
+#INTERCOM_FASIL_1 <NPC=FASIL><SIDE=0><SHADOW=1>Sim, Duque?<ANS=Gostaria de pedir um empréstimo para suprir esta campanha, Príncipe.>
+#INTERCOM_FASIL_2 <NPC=FASIL>A guerra é uma empreitada cara, não é, meu Duque?
+<ANS=Infelizmente, com certeza é. Você poderia me dar uma mão, Príncipe?>
+<ANS=Mudei de ideia, Príncipe. Minhas desculpas. Isso é tudo.|EXIT>
+#INTERCOM_FASIL_3 <TRG=INTERCOM_FASIL|1><NPC=FASIL>Muito bem. Vou juntar o dinheiro.<SCR=STOP|GOLD=10000|FASIL=-1>
+#INTERCOM_FASIL_SHORT <NPC=FASIL>Muito bem. Vou juntar o dinheiro.<SCR=STOP|GOLD=10000|FASIL=-1>
+
+
+
+#INTERCOM_GIRL_1 <NPC=GIRL><SIDE=0><SHADOW=1>Desejou falar comigo, sahib?<ANS=Serei franca com você, Duquesa - esta campanha está custando muito mais do que esperávamos. Entendo que seu clã seja um dos mais ricos de todo Gerat.>
+#INTERCOM_GIRL_2 <NPC=GIRL>Você ficou sem dinheiro?
+<ANS=Receio que sim. Você poderia me dar uma mão?>
+<ANS=Não era isso que eu queria dizer, Duquesa. Minhas desculpas. Isso é tudo.|EXIT>
+#INTERCOM_GIRL_3 <TRG=INTERCOM_GIRL|1><NPC=GIRL>Eu entendo, Grão-Duque. Vou ajudar você.<SCR=STOP|GOLD=10000|GIRL=-1>
+#INTERCOM_GIRL_SHORT <NPC=GIRL>Vou providenciar o empréstimo.<SCR=STOP|GOLD=10000|GIRL=-1>
 
 
 
@@ -4023,7 +4023,7 @@
 #LABLE_role_aa_DESC	Projetada para a proteção de grupos aéreos contra ataques de aeronaves e mísseis inimigos.
 #LABLE_role_sensor_DESC	Projetada para detecção rápida de forças inimigas.
 #LABLE_role_tanker_DESC	Projetada para ampliar o alcance dos grupos de ataque.
-#LABLE_role_carrier_DESC	Esta nave é um porta-aviões, com caças prontos para a decolagem.
+#LABLE_role_carrier_DESC	Esta nave é um porta-aviões, com aeronaves prontas para a decolagem.
 #LABLE_role_tactical_DESC	Esta nave transporta mísseis convencionais de longo alcance.
 #LABLE_role_strategic_DESC	Esta nave transporta mísseis nucleares de longo alcance.
 
