@@ -255,14 +255,14 @@
 #NEED_RESCUE_ORDER_MAP_LABLE	PRECISA DE ORDEM DE RESGATE
 #REST_MAP_LABLE	DESCANSAR
 #CROWDED	SOBRECARREGADO
-#NO_MOVE_IN_MAP_LABLE	NO MOVE IN
+#NO_MOVE_IN_MAP_LABLE	NENHUM MOVIMENTO
 #REPAIR_TIMER	REPARO EM
 #NO_REST_MAP_LABLE	NÃO DESCANSAR
 #NO_REPAIR_MAP_LABLE	NÃO REPARAR
 #SPARE_PARTS	PARTES
 #NO_DESTINATION_MAP_LABLE	SEM DESTINO
 #FREQ_MAP_LABLE	FREQ
-#REPAIR_MAP_LABLE	REPAIRAR
+#REPAIR_MAP_LABLE	REPARAR
 #CLICK_TO_READ_MAP_LABLE	CLIQUE PARA LER
 #RANGE_MAP_LABLE	ALCANCE
 #ALT_MAP_LABLE	ALT
@@ -373,11 +373,11 @@
 #CAPTION_GPB	Bomba de uso geral
 #CAPTION_AAM	Míssil ar-ar
 
-#HIGH_EXPLOSIVE_MINI	ALTO@EXPLOSIVO
-#INCENDIARY_MINI	@INCENDIÁRIO
-#ARMOR_PIERCING_MINI	PERFURADOR@DE BLINDAGEM
+#HIGH_EXPLOSIVE_MINI	ALTO@EXPLOSIVA
+#INCENDIARY_MINI	@INCENDIÁRIA
+#ARMOR_PIERCING_MINI	PERFURADORA@DE BLINDAGEM
 #PROXIMITY_FUZE_MINI	FUZIL DE@PROXIMIDADE
-#LASER_GUIDED_MINI	LASER@GUIADO
+#LASER_GUIDED_MINI	GUIADA@A LASER
 #CRAFT_GPB	BOMBA@DE AERONAVE
 #CRAFT_GUN	CANHÃO@DE AERONAVE
 #CRAFT_AAM	MÍSSIL@DE AERONAVE
@@ -411,7 +411,7 @@
 #INTERCEPTOR_ABR_CLASS	INTERC.
 #CARRIER_ABR_CLASS	PORTA-AV
 #STRATEGIC_ABR_CLASS	ESTRAT.
-#AUXILIARY_ABR_CLASS	AUX
+#AUXILIARY_ABR_CLASS	AUX.
 #GROUND_VEHICLE_ABR_CLASS	VEÍ. TERRES.
 
 
@@ -2478,14 +2478,14 @@
 #EVENT_EHUDA_8	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os homens de Yehuda olham para Pyotr e Fazil inquietos, aguardando sua decisão final.
 <ANS=Deixe que Yehuda e seus homens se juntem a seu esquadrão.|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
 <ANS=Recuse a oferta de Yehuda.|EVENT_EHUDA_NO_1|RIGHT=1|GERAT=-1>
-#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os homens de Yehuda gritam de alegria no momento em que ouve sua resposta. Alguns de seus oficiais, no entanto, parecem sombrios. “Ridículo,” você os ouve murmurar. “Somos oficiais da Frota, e agora estamos compartilhando nossas rações com piratas?”<SCR=STOP|FASIL=-1|JOIN>
+#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os homens de Yehuda gritam de alegria no momento em que ouvem sua resposta. Alguns de seus oficiais, no entanto, parecem sombrios. “Ridículo,” você os ouve murmurar. “Somos oficiais da Frota, e agora estamos compartilhando nossas rações com piratas?”<SCR=STOP|FASIL=-1|JOIN>
 #EVENT_EHUDA_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}OS SEM PARENTES@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A face de Yehuda escurece quando ele ouve suas palavras. Ele olha para Fazil de forma ameaçadora, depois vira as costas para você e sai sem dizer uma palavra.<SCR=CONTINUE>
 #EVENT_EHUDA_NO_2	<NPC=FASIL>Você tomou a decisão certa, Duque, acredite em mim. Tenho certeza de que seus homens concordarão.<SCR=STOP|FASIL=1>
 
 
 
 #EVENT_ASSAULT_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você é abordado pelos oficiais da equipe de desembarque. “Tarkhan, senhor,” dizem eles, “Está muito quieto lá fora. Ninguém da cidade está vindo para nos cumprimentar. Isto é um mau presságio.”<SCR=CONTINUE>
-#EVENT_ASSAULT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Eles insistem que você deve tomar o palácio do decano e a infra-estrutura crucial da cidade de uma vez, antes que seja tarde demais.
+#EVENT_ASSAULT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Eles insistem que você deve tomar o palácio do decano e a infraestrutura crucial da cidade de uma vez, antes que seja tarde demais.
 <ANS=Envie tropas para a cidade.|EVENT_ASSAULT_YES|DICE=50|FORCE=1>
 <ANS=Não enviaremos tropas para a cidade. Coloque guardas ao redor das naves. Isso será suficiente.|EVENT_ASSAULT_NO|DICE=33|FORCE=-1>
 
@@ -2500,7 +2500,7 @@
 <ANS=Dispare a artilharia da nave para suprimir a resistência.|EVENT_ASSAULT_ARTILLERY|KINDNESS=-1|FORCE=1>
 <ANS=Suspenda a artilharia. Envie os negociadores.|EVENT_ASSAULT_NEGOTIATIONS|KINDNESS=1|FORCE=-1>
 
-#EVENT_ASSAULT_ARTILLERY	<AMBIENT=artillery_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Durante as várias longas horas que se seguiram, os canhões de artilharia trabalham rigorosamente para incinerar e demolir os distritos rebeldes à medida que as baixas se acumularam. Suas tropas acabaram tomando a cidade.<SCR=STOP|GOLD=10000>
+#EVENT_ASSAULT_ARTILLERY	<AMBIENT=artillery_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Durante as várias longas horas que se seguiram, os canhões de artilharia trabalharam rigorosamente para incinerar e demolir os distritos rebeldes à medida que as baixas se acumulavam. Suas tropas acabaram tomando a cidade.<SCR=STOP|GOLD=10000>
 #EVENT_ASSAULT_NEGOTIATIONS	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O decano exige que você reabasteça as naves e deixe a cidade imediatamente.<SCR=STOP|NO_REPAIR>
 
 #EVENT_ASSAULT_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}COM GRANDE DETERMINAÇÃO@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}As suspeitas de seus oficiais se revelam injustificadas — uma delegação da cidade logo se aproxima das naves. Por alguma razão, os habitantes locais parecem estar aterrorizados com sua presença, mas eles não querem lhe fazer mal algum.<SCR=STOP>
@@ -2508,7 +2508,7 @@
 
 
 
-#EVENT_HEADS_1	<EVENT>O decano se apressa para chegar as suas naves assim que elas chegam e os convida para um banquete em honra da sua vitória. A cidade parece estar no meio de uma grande festa: há música tocando por toda parte e a praça principal está repleta de pessoas.<SCR=CONTINUE>
+#EVENT_HEADS_1	<EVENT>O decano se apressa para chegar às suas naves assim que elas chegam e os convida para um banquete em honra da sua vitória. A cidade parece estar no meio de uma grande festa: há música tocando por toda parte e a praça principal está repleta de pessoas.<SCR=CONTINUE>
 #EVENT_HEADS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}O BANQUETE@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Ao redor da praça há uma cerca de estacas altas, e em cada estaca há uma cabeça humana decepada. Quando você pergunta sobre o significado dessa exibição macabra, um dos habitantes locais explica ansiosamente que essas são as cabeças dos homens do Governador.
 <ANS=Agradeça ao decano pelo convite e participe do banquete em sua casa.|EVENT_HEADS_YES|KINDNESS=-1|GERAT=1>
 <ANS=Diga ao decano para retirar as cabeças das estacas e enterrá-las adequadamente.|EVENT_HEADS_NO|KINDNESS=1|GERAT=-1>
@@ -2530,7 +2530,7 @@
 #EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Há gritos de alegria enquanto os Elaims te saúdam: “Bendito aquele que vem! Bendito aquele que vem!” As pessoas mais próximas de você se esticam sobre os ombros dos guardas, tentando tocar em suas roupas. “O Tannaim, o portador de bênção” — é assim que os locais parecem te chamar aqui.
 <ANS=Deixe as pessoas se aproximarem e tocarem em você.|EVENT_BLESSING_01_YES_1|FAITH=2>
 <ANS=Mantenha-se afastado da multidão.|EVENT_BLESSING_01_NO_1|FAITH=-2>
-#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você se aproxima da linha de tropas que separa você da multidão e fica o mais próximo possível para que os moradores possam tocá-lo. As pessoas começam a se empurrar e leva apenas um momento para rompar a linha. O mar humano rapidamente o arrasta.<SCR=CONTINUE>
+#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Você se aproxima da linha de tropas que separa você da multidão e fica o mais próximo possível para que os moradores possam tocá-lo. As pessoas começam a se empurrar e leva apenas um momento para romper a linha. O mar humano rapidamente o arrasta.<SCR=CONTINUE>
 #EVENT_BLESSING_01_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Os oficiais mal conseguem afastar a multidão de você e restaurar a linha. O capitão da guarda está furioso, mal consegue conter sua raiva enquanto pede a você, com todo o respeito, que nunca faça isso novamente.<SCR=STOP|MORAL=-1>
 #EVENT_BLESSING_01_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A BÊNÇÃO@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Já é bastante difícil para os guardas manterem uma multidão como essa afastada. O capitão da guarda agradece do fundo do coração pela sua consideração.<SCR=STOP|MORAL=1>
 
@@ -2799,7 +2799,7 @@
 <ANS=Poeira e cinzas da guerra nuclear no sul chegaram até nós e encobriram o sol.|NIGHTFALL_SPEECH_DUST_1|PRECHECK_ROMANI=2>
 
 
-#NIGHTFALL_SPEECH_DARKNESS_1	<TRG=SPEECH_DARKNESS|1><AMBIENT=crowd_calm_02>Pyotr Ignatyevich olha para você, com a boca aberta. Todos congelam sem seu lugar, esperando por uma explicação.<ANS=Não esperem a escuridão desaparecer. O sol nunca mais voltará a nascer.|NIGHTFALL_SPEECH_DARKNESS_2>
+#NIGHTFALL_SPEECH_DARKNESS_1	<TRG=SPEECH_DARKNESS|1><AMBIENT=crowd_calm_02>Pyotr Ignatyevich olha para você, com a boca aberta. Todos congelam em seu lugar, esperando por uma explicação.<ANS=Não esperem a escuridão desaparecer. O sol nunca mais voltará a nascer.|NIGHTFALL_SPEECH_DARKNESS_2>
 #NIGHTFALL_SPEECH_DARKNESS_2	<AMBIENT=crowd_calm_01>Há sussurros na multidão.<ANS=(Com sua mão direita estendida para a multidão) Romanis, e todos os povos de Gerat, ouçam minhas palavras: vocês devem ser fortes! Saibam que tudo isso foi predestinado. O dia do juízo final está próximo!|NIGHTFALL_SPEECH_DARKNESS_3>
 #NIGHTFALL_SPEECH_DARKNESS_3	Agora. Agora é a hora...<ANS=Shakhor-Al-Farakh!|NIGHTFALL_SPEECH_DARKNESS_RES|CHECK_FAITH=2>
 
@@ -2822,7 +2822,7 @@
 
 
 #NIGHTFALL_SPEECH_DUST_1	Você vê vários oficiais da linha de frente acenando com a cabeça.<ANS=As cinzas de nossas cidades se ergueram para bloquear o sol de Gerat. E eu digo isso a vocês, meus companheiros Romanis...|NIGHTFALL_SPEECH_DUST_2>
-#NIGHTFALL_SPEECH_DUST_2 	AMBIENT=crowd_calm_02>Em algum lugar na multidão, o soluço solitário de uma mulher corta o silêncio.<ANS=Juro a vocês que este esquadrão continuará avançando até que tenhamos retaliado completamente contra o inimigo. Até que Khiva seja nossa. Vamos capturar o plutônio de Khiva e usá-lo para incendiar as cidades que nos traíram da face da Terra.|NIGHTFALL_SPEECH_DUST_3>
+#NIGHTFALL_SPEECH_DUST_2 	<AMBIENT=crowd_calm_02>Em algum lugar na multidão, o soluço solitário de uma mulher corta o silêncio.<ANS=Juro a vocês que este esquadrão continuará avançando até que tenhamos retaliado completamente contra o inimigo. Até que Khiva seja nossa. Vamos capturar o plutônio de Khiva e usá-lo para incendiar as cidades que nos traíram da face da Terra.|NIGHTFALL_SPEECH_DUST_3>
 #NIGHTFALL_SPEECH_DUST_3	<AMBIENT=crowd_calm_01>A multidão está completamente em silêncio.<ANS=E então, reconstruiremos o Império! Reconstruiremos o Império sobre as covas daqueles traidores. Eu juro isso! Em honra aos nossos irmãos caídos, nós nos levantaremos novamente!|NIGHTFALL_SPEECH_DUST_RES|CHECK_ROMANI=2>
 
 #NIGHTFALL_SPEECH_DUST_RES	<SOUND=crowd_large_shout_01>A multidão urra em aprovação extasiada, afogando suas palavras finais.<SCR=MORAL|3><ANS=Isso é tudo. Por favor, voltem aos seus postos.|EXIT>
@@ -2915,7 +2915,7 @@
 
 #ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>Isso é tudo, Mark. Vou informar a tripulação que nossa operação foi um sucesso.<SCR=CONTINUE>
 #ENDWAR_WIN_2	<EVENT>“Isso é tudo.”<SCR=CONTINUE>
-#ENDWAR_WIN_3	<EVENT>Me inclinei na cadeira e fechei os olhos. As toneladas de maquinaria de guerra ao meu redor finalmente silenciaram: nenhum som metálico, nenhum rangido, nem mesmo um estalo. O zumbido constante dos motores dos motores a jato parecia tão distante, tão longínquo, que mal podia ouvi-lo. <SCR=CONTINUE>
+#ENDWAR_WIN_3	<EVENT>Me inclinei na cadeira e fechei os olhos. As toneladas de maquinaria de guerra ao meu redor finalmente silenciaram: nenhum som metálico, nenhum rangido, nem mesmo um estalo. O zumbido constante dos motores a jato parecia tão distante, tão longínquo, que mal podia ouvi-lo. <SCR=CONTINUE>
 #ENDWAR_WIN_4	<EVENT>Centenas de pessoas ficam petrificadas em suas posições de combate quando a voz lenta e ritmada de Pyotr ecoa pelos alto-falantes, anunciando que a guerra acabou.<ANS=É hora de voltar para Khiva, Pyotr Ignatyevich. Quanto mais cedo mostrarmos que o reator está funcional, melhor.|ENDWAR_WIN_5>
 #ENDWAR_WIN_5	<NPC=PETR>Tenho um pedido pessoal a fazer, Grão-Duque.<SCR=CONTINUE>
 #ENDWAR_WIN_6	<NPC=PETR>Há uma coluna na sala de controle do reator em Khiva. Eu a vi muitos anos atrás, quando tivemos que nos retirar de Gerat.<SCR=CONTINUE>
@@ -2999,10 +2999,10 @@
 #EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Uma multidão de pessoas se precipita da cidade em direção às suas naves assim que você chega, um decano idoso na liderança. No meio dos gritos e lamentos, ele lhe fala sobre um comboio militar que deixou a cidade outro dia.
 #EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}O líder do comboio de escolta (que o Todo-Poderoso o amaldiçoe para todo o sempre!) fez muitas pessoas reféns e roubou grande parte das riquezas da cidade. O decano lhe suplica para perseguir a nave armada e punir os vilões, e ele lhe promete todas as riquezas roubadas da cidade como recompensa por salvar os reféns.<ANS=Onde eles foram?|EVENT_CHASE_3>
 #EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A PERSEGUIÇÃO@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
-#EVENT_CHASE_END	Os reféns o enchem de gratidão e elogios. O decano estava dizendo a verdade: o porão da nave está cheio de carga preciosa. Esta escolta deve ter saqueado muitas cidades em seu caminho.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
+#EVENT_CHASE_END	Os reféns lhe agradecem com muita gratidão e elogios. O decano estava dizendo a verdade: o porão da nave está cheio de carga preciosa. Esta escolta deve ter saqueado muitas cidades em seu caminho.<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
 
 #EVENT_CHASE_PRE	O decano lhe diz que os vilões estavam indo
-#EVENT_CHASE_POST	. Ele também lhe diz o indicativo da escolta: CROW.
+#EVENT_CHASE_POST	. Ele também lhe informa o indicativo da escolta: CORVO.
 
 #DIR2_N	norte
 #DIR2_NE	nordeste
@@ -3072,7 +3072,7 @@
 #EVENT_CLOTH_BUY_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|EVENT_CLOTH_BUY>Robes de lã logo são distribuídos entre a tripulação, juntamente com as ordens de Pyotr para usá-los sobre seus uniformes. Leva um tempo para que os homens parem de rir toda vez que se veem, mas ninguém de serviço reclama mais do frio.
 
 #EVENT_CLOTH_FORCE_1 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Suspirando cansado, Pyotr reconhece sua ordem com uma saudação e sai sem dizer uma palavra.
-#EVENT_CLOTH_FORCE_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2>VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>Os robes de lã confiscados logo são distribuídos entre a tripulação, juntamente com as ordens de Pyotr para usá-los sobre seus uniformes. Leva um tempo para que os homens parem de rir toda vez que se veem, mas ninguém de serviço reclama mais do frio.
+#EVENT_CLOTH_FORCE_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}VESTIMENTAS QUENTES@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>Os robes de lã confiscados logo são distribuídos entre a tripulação, juntamente com as ordens de Pyotr para usá-los sobre seus uniformes. Leva um tempo para que os homens parem de rir toda vez que se veem, mas ninguém de serviço reclama mais do frio.
 
 
 
@@ -3096,18 +3096,18 @@
 
 
 
-#EVENT_REVOLT_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Enquanto está na cidade, você recebe um convite para uma reunião secreta com certos dignitários locais de alta patente. Eles asseguram que desejam se juntar à sua causa, mas o decano local é muito covarde para se opor ao Governador e oferecer-lhe ajuda.
+#EVENT_REVOLT_1 <MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Enquanto está na cidade, você recebe um convite para uma reunião secreta com certos dignitários locais de alta patente. Eles asseguram que desejam se juntar à sua causa, mas o decano local não tem coragem para se opor ao Governador e oferecer-lhe ajuda.
 #EVENT_REVOLT_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Eles lhe oferecem um plano para depor o decano da cidade e iniciar uma rebelião. Caso tenha sucesso, eles prometem apoderar-se de uma nave e se juntar a você.
 <ANS=Junte-se à conspiração.|EVENT_REVOLT_YES|DICE=50|RIGHT=-2>
 <ANS=Recuse-se a participar.|EXIT|RIGHT=2>
-#EVENT_REVOLT_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>Você visita o decano, cercado pelos seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens matam o decano e seus guardas.
+#EVENT_REVOLT_YES <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>Você visita o decano, cercado pelos seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens eliminam o decano e seus guardas.
 #EVENT_REVOLT_YES_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>Naquele exato momento, o líder da conspiração anuncia que o decano tentou matá-lo. Antes que os apoiadores mais fortes do decano possam reagir, a conspiração invade suas casas e os mata a todos.
 #EVENT_REVOLT_YES_3 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|FORCE=2>Algumas horas depois, a cidade está sob seu completo controle.
 
 
-#EVENT_REVOLT_YES_FAIL <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>Você visita o decano, cercado por seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens matam o decano e seus guardas.
+#EVENT_REVOLT_YES_FAIL <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>Você visita o decano, cercado por seus melhores lutadores disfarçados de civis. Durante o jantar, você dá o sinal, e seus homens eliminam o decano e seus guardas.
 #EVENT_REVOLT_YES_FAIL_2 <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A conspiração se apressa para as casas dos seguidores mais fortes do decano, mas eles enfrentam firme resistência. Algumas horas depois, a cidade inteira está no meio de um conflito interno sangrento.
-<ANS=Este plano é um fracasso. Mantenha-se fora disso e recue para as naves.|EXIT|FORCE=-2>
+<ANS=Este plano é um fracasso. Fique fora disso e recue para as naves.|EXIT|FORCE=-2>
 <ANS=Envie soldados para a cidade e apoie os insurgentes com fogo de artilharia.|EVENT_REVOLT_WAR|DICE=50|FORCE=2>
 
 #EVENT_REVOLT_WAR <EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}A CONSPIRAÇÃO@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|GOLD=8000|CREW=-50>Após uma amarga e sangrenta batalha, você consegue sufocar toda a resistência e conquistar a cidade. Mas a vitória tem um custo elevado.
