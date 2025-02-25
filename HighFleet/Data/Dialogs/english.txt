@@ -22,14 +22,14 @@
 
 #QUALITY_6	TODOS OS EFEITOS
 #QUALITY_5	OCULTAR QUADROS
-#QUALITY_4	DESFOQUE DESL.
+#QUALITY_4	DESL. DESFOQUE
 #QUALITY_3	SEM NUVENS
 #QUALITY_2	SEM CHUVA
-#QUALITY_1	INCANDESCÊNCIA DESL.
+#QUALITY_1	DESL. INCANDESCÊNCIA
 #QUALITY_0	ULTRA BAIXO
 
 #TITLE_QUALITY	DESEMPENHO
-#TITLE_FLASHES	FLASHES
+#TITLE_FLASHES	CLARÕES
 
 #ALERT_HINT1	ALARME ATIVADO
 #ALERT_HINT2	ATAQUE SILENCIOSO
@@ -51,12 +51,12 @@
 #SQUADRON_MORAL	MORAL DO ESQUADRÃO
 #SHIP_MORAL	MORAL DA NAVE
 #DISCONTENT	DESCONTENTAMENTO
-#DISCONTENT2	AMEAÇA DE DISTÚRBIOS
-#DISCONTENT3	DISTÚRBIOS
+#DISCONTENT2	AMEAÇA DE MOTIM
+#DISCONTENT3	MOTIM
 #FEAR	TERROR
 #DISCIPLINE	DISCIPLINA
 #HUSH	ADIÇÃO AO SILÊNCIO
-#MARINES	MARINES
+#MARINES	FUZILEIROS
 #PROPHET_STAT	PROFETA
 #GOLD	OURO
 #REPAIR_DOCKS	VELOCIDADE DE REPARO
@@ -123,7 +123,7 @@
 #JAMRAD_BUTTON	LIG.
 #MAINMODULES_LABLE	MÓDULOS PRINCIPAIS
 #SHIPDESC_LABLE	DESCRIÇÃO
-#ROLES_LABLE	ROLES
+#ROLES_LABLE	FUNÇÕES
 #PRELANDING_TXT	{font=pollock_52}{align=0}{color=4293449270}SELECIONAR AS NAVES PARA ATERRISSAR NAS DOCAS
 #PRELANDING_HINT	{animation=hint_small}{font=dinpro_14_med}{color=4293449270}{align=2} NÃO É NECESSÁRIO ATERRISSAR SUAS NAVES, MAS SE TIVER DANOS SÉRIOS,@ATERRISSÁ-LAS IRÁ ACELERAR OS REPAROS.
 #RADIATION_SICKNESS_LABLE	DOENÇA POR RADIAÇÃO
@@ -463,25 +463,25 @@
 #STATS_DESC_FEAR3	Não tem medo de você
 #STATS_DESC_FEAR4	Te despreza
 
-#STATS_DESC_GERAT1	Muito orgulhoso {glossary=Elaim,GLOSS_ELAIM}
-#STATS_DESC_GERAT2	Orgulhoso {glossary=Elaim,GLOSS_ELAIM}
-#STATS_DESC_GERAT3	Não gosta {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT4	Odeia {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT1	Muito orgulho dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT2	Orgulho dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT3	Não gosta dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT4	Odeio os {glossary=Elaims,GLOSS_ELAIM}
 
-#STATS_DESC_GERAT5	Dedicado a {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT6	Gosta {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT7	Não gosta {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT8	Odeia {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT5	Dedicado aos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT6	Gosto dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT7	Não gosto dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT8	Odeio os {glossary=Elaims,GLOSS_ELAIM}
 
-#STATS_DESC_ROMANI1	Muito orgulhoso {glossary=Romani,GLOSS_ROMANI}
-#STATS_DESC_ROMANI2	Orgulhoso {glossary=Romani,GLOSS_ROMANI}
-#STATS_DESC_ROMANI3	Não gosta {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI4	Odeia {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI1	Muito orgulho dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI2	Orgulho dos{glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI3	Não gosto dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI4	Odeio os {glossary=Romanis,GLOSS_ROMANI}
 
-#STATS_DESC_ROMANI5	Dedicado a {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI6	Gosta {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI7	Não gosta {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI8	Odeia {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI5	Dedicado aos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI6	Gosto dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI7	Não gosto dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI8	Odeio os {glossary=Romanis,GLOSS_ROMANI}
 
 #STATS_DESC_FAITH1	Verdadeiro crente
 #STATS_DESC_FAITH2	Inclinando para a fé
@@ -3404,7 +3404,7 @@
 
 
 
-#HELLO_SCOUT_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Antes de você se aproximar da nave, ouve a voz alta de um guarda dizendo para você parar. Um homem armado na plataforma traseira está observando você. Ele faz um gesto para que você se afaste.
+#HELLO_SCOUT_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Antes de você se aproximar da nave, ouve a voz alta de um guarda dizendo para você parar. Um homem armado no convés de popa está te observando. Ele gesticula para que você se afaste.
 #HELLO_SCOUT_2	<SCR=CONTINUE><SOUND=gunfire_zz>No momento em que dá mais um passo à frente, a nave dispara um tiro de advertência. O projétil assobia e sibila enquanto sobe aos céus.
 #HELLO_SCOUT_3	<NPC=PETR><SIDE=-1>Eles enlouqueceram? Será que sequer percebem quem está diante deles?!
 <ANS=Vamos dar a eles alguns tiros de advertência, Pyotr Ignatyevich.|HELLO_SCOUT_4|FEAR=1|NO_THEME_REACTION>
@@ -3414,7 +3414,7 @@
 <ANS=Ficaremos aqui e esperaremos.|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
 #HELLO_SCOUT_5	Pyotr olha nervosamente para você. O guarda levanta lentamente seu rifle e mira...
 <ANS=Fiquem prontos para se abaixar e buscar abrigo.|HELLO_SCOUT_FALL>
-<ANS=Mantenham-se firmes.|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
+<ANS=Mantenham suas posições.|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
 #HELLO_SCOUT_6	<SCR=CONTINUE><SOUND=shell_out_small_01>Você sente a onda ardente do disparo passar rente ao seu rosto...
 #HELLO_SCOUT_7	<SCR=CONTINUE><AMBIENT=gunfire_firefight>Momentos depois, o fogo inimigo vindo da nave corta o ar. Seus homens olham para você enquanto continuam a revidar.
 #HELLO_SCOUT_8	<SCR=CONTINUE><AMBIENT=STOP>Segundos depois, os guardas na nave à sua frente não existem mais. Tudo fica silencioso. 
