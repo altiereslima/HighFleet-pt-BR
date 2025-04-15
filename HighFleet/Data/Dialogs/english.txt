@@ -12,20 +12,20 @@
 #LABLE_role_interceptor	INTERCEPTADORA
 #LABLE_role_aa	NAVE DE DEFESA AA
 #LABLE_role_sensor	NAVE DE ALERTA ANTECIPADO
-#LABLE_role_tanker	TANQUE
+#LABLE_role_tanker	NAVE-TANQUE
 #LABLE_role_carrier	PORTA-AVIÕES
 #LABLE_role_tactical	PORTA-MÍSSEIS
 #LABLE_role_strategic	PORTA-MÍSSEIS NUCLEARES
 
 #LABLE_SELECT	PARA SELECIONAR
-#LABLE_UNSELECT	PARA DESELECIONAR
+#LABLE_UNSELECT	PARA DESSELECIONAR
 
 #QUALITY_6	TODOS OS EFEITOS
 #QUALITY_5	OCULTAR QUADROS
-#QUALITY_4	DESL. DESFOQUE
+#QUALITY_4	DESFOQUE DESL.
 #QUALITY_3	SEM NUVENS
 #QUALITY_2	SEM CHUVA
-#QUALITY_1	DESL. INCANDESCÊNCIA
+#QUALITY_1	INCANDESCÊNCIA DESL.
 #QUALITY_0	ULTRA BAIXO
 
 #TITLE_QUALITY	DESEMPENHO
@@ -35,8 +35,8 @@
 #ALERT_HINT2	ATAQUE SILENCIOSO
 #ALERT_HINT3	É IMPOSSÍVEL
 
-#CRAFT_COUNT	CONSTRUIR
-#CRAFT_DOWN	DESTRUÍDO
+#CRAFT_COUNT	AERONAVE
+#CRAFT_DOWN	DESTRUÍDA
 #MISSILE_INTECEPTED	DESTRUÍDO
 
 #DELETE_BUTTON	APAGAR
@@ -55,7 +55,7 @@
 #DISCONTENT3	MOTIM
 #FEAR	TERROR
 #DISCIPLINE	DISCIPLINA
-#HUSH	ADIÇÃO AO SILÊNCIO
+#HUSH	VÍCIO ESCONDIDO
 #MARINES	FUZILEIROS
 #PROPHET_STAT	PROFETA
 #GOLD	OURO
@@ -72,19 +72,19 @@
 #NEW_INTEL	NOVA INFORMAÇÃO
 #FUEL	COMBUSTÍVEL
 #NEW_SHIP	NOVA NAVE
-#NPC_JOINED	PERSONAGEM INTEGRADO
-#NPC_LEFT	PERSONAGEM SAI
+#NPC_JOINED	PERSONAGEM JUNTOU-SE
+#NPC_LEFT	PERSONAGEM SAIU
 #SHIP_LOST	NAVE PERDIDA
-#DAY_PASSED	DIA PASSADOS
+#DAY_PASSED	UM DIA SE PASSOU
 #WOUND	FERIDO
 #NOMOVE	IMPOSSÍVEL DESLOCAR
-#PLAYER_DIED	JOGADOR MORRE
+#PLAYER_DIED	JOGADOR MORREU
 #OFFICERS	OFICIAIS
 #ALLIES	ALIADOS
 #SHIPWORKS	ESTALEIRO
 #SUPPLIES	SUPRIMENTOS
 #DEFEAT_LABLE	DERROTA
-#RETRY_BUTTON	RETIRADA
+#RETRY_BUTTON	TENTAR NOVAMENTE
 #LANDING_CANCEL	CANCELAR@POUSO
 #REQUEST_HELP_BUTTON	PEDIR@AJUDA
 #VICTORY_LABLE	VITÓRIA
@@ -137,7 +137,7 @@
 #SAVEGAME_BUTTON	SALVAR
 #ENDGAME_BUTTON	FINALIZAR
 #LABLE_RIOT	MOTIM
-#LABLE_PRIZE	PREÇO DA NAVE
+#LABLE_PRIZE	NAVE CAPTURADA
 #LABLE_AAD	ANTI-AR
 #INTEL_DATA	DADOS DE INTELIGÊNCIA
 #UNLOCK_SHIP	DESBLOQUEAR NAVE
@@ -145,11 +145,11 @@
 #CARD_PRESENT1	Elefante de ouro
 #CARD_PRESENT2	Adaga dourada
 #CARD_PRESENT3	Ícone de bronze
-#CARD_PRESENT4	Cruz imperial
-#CARD_PRESENT5	Bandeira de Gerat
-#CARD_PRESENT_SLAVE	Mulher escrava
+#CARD_PRESENT4	Cruz do Império
+#CARD_PRESENT5	Estandarte de Gerat
+#CARD_PRESENT_SLAVE	Escrava
 
-#TOKEN_SAID	{font=dinpro_30_black}{align=2}{color=4293584078}SAID
+#TOKEN_SAID	{font=dinpro_30_black}{align=2}{color=4293584078}DISSE
 
 #EDITOR_TOTAL_REPAIR_TIME	TEMPO TOTAL DO REPARO
 #EDITOR_TOTAL_REPAIR_COST	CUSTO TOTAL DO REPARO
@@ -159,15 +159,15 @@
 #EDITOR_SAVE_DESIGN3	NOME DA CLASSE
 
 #EDITOR_AP	@14{font=dinpro_10_med}PERFURADOR@DE BLINDAGEM
-#EDITOR_PROXY	@14{font=dinpro_10_med}FUZIL DE@PROXIMIDADE
+#EDITOR_PROXY	@14{font=dinpro_10_med}DETONADOR DE@PROXIMIDADE
 #EDITOR_INC	@20{font=dinpro_10_med}INCENDIÁRIO
-#EDITOR_GUIDED	@14{font=dinpro_10_med}LASER@GUIADO
+#EDITOR_GUIDED	@14{font=dinpro_10_med}GUIADA@A LASER
 
 #TERMINAL_SCORES	PONTUAÇÃO
 #TERMINAL_EXPED	EXPED:	
 #TERMINAL_MIL	MIL:		
 #TERMINAL_FLAGSHIP_LOST	LEVAR AS NAVES PARA@CIDADES OCULTAS
-#TERMINAL_COUNT	NAVES QUE ABANDONAM: 
+#TERMINAL_COUNT	NAVES RESTANTES: 
 
 #TERMINAL_TARKHANS	REUNIR-SE COM OS TARKHANS:
 #TERMINAL_HIDDENS	CIDADE OCULTA:
@@ -176,7 +176,7 @@
 
 #TERMINAL_ENDWAR_OBJECTIVE_TITLE	DEFESA DE KHIVA: 
 #TERMINAL_ENDWAR_OBJECTIVE1	INTEGRIDADE DO REATOR:  
-#TERMINAL_ENDWAR_OBJECTIVE2	DESTRUIR TRANSP. DE MÍSSEIS: 
+#TERMINAL_ENDWAR_OBJECTIVE2	DESTRUIR PORTA-MÍSSEIS: 
 #TERMINAL_ENDWAR_OBJECTIVE3	DESTRUIR GRUPOS DE ATAQUE: 
 
 #TERMINAL_CRASH_SITE	LOCAL DO ACIDENTE
@@ -191,7 +191,7 @@
 #TERMINAL_LOOT_AUTO	AUTO
 #TERMINAL_LOOT_MANUAL	MANUAL
 
-#TERMINAL_FLAGSHIP_LOST_FINISH	FINAL DA@CAMPANHA
+#TERMINAL_FLAGSHIP_LOST_FINISH	TERMINAR A@CAMPANHA
 
 #KDEATH	K MORTE
 
@@ -246,7 +246,7 @@
 #SPEED_MAP_LABLE	VELOCIDADE
 #DMG_MAP_LABLE	DANO
 #RESCUE_IN_MAP_LABLE	RESGATE EM
-#JAMMING_MAP_LABLE	OBSTRUÍDO
+#JAMMING_MAP_LABLE	INTERFERÊNCIA
 #ELINT_DANGER_MAP_LABLE	PERIGO INTEL
 #ELINT_MAP_LABLE	INTEL
 #MORAL_MID_MAP_LABLE	MORAL BAIXA
@@ -268,7 +268,7 @@
 #ALT_MAP_LABLE	ALT
 #NO_COMMUNICATION_MAP_LABLE	SEM COMUNICAÇÃO
 #NOT_ENOUGH_FUEL_MAP_LABLE	SEM COMBUSTÍVEL
-#JAMMED_MAP_LABLE	BLOQUEADO
+#JAMMED_MAP_LABLE	SOB INTERFER.
 
 #TADS_TADS	TADS
 #ON_FIRE_TADS	EM CHAMAS
@@ -281,7 +281,7 @@
 
 #HLP_MAPMODE_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=vcr_12}CLIQUE DIREITO@PARA NAVEGAR
 #HLP_MAPMODE_02	 @6 {animation=hlp_mapmode_02} @10{color=4294967295}{align=2}{font=vcr_12}PRESSIONE {animation=key_space}@4PAUSAR/CONTINUAR
-#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}MANTENHA {animation=key_shift}@4PARA ACELERAR O TEMPO
+#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}SEGURE {animation=key_shift}@4PARA ACELERAR O TEMPO
 #HLP_MAPMODE_04	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=vcr_12}GIRE A@RODA PARA AMPLIAR
 #HLP_EDITOR_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=flash_large_shadow}CLIQUE DIREITO@PARA REPARAR UM MÓDULO
 #HLP_EDITOR_02	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=flash_large_shadow}GIRE A RODA@PARA GIRAR O MÓDULO
@@ -302,7 +302,7 @@
 #KGS	kg/s
 #RPS	RPS
 #MISS	miss.
-#PCS	pcs
+#PCS	pçs
 #MAN	ppl.
 #PER	por
 #TWR_STAT	PROPULSÃO/PESO
@@ -339,14 +339,14 @@
 #GUIDING_STAT	ORIENTAÇÃO
 #IRST_STAT	BRIV
 #ELINT_STAT	INTEL
-#JAMMER_STAT	BLOQUEIO
+#JAMMER_STAT	INTERFERIDOR
 #POWER_NEED_STAT	ENER. NECES.
 #FUEL_STAT	COMBUSTÍVEL
 #FUEL_NEED_STAT	COMB. NECES.
 #CREW_NEED_STAT	TRIP. NECES.
 #AMMO_NEED_STAT	MUNIÇ. NECES.
 #FIRE_RATE_STAT	TAXA DE DISPARO
-#CLIP_AMOUNT_STAT	ESPAÇO NECESS.
+#CLIP_AMOUNT_STAT	CAPAC. PENTE
 #DAMAGE_STAT	DANO
 #HP_STAT	DURABILIDADE
 
@@ -364,19 +364,19 @@
 
 #MORAL_PRIZE	CAPTURADO
 
-#HIGH_EXPLOSIVE	Alto explosiva
+#HIGH_EXPLOSIVE	Alta explosiva
 #INCENDIARY	Incendiária
 #ARMOR_PIERCING	Perfuradora de blindagem
-#PROXIMITY_FUZE	Fuzil de proximidade
+#PROXIMITY_FUZE	Detonador de proximidade
 #LASER_GUIDED	Guiada a laser
 #CAPTION_NAR	Foguete não guiado
 #CAPTION_GPB	Bomba de uso geral
 #CAPTION_AAM	Míssil ar-ar
 
-#HIGH_EXPLOSIVE_MINI	ALTO@EXPLOSIVA
+#HIGH_EXPLOSIVE_MINI	ALTA@EXPLOSIVA
 #INCENDIARY_MINI	@INCENDIÁRIA
 #ARMOR_PIERCING_MINI	PERFURADORA@DE BLINDAGEM
-#PROXIMITY_FUZE_MINI	FUZIL DE@PROXIMIDADE
+#PROXIMITY_FUZE_MINI	DETONADOR DE@PROXIMIDADE
 #LASER_GUIDED_MINI	GUIADA@A LASER
 #CRAFT_GPB	BOMBA@DE AERONAVE
 #CRAFT_GUN	CANHÃO@DE AERONAVE
@@ -394,25 +394,25 @@
 #LIGHT_CORVET_CLASS	CORVETA LEVE
 #ATTACK_CLASS	ATAQUE
 #INTERCEPTOR_CLASS	INTERCEPTADORA
-#CARRIER_CLASS	PORTA-AVIÕES
+#CARRIER_CLASS	PORTA-AERONAVES
 #STRATEGIC_CLASS	ESTRATÉGICA
 #AUXILIARY_CLASS	AUXILIAR
 #GROUND_VEHICLE_CLASS	VEÍCULO TERRESTRE
 
-#HEAVY_CRUISER_ABR_CLASS	CRUZADOR PE
+#HEAVY_CRUISER_ABR_CLASS	CRUZ. PESADO
 #CRUISER_ABR_CLASS	CRUZADOR
-#LIGHT_CRUISER_ABR_CLASS	CRUZADOR LE
-#HEAVY_FRIGATE_ABR_CLASS	FRAGATA PE
+#LIGHT_CRUISER_ABR_CLASS	CRUZ. LEVE
+#HEAVY_FRIGATE_ABR_CLASS	FRAG. PESADA
 #FRIGATE_ABR_CLASS	FRAGATA
-#HEAVY_CORVET_ABR_CLASS	CORVETA PE
+#HEAVY_CORVET_ABR_CLASS	CORV. PESADA
 #CORVET_ABR_CLASS	CORVETA
-#LIGHT_CORVET_ABR_CLASS	CORVETA LE
+#LIGHT_CORVET_ABR_CLASS	CORV. LEVE
 #ATTACK_ABR_CLASS	ATAQUE
 #INTERCEPTOR_ABR_CLASS	INTERC.
-#CARRIER_ABR_CLASS	PORTA-AV
+#CARRIER_ABR_CLASS	PORTA-AER.
 #STRATEGIC_ABR_CLASS	ESTRAT.
 #AUXILIARY_ABR_CLASS	AUX.
-#GROUND_VEHICLE_ABR_CLASS	VEÍ. TERRES.
+#GROUND_VEHICLE_ABR_CLASS	VEÍC. TERR.
 
 
 #HP_MSG	PV
@@ -437,11 +437,11 @@
 #FOR_HIRE	CONTRATAR
 #FOR_JOIN	ALIADOS
 #FOR_TARKHAN	TARKHAN
-#THE_BEGINNING	O Princípio de
+#THE_BEGINNING	O Começo de
 #NUCLEAR_WAR	GUERRA NUCLEAR
 
 #BOY	Alsahir
-#GIRL	Duchess Isi
+#GIRL	Duquesa Isi
 #HARISHID	Imlan-Harish
 #HISSID	Nadir Bek
 #KNIGHT	Shuja-e-Sani
@@ -466,26 +466,26 @@
 #STATS_DESC_GERAT1	Muito orgulho dos {glossary=Elaims,GLOSS_ELAIM}
 #STATS_DESC_GERAT2	Orgulho dos {glossary=Elaims,GLOSS_ELAIM}
 #STATS_DESC_GERAT3	Não gosta dos {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT4	Odeio os {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT4	Odeia os {glossary=Elaims,GLOSS_ELAIM}
 
 #STATS_DESC_GERAT5	Dedicado aos {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT6	Gosto dos {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT7	Não gosto dos {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT8	Odeio os {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT6	Gosta dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT7	Não gosta dos {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT8	Odeia os {glossary=Elaims,GLOSS_ELAIM}
 
 #STATS_DESC_ROMANI1	Muito orgulho dos {glossary=Romanis,GLOSS_ROMANI}
 #STATS_DESC_ROMANI2	Orgulho dos{glossary=Romanis,GLOSS_ROMANI}
 #STATS_DESC_ROMANI3	Não gosto dos {glossary=Romanis,GLOSS_ROMANI}
 #STATS_DESC_ROMANI4	Odeio os {glossary=Romanis,GLOSS_ROMANI}
 
-#STATS_DESC_ROMANI5	Dedicado aos {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI6	Gosto dos {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI7	Não gosto dos {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI8	Odeio os {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI5	Devotado aos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI6	Gosta dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI7	Não gosta dos {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI8	Odeia os {glossary=Romanis,GLOSS_ROMANI}
 
 #STATS_DESC_FAITH1	Verdadeiro crente
-#STATS_DESC_FAITH2	Inclinando para a fé
-#STATS_DESC_FAITH3	Inclinado a não crer
+#STATS_DESC_FAITH2	Inclina-se para a fé
+#STATS_DESC_FAITH3	Inclinado à descrença
 #STATS_DESC_FAITH4	Descrente
 
 #STATS_DESC_RIGHT1	Valoriza muito a lei
@@ -494,12 +494,12 @@
 #STATS_DESC_RIGHT4	Sem lei
 
 #STATS_DESC_FORCE1	Valoriza muito a força
-#STATS_DESC_FORCE2	Valoriza a força
-#STATS_DESC_FORCE3	Voltado para a paz
+#STATS_DESC_FORCE2	Aprecia a força
+#STATS_DESC_FORCE3	Pacífico
 #STATS_DESC_FORCE4	Odeia a violência
 
 #STATS_DESC_WEALTH1	Valoriza muito a riqueza
-#STATS_DESC_WEALTH2	Valoriza a riqueza
+#STATS_DESC_WEALTH2	Ama a riqueza
 #STATS_DESC_WEALTH3	Não valoriza a riqueza
 #STATS_DESC_WEALTH4	Despreza a riqueza
 
@@ -523,7 +523,7 @@
 #GAME_DMG_REPAIR2	O MÓDULO ESTÁ EM PROCESSO DE REPARO.
 
 #WE_GOT	VOCÊ RECEBE
-#LOGBOOK	O REGISTRO@DA NAVE
+#LOGBOOK	O DIÁRIO@DE BORDO
 #REST	VOCÊ DESCANSOU
 #REST_FAILED	VOCÊ NÃO ENCONTROU DESCANSO AQUI
 #SELL_PRIZE	VENDER NAVES CAPTURADAS
@@ -686,12 +686,12 @@
 #TUTORIAL_TO_MELKA_2	<NPC=PETR><SIDE=1>Parece que {glossary=Daud,GLOSS_DAUD} está relutante em atacar Melka com o grosso de suas forças. Ele está nos enviando à frente caso eles tenham defesas antiaéreas prontas.
 <ANS=Isso significa que esta é nossa chance de entrar no jogo!|TUTORIAL_TO_MELKA_3>
 #TUTORIAL_TO_MELKA_3	<NPC=PETR><SIDE=1>Então, vamos reabastecer e partir para Melka?
-<ANS=Exatamente.|EXIT>
+<ANS=Afirmativo.|EXIT>
 
 
 
 #TUTORIAL_DAUD_1	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>Os vigias informam que um esquadrão está se aproximando.
-<ANS=Recebido. Estou a caminho.|TUTORIAL_DAUD_2>
+<ANS=Entendido. Estou a caminho.|TUTORIAL_DAUD_2>
 #TUTORIAL_DAUD_2	<NPC=DAUD><SIDE=1><RAM=1>Pyotr.@Grão-Duque.
 <ANS=Almirante.|TUTORIAL_DAUD_3>
 #TUTORIAL_DAUD_3	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>Bem, estão de parabéns, senhores! A campanha provou ser um grande sucesso até agora.
@@ -703,7 +703,7 @@
 
 #TUTORIAL_DAUD_7	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>Suas palavras pegaram o almirante de surpresa.
 #TUTORIAL_DAUD_8	<NPC=DAUD>Por que você diz isso, Duque?
-<ANS={glossary=Os Elaims,GLOSS_ELAIM} são um povo leal e intrépido. Muitos seguirão seu príncipe com avidez, não importa o que ele faça.|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
+<ANS={glossary=Os Elaims,GLOSS_ELAIM} são um povo leal e intrépido. Muitos seguirão seu Príncipe ansiosamente, não importa o que ele faça.|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
 <ANS=O príncipe ainda desfruta de grande autoridade entre os duques locais. Ele poderia ser útil para a {glossary=Coroa,GLOSS_SAYADI}.|TUTORIAL_DAUD_10|DAUD_ANYTIME=1>
 
 #TUTORIAL_DAUD_9	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>A dinastia {glossary=Elaou,GLOSS_ELAOU} não foi capaz de recuperar seu antigo trono após sete anos. Temo que os {glossary=Elaims,GLOSS_ELAIM} tenham perdido sua oportunidade.
@@ -731,8 +731,8 @@
 #TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>Para onde eles estão indo?
 <ANS=Estão indo para HAMAT.|TUTORIAL_RADIO_IN_11>
 <ANS=Estão indo para KUSHAN.|TUTORIAL_RADIO_IN_12>
-#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>Excelente. Vamos enganá-los então. Agora, duque, pegue as naves e vá para UR através de KUSHAN.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
-#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>Excelente. Vamos enganá-los então. Agora, duque, pegue as naves e vá para UR através de HAMAT.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
+#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>Excelente. Vamos enganá-los então. Agora, Duque, pegue as naves e vá para UR através de KUSHAN.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
+#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>Excelente. Vamos enganá-los então. Agora, Duque, pegue as naves e vá para UR através de HAMAT.<ANS=Decolaremos assim que estivermos prontos, Almirante.|EXIT>
 
 
 
@@ -885,7 +885,7 @@
 #ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>Eu não entendo! Como você pode ler isto?! O que diz, Duque?!<ANS=Ele fala de um servo ou algo parecido. Tem mais: “Assim como muitas pessoas ficaram pasmadas à vista dele, tão...|ISAIAH_0_17>
 #ISAIAH_0_17	<ANS=...desfigurado?|ISAIAH_0_18>
 #ISAIAH_0_18	<ANS=...ele aspergirá muitas nações.”|ISAIAH_0_19>
-#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} grita de repente, “É isso mesmo! É tudo verdade.” O grito do velho se desvanece em um suspiro: “O meu há de prosperar! O meu há de prosperar!”
+#ISAIAH_0_19	<SCR=ISAIAH_OFF><SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} grita de repente: “É isso mesmo! É tudo verdade.” O grito do velho se desvanece em um suspiro: “O meu há de prosperar! O meu há de prosperar!”
 #ISAIAH_0_20	<SCR=CONTINUE>O {glossary=decano,GLOSS_DOYEN} começa a ofegar e tossir de excitação, seus olhos se abrem. A família do velho corre para o seu lado. Eles nos pedem para sair.
 #ISAIAH_0_21	<SCR=CONTINUE>Todos estão chocados com este evento, assim como nós.
 #ISAIAH_0_22	<NPC=PETR><SIDE=1>Como você leu o {glossary=qoda,GLOSS_QODA}, Duque?
@@ -1070,7 +1070,7 @@
 #DIR_SW	sudoeste
 #DIR_W	oeste
 #DIR_NW	noroeste
-#DIR_FAR	uma grande distância
+#DIR_FAR	longe
 
 
 
@@ -1504,19 +1504,19 @@
 
 
 #HELLO_PRAISE	<NPC=LOCAL><APPROVE><SCR=HELLO_PRAISE>
-#HELLO_PRAISE_ROMANI	Conhecidos por sua lealdade aos Romani.|HELLO_ROUND|ROMANI=1
-#HELLO_PRAISE_NOROMANI	Conhecidos por seu ódio aos Romani.|HELLO_ROUND|ROMANI=-1
-#HELLO_PRAISE_GERAT	Conhecidos por sua lealdade a Gerat.|HELLO_ROUND|GERAT=1
-#HELLO_PRAISE_NOGERAT	Conhecidos por seu ódio aos Elaims.|HELLO_ROUND|GERAT=-1
-#HELLO_PRAISE_FAITH	Conhecidos por sua fé.|HELLO_ROUND|FAITH=1
-#HELLO_PRAISE_NOFAITH	Conhecidos por seu ceticismo em matéria de fé.|HELLO_ROUND|FAITH=-1
-#HELLO_PRAISE_RIGHT	Conhecidos por seu forte sentido da justiça.|HELLO_ROUND|RIGHT=1
-#HELLO_PRAISE_FORCE	Conhecidos por seu valor.|HELLO_ROUND|FORCE=1
-#HELLO_PRAISE_NOFORCE	Conhecidos por seu pacifismo.|HELLO_ROUND|FORCE=-1
-#HELLO_PRAISE_WEALTH	Conhecidos por sua grande riqueza.|HELLO_ROUND|WEALTH=1
-#HELLO_PRAISE_NOWEALTH	Conhecidos por sua grande generosidade.|HELLO_ROUND|WEALTH=-1
-#HELLO_PRAISE_KINDNESS	Conhecidos por sua bondade.|HELLO_ROUND|KINDNESS=1
-#HELLO_PRAISE_SKIP	SKIP|HELLO_ROUND
+#HELLO_PRAISE_ROMANI	Elogie-os por sua lealdade aos Romani.|HELLO_ROUND|ROMANI=1
+#HELLO_PRAISE_NOROMANI	Elogie-os por seu ódio aos Romani.|HELLO_ROUND|ROMANI=-1
+#HELLO_PRAISE_GERAT	Elogie-os por sua lealdade a Gerat.|HELLO_ROUND|GERAT=1
+#HELLO_PRAISE_NOGERAT	Elogie-os por seu ódio aos Elaims.|HELLO_ROUND|GERAT=-1
+#HELLO_PRAISE_FAITH	Elogie-os por sua fé.|HELLO_ROUND|FAITH=1
+#HELLO_PRAISE_NOFAITH	Elogie-os por seu ceticismo em assuntos de fé.|HELLO_ROUND|FAITH=-1
+#HELLO_PRAISE_RIGHT	Elogie-os por seu forte senso de justiça.|HELLO_ROUND|RIGHT=1
+#HELLO_PRAISE_FORCE	Elogie-os por seus feitos valorosos.|HELLO_ROUND|FORCE=1
+#HELLO_PRAISE_NOFORCE	Elogie-os por sua disposição pacífica.|HELLO_ROUND|FORCE=-1
+#HELLO_PRAISE_WEALTH	Elogie-os por sua riqueza.|HELLO_ROUND|WEALTH=1
+#HELLO_PRAISE_NOWEALTH	Elogie-os por sua grande generosidade.|HELLO_ROUND|WEALTH=-1
+#HELLO_PRAISE_KINDNESS	Elogie-os por sua bondade.|HELLO_ROUND|KINDNESS=1
+#HELLO_PRAISE_SKIP	PULAR|HELLO_ROUND
 
 
 
@@ -1594,7 +1594,7 @@
 
 #RADIO_COURSE_01	ROTA <COURSE>
 #RADIO_COURSE_02	ROTA ATUAL <COURSE>
-#RADIO_COURSE_03	COURSO <COURSE>
+#RADIO_COURSE_03	CURSO <COURSE>
 #RADIO_COURSE_04	DE VOO <COURSE>
 #RADIO_COURSE_05	MOVENDO-SE <COURSE>
 
@@ -1608,7 +1608,7 @@
 #RADIO_ROUTE_02	EM ROTA <ROUTE>
 #RADIO_ROUTE_03	SEGUINDO A ROTA <ROUTE>
 #RADIO_ROUTE_04	MINHA ROTA <ROUTE>
-#RADIO_ROUTE_05	INDO EM ROTA <ROUTE>
+#RADIO_ROUTE_05	SEGUIR NA ROTA <ROUTE>
 
 #RADIO_ARRIVING_01	CHEGADA EM APROXIMADAMENTE <ROUTE_TIME>
 #RADIO_ARRIVING_02	CHEGANDO EM <ROUTE_TIME>
@@ -1669,7 +1669,7 @@
 #RADIO_ENEMY_CONTACT_DISTANCE_03	ALCANCE <CONTACT_DISTANCE>
 
 #CARGO_00	SEM CARGA
-#CARGO_01	OURO
+#CARGO_01	MINÉRIO
 #CARGO_02	URÂNIO ENRIQUECIDO
 #CARGO_03	ESCRAVOS
 #CARGO_04	EQUIPAMENTO ELÉTRICO
@@ -1684,7 +1684,7 @@
 #NEEDS_02	CANOS GALVANIZADOS
 #NEEDS_03	TUBO DE LATÃO
 #NEEDS_04	CABO PN30
-#NEEDS_05	ÁGUA DE REATOR
+#NEEDS_05	ÁGUA DO REATOR
 #NEEDS_06	ÓLEO HIDRÁULICO
 #NEEDS_07	HALOCARBONO
 #NEEDS_08	OXIGÊNIO LÍQUIDO
@@ -1719,7 +1719,7 @@
 #HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}EXPOSIÇÃO À RADIAÇÃO@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}Devido a suas ações negligentes durante a operação de resgate, vários membros da tripulação foram expostos a níveis de radiação perigosa que ameaçam a vida.<SCR=STOP|CREW=-10|MORAL=-1>
 #HAZARD_EVENT_POISON_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}ACIDENTE@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}A queima do isolamento liberou quantidades perigosas de fosgênio. Vários tripulantes foram envenenados pelos vapores.<SCR=STOP|CREW=-10|MORAL=-1>
 
-#RESCUE_SURVIVORS	BUSCA POR SOBREVIVENTES
+#RESCUE_SURVIVORS	PROCURAR POR SOBREVIVENTES
 #RESCUE_SURVIVORS_DESC	50% de chances de encontrar sobreviventes nos escombros.
 
 #RESCUE_CABINS	PROCURAR NAS CABINES DOS TRIPULANTES
@@ -1746,10 +1746,10 @@
 #RESCUE_HULL	DESMONTAR O CASCO
 #RESCUE_HULL_DESC	Pode haver apenas tempo suficiente para recolher as partes valiosas do casco.
 
-#RESCUE_AMMO	ASSEGURAR A MUNIÇÃO
+#RESCUE_AMMO	PROTEGER A MUNIÇÃO
 #RESCUE_AMMO_DESC	Você ainda poderia salvar algumas das munições do incêndio.
 
-#RESCUE_FUEL	ASSEGURAR OS TANQUES DE COMBUSTÍVEL
+#RESCUE_FUEL	PROTEGER OS TANQUES DE COMBUSTÍVEL
 #RESCUE_FUEL_DESC	Alguns dos tanques foram deixados intactos e ainda contêm combustível.
 
 
@@ -1810,7 +1810,7 @@
 #LOADOUT_T7_NURS340_DESC	Mísseis não guiados S-250 x@002
 #LOADOUT_T7_K13	K-13 MAA
 #LOADOUT_T7_K13_DESC	Mísseis guiados ar-ar K-13 x@002
-#LOADOUT_T7_RN1	RN-1 SPECIAL YIELD BOMB
+#LOADOUT_T7_RN1	BOMBA ESPECIAL RN-1
 #LOADOUT_T7_RN1_DESC	Bomba nuclear de gravidade, rendimento de 110 quilotons x@001
 
 #ITEM_HULL	PARTES DO CASCO
@@ -2005,7 +2005,7 @@
 #MDL_BOMB_01	FAB-1000
 #MDL_BOMB_01_SDESC	BOMBA
 #MDL_BOMB_01_DESC	Uma bomba de 1.000kg altamente explosiva projetada para uso contra alvos terrestres.
-#MDL_BOMB_01_KEY	MANTENHA {animation=WHL} PARA LANÇAR UMA BOMBA.
+#MDL_BOMB_01_KEY	SEGURE {animation=WHL} PARA LANÇAR UMA BOMBA.
 
 #MDL_NUKE_01	Kh-15N
 #MDL_NUKE_01_SDESC	MÍSSIL
@@ -2091,9 +2091,9 @@
 #MDL_ENGINE_05_SDESC	MOTOR
 #MDL_ENGINE_05_DESC	Um motor de propulsão fixo que gera mais impulso estático em comparação com os propulsores de manobra.
 
-#MDL_ENGINE_06	06 MOTOR
+#MDL_ENGINE_06	MOTOR 06
 
-#MDL_ENGINE_LARGE_01	MOTOR L-01
+#MDL_ENGINE_LARGE_01	MOTOR GRANDE L-01
 
 
 
@@ -2149,7 +2149,7 @@
 #ARGCAP_QUESTION	PERGUNTAR
 #ARGCAP_FINISH	TERMINAR DE@FALAR
 #ARGCAP_PRESENT	PRESENTE
-#ARGCAP_PRAISE	PRÊMIO
+#ARGCAP_PRAISE	ELOGIAR
 #ARGCAP_DOSSIER	DOSSIÊ
 #ARGCAP_SPEECH	FALAR
 #ARGCAP_VERSE	POEMA
@@ -3404,7 +3404,7 @@
 
 
 
-#HELLO_SCOUT_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Antes de você se aproximar da nave, ouve a voz alta de um guarda dizendo para você parar. Um homem armado no convés de popa está te observando. Ele gesticula para que você se afaste.
+#HELLO_SCOUT_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>Antes de você se aproximar da nave, ouve a voz alta de um guarda dizendo para você parar. Um homem armado na plataforma traseira está observando você. Ele faz um gesto para que você se afaste.
 #HELLO_SCOUT_2	<SCR=CONTINUE><SOUND=gunfire_zz>No momento em que dá mais um passo à frente, a nave dispara um tiro de advertência. O projétil assobia e sibila enquanto sobe aos céus.
 #HELLO_SCOUT_3	<NPC=PETR><SIDE=-1>Eles enlouqueceram? Será que sequer percebem quem está diante deles?!
 <ANS=Vamos dar a eles alguns tiros de advertência, Pyotr Ignatyevich.|HELLO_SCOUT_4|FEAR=1|NO_THEME_REACTION>
@@ -3414,7 +3414,7 @@
 <ANS=Ficaremos aqui e esperaremos.|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
 #HELLO_SCOUT_5	Pyotr olha nervosamente para você. O guarda levanta lentamente seu rifle e mira...
 <ANS=Fiquem prontos para se abaixar e buscar abrigo.|HELLO_SCOUT_FALL>
-<ANS=Mantenham suas posições.|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
+<ANS=Mantenham-se firmes.|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
 #HELLO_SCOUT_6	<SCR=CONTINUE><SOUND=shell_out_small_01>Você sente a onda ardente do disparo passar rente ao seu rosto...
 #HELLO_SCOUT_7	<SCR=CONTINUE><AMBIENT=gunfire_firefight>Momentos depois, o fogo inimigo vindo da nave corta o ar. Seus homens olham para você enquanto continuam a revidar.
 #HELLO_SCOUT_8	<SCR=CONTINUE><AMBIENT=STOP>Segundos depois, os guardas na nave à sua frente não existem mais. Tudo fica silencioso. 
@@ -4228,7 +4228,7 @@ DINHEIRO
 
 #GUI_shipyard_back	DISPONÍVEL NO ESTALEIRO
 
-#GUI_cargo_back	SHIP HOLD
+#GUI_cargo_back	COMPARTIMENTO DE CARGA
 
 #GUI_roll_briefing_l	
 ALARME GERAL
